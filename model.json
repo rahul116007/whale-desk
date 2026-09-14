@@ -1,0 +1,27 @@
+{
+ "weights": {
+  "whale": 1.0,
+  "news": 0.6,
+  "sentiment": 0.5,
+  "momentum": 0.8,
+  "liquidity": 0.4,
+  "smart": 0.9
+ },
+ "buy_threshold": 0.35,
+ "sell_threshold": -0.3,
+ "whale_gate": 0.15,
+ "target_pct": 8.0,
+ "stop_pct": 6.0,
+ "max_days": 7,
+ "cooldown_days": 2,
+ "learning_rate": 0.15,
+ "stats": {
+  "closed": 0,
+  "wins": 0,
+  "losses": 0,
+  "sum_return": 0.0,
+  "best": 0.0,
+  "worst": 0.0
+ },
+ "log": []
+}

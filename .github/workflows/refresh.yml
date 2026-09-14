@@ -1,0 +1,60 @@
+name: Whale Desk refresh
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"        # every 3 hours (UTC)
+  workflow_dispatch:
+    inputs:
+      research:
+        description: "Coin to deep-dive (optional, e.g. PEPE)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: whale-desk
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Whale scan (new DEX buys / sells / transfers)
+        run: python -u whale_scanner.py scan
+
+      - name: Holdings snapshot (once a day, 06:xx UTC run, or when missing)
+        run: |
+          H=$(date -u +%H)
+          if [ "$H" = "06" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ ! -f holdings.csv ]; then python -u whale_scanner.py holdings; else echo "skipped (runs at 06:xx UTC)"; fi
+
+      - name: Coin desk refresh (market, news, smart money, recommendations, dashboard)
+        run: python -u coin_desk.py refresh
+
+      - name: Research a coin (manual runs only)
+        if: ${{ github.event.inputs.research != '' }}
+        run: python -u coin_desk.py research "${{ github.event.inputs.research }}"
+
+      - name: Commit results
+        run: |
+          git config user.name "whale-desk-bot"
+          git config user.email "whale-desk-bot@users.noreply.github.com"
+          git add -A docs state.json trades.csv holdings.csv alerts.log desk.json recs.json model.json cg_cache.json social_cache.json tx_cache.json token_cache.json hl.json x_cache.json config.json 2>/dev/null || true
+          git commit -m "refresh $(date -u +'%Y-%m-%d %H:%M')Z" || echo "nothing to commit"
+          git pull --rebase --autostash || true
+          git push

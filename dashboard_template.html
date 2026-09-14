@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Whale Desk</title>
+<style>
+:root{--bg:#07070f;--bg2:#0d0d1c;--glass:rgba(255,255,255,.045);--line:rgba(255,255,255,.09);--ink:#f2f2ff;--ink2:#a7a7c7;--ink3:#6b6b8a;
+--neon:#00f5d4;--pink:#ff2e88;--vio:#8b5cf6;--amber:#ffb020;--up:#22e58a;--down:#ff4d6d;--blue:#4cc9f0;
+--r:18px;--font:"Space Grotesk","Inter",-apple-system,Segoe UI,sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 var(--font)}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:
+ radial-gradient(900px 500px at 8% -10%,rgba(139,92,246,.28),transparent 60%),
+ radial-gradient(700px 400px at 95% 0%,rgba(0,245,212,.16),transparent 60%),
+ radial-gradient(800px 600px at 50% 110%,rgba(255,46,136,.16),transparent 60%),var(--bg)}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+header{display:flex;align-items:center;gap:18px;padding:22px 28px 10px;flex-wrap:wrap}
+.logo{font-size:30px;font-weight:800;letter-spacing:-.5px;background:linear-gradient(90deg,var(--neon),var(--vio) 50%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo small{display:block;font-size:11px;letter-spacing:3px;color:var(--ink3);-webkit-text-fill-color:var(--ink3);font-weight:600}
+.meta{margin-left:auto;display:flex;gap:10px;align-items:center;color:var(--ink2);font-size:12px}
+.pill{border:1px solid var(--line);background:var(--glass);border-radius:999px;padding:5px 11px;font-size:12px;color:var(--ink2);white-space:nowrap}
+.pill.on{border-color:var(--neon);color:var(--neon);box-shadow:0 0 14px rgba(0,245,212,.25)}
+.pill.off{border-color:rgba(255,77,109,.5);color:var(--down)}
+.tape{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(0,0,0,.25);white-space:nowrap}
+.tape .inner{display:inline-block;padding:9px 0;animation:tape 60s linear infinite}
+.tape:hover .inner{animation-play-state:paused}
+.tape span{margin:0 22px;font-family:var(--mono);font-size:12.5px;color:var(--ink2)}.tape b{color:var(--ink);margin-right:6px}
+@keyframes tape{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+nav{display:flex;gap:6px;padding:16px 28px 6px;flex-wrap:wrap}
+nav button{background:var(--glass);border:1px solid var(--line);color:var(--ink2);padding:8px 16px;border-radius:999px;font:600 13px var(--font);cursor:pointer;transition:.15s}
+nav button:hover{color:var(--ink);border-color:rgba(255,255,255,.25)}
+nav button.on{background:linear-gradient(90deg,rgba(0,245,212,.18),rgba(139,92,246,.22));color:#fff;border-color:rgba(0,245,212,.5);box-shadow:0 0 18px rgba(0,245,212,.18)}
+main{padding:12px 28px 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+.card{position:relative;background:var(--glass);border:1px solid var(--line);border-radius:var(--r);padding:16px 16px 12px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;overflow:hidden;backdrop-filter:blur(8px)}
+.card:hover{transform:translateY(-3px);border-color:rgba(0,245,212,.45);box-shadow:0 14px 40px rgba(0,0,0,.45),0 0 0 1px rgba(0,245,212,.15)}
+.card .top{display:flex;align-items:center;gap:10px}.card img{width:34px;height:34px;border-radius:50%;background:#222}
+.card .sym{font-size:19px;font-weight:800;letter-spacing:.3px}.card .nm{color:var(--ink3);font-size:12px}
+.card .rank{margin-left:auto;font-family:var(--mono);color:var(--ink3);font-size:11px}
+.price{font-family:var(--mono);font-size:22px;font-weight:700;margin-top:10px;letter-spacing:-.3px}
+.chg{font-family:var(--mono);font-size:12.5px;font-weight:700;padding:2px 8px;border-radius:8px;margin-left:8px;vertical-align:middle}
+.chg.up{color:var(--up);background:rgba(34,229,138,.12)}.chg.down{color:var(--down);background:rgba(255,77,109,.12)}
+.spark{display:block;width:100%;height:58px;margin:6px 0 2px}
+.row{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.chip{font-family:var(--mono);font-size:11px;color:var(--ink2);background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:8px;padding:3px 7px}
+.chip b{color:var(--ink)}
+.meters{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px;margin-top:10px}
+.meter{font-size:10.5px;color:var(--ink3);text-transform:uppercase;letter-spacing:1px}
+.meter .v{font-family:var(--mono);font-size:13px;color:var(--ink);font-weight:700;letter-spacing:0;text-transform:none}
+.bar{height:5px;border-radius:5px;background:rgba(255,255,255,.08);margin-top:4px;overflow:hidden}.bar i{display:block;height:100%;border-radius:5px}
+.ring{position:absolute;right:14px;top:14px;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-family:var(--mono);font-weight:800;font-size:13px;color:#fff}
+.ring::after{content:"";position:absolute;inset:4px;border-radius:50%;background:var(--bg2)}
+.ring span{position:relative;z-index:1}
+.section h2{font-size:15px;color:var(--ink2);font-weight:600;letter-spacing:2px;text-transform:uppercase;margin:22px 0 10px}
+table{width:100%;border-collapse:collapse;font-size:13px}th{color:var(--ink3);font-weight:600;text-align:left;padding:8px;font-size:11px;letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid var(--line)}
+td{padding:8px;border-bottom:1px solid rgba(255,255,255,.05);white-space:nowrap;vertical-align:top}td.r{text-align:right;font-family:var(--mono)}td.m{white-space:normal;color:var(--ink2);max-width:420px}
+.k{font-family:var(--mono);font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;letter-spacing:.5px}
+.k.buy{background:rgba(34,229,138,.16);color:var(--up)}.k.sell{background:rgba(255,77,109,.16);color:var(--down)}
+.k.transfer_in,.k.transfer_out{background:rgba(255,255,255,.08);color:var(--ink2)}.k.rotate,.k.defi{background:rgba(76,201,240,.14);color:var(--blue)}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 12px;align-items:center}
+.filters button{background:transparent;border:1px solid var(--line);color:var(--ink2);border-radius:8px;padding:5px 10px;font:600 12px var(--font);cursor:pointer}
+.filters button.on{color:var(--neon);border-color:var(--neon)}
+.filters input{background:rgba(0,0,0,.3);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 10px;font:13px var(--font);min-width:220px}
+.alerts li{font-family:var(--mono);font-size:12.5px;color:var(--ink2);padding:6px 0;border-bottom:1px solid rgba(255,255,255,.05);list-style:none}
+.alerts li b{color:var(--neon)}
+.empty{color:var(--ink3);padding:30px;text-align:center;border:1px dashed var(--line);border-radius:var(--r)}
+/* drawer */
+#veil{position:fixed;inset:0;background:rgba(0,0,0,.55);backdrop-filter:blur(3px);display:none;z-index:9}
+#drawer{position:fixed;top:0;right:0;bottom:0;width:min(760px,96vw);background:var(--bg2);border-left:1px solid var(--line);z-index:10;transform:translateX(102%);transition:transform .25s;overflow:auto;padding:24px 26px 50px;box-shadow:-30px 0 60px rgba(0,0,0,.5)}
+#drawer.open{transform:none}.single #drawer{position:static;transform:none;width:auto;border:0;box-shadow:none;padding:0}
+.single #veil{display:none!important}
+.dh{display:flex;align-items:center;gap:14px}.dh img{width:48px;height:48px;border-radius:50%}
+.dh .t{font-size:26px;font-weight:800}.dh .t small{color:var(--ink3);font-size:14px;font-weight:500;margin-left:8px}
+.x{margin-left:auto;background:transparent;border:1px solid var(--line);color:var(--ink2);border-radius:50%;width:34px;height:34px;cursor:pointer;font-size:16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin:16px 0}
+.stat{background:var(--glass);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.stat .l{font-size:10.5px;letter-spacing:1px;text-transform:uppercase;color:var(--ink3)}.stat .v{font-family:var(--mono);font-weight:700;font-size:15px;margin-top:3px}
+.stat .v.up{color:var(--up)}.stat .v.down{color:var(--down)}
+.tabs2{display:flex;gap:6px;margin:14px 0 8px;flex-wrap:wrap}.tabs2 button{background:transparent;border:1px solid var(--line);color:var(--ink2);border-radius:8px;padding:6px 12px;font:600 12px var(--font);cursor:pointer}
+.tabs2 button.on{color:#fff;background:rgba(139,92,246,.3);border-color:var(--vio)}
+.list li{list-style:none;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.06)}.list li a{color:var(--ink)}.list li .s{color:var(--ink3);font-size:11.5px;font-family:var(--mono);margin-top:2px}
+.desc{color:var(--ink2);font-size:13px;line-height:1.55}
+.links a{margin-right:14px;font-size:12.5px}
+.chart{display:block;width:100%;height:auto;margin:4px 0 10px}.chart .ax{fill:var(--ink3);font:10.5px var(--mono)}.chart .gr{stroke:rgba(255,255,255,.07)}
+.ai{margin:14px 0;padding:16px 18px;border-radius:14px;background:linear-gradient(135deg,rgba(0,245,212,.10),rgba(139,92,246,.16) 60%,rgba(255,46,136,.12));border:1px solid rgba(139,92,246,.45);box-shadow:0 0 30px rgba(139,92,246,.15)}
+.ai h3{margin:0 0 8px;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--neon)}.ai h3 span{color:var(--ink3);letter-spacing:0;text-transform:none;font-weight:500;margin-left:8px}
+.ai p{margin:0;white-space:pre-line;line-height:1.6;font-size:13.5px}.ai .st{display:inline-block;font-weight:800;padding:2px 10px;border-radius:8px;margin-bottom:8px;font-family:var(--mono)}
+.st.constructive{background:rgba(34,229,138,.18);color:var(--up)}.st.neutral{background:rgba(255,176,32,.18);color:var(--amber)}.st.cautious{background:rgba(255,77,109,.18);color:var(--down)}
+.rec{background:var(--glass);border:1px solid var(--line);border-radius:var(--r);padding:16px;position:relative;cursor:pointer}
+.rec.BUY{border-color:rgba(34,229,138,.55);box-shadow:0 0 24px rgba(34,229,138,.12)}.rec.SELL{border-color:rgba(255,77,109,.55);box-shadow:0 0 24px rgba(255,77,109,.12)}
+.rec .act{font-family:var(--mono);font-weight:800;font-size:13px;padding:3px 10px;border-radius:8px;display:inline-block}
+.act.BUY{background:rgba(34,229,138,.2);color:var(--up)}.act.SELL{background:rgba(255,77,109,.2);color:var(--down)}.act.WATCH{background:rgba(255,176,32,.18);color:var(--amber)}
+.rec h4{margin:8px 0 2px;font-size:20px}.rec ul{margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:13px;line-height:1.5}.rec .inv{color:var(--ink3);font-size:12px;margin-top:8px}
+.fac{display:flex;gap:4px;margin-top:10px}.fac div{flex:1;text-align:center;font-size:10px;color:var(--ink3);text-transform:uppercase;letter-spacing:.5px}
+.fac .b{height:34px;display:flex;align-items:flex-end;justify-content:center;position:relative}.fac .b i{width:70%;border-radius:3px 3px 0 0;display:block}
+.kpi{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:10px 0 18px}
+.w{display:flex;gap:10px;align-items:center;margin:6px 0;font-size:12.5px}.w b{width:90px;color:var(--ink2);font-weight:600}.w .bar{flex:1;margin:0}.w span{font-family:var(--mono);width:44px;text-align:right}
+.lh{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.chh{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin:12px 0 2px}
+.tip{position:fixed;pointer-events:none;background:#000;border:1px solid var(--line);color:var(--ink);font:11.5px var(--mono);padding:4px 8px;border-radius:6px;display:none;z-index:20}
+.tr{display:flex;gap:10px;flex-wrap:wrap}.tr .pill{cursor:default}.tr .pill b{color:var(--ink);margin-right:6px}
+footer{color:var(--ink3);font-size:11.5px;padding:0 28px 30px}
+@media (max-width:640px){header,main,nav{padding-left:14px;padding-right:14px}.logo{font-size:24px}}
+</style></head>
+<body>
+<header>
+  <div class="logo">WHALE DESK<small>ON-CHAIN · NEWS · SOCIAL</small></div>
+  <div class="meta"><span id="upd" class="pill"></span><span id="xstat" class="pill"></span><span class="pill" id="count"></span></div>
+</header>
+<div class="tape"><div class="inner" id="tape"></div></div>
+<nav id="nav"></nav>
+<main id="main"></main>
+<footer>Prices CoinGecko · pools DexScreener · news Google News · chatter Reddit · whale flows from whale_scanner.py. Signal score is a blunt sort key, not advice. USD on whale events is at today's price.</footer>
+<div id="veil" onclick="closeDrawer()"></div><aside id="drawer"></aside><div class="tip" id="tip"></div>
+<script>
+const D = /*__DESK_DATA__*/null;
+const $ = s => document.querySelector(s);
+const fmt = v => { v = +v; if (!isFinite(v)) return '-'; const a = Math.abs(v);
+  if (a >= 1e12) return '$' + (v/1e12).toFixed(2) + 'T'; if (a >= 1e9) return '$' + (v/1e9).toFixed(2) + 'B'; if (a >= 1e6) return '$' + (v/1e6).toFixed(2) + 'M';
+  if (a >= 1e3) return '$' + (v/1e3).toFixed(1) + 'k'; if (a >= 1) return '$' + v.toFixed(2); if (a === 0) return '$0'; return '$' + v.toPrecision(4); };
+const pct = v => v == null ? '-' : (v >= 0 ? '+' : '') + (+v).toFixed(1) + '%';
+const cls = v => (v || 0) >= 0 ? 'up' : 'down';
+const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+const ago = ts => { if (!ts) return ''; const h = (Date.now()/1000 - ts)/3600; return h < 1 ? Math.round(h*60)+'m' : h < 48 ? Math.round(h)+'h' : Math.round(h/24)+'d'; };
+const num = v => v == null ? '-' : (+v).toLocaleString();
+let tab = 'market', feedFilter = 'all', feedQ = '';
+const single = !!D.single;
+if (single) document.body.classList.add('single');
+
+function spark(pts, color, w = 260, h = 58) {
+  if (!pts || pts.length < 2) return '';
+  const mn = Math.min(...pts), mx = Math.max(...pts), rg = (mx - mn) || 1;
+  const xs = pts.map((p, i) => [i/(pts.length-1)*w, h - 4 - (p-mn)/rg*(h-8)]);
+  const d = xs.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+  const id = 'g' + Math.random().toString(36).slice(2, 8);
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" data-pts='${JSON.stringify(pts.map(p=>+p.toPrecision(6)))}'>
+   <defs><linearGradient id="${id}" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".35"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs>
+   <path d="${d} L ${w} ${h} L 0 ${h} Z" fill="url(#${id})"/><path d="${d}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"/>
+   <line class="xh" x1="0" x2="0" y1="0" y2="${h}" stroke="#fff" stroke-opacity=".5" stroke-dasharray="2 2" style="display:none"/></svg>`;
+}
+document.addEventListener('mousemove', e => {
+  const svg = e.target.closest && e.target.closest('svg.spark'); const tip = $('#tip');
+  document.querySelectorAll('svg.spark .xh').forEach(l => l.style.display = 'none');
+  if (!svg) { tip.style.display = 'none'; return; }
+  const pts = JSON.parse(svg.dataset.pts); const r = svg.getBoundingClientRect();
+  const i = Math.max(0, Math.min(pts.length-1, Math.round((e.clientX - r.left)/r.width*(pts.length-1))));
+  const line = svg.querySelector('.xh'); line.style.display = ''; line.setAttribute('x1', i/(pts.length-1)*260); line.setAttribute('x2', i/(pts.length-1)*260);
+  tip.style.display = 'block'; tip.style.left = (e.clientX + 12) + 'px'; tip.style.top = (e.clientY - 28) + 'px';
+  tip.textContent = fmt(pts[i]) + '  ·  ' + Math.round((pts.length-1-i)/(pts.length-1)*7*24) + 'h ago';
+});
+
+
+function lineChart(series, w=700, h=180, color='#4cc9f0', fmtY=fmt) {   // series: [[ts, v], ...]
+  if (!series || series.length < 2) return '<div class="empty">no history</div>';
+  const vs = series.map(p => p[1]), mn = Math.min(...vs), mx = Math.max(...vs), rg = (mx-mn)||1, B=22, T=8;
+  const L = 10 + 6.6 * Math.max(...[mn, mn+rg/2, mx].map(v => fmtY(v).length));
+  const X = i => L + i/(series.length-1)*(w-L-8), Y = v => T + (h-T-B) - (v-mn)/rg*(h-T-B);
+  const d = series.map((p,i) => (i?'L':'M') + X(i).toFixed(1) + ' ' + Y(p[1]).toFixed(1)).join(' ');
+  const id = 'lg' + Math.random().toString(36).slice(2,8);
+  const ticks = [mn, mn+rg/2, mx].map(v => `<text x="${L-6}" y="${Y(v)+4}" text-anchor="end" class="ax">${fmtY(v)}</text><line x1="${L}" x2="${w-8}" y1="${Y(v)}" y2="${Y(v)}" class="gr"/>`).join('');
+  const xt = [0, Math.floor(series.length/2), series.length-1].map(i => `<text x="${X(i)}" y="${h-6}" text-anchor="${i===0?'start':i===series.length-1?'end':'middle'}" class="ax">${new Date(series[i][0]*1000).toLocaleDateString(undefined,{month:'short',day:'numeric'})}</text>`).join('');
+  return `<svg class="chart" viewBox="0 0 ${w} ${h}" data-series='${JSON.stringify(series.map(p=>[p[0],+(+p[1]).toPrecision(6)]))}' data-l="${L}" data-w="${w}" data-kind="line">
+   <defs><linearGradient id="${id}" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".35"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs>
+   ${ticks}${xt}<path d="${d} L ${X(series.length-1)} ${h-B} L ${L} ${h-B} Z" fill="url(#${id})"/><path d="${d}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"/>
+   <line class="xh" y1="${T}" y2="${h-B}" stroke="#fff" stroke-opacity=".5" stroke-dasharray="2 2" style="display:none"/><circle class="dot" r="4" fill="${color}" stroke="#000" stroke-width="2" style="display:none"/></svg>`;
+}
+function barChart(series, w=700, h=120, color='#8b5cf6', fmtY=fmt, neg=false) {  // [[ts, v]] or [[ts, up, down]]
+  if (!series || !series.length) return '<div class="empty">nothing in the window</div>';
+  const two = series[0].length === 3, B=22, T=8;
+  const L = 10 + 6.6 * fmtY(Math.max(1, ...(two ? series.flatMap(p => [p[1], p[2]]) : series.map(p => p[1])))).length;
+  if (!series.some(p => (p[1]||0) > 0 || (p[2]||0) > 0)) return '<div class="empty">nothing in the window</div>';
+  const vals = two ? series.flatMap(p => [p[1], p[2]]) : series.map(p => p[1]); const mx = Math.max(1, ...vals);
+  const bw = Math.max(2, (w-L-8)/series.length - 3);
+  const X = i => L + i/series.length*(w-L-8); const mid = two ? T + (h-T-B)/2 : h-B; const S = two ? (h-T-B)/2 : (h-T-B);
+  const bars = series.map((p,i) => two
+    ? `<rect x="${X(i)}" y="${mid - p[1]/mx*S}" width="${bw}" height="${p[1]/mx*S}" rx="3" fill="var(--up)"/><rect x="${X(i)}" y="${mid}" width="${bw}" height="${p[2]/mx*S}" rx="3" fill="var(--down)"/>`
+    : `<rect x="${X(i)}" y="${mid - p[1]/mx*S}" width="${bw}" height="${p[1]/mx*S}" rx="3" fill="${color}"/>`).join('');
+  const xt = [0, series.length-1].map(i => `<text x="${X(i)}" y="${h-6}" class="ax" text-anchor="${i?'end':'start'}">${new Date(series[i][0]*1000).toLocaleDateString(undefined,{month:'short',day:'numeric'})}</text>`).join('');
+  const yt = `<text x="${L-6}" y="${T+10}" class="ax" text-anchor="end">${fmtY(mx)}</text>` + (two ? `<text x="${L-6}" y="${h-B}" class="ax" text-anchor="end">${fmtY(mx)}</text><line x1="${L}" x2="${w-8}" y1="${mid}" y2="${mid}" class="gr"/>` : '');
+  return `<svg class="chart" viewBox="0 0 ${w} ${h}" data-series='${JSON.stringify(series)}' data-l="${L}" data-w="${w}" data-kind="${two?'bar2':'bar'}" data-fmt="${fmtY===num?'num':'usd'}">${yt}${xt}${bars}</svg>`;
+}
+document.addEventListener('mousemove', e => {
+  const svg = e.target.closest && e.target.closest('svg.chart'); if (!svg) return;
+  const S = JSON.parse(svg.dataset.series), L = +svg.dataset.l, W = +svg.dataset.w, r = svg.getBoundingClientRect();
+  const fx = (e.clientX - r.left) / r.width * W; const tip = $('#tip');
+  if (svg.dataset.kind === 'line') {
+    const i = Math.max(0, Math.min(S.length-1, Math.round((fx-L)/(W-L-8)*(S.length-1))));
+    const pathPts = svg.querySelector('path[stroke]').getAttribute('d').match(/[ML]\s*([\d.]+)\s([\d.]+)/g);
+    const [x,y] = pathPts[i].replace(/[ML]\s*/,'').split(' ').map(Number);
+    const xh = svg.querySelector('.xh'), dot = svg.querySelector('.dot'); xh.style.display=''; dot.style.display=''; xh.setAttribute('x1',x); xh.setAttribute('x2',x); dot.setAttribute('cx',x); dot.setAttribute('cy',y);
+    tip.textContent = new Date(S[i][0]*1000).toLocaleDateString() + '  ' + fmt(S[i][1]);
+  } else {
+    const i = Math.max(0, Math.min(S.length-1, Math.floor((fx-L)/(W-L-8)*S.length))); const p = S[i]; const f = svg.dataset.fmt==='num'?num:fmt;
+    tip.textContent = new Date(p[0]*1000).toLocaleDateString() + (p.length===3 ? `  buys ${fmt(p[1])} · sells ${fmt(p[2])}` : '  ' + f(p[1]));
+  }
+  tip.style.display='block'; tip.style.left=(e.clientX+12)+'px'; tip.style.top=(e.clientY-28)+'px';
+});
+document.addEventListener('mouseout', e => { if (e.target.closest && e.target.closest('svg.chart')) { $('#tip').style.display='none'; document.querySelectorAll('svg.chart .xh, svg.chart .dot').forEach(x=>x.style.display='none'); } });
+function ringColor(s) { return s >= 65 ? 'var(--up)' : s >= 45 ? 'var(--amber)' : 'var(--down)'; }
+function card(c) {
+  const m = c.market, w = c.whales, b = c.buzz, i = c.info;
+  const c7 = m.price_change_percentage_7d_in_currency, col = (c7 ?? 0) >= 0 ? '#22e58a' : '#ff4d6d';
+  const net = w.net || 0, netMax = Math.max(1, Math.abs(net), 200000);
+  const su = i.sentiment_up;
+  return `<div class="card" onclick="openCoin('${c.symbol}')">
+    <div class="ring" style="background:conic-gradient(${ringColor(c.signal)} ${c.signal*3.6}deg, rgba(255,255,255,.08) 0)"><span>${c.signal}</span></div>
+    <div class="top"><img src="${esc(m.image||'')}" alt=""><div><div class="sym">${esc(c.symbol)}</div><div class="nm">${esc(c.name)}</div></div><div class="rank" style="margin-right:52px">#${i.rank ?? m.market_cap_rank ?? '-'}</div></div>
+    <div class="price">${fmt(m.current_price)}<span class="chg ${cls(m.price_change_percentage_24h)}">${pct(m.price_change_percentage_24h)}</span></div>
+    ${spark(m.sparkline, col)}
+    <div class="row"><span class="chip">mcap <b>${fmt(m.market_cap)}</b></span><span class="chip">vol <b>${fmt(m.total_volume)}</b></span><span class="chip">7d <b class="${cls(c7)}">${pct(c7)}</b></span></div>
+    <div class="meters">
+      <div class="meter">whale net 7d<div class="v ${cls(net)}">${net ? (net>0?'+':'') + fmt(net).replace('$-','-$') : '—'}</div><div class="bar"><i style="width:${Math.min(100, Math.abs(net)/netMax*100)}%;background:${net>=0?'var(--up)':'var(--down)'}"></i></div></div>
+      <div class="meter">HL top traders<div class="v ${c.smart?cls(c.smart.factor):''}">${c.smart?(c.smart.longs+'L / '+c.smart.shorts+'S'):'—'}</div><div class="bar"><i style="width:${c.smart?Math.abs(c.smart.factor)*100:0}%;background:${c.smart&&c.smart.factor<0?'var(--down)':'var(--up)'}"></i></div></div>
+      <div class="meter">buzz 48h<div class="v">${b.news48}n · ${b.reddit48}r${b.x?' · '+b.x+'x':''}</div><div class="bar"><i style="width:${b.score}%;background:linear-gradient(90deg,var(--vio),var(--pink))"></i></div></div>
+      <div class="meter">sentiment<div class="v">${su ? su.toFixed(0)+'% up' : '—'}</div><div class="bar"><i style="width:${su||0}%;background:var(--neon)"></i></div></div>
+    </div></div>`;
+}
+
+function renderNav() {
+  const tabs = single ? [] : [['market','Market'],['reco','Recommend'],['smart','Smart money'],['ipo','IPOs & Launches'],['feed','Whale feed'],['alerts','Alerts'],['research','Research'],['trending','Trending']];
+  $('#nav').innerHTML = tabs.map(t => `<button class="${tab===t[0]?'on':''}" onclick="tab='${t[0]}';render()">${t[1]}</button>`).join('');
+}
+function render() {
+  renderNav(); const M = $('#main');
+  if (single) { M.innerHTML = ''; openCoin(D.coins[0].symbol); return; }
+  if (tab === 'market') {
+    const cs = [...D.coins].sort((a,b) => b.signal - a.signal);
+    M.innerHTML = `<div class="filters"><span class="pill">sorted by signal</span><span class="pill">click a coin for news, chatter and whale moves</span></div><div class="grid">${cs.map(card).join('')}</div>`;
+  } else if (tab === 'reco') {
+    const R = D.reco; if (!R) { M.innerHTML = '<div class="empty">run coin_desk.py refresh</div>'; return; }
+    const st = R.stats, mdl = R.model;
+    const facBar = f => `<div class="fac">${Object.entries(f).map(([k,v]) => `<div><div class="b"><i style="height:${Math.max(2, Math.abs(v)*100)}%;background:${v>=0?'var(--up)':'var(--down)'};opacity:${.35+Math.abs(v)*.65}"></i></div>${k}</div>`).join('')}</div>`;
+    const recCard = r => `<div class="rec ${r.action}" onclick="openCoin('${r.symbol}')"><span class="act ${r.action}">${r.action}</span> <span class="chip">confidence ${r.confidence}%</span> <span class="chip">score ${r.score>=0?'+':''}${r.score.toFixed(2)}</span>
+      <h4>${esc(r.symbol)} <small style="color:var(--ink3);font-weight:500">${esc(r.name)} · ${fmt(r.entry)}</small></h4>
+      ${r.action!=='WATCH' ? `<div class="row"><span class="chip">entry <b>${fmt(r.entry)}</b></span><span class="chip">target <b>${fmt(r.target)}</b></span><span class="chip">stop <b>${fmt(r.stop)}</b></span></div>` : ''}
+      <ul>${r.reasons.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+      <div class="inv">${r.action==='WATCH'?'to upgrade: ':'wrong if: '}${r.invalidation.map(esc).join(' · ')}</div>
+      ${r.action!=='WATCH' ? `<div class="inv">sizing: ${esc(r.sizing)}</div>` : ''}${facBar(r.factors)}</div>`;
+    const buys = R.recs.filter(r=>r.action==='BUY'), sells = R.recs.filter(r=>r.action==='SELL'), watch = R.recs.filter(r=>r.action==='WATCH');
+    const openRows = R.open.length ? `<table><tr><th>opened</th><th>coin</th><th>action</th><th class="r">entry</th><th class="r">last</th><th class="r">return</th><th class="r">peak</th><th class="r">target / stop</th><th>thesis</th></tr>${R.open.map(o=>`<tr onclick="openCoin('${o.symbol}')" style="cursor:pointer"><td>${new Date(o.opened*1000).toLocaleDateString()}</td><td><b>${esc(o.symbol)}</b></td><td><span class="act ${o.action}" style="font-size:11px">${o.action}</span></td><td class="r">${fmt(o.entry)}</td><td class="r">${fmt(o.last)}</td><td class="r ${cls(o.return)}" style="color:var(--${cls(o.return)})">${pct(o.return)}</td><td class="r">${pct(o.peak)}</td><td class="r">${fmt(o.target)} / ${fmt(o.stop)}</td><td class="m">${esc((o.reasons||[])[0]||'')}</td></tr>`).join('')}</table>` : '<div class="empty">no open recommendations yet. BUY / SELL calls above get tracked here automatically from the moment they fire.</div>';
+    const closedRows = R.closed.length ? `<table><tr><th>closed</th><th>coin</th><th>action</th><th class="r">return</th><th>how</th><th class="r">held</th><th>thesis</th></tr>${R.closed.map(o=>`<tr><td>${new Date(o.closed*1000).toLocaleDateString()}</td><td><b>${esc(o.symbol)}</b></td><td><span class="act ${o.action}" style="font-size:11px">${o.action}</span></td><td class="r" style="color:var(--${cls(o.return)})">${pct(o.return)}</td><td>${esc(o.why)} · ${o.outcome}</td><td class="r">${((o.closed-o.opened)/86400).toFixed(1)}d</td><td class="m">${esc((o.reasons||[])[0]||'')}</td></tr>`).join('')}</table>` : '<div class="empty">nothing closed yet. A call closes at target (+'+mdl.target_pct+'%), stop (−'+mdl.stop_pct+'%) or after '+mdl.max_days+' days, and the weights below learn from it.</div>';
+    const weights = Object.entries(mdl.weights).map(([k,v])=>`<div class="w"><b>${k}</b><div class="bar"><i style="width:${v/2.5*100}%;background:linear-gradient(90deg,var(--neon),var(--vio))"></i></div><span>${v.toFixed(2)}</span></div>`).join('');
+    const log = R.log.length ? `<ul class="alerts">${R.log.map(l=>`<li><span style="color:var(--ink3)">${new Date(l.ts*1000).toLocaleDateString()}</span> <b>${esc(l.symbol)}</b> ${l.action} closed ${pct(l.return)} (${esc(l.why)}) → ${l.changes.length?esc(l.changes.join(', ')):'no weight change'}; buy threshold now ${l.buy_threshold}</li>`).join('')}</ul>` : '<div class="empty">the learning log fills in as calls close</div>';
+    M.innerHTML = `<div class="filters"><span class="pill">whale entry/exit × news × sentiment × trend × liquidity</span><span class="pill">weights adapt to results</span><span class="pill off">not financial advice</span></div>
+      <div class="kpi"><div class="stat"><div class="l">open calls</div><div class="v">${st.open_count} · <span class="${cls(st.open_return)}">${pct(st.open_return)}</span></div></div>
+        <div class="stat"><div class="l">closed</div><div class="v">${st.closed}</div></div><div class="stat"><div class="l">hit rate</div><div class="v">${st.hit_rate==null?'—':st.hit_rate+'%'}</div></div>
+        <div class="stat"><div class="l">avg return</div><div class="v ${cls(st.avg_return)}">${st.avg_return==null?'—':pct(st.avg_return)}</div></div>
+        <div class="stat"><div class="l">best / worst</div><div class="v">${pct(st.best)} / ${pct(st.worst)}</div></div><div class="stat"><div class="l">buy threshold</div><div class="v">${mdl.buy_threshold}</div></div></div>
+      <div class="section"><h2>Buy (${buys.length})</h2>${buys.length?`<div class="lh">${buys.map(recCard).join('')}</div>`:'<div class="empty">nothing clears the bar right now: no coin has whale buying plus news plus trend lined up. That is the system working, not broken.</div>'}</div>
+      <div class="section"><h2>Sell / avoid (${sells.length})</h2>${sells.length?`<div class="lh">${sells.map(recCard).join('')}</div>`:'<div class="empty">no sell signals</div>'}</div>
+      <div class="section"><h2>Watch (${watch.length}), closest first</h2><div class="lh">${watch.map(recCard).join('')}</div></div>
+      <div class="section"><h2>Open calls, marked to market</h2>${openRows}</div>
+      <div class="section"><h2>Closed calls</h2>${closedRows}</div>
+      <div class="section"><h2>What the model has learned</h2><div class="grid" style="grid-template-columns:1fr 1.4fr"><div class="stat"><div class="l">factor weights</div>${weights}<div class="inv" style="margin-top:8px">a closed win pulls weight toward the factors that were present; a loss pushes it away. Hit rate under 45% over the last 10 raises the BUY bar, over 60% lowers it.</div></div><div>${log}</div></div></div>`;
+  } else if (tab === 'smart') {
+    const Hh = D.hl || {}; const T = Hh.traders || [], C = Hh.coins || [];
+    const short = a => a.slice(0,6)+'…'+a.slice(-4);
+    const who = t => `<a href="https://hypurrscan.io/address/${t.addr}" target="_blank">${esc(t.name || short(t.addr))}</a>${t.pinned?' <span class="chip">pinned</span>':''}`;
+    const tr = T.length ? `<table><tr><th>trader</th><th class="r">account</th><th class="r">30d pnl</th><th class="r">30d roi</th><th class="r">7d pnl</th><th class="r">7d realised</th><th class="r">fills 48h</th><th>open positions (largest first)</th></tr>${T.map(t=>`<tr><td>${who(t)}</td><td class="r">${fmt(t.value)}</td><td class="r" style="color:var(--${cls(t.m_pnl)})">${fmt(t.m_pnl)}</td><td class="r">${pct(t.m_roi*100)}</td><td class="r" style="color:var(--${cls(t.w_pnl)})">${fmt(t.w_pnl)}</td><td class="r" style="color:var(--${cls(t.realized7d)})">${fmt(t.realized7d)}</td><td class="r">${t.fills48}</td><td class="m">${(t.positions||[]).map(p=>`<span class="chip"><b class="${p.side==='long'?'up':'down'}" style="color:var(--${p.side==='long'?'up':'down'})">${p.side==='long'?'▲':'▼'}</b> ${esc(p.coin)} ${fmt(p.notional)}${p.lev?' '+p.lev+'x':''} <span style="color:var(--${cls(p.upnl)})">${p.upnl>=0?'+':''}${fmt(p.upnl)}</span></span>`).join(' ')||'flat'}</td></tr>`).join('')}</table>` : '<div class="empty">run coin_desk.py refresh</div>';
+    const cr = C.length ? `<table><tr><th>coin</th><th class="r">long</th><th class="r">short</th><th class="r">net notional</th><th class="r">48h flow</th><th class="r">factor</th><th>fresh entries (48h, ≥$25k)</th><th>exits (48h)</th></tr>${C.filter(c=>c.longs+c.shorts>0||c.entries.length||c.exits.length).map(c=>`<tr><td><b>${esc(c.coin)}</b></td><td class="r" style="color:var(--up)">${c.longs}</td><td class="r" style="color:var(--down)">${c.shorts}</td><td class="r" style="color:var(--${cls(c.net_ntl)})">${fmt(c.net_ntl)}</td><td class="r" style="color:var(--${cls(c.flow48)})">${fmt(c.flow48)}</td><td class="r" style="color:var(--${cls(c.factor)})">${c.factor>=0?'+':''}${c.factor.toFixed(2)}</td>
+      <td class="m">${c.entries.slice(0,4).map(e=>`<span class="chip"><b style="color:var(--${e.dir.includes('Long')?'up':'down'})">${esc(e.dir)}</b> ${fmt(e.notional)} ${esc(e.who)} · ${ago(e.ts)}</span>`).join(' ')}</td>
+      <td class="m">${c.exits.slice(0,3).map(e=>`<span class="chip">${esc(e.dir)} ${fmt(e.notional)} ${esc(e.who)} <span style="color:var(--${cls(e.pnl)})">${e.pnl>=0?'+':''}${fmt(e.pnl)}</span> · ${ago(e.ts)}</span>`).join(' ')}</td></tr>`).join('')}</table>` : '';
+    const P = Hh.params || {};
+    M.innerHTML = `<div class="filters"><span class="pill">Hyperliquid leaderboard, public data · following ${Hh.n_traders||0} traders</span><span class="pill">filter: account ≥ ${fmt(P.hl_min_account)}, 30d ROI ≥ ${((P.hl_min_month_roi||0)*100).toFixed(0)}%, positive 7d / 30d / all-time, turnover &lt; ${P.hl_max_turnover}× · pin any Nansen address with hl_smart.py add</span><span class="pill">${Hh.updated?'read '+ago(Hh.updated)+' ago':''}</span></div>
+      <div class="section"><h2>Where the top traders are positioned</h2>${cr}</div>
+      <div class="section"><h2>The traders being followed</h2>${tr}</div>
+      <div class="inv" style="margin-top:8px">"Factor" is what feeds the Recommend tab: 55% crowding (long vs short headcount) + 45% fresh 48h flow, both signed toward long. Perp positioning is leveraged and fast; a 16-long / 0-short crowd is also a liquidation cascade waiting to happen.</div>`;
+  } else if (tab === 'ipo') {
+    const I = D.ipo || {}; const list = items => items && items.length ? `<ul class="list">${items.map(n=>`<li><a href="${esc(n.link)}" target="_blank">${esc(n.title)}</a><div class="s">${esc(n.source)} · ${ago(n.ts)} ago</div></li>`).join('')}</ul>` : '<div class="empty">nothing found</div>';
+    const L = I.launches || [];
+    M.innerHTML = `<div class="filters"><span class="pill">crypto-company IPOs · exchange listings · token launches · fresh DEX pairs</span><span class="pill off">launches are the riskiest thing on this desk</span></div>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(340px,1fr))">
+        <div class="section"><h2>Crypto company IPOs</h2>${list(I.ipo)}</div>
+        <div class="section"><h2>Exchange listings</h2>${list(I.listings)}</div>
+        <div class="section"><h2>Token launches, TGEs, airdrops</h2>${list(I.tge)}</div></div>
+      <div class="section"><h2>Fresh DEX launches with real liquidity (DexScreener promoted + latest, ≥ $50k pool)</h2>
+      ${L.length?`<table><tr><th>chain</th><th>token</th><th class="r">price</th><th class="r">6h</th><th class="r">24h</th><th class="r">liquidity</th><th class="r">vol 24h</th><th class="r">buys/sells</th><th class="r">mcap</th><th class="r">age</th><th></th></tr>${L.map(t=>`<tr><td>${esc(t.chain)}</td><td><b>${esc(t.symbol)}</b> <span style="color:var(--ink3)">${esc(t.name)}</span></td><td class="r">${fmt(t.price)}</td><td class="r" style="color:var(--${cls(t.chg6h)})">${pct(t.chg6h)}</td><td class="r" style="color:var(--${cls(t.chg24)})">${pct(t.chg24)}</td><td class="r">${fmt(t.liq)}</td><td class="r">${fmt(t.vol24)}</td><td class="r">${t.buys24}/${t.sells24}</td><td class="r">${fmt(t.mcap)}</td><td class="r">${t.age_h<48?t.age_h+'h':(t.age_h/24).toFixed(0)+'d'}</td><td><a href="${esc(t.url)}" target="_blank">chart</a></td></tr>`).join('')}</table>`:'<div class="empty">no launches passed the liquidity filter</div>'}
+      <div class="inv" style="margin-top:8px">Promoted tokens paid DexScreener for placement. Treat buys/sells ratio, liquidity and age together: a 6-hour-old token with $80k liquidity and 900 buys is a pump, not a market.</div></div>`;
+  } else if (tab === 'feed') {
+    const focus = new Set(D.coins.map(c => c.symbol.toUpperCase()));
+    let rows = D.feed || [];
+    if (feedFilter === 'buysell') rows = rows.filter(r => r.kind === 'buy' || r.kind === 'sell');
+    if (feedFilter === 'transfers') rows = rows.filter(r => r.kind.startsWith('transfer'));
+    if (feedFilter === 'focus') rows = rows.filter(r => focus.has(r.symbol.toUpperCase()));
+    if (feedQ) rows = rows.filter(r => (r.symbol + ' ' + r.wallet_label + ' ' + r.note).toLowerCase().includes(feedQ));
+    M.innerHTML = `<div class="filters">${[['all','All'],['buysell','Buys & sells'],['transfers','Transfers'],['focus','Focus coins only']].map(f=>`<button class="${feedFilter===f[0]?'on':''}" onclick="feedFilter='${f[0]}';render()">${f[1]}</button>`).join('')}
+      <input placeholder="filter by token / wallet…" value="${esc(feedQ)}" oninput="feedQ=this.value.toLowerCase();render()"><span class="pill">${rows.length} events</span></div>
+      ${rows.length ? `<table><tr><th>time UTC</th><th>wallet</th><th>kind</th><th style="text-align:right">amount</th><th>token</th><th style="text-align:right">~USD</th><th>via</th><th>detail</th><th></th></tr>
+      ${rows.map(r => `<tr><td>${esc(r.time_utc)}</td><td>${esc(r.wallet_label)}</td><td><span class="k ${esc(r.kind)}">${esc(r.kind)}</span></td><td class="r">${num(+(+r.amount).toPrecision(6))}</td>
+        <td>${r.dex_url?`<a href="${esc(r.dex_url)}" target="_blank">${esc(r.symbol)}</a>`:esc(r.symbol)}</td><td class="r">${r.usd_now?fmt(r.usd_now):'-'}</td><td>${esc(r.via)}</td><td class="m">${esc(r.note)}</td><td><a href="https://etherscan.io/tx/${esc(r.tx)}" target="_blank">tx</a></td></tr>`).join('')}</table>` : '<div class="empty">no events yet, run whale_scanner.py scan</div>'}`;
+  } else if (tab === 'alerts') {
+    M.innerHTML = D.alerts.length ? `<ul class="alerts">${D.alerts.map(a => `<li>${esc(a).replace(/^(\S+\s+\S+)\s+(\w[\w ]*?)\s{2,}/, '<span style="color:var(--ink3)">$1</span> <b>$2</b> ')}</li>`).join('')}</ul>` : '<div class="empty">no alerts yet. They appear when a tracked wallet buys or sells a non-stable token above your min_usd, or moves a big lump.</div>';
+  } else if (tab === 'research') {
+    const rs = Object.values(D.research || {});
+    M.innerHTML = rs.length ? `<div class="filters"><span class="pill">python3 coin_desk.py research &lt;coin&gt; adds cards here</span></div><div class="grid">${rs.map(card).join('')}</div>` : '<div class="empty">nothing researched yet. Run: python3 coin_desk.py research PEPE</div>';
+  } else if (tab === 'trending') {
+    M.innerHTML = `<div class="section"><h2>Trending searches on CoinGecko right now</h2><div class="tr">${(D.trending||[]).map(t => `<span class="pill"><b>${esc(t.symbol)}</b>${esc(t.name)} · #${t.rank ?? '-'} · <span class="${cls(t.chg24)}">${pct(t.chg24)}</span></span>`).join('') || 'n/a'}</div></div>`;
+  }
+}
+function findCoin(sym) { return D.coins.find(c => c.symbol === sym) || (D.research || {})[sym]; }
+let dtab = 'news';
+function openCoin(sym, keepTab) {
+  const c = findCoin(sym); if (!c) return; if (!keepTab) dtab = 'charts';
+  const m = c.market, i = c.info, w = c.whales, b = c.buzz;
+  const list = (items, kind) => items.length ? `<ul class="list">${items.map(n => `<li><a href="${esc(n.link)}" target="_blank">${esc(n.title)}</a><div class="s">${esc(n.source || (n.sub ? 'r/' + n.sub : ''))}${n.likes!=null?' · ♥ '+n.likes:''} · ${ago(n.ts)} ago</div></li>`).join('')}</ul>` : `<div class="empty">nothing in the window</div>`;
+  const whales = w.events.length ? `<table><tr><th>time</th><th>wallet</th><th>kind</th><th style="text-align:right">amount</th><th style="text-align:right">~USD</th><th>note</th><th></th></tr>${w.events.map(e => `<tr><td>${esc(e.time.slice(5,16))}</td><td>${esc(e.wallet)}</td><td><span class="k ${esc(e.kind)}">${esc(e.kind)}</span></td><td class="r">${num(+e.amount.toPrecision(6))}</td><td class="r">${fmt(e.usd)}</td><td class="m">${esc(e.note)}</td><td><a href="https://etherscan.io/tx/${e.tx}" target="_blank">tx</a></td></tr>`).join('')}</table>` : '<div class="empty">no tracked-wallet moves in this token during the window</div>';
+  const holders = w.holders.length ? `<table><tr><th>wallet</th><th style="text-align:right">balance</th><th style="text-align:right">value</th></tr>${w.holders.map(h => `<tr><td>${esc(h.wallet)}</td><td class="r">${num(+h.balance.toPrecision(6))}</td><td class="r">${fmt(h.usd)}</td></tr>`).join('')}</table>` : '<div class="empty">none of the tracked wallets holds this (≥ $1k)</div>';
+  const pools = c.pairs.length ? `<table><tr><th>chain</th><th>dex</th><th style="text-align:right">liquidity</th><th style="text-align:right">vol 24h</th><th style="text-align:right">buys/sells 24h</th><th></th></tr>${c.pairs.map(p => `<tr><td>${esc(p.chain)}</td><td>${esc(p.dex)}</td><td class="r">${fmt(p.liq)}</td><td class="r">${fmt(p.vol24)}</td><td class="r">${p.buys24}/${p.sells24}</td><td><a href="${esc(p.url)}" target="_blank">chart</a></td></tr>`).join('')}</table>` : '<div class="empty">no DEX pool found (CEX-only coin or not on Ethereum)</div>';
+  const ai = c.ai || {}; const stance = (ai.stance || (ai.text||'').match(/constructive|neutral|cautious/i)?.[0] || 'neutral').toLowerCase().split(',')[0];
+  const aiHtml = `<div class="ai"><h3>AI take <span>${ai.source==='claude'?'Claude desk note':'rule-based read of the data'} · not financial advice</span></h3><span class="st ${stance}">${stance}</span><p>${esc(ai.text||'no take yet')}</p></div>`;
+  const chartsHtml = `<div class="chh">price, 90 days</div>${lineChart((c.chart||{}).prices, 700, 190, (m.price_change_percentage_30d_in_currency??0)>=0?'#22e58a':'#ff4d6d')}
+    <div class="chh">volume, 90 days</div>${barChart((c.chart||{}).volumes, 700, 100, '#4cc9f0')}
+    <div class="chh">tracked-whale buys vs sells, 14 days</div>${barChart(c.whale_daily||[], 700, 130)}
+    <div class="chh">news + reddit posts per day, 14 days</div>${barChart(c.buzz_daily||[], 700, 90, '#ff2e88', num)}`;
+  const tabs = [['charts','Charts'],['news','News ' + c.news.length],['reddit','Reddit ' + c.reddit.length],['x','X ' + (c.x.length || (D.x_enabled?0:'off'))],['whales','Whale moves ' + w.events.length],['holders','Holders ' + w.holders.length],['pools','DEX pools'],['about','About']];
+  const body = dtab==='charts'?chartsHtml:dtab==='news'?list(c.news):dtab==='reddit'?list(c.reddit):dtab==='x'?(D.x_enabled?list(c.x):`<div class="empty">X search needs a paid X API token (config.json → x_bearer_token). Until then X chatter reaches here through news coverage and CoinGecko's community sentiment.<br><br>Quick manual look: <a target="_blank" href="https://x.com/search?q=%24${esc(c.symbol)}&f=live">$${esc(c.symbol)} live on X</a>${i.twitter?` · <a target="_blank" href="https://x.com/${esc(i.twitter)}">@${esc(i.twitter)}</a>`:''}</div>`)
+    :dtab==='whales'?whales:dtab==='holders'?holders:dtab==='pools'?pools:`<p class="desc">${esc(i.description||'')}</p><div class="row">${(i.categories||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div><p class="links" style="margin-top:12px">${i.homepage?`<a target="_blank" href="${esc(i.homepage)}">website</a>`:''}${i.twitter?`<a target="_blank" href="https://x.com/${esc(i.twitter)}">X @${esc(i.twitter)}</a>`:''}${i.subreddit?`<a target="_blank" href="${esc(i.subreddit)}">subreddit</a>`:''}<a target="_blank" href="https://www.coingecko.com/en/coins/${esc(c.id)}">CoinGecko</a>${i.eth_address?`<a target="_blank" href="https://etherscan.io/token/${i.eth_address}">Etherscan</a>`:''}</p>`;
+  $('#drawer').innerHTML = `<div class="dh"><img src="${esc(m.image||'')}" alt=""><div class="t">${esc(c.symbol)}<small>${esc(c.name)} · #${i.rank ?? '-'}</small></div>${single?'':'<button class="x" onclick="closeDrawer()">✕</button>'}</div>
+   <div class="price" style="font-size:28px">${fmt(m.current_price)}<span class="chg ${cls(m.price_change_percentage_24h)}">${pct(m.price_change_percentage_24h)}</span></div>
+   ${spark(m.sparkline, (m.price_change_percentage_7d_in_currency??0)>=0?'#22e58a':'#ff4d6d', 700, 90)}
+   <div class="stats">
+    <div class="stat"><div class="l">1h</div><div class="v ${cls(m.price_change_percentage_1h_in_currency)}">${pct(m.price_change_percentage_1h_in_currency)}</div></div>
+    <div class="stat"><div class="l">7d</div><div class="v ${cls(m.price_change_percentage_7d_in_currency)}">${pct(m.price_change_percentage_7d_in_currency)}</div></div>
+    <div class="stat"><div class="l">30d</div><div class="v ${cls(m.price_change_percentage_30d_in_currency)}">${pct(m.price_change_percentage_30d_in_currency)}</div></div>
+    <div class="stat"><div class="l">market cap</div><div class="v">${fmt(m.market_cap)}</div></div>
+    <div class="stat"><div class="l">FDV</div><div class="v">${fmt(i.fdv)}</div></div>
+    <div class="stat"><div class="l">volume 24h</div><div class="v">${fmt(m.total_volume)}</div></div>
+    <div class="stat"><div class="l">ATH ${esc(i.ath_date||'')}</div><div class="v">${fmt(i.ath)} <span class="down" style="font-size:11px">${pct(i.ath_change)}</span></div></div>
+    <div class="stat"><div class="l">sentiment</div><div class="v">${i.sentiment_up?i.sentiment_up.toFixed(0)+'% bullish':'-'}</div></div>
+    <div class="stat"><div class="l">X followers</div><div class="v">${num(i.twitter_followers)}</div></div>
+    <div class="stat"><div class="l">reddit subs</div><div class="v">${num(i.reddit_subs)}</div></div>
+    <div class="stat"><div class="l">whale buys</div><div class="v up">${fmt(w.buys)}</div></div>
+    <div class="stat"><div class="l">whale sells</div><div class="v down">${fmt(w.sells)}</div></div>
+    <div class="stat"><div class="l">HL top traders</div><div class="v">${c.smart?`${c.smart.longs}L / ${c.smart.shorts}S · <span class="${cls(c.smart.net_ntl)}">${fmt(c.smart.net_ntl)}</span>`:'—'}</div></div>
+    <div class="stat"><div class="l">tracked holders</div><div class="v">${w.holders.length} · ${fmt(w.held_usd)}</div></div>
+    <div class="stat"><div class="l">signal</div><div class="v" style="color:${ringColor(c.signal)}">${c.signal}/100</div></div>
+   </div>
+   ${w.buyers.length||w.sellers.length?`<div class="row">${w.buyers.map(x=>`<span class="chip"><b class="up">bought</b> ${esc(x)}</span>`).join('')}${w.sellers.map(x=>`<span class="chip"><b class="down">sold</b> ${esc(x)}</span>`).join('')}</div>`:''}
+   ${aiHtml}
+   <div class="tabs2">${tabs.map(t=>`<button class="${dtab===t[0]?'on':''}" onclick="dtab='${t[0]}';openCoin('${sym}',true)">${t[1]}</button>`).join('')}</div>${body}`;
+  if (!single) { $('#veil').style.display = 'block'; $('#drawer').classList.add('open'); }
+}
+function closeDrawer() { $('#veil').style.display = 'none'; $('#drawer').classList.remove('open'); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+document.addEventListener('click', () => { $('#tip').style.display = 'none'; });
+
+// header + tape
+const upd = new Date(D.updated * 1000);
+$('#upd').textContent = 'updated ' + upd.toLocaleString();
+$('#xstat').textContent = D.x_enabled ? 'X live' : 'X: needs API key';
+$('#xstat').className = 'pill ' + (D.x_enabled ? 'on' : 'off');
+$('#count').textContent = D.coins.length + (single ? ' coin' : ' focus coins');
+const tapeHtml = D.coins.map(c => `<span><b>${esc(c.symbol)}</b>${fmt(c.market.current_price)} <span class="${cls(c.market.price_change_percentage_24h)}" style="color:var(--${cls(c.market.price_change_percentage_24h)})">${pct(c.market.price_change_percentage_24h)}</span></span>`).join('');
+$('#tape').innerHTML = tapeHtml + tapeHtml;
+render();
+</script>
+</body></html>

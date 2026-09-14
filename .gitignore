@@ -1,0 +1,7 @@
+hl_leaderboard.json
+dashboard.html
+dashboard_hosted.html
+research/
+*.log
+!alerts.log
+__pycache__/
