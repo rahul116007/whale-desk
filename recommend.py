@@ -19,10 +19,34 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RECS = os.path.join(HERE, "recs.json")
 MODEL = os.path.join(HERE, "model.json")
 
+STABLE_SYMS = {"USDT", "USDC", "DAI", "USDS", "USDE", "FDUSD", "TUSD", "PYUSD", "FRAX", "LUSD", "GUSD", "USDP", "USD1", "CRVUSD", "GHO", "USYC", "SUSDS", "USDG", "USD0", "RLUSD", "XAUT", "PAXG"}
+
+def category(coin):
+    """stable (never recommended) / major / meme / alt. Memes come from CoinGecko's own category tags."""
+    sym = (coin.get("symbol") or "").upper()
+    cats = [c.lower() for c in (coin.get("info", {}).get("categories") or [])]
+    is_stable = any((("stablecoin" in c or "stablecoins" in c) and not any(x in c for x in ("protocol", "ecosystem", "issuer", "governance"))) or "tokenized gold" in c for c in cats)
+    if sym in STABLE_SYMS or is_stable: return "stable"
+    if any("meme" in c for c in cats): return "meme"
+    if (coin.get("market", {}).get("market_cap") or 0) > 50e9: return "major"
+    return "alt"
+
+# Different priors per bucket. Memes: smart money, buzz and momentum drive the move, crowd sentiment is noise,
+# and targets/stops are wider because they move 15% before lunch. Majors: whale flow on DEXs barely registers
+# against ETF and CEX flow, so Hyperliquid positioning and trend carry more, and targets are tight.
+CATEGORY_PRIORS = {
+    "major": {"weights": {"whale": 0.5, "smart": 1.1, "news": 0.4, "sentiment": 0.3, "momentum": 0.9, "liquidity": 0.1},
+              "buy_threshold": 0.30, "sell_threshold": -0.28, "whale_gate": 0.15, "target_pct": 5.0, "stop_pct": 4.0, "max_days": 7},
+    "alt":   {"weights": {"whale": 1.0, "smart": 0.9, "news": 0.6, "sentiment": 0.5, "momentum": 0.8, "liquidity": 0.4},
+              "buy_threshold": 0.35, "sell_threshold": -0.30, "whale_gate": 0.15, "target_pct": 8.0, "stop_pct": 6.0, "max_days": 7},
+    "meme":  {"weights": {"whale": 1.2, "smart": 1.0, "news": 0.9, "sentiment": 0.2, "momentum": 1.0, "liquidity": 0.6},
+              "buy_threshold": 0.40, "sell_threshold": -0.25, "whale_gate": 0.20, "target_pct": 15.0, "stop_pct": 10.0, "max_days": 5},
+}
+
 DEFAULT_MODEL = {
     "weights": {"whale": 1.0, "smart": 0.9, "news": 0.6, "sentiment": 0.5, "momentum": 0.8, "liquidity": 0.4},
     "buy_threshold": 0.35, "sell_threshold": -0.30, "whale_gate": 0.15, "target_pct": 8.0, "stop_pct": 6.0, "max_days": 7,
-    "cooldown_days": 2, "learning_rate": 0.15,
+    "cooldown_days": 2, "learning_rate": 0.15, "by_category": {},
     "stats": {"closed": 0, "wins": 0, "losses": 0, "sum_return": 0.0, "best": 0.0, "worst": 0.0},
     "log": [],
 }
@@ -105,8 +129,22 @@ def _usd(v):
     if abs(v) >= 1e3: return f"${v/1e3:,.1f}k"
     return f"${v:,.0f}"
 
+def params_for(model, cat):
+    """Per-category weights/thresholds, seeded from the priors and learned separately from then on."""
+    bc = model.setdefault("by_category", {})
+    if cat not in bc:
+        bc[cat] = json.loads(json.dumps(CATEGORY_PRIORS.get(cat, CATEGORY_PRIORS["alt"])))
+        bc[cat]["stats"] = {"closed": 0, "wins": 0, "losses": 0, "sum_return": 0.0}
+    return bc[cat]
+
 def recommend(coin, model):
     f = factors(coin)
+    cat = category(coin)
+    if cat == "stable":
+        price = coin["market"].get("current_price") or 0
+        return {"symbol": coin["symbol"], "id": coin["id"], "name": coin["name"], "action": "SKIP", "category": cat, "score": 0.0, "confidence": 0,
+                "factors": f, "reasons": ["stablecoin / gold token: parked money, not a trade"], "invalidation": [], "entry": price, "target": None, "stop": None, "sizing": ""}
+    model = {**model, **{k: v for k, v in params_for(model, cat).items() if k != "stats"}}   # category view of the model
     s = score(f, model["weights"])
     price = coin["market"].get("current_price") or 0
     # whale flow is the gate: no tracked-wallet buying, no BUY; heavy tracked selling is a SELL on its own
@@ -131,7 +169,7 @@ def recommend(coin, model):
         if entry < model.get("whale_gate", 0.15): invalid.append("needs whale or top-trader entry (whale %+.2f, smart money %+.2f, gate %.2f)" % (f["whale"], f["smart"], model.get("whale_gate", 0.15)))
         if gap > 0: invalid.append(f"score {s:+.2f}, needs {gap:+.2f} more")
         if not invalid: invalid.append("close: one more supportive factor tips it")
-    return {"symbol": coin["symbol"], "id": coin["id"], "name": coin["name"], "action": action, "score": round(s, 3),
+    return {"symbol": coin["symbol"], "id": coin["id"], "name": coin["name"], "action": action, "category": cat, "score": round(s, 3),
             "confidence": conf, "factors": f, "reasons": rs or ["nothing stands out either way"], "invalidation": invalid,
             "entry": price, "target": price * (1 + model["target_pct"]/100) if action == "BUY" else price * (1 - model["target_pct"]/100) if action == "SELL" else None,
             "stop": price * (1 - model["stop_pct"]/100) if action == "BUY" else price * (1 + model["stop_pct"]/100) if action == "SELL" else None,
@@ -157,9 +195,10 @@ def update_tracking(recs_by_symbol, prices, model):
             r["peak"] = max(r.get("peak", 0.0), r["return"]); r["trough"] = min(r.get("trough", 0.0), r["return"])
         age = (now - r["opened"]) / 86400
         why = None
-        if r["return"] >= model["target_pct"]: why = "target"
-        elif r["return"] <= -model["stop_pct"]: why = "stop"
-        elif age >= model["max_days"]: why = "time"
+        cp = params_for(model, r.get("category", "alt"))
+        if r["return"] >= cp["target_pct"]: why = "target"
+        elif r["return"] <= -cp["stop_pct"]: why = "stop"
+        elif age >= cp["max_days"]: why = "time"
         if why:
             r["closed"] = now; r["why"] = why; r["outcome"] = "win" if r["return"] > 0 else "loss"
             state["closed"].append(r); closed_now.append(r); learn(r, model)
@@ -172,7 +211,7 @@ def update_tracking(recs_by_symbol, prices, model):
     for sym, rec in recs_by_symbol.items():
         if rec["action"] not in ("BUY", "SELL") or sym in open_syms: continue
         if now - recent_close.get(sym, 0) < model["cooldown_days"] * 86400: continue
-        state["open"].append({"symbol": sym, "id": rec["id"], "name": rec["name"], "action": rec["action"], "opened": now, "entry": rec["entry"],
+        state["open"].append({"symbol": sym, "id": rec["id"], "name": rec["name"], "action": rec["action"], "category": rec.get("category", "alt"), "opened": now, "entry": rec["entry"],
                               "target": rec["target"], "stop": rec["stop"], "score": rec["score"], "confidence": rec["confidence"],
                               "factors": rec["factors"], "reasons": rec["reasons"], "last": rec["entry"], "return": 0.0, "peak": 0.0, "trough": 0.0})
     state["closed"] = state["closed"][-300:]
@@ -180,28 +219,29 @@ def update_tracking(recs_by_symbol, prices, model):
     return state, closed_now
 
 def learn(rec, model):
-    """Nudge weights toward factors that were present in a win, away from those present in a loss."""
+    """Nudge the category's weights toward factors present in a win, away from those present in a loss."""
+    cat = rec.get("category", "alt"); cp = params_for(model, cat)
     lr = model["learning_rate"]; sign = 1 if rec["action"] == "BUY" else -1
-    ret = clamp(rec["return"] / model["target_pct"], -1.5, 1.5)   # normalised outcome
+    ret = clamp(rec["return"] / cp["target_pct"], -1.5, 1.5)   # normalised outcome
     changes = []
     for k, v in rec["factors"].items():
-        if abs(v) < 0.15: continue
-        # factor 'agreed' with the trade if v*sign > 0; reward agreement on wins, punish on losses
+        if abs(v) < 0.15 or k not in cp["weights"]: continue
         delta = lr * (v * sign) * ret
-        old = model["weights"][k]; new = clamp(old + delta, 0.1, 2.5)
+        old = cp["weights"][k]; new = clamp(old + delta, 0.1, 2.5)
         if abs(new - old) > 1e-4:
-            model["weights"][k] = round(new, 3); changes.append(f"{k} {old:.2f}→{new:.2f}")
+            cp["weights"][k] = round(new, 3); changes.append(f"{cat}.{k} {old:.2f}→{new:.2f}")
+    cs = cp["stats"]; cs["closed"] += 1; cs["sum_return"] += rec["return"]; cs["wins" if rec["return"] > 0 else "losses"] += 1
     st = model["stats"]; st["closed"] += 1; st["sum_return"] += rec["return"]
     st["wins" if rec["outcome"] == "win" else "losses"] += 1
     st["best"] = max(st["best"], rec["return"]); st["worst"] = min(st["worst"], rec["return"])
     # adaptive threshold: tighten when the hit rate is poor, loosen when it is good (only once there is a sample)
-    recent = _load(RECS, {"closed": []})["closed"][-10:] + [rec]
+    recent = [r for r in _load(RECS, {"closed": []})["closed"][-30:] if r.get("category", "alt") == cat][-10:] + [rec]
     if len(recent) >= 5:
         hr = sum(1 for r in recent if r.get("outcome") == "win") / len(recent)
-        if hr < 0.45: model["buy_threshold"] = round(clamp(model["buy_threshold"] + 0.04, 0.2, 0.7), 3)
-        elif hr > 0.6: model["buy_threshold"] = round(clamp(model["buy_threshold"] - 0.02, 0.2, 0.7), 3)
-    model["log"].append({"ts": int(time.time()), "symbol": rec["symbol"], "action": rec["action"], "return": rec["return"], "why": rec["why"],
-                         "changes": changes, "buy_threshold": model["buy_threshold"]})
+        if hr < 0.45: cp["buy_threshold"] = round(clamp(cp["buy_threshold"] + 0.04, 0.2, 0.7), 3)
+        elif hr > 0.6: cp["buy_threshold"] = round(clamp(cp["buy_threshold"] - 0.02, 0.2, 0.7), 3)
+    model["log"].append({"ts": int(time.time()), "symbol": rec["symbol"], "action": rec["action"], "category": cat, "return": rec["return"], "why": rec["why"],
+                         "changes": changes, "buy_threshold": cp["buy_threshold"]})
     model["log"] = model["log"][-100:]
 
 def run(coins):
@@ -214,9 +254,13 @@ def run(coins):
     state, closed_now = update_tracking(recs, prices, model)
     _save(MODEL, model)
     st = model["stats"]; n = st["closed"] or 1
-    return {"recs": sorted(recs.values(), key=lambda r: -r["score"]), "open": state["open"], "closed": state["closed"][-40:][::-1],
+    for c in coins:
+        if category(c) != "stable": params_for(model, category(c))
+    _save(MODEL, model)
+    return {"recs": sorted([r for r in recs.values() if r["action"] != "SKIP"], key=lambda r: -r["score"]), "skipped": [r["symbol"] for r in recs.values() if r["action"] == "SKIP"],
+            "open": state["open"], "closed": state["closed"][-40:][::-1],
             "closed_now": closed_now, "model": {"weights": model["weights"], "buy_threshold": model["buy_threshold"], "sell_threshold": model["sell_threshold"],
-            "target_pct": model["target_pct"], "stop_pct": model["stop_pct"], "max_days": model["max_days"]},
+            "target_pct": model["target_pct"], "stop_pct": model["stop_pct"], "max_days": model["max_days"], "by_category": model["by_category"]},
             "stats": {**st, "hit_rate": round(st["wins"] / n * 100, 1) if st["closed"] else None, "avg_return": round(st["sum_return"] / n, 2) if st["closed"] else None,
                       "open_count": len(state["open"]), "open_return": round(sum(r["return"] for r in state["open"]) / max(1, len(state["open"])), 2)},
             "log": model["log"][-20:][::-1]}
