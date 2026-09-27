@@ -107,7 +107,7 @@ def reasons(coin, f):
     w, b, i, m = coin["whales"], coin["buzz"], coin["info"], coin["market"]
     out = []
     if f["whale"] > 0.2: out.append(f"tracked whales net bought {_usd(w['net'])} over 7d" + (f" ({', '.join(w['buyers'][:3])})" if w["buyers"] else ""))
-    if f["whale"] < -0.2: out.append(f"tracked whales net sold {_usd(-w['net'])} over 7d" + (f" ({', '.join(w['sellers'][:3])})" if w["sellers"] else ""))
+    if f["whale"] < -0.2 and w["net"] < 0: out.append(f"tracked whales net sold {_usd(-w['net'])} over 7d" + (f" ({', '.join(w['sellers'][:3])})" if w["sellers"] else ""))
     sm = coin.get("smart") or {}
     if f["smart"] > 0.25: out.append(f"Hyperliquid top traders: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}, 48h flow {_usd(sm.get('flow48',0))}")
     if f["smart"] < -0.25: out.append(f"Hyperliquid top traders lean short: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}")

@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "whale-desk-bot"
           git config user.email "whale-desk-bot@users.noreply.github.com"
-          git add -A docs state.json trades.csv holdings.csv alerts.log desk.json recs.json model.json cg_cache.json social_cache.json tx_cache.json token_cache.json hl.json x_cache.json config.json 2>/dev/null || true
+          git add -A
           git commit -m "refresh $(date -u +'%Y-%m-%d %H:%M')Z" || echo "nothing to commit"
           git pull --rebase --autostash || true
           git push

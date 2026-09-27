@@ -34,7 +34,9 @@ TX_CACHE = os.path.join(HERE, "tx_cache.json")
 
 BLOCKSCOUT = "https://eth.blockscout.com/api/v2"
 WETH = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
-STABLES = {"usdt", "usdc", "dai", "usde", "fdusd", "tusd", "usds", "pyusd", "frax", "lusd", "gusd", "usdp", "usd1", "crvusd", "gho"}
+STABLES = {"usdt", "usdc", "dai", "usde", "fdusd", "tusd", "usds", "pyusd", "frax", "lusd", "gusd", "usdp", "usd1", "crvusd", "gho",
+           # ETH / BTC wrappers and liquid-staking receipts: swapping between these is a rotation, not a trade
+           "weth", "steth", "wsteth", "weeth", "eeth", "reth", "rseth", "cbeth", "ezeth", "wbtc", "cbbtc", "tbtc", "lbtc", "fbtc"}
 
 # Well known routers / aggregators. Used to label the venue; the tx-shape heuristic works without them.
 KNOWN_ROUTERS = {
