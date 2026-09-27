@@ -1,0 +1,98 @@
+{
+ "open": [
+  {
+   "symbol": "ETH",
+   "id": "ethereum",
+   "name": "Ethereum",
+   "action": "BUY",
+   "category": "major",
+   "opened": 1790505945,
+   "entry": 2710.93,
+   "target": 2846.4764999999998,
+   "stop": 2602.4927999999995,
+   "score": 0.348,
+   "confidence": 48,
+   "factors": {
+    "whale": 0.0,
+    "smart": 0.57,
+    "news": 0.222,
+    "sentiment": 0.513,
+    "momentum": 0.309,
+    "liquidity": 0.0
+   },
+   "reasons": [
+    "Hyperliquid top traders: 16 long / 0 short, net $315.03M, 48h flow $3.43M",
+    "crowd vote 87% bullish",
+    "trend is up (+5.4% 7d, +9.1% 30d)"
+   ],
+   "last": 2710.93,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  },
+  {
+   "symbol": "AAVE",
+   "id": "aave",
+   "name": "Aave",
+   "action": "BUY",
+   "category": "alt",
+   "opened": 1790505945,
+   "entry": 155.79,
+   "target": 168.2532,
+   "stop": 146.44259999999997,
+   "score": 0.475,
+   "confidence": 66,
+   "factors": {
+    "whale": -0.25,
+    "smart": 0.55,
+    "news": 0.633,
+    "sentiment": 1,
+    "momentum": 0.837,
+    "liquidity": 0.5
+   },
+   "reasons": [
+    "Hyperliquid top traders: 3 long / 0 short, net $7.54M, 48h flow $0",
+    "$322.7k left tracked wallets, often an exchange deposit before a sale",
+    "coverage is running hot: 39 stories, 0 Reddit posts in 48h",
+    "crowd vote 100% bullish",
+    "trend is up (+14.8% 7d, +24.6% 30d)"
+   ],
+   "last": 155.79,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  },
+  {
+   "symbol": "ENA",
+   "id": "ethena",
+   "name": "Ethena",
+   "action": "BUY",
+   "category": "alt",
+   "opened": 1790505945,
+   "entry": 0.274242,
+   "target": 0.29618136,
+   "stop": 0.25778747999999996,
+   "score": 0.466,
+   "confidence": 65,
+   "factors": {
+    "whale": 0.0,
+    "smart": 0.55,
+    "news": 0.6,
+    "sentiment": 0.464,
+    "momentum": 1,
+    "liquidity": 0.172
+   },
+   "reasons": [
+    "Hyperliquid top traders: 2 long / 0 short, net $337.0k, 48h flow $0",
+    "coverage is running hot: 38 stories, 0 Reddit posts in 48h",
+    "crowd vote 86% bullish",
+    "trend is up (+33.9% 7d, +58.9% 30d)"
+   ],
+   "last": 0.274242,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  }
+ ],
+ "closed": []
+}
