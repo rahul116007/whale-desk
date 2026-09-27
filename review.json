@@ -1,0 +1,13 @@
+{
+ "ts": 1790506375,
+ "health": [
+  "STALE last refresh 481.6h ago (cron is every 3h) - check the Actions tab"
+ ],
+ "categories": {},
+ "gates": {},
+ "factors": {},
+ "suggestions": [],
+ "open": 0,
+ "closed": 0,
+ "applied": []
+}

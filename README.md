@@ -167,3 +167,12 @@ Those show in the feed as `rotate` (stable-for-stable) or `defi` (borrow / repay
 * Optional: put a free Etherscan key in `etherscan_api_key` to use Etherscan for transfers instead (faster paging).
 * Ethereum mainnet only. Base/Arbitrum need `BLOCKSCOUT` and the DexScreener chain slug changed; Solana is a different stack.
 * None of this is advice. Whales are wrong often, hedge on exchanges you cannot see, and get front-run by everyone copying them.
+
+## Self-improvement loop
+
+Two layers tune the recommender:
+
+1. Per trade (`recommend.learn`): every closed call nudges that category's factor weights and BUY threshold. Runs inside every 3-hourly refresh.
+2. Weekly review (`review.py --apply`): looks at the whole sample: exit mix (target / stop / time), returns by category and by entry gate (whale vs top-trader), and which factors actually separated wins from losses. With enough closed calls (8+ per category) it adjusts targets, stops, holding window, whale gate and down-weights contrary factors. Runs Mondays 06:xx UTC in the workflow, or manually via Run workflow with `review = true`. Output: `review.md` / `review.json` in the repo and a `REVIEW` entry in the model log on the Recommend tab.
+
+Run `python review.py` anytime for a read-only report.
