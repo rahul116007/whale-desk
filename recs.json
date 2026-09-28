@@ -25,10 +25,10 @@
     "crowd vote 87% bullish",
     "trend is up (+5.4% 7d, +9.1% 30d)"
    ],
-   "last": 2683.86,
-   "return": -1.0,
+   "last": 2649.9,
+   "return": -2.25,
    "peak": 0.0,
-   "trough": -1.0
+   "trough": -2.25
   },
   {
    "symbol": "AAVE",
@@ -57,10 +57,10 @@
     "crowd vote 100% bullish",
     "trend is up (+14.8% 7d, +24.6% 30d)"
    ],
-   "last": 154.65,
-   "return": -0.73,
+   "last": 149.87,
+   "return": -3.8,
    "peak": 0.04,
-   "trough": -1.49
+   "trough": -3.8
   },
   {
    "symbol": "ENA",
@@ -88,10 +88,10 @@
     "crowd vote 86% bullish",
     "trend is up (+33.9% 7d, +58.9% 30d)"
    ],
-   "last": 0.269768,
-   "return": -1.63,
+   "last": 0.268397,
+   "return": -2.13,
    "peak": 7.06,
-   "trough": -1.63
+   "trough": -2.13
   }
  ],
  "closed": []
