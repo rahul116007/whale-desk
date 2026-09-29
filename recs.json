@@ -25,8 +25,8 @@
     "crowd vote 87% bullish",
     "trend is up (+5.4% 7d, +9.1% 30d)"
    ],
-   "last": 2686.67,
-   "return": -0.89,
+   "last": 2678.51,
+   "return": -1.2,
    "peak": 0.0,
    "trough": -2.25
   },
@@ -57,11 +57,13 @@
     "crowd vote 100% bullish",
     "trend is up (+14.8% 7d, +24.6% 30d)"
    ],
-   "last": 148.0,
-   "return": -5.0,
+   "last": 148.12,
+   "return": -4.92,
    "peak": 0.04,
    "trough": -5.0
-  },
+  }
+ ],
+ "closed": [
   {
    "symbol": "ENA",
    "id": "ethena",
@@ -88,11 +90,13 @@
     "crowd vote 86% bullish",
     "trend is up (+33.9% 7d, +58.9% 30d)"
    ],
-   "last": 0.25886,
-   "return": -5.61,
+   "last": 0.251947,
+   "return": -8.13,
    "peak": 7.06,
-   "trough": -5.61
+   "trough": -8.13,
+   "closed": 1790643912,
+   "why": "stop",
+   "outcome": "loss"
   }
- ],
- "closed": []
+ ]
 }

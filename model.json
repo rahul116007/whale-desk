@@ -16,14 +16,31 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 0,
+  "closed": 1,
   "wins": 0,
-  "losses": 0,
-  "sum_return": 0.0,
+  "losses": 1,
+  "sum_return": -8.13,
   "best": 0.0,
-  "worst": 0.0
+  "worst": -8.13
  },
- "log": [],
+ "log": [
+  {
+   "ts": 1790643912,
+   "symbol": "ENA",
+   "action": "BUY",
+   "category": "alt",
+   "return": -8.13,
+   "why": "stop",
+   "changes": [
+    "alt.smart 0.90\u21920.82",
+    "alt.news 0.60\u21920.51",
+    "alt.sentiment 0.50\u21920.43",
+    "alt.momentum 0.80\u21920.65",
+    "alt.liquidity 0.40\u21920.37"
+   ],
+   "buy_threshold": 0.35
+  }
+ ],
  "by_category": {
   "major": {
    "weights": {
@@ -50,11 +67,11 @@
   "alt": {
    "weights": {
     "whale": 1.0,
-    "smart": 0.9,
-    "news": 0.6,
-    "sentiment": 0.5,
-    "momentum": 0.8,
-    "liquidity": 0.4
+    "smart": 0.816,
+    "news": 0.509,
+    "sentiment": 0.429,
+    "momentum": 0.648,
+    "liquidity": 0.374
    },
    "buy_threshold": 0.35,
    "sell_threshold": -0.3,
@@ -63,10 +80,10 @@
    "stop_pct": 6.0,
    "max_days": 7,
    "stats": {
-    "closed": 0,
+    "closed": 1,
     "wins": 0,
-    "losses": 0,
-    "sum_return": 0.0
+    "losses": 1,
+    "sum_return": -8.13
    }
   },
   "meme": {
