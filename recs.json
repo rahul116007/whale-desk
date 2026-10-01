@@ -25,42 +25,10 @@
     "crowd vote 87% bullish",
     "trend is up (+5.4% 7d, +9.1% 30d)"
    ],
-   "last": 2682.47,
-   "return": -1.05,
+   "last": 2701.5,
+   "return": -0.35,
    "peak": 0.25,
    "trough": -2.25
-  },
-  {
-   "symbol": "AAVE",
-   "id": "aave",
-   "name": "Aave",
-   "action": "BUY",
-   "category": "alt",
-   "opened": 1790505945,
-   "entry": 155.79,
-   "target": 168.2532,
-   "stop": 146.44259999999997,
-   "score": 0.475,
-   "confidence": 66,
-   "factors": {
-    "whale": -0.25,
-    "smart": 0.55,
-    "news": 0.633,
-    "sentiment": 1,
-    "momentum": 0.837,
-    "liquidity": 0.5
-   },
-   "reasons": [
-    "Hyperliquid top traders: 3 long / 0 short, net $7.54M, 48h flow $0",
-    "$322.7k left tracked wallets, often an exchange deposit before a sale",
-    "coverage is running hot: 39 stories, 0 Reddit posts in 48h",
-    "crowd vote 100% bullish",
-    "trend is up (+14.8% 7d, +24.6% 30d)"
-   ],
-   "last": 163.46,
-   "return": 4.92,
-   "peak": 6.03,
-   "trough": -5.0
   },
   {
    "symbol": "ENA",
@@ -87,10 +55,10 @@
     "crowd vote 93% bullish",
     "trend is up (+28.1% 7d, +73.5% 30d)"
    ],
-   "last": 0.257377,
-   "return": 0.0,
+   "last": 0.250685,
+   "return": -2.6,
    "peak": 0.0,
-   "trough": 0.0
+   "trough": -2.6
   }
  ],
  "closed": [
@@ -127,6 +95,41 @@
    "closed": 1790643912,
    "why": "stop",
    "outcome": "loss"
+  },
+  {
+   "symbol": "AAVE",
+   "id": "aave",
+   "name": "Aave",
+   "action": "BUY",
+   "category": "alt",
+   "opened": 1790505945,
+   "entry": 155.79,
+   "target": 168.2532,
+   "stop": 146.44259999999997,
+   "score": 0.475,
+   "confidence": 66,
+   "factors": {
+    "whale": -0.25,
+    "smart": 0.55,
+    "news": 0.633,
+    "sentiment": 1,
+    "momentum": 0.837,
+    "liquidity": 0.5
+   },
+   "reasons": [
+    "Hyperliquid top traders: 3 long / 0 short, net $7.54M, 48h flow $0",
+    "$322.7k left tracked wallets, often an exchange deposit before a sale",
+    "coverage is running hot: 39 stories, 0 Reddit posts in 48h",
+    "crowd vote 100% bullish",
+    "trend is up (+14.8% 7d, +24.6% 30d)"
+   ],
+   "last": 169.04,
+   "return": 8.51,
+   "peak": 8.51,
+   "trough": -5.0,
+   "closed": 1790879709,
+   "why": "target",
+   "outcome": "win"
   }
  ]
 }

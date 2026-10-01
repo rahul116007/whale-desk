@@ -16,11 +16,11 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 1,
-  "wins": 0,
+  "closed": 2,
+  "wins": 1,
   "losses": 1,
-  "sum_return": -8.13,
-  "best": 0.0,
+  "sum_return": 0.379999999999999,
+  "best": 8.51,
   "worst": -8.13
  },
  "log": [
@@ -37,6 +37,23 @@
     "alt.sentiment 0.50\u21920.43",
     "alt.momentum 0.80\u21920.65",
     "alt.liquidity 0.40\u21920.37"
+   ],
+   "buy_threshold": 0.35
+  },
+  {
+   "ts": 1790879709,
+   "symbol": "AAVE",
+   "action": "BUY",
+   "category": "alt",
+   "return": 8.51,
+   "why": "target",
+   "changes": [
+    "alt.whale 1.00\u21920.96",
+    "alt.smart 0.82\u21920.90",
+    "alt.news 0.51\u21920.61",
+    "alt.sentiment 0.43\u21920.59",
+    "alt.momentum 0.65\u21920.78",
+    "alt.liquidity 0.37\u21920.45"
    ],
    "buy_threshold": 0.35
   }
@@ -66,12 +83,12 @@
   },
   "alt": {
    "weights": {
-    "whale": 1.0,
-    "smart": 0.816,
-    "news": 0.509,
-    "sentiment": 0.429,
-    "momentum": 0.648,
-    "liquidity": 0.374
+    "whale": 0.96,
+    "smart": 0.904,
+    "news": 0.61,
+    "sentiment": 0.589,
+    "momentum": 0.782,
+    "liquidity": 0.454
    },
    "buy_threshold": 0.35,
    "sell_threshold": -0.3,
@@ -80,10 +97,10 @@
    "stop_pct": 6.0,
    "max_days": 7,
    "stats": {
-    "closed": 1,
-    "wins": 0,
+    "closed": 2,
+    "wins": 1,
     "losses": 1,
-    "sum_return": -8.13
+    "sum_return": 0.379999999999999
    }
   },
   "meme": {
