@@ -1,0 +1,338 @@
+{
+ "ts": 1790961551,
+ "snapshots": 20,
+ "span_days": 25.0,
+ "ic_snapshot": {
+  "whale": {
+   "1": [
+    null,
+    217
+   ],
+   "3": [
+    null,
+    163
+   ],
+   "5": [
+    null,
+    19
+   ]
+  },
+  "smart": {
+   "1": [
+    -0.006860196674166615,
+    217
+   ],
+   "3": [
+    -0.11093436277188863,
+    163
+   ],
+   "5": [
+    0.1585431779149235,
+    19
+   ]
+  },
+  "news": {
+   "1": [
+    0.13318372393624014,
+    217
+   ],
+   "3": [
+    -0.09832651510632476,
+    163
+   ],
+   "5": [
+    -0.17391319442341432,
+    19
+   ]
+  },
+  "sentiment": {
+   "1": [
+    -0.2485948581211966,
+    217
+   ],
+   "3": [
+    -0.3280444107830374,
+    163
+   ],
+   "5": [
+    -0.08890900186766917,
+    19
+   ]
+  },
+  "momentum": {
+   "1": [
+    -0.31036075163895915,
+    217
+   ],
+   "3": [
+    -0.21865197120310947,
+    163
+   ],
+   "5": [
+    -0.5638337491956527,
+    19
+   ]
+  },
+  "liquidity": {
+   "1": [
+    0.19774174466220892,
+    217
+   ],
+   "3": [
+    0.15945935765620903,
+    163
+   ],
+   "5": [
+    0.42736375257223796,
+    19
+   ]
+  },
+  "score": {
+   "1": [
+    -0.19181311001044132,
+    217
+   ],
+   "3": [
+    -0.33473755531427585,
+    163
+   ],
+   "5": [
+    -0.30802986730147136,
+    19
+   ]
+  }
+ },
+ "ic_daily": {
+  "momentum": {
+   "1": [
+    -0.021995818206460627,
+    630
+   ],
+   "3": [
+    -0.04671605507000219,
+    594
+   ],
+   "5": [
+    -0.09532664343404904,
+    558
+   ]
+  },
+  "news": {
+   "1": [
+    -0.07229328843821342,
+    522
+   ],
+   "3": [
+    -0.2545597770780495,
+    486
+   ],
+   "5": [
+    -0.4658821722329038,
+    450
+   ]
+  },
+  "whale": {
+   "1": [
+    0.03379369893190016,
+    252
+   ],
+   "3": [
+    -0.0242219863850047,
+    232
+   ],
+   "5": [
+    0.004601881720159939,
+    212
+   ]
+  }
+ },
+ "panel_days": 648,
+ "grid": {
+  "major": {
+   "coins": [
+    "BTC",
+    "ETH"
+   ],
+   "current": {
+    "thr": 0.3,
+    "gate": 0.15,
+    "target": 5.0,
+    "stop": 4.0,
+    "max_days": 7,
+    "n": 0
+   },
+   "unconditional": {
+    "n": 13,
+    "hit": 53.8,
+    "avg": 0.37,
+    "total": 4.8,
+    "exits": {
+     "target": 4,
+     "stop": 2,
+     "time": 7
+    }
+   },
+   "best": []
+  },
+  "alt": {
+   "coins": [
+    "AAVE",
+    "ARB",
+    "BTW",
+    "ENA",
+    "ICP",
+    "LINK",
+    "LIT",
+    "MNT",
+    "MORPHO",
+    "ONDO",
+    "SKY",
+    "UNI",
+    "WLD",
+    "WLFI"
+   ],
+   "current": {
+    "thr": 0.35,
+    "gate": 0.15,
+    "target": 8.0,
+    "stop": 6.0,
+    "max_days": 7,
+    "n": 0
+   },
+   "unconditional": {
+    "n": 112,
+    "hit": 55.4,
+    "avg": 1.74,
+    "total": 195.0,
+    "exits": {
+     "target": 52,
+     "stop": 39,
+     "time": 21
+    }
+   },
+   "best": [
+    {
+     "thr": 0.2,
+     "gate": 0.0,
+     "target": 15,
+     "stop": 3,
+     "max_days": 3,
+     "n": 24,
+     "hit": 45.8,
+     "avg": 2.22,
+     "total": 53.2,
+     "exits": {
+      "target": 4,
+      "stop": 12,
+      "time": 8
+     }
+    },
+    {
+     "thr": 0.2,
+     "gate": 0.0,
+     "target": 10,
+     "stop": 3,
+     "max_days": 5,
+     "n": 24,
+     "hit": 50.0,
+     "avg": 2.1,
+     "total": 50.5,
+     "exits": {
+      "target": 6,
+      "stop": 12,
+      "time": 6
+     }
+    },
+    {
+     "thr": 0.2,
+     "gate": 0.0,
+     "target": 15,
+     "stop": 3,
+     "max_days": 7,
+     "n": 20,
+     "hit": 40.0,
+     "avg": 2.17,
+     "total": 43.4,
+     "exits": {
+      "target": 5,
+      "stop": 12,
+      "time": 3
+     }
+    },
+    {
+     "thr": 0.2,
+     "gate": 0.0,
+     "target": 15,
+     "stop": 3,
+     "max_days": 10,
+     "n": 20,
+     "hit": 40.0,
+     "avg": 2.17,
+     "total": 43.4,
+     "exits": {
+      "target": 5,
+      "stop": 12,
+      "time": 3
+     }
+    },
+    {
+     "thr": 0.2,
+     "gate": 0.0,
+     "target": 10,
+     "stop": 3,
+     "max_days": 7,
+     "n": 23,
+     "hit": 47.8,
+     "avg": 1.96,
+     "total": 45.1,
+     "exits": {
+      "target": 7,
+      "stop": 12,
+      "time": 4
+     }
+    }
+   ]
+  },
+  "meme": {
+   "coins": [
+    "PEPE",
+    "SHIB"
+   ],
+   "current": {
+    "thr": 0.4,
+    "gate": 0.2,
+    "target": 15.0,
+    "stop": 10.0,
+    "max_days": 5,
+    "n": 0
+   },
+   "unconditional": {
+    "n": 14,
+    "hit": 57.1,
+    "avg": 0.14,
+    "total": 1.9,
+    "exits": {
+     "target": 1,
+     "stop": 2,
+     "time": 11
+    }
+   },
+   "best": []
+  }
+ },
+ "changes": [
+  "major.weights.news 0.40->0.30 (daily IC -0.25)",
+  "alt.weights.news 0.61->0.46 (daily IC -0.25)",
+  "meme.weights.news 0.90->0.68 (daily IC -0.25)",
+  "major.weights.sentiment 0.30->0.24 (snapshot IC -0.25)",
+  "alt.weights.sentiment 0.59->0.47 (snapshot IC -0.25)",
+  "meme.weights.sentiment 0.20->0.16 (snapshot IC -0.25)",
+  "major.weights.liquidity 0.10->0.12 (snapshot IC +0.16)",
+  "alt.weights.liquidity 0.45->0.55 (snapshot IC +0.16)",
+  "meme.weights.liquidity 0.60->0.72 (snapshot IC +0.16)",
+  "major.weights.momentum 0.90->0.72 (snapshot IC -0.22)",
+  "alt.weights.momentum 0.78->0.63 (snapshot IC -0.22)",
+  "meme.weights.momentum 1.00->0.80 (snapshot IC -0.22)"
+ ],
+ "applied": true
+}

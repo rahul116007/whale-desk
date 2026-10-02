@@ -31999,8 +31999,8 @@
     "name": "Aave",
     "action": "BUY",
     "category": "alt",
-    "score": 0.627,
-    "confidence": 87,
+    "score": 0.595,
+    "confidence": 83,
     "factors": {
      "whale": 0.0,
      "smart": 0.55,
@@ -32031,8 +32031,8 @@
     "name": "Ethereum",
     "action": "BUY",
     "category": "major",
-    "score": 0.357,
-    "confidence": 50,
+    "score": 0.354,
+    "confidence": 49,
     "factors": {
      "whale": 0.0,
      "smart": 0.57,
@@ -32053,7 +32053,7 @@
     "entry": 2749.11,
     "target": 2886.5655,
     "stop": 2639.1456,
-    "sizing": "normal: several factors agree"
+    "sizing": "small: high confidence still means a coin-flip with an edge"
    },
    {
     "symbol": "BTC",
@@ -32061,8 +32061,8 @@
     "name": "Bitcoin",
     "action": "BUY",
     "category": "major",
-    "score": 0.323,
-    "confidence": 45,
+    "score": 0.31,
+    "confidence": 43,
     "factors": {
      "whale": 0.0,
      "smart": 0.39,
@@ -32092,8 +32092,8 @@
     "name": "Pepe",
     "action": "WATCH",
     "category": "meme",
-    "score": 0.305,
-    "confidence": 42,
+    "score": 0.282,
+    "confidence": 39,
     "factors": {
      "whale": 0.0,
      "smart": 0.0,
@@ -32109,7 +32109,7 @@
     ],
     "invalidation": [
      "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.20)",
-     "score +0.31, needs +0.09 more"
+     "score +0.28, needs +0.12 more"
     ],
     "entry": 4.56e-06,
     "target": null,
@@ -32122,8 +32122,8 @@
     "name": "Uniswap",
     "action": "WATCH",
     "category": "alt",
-    "score": 0.269,
-    "confidence": 37,
+    "score": 0.256,
+    "confidence": 35,
     "factors": {
      "whale": 0.0,
      "smart": 0.0,
@@ -32138,69 +32138,9 @@
     ],
     "invalidation": [
      "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score +0.27, needs +0.08 more"
+     "score +0.26, needs +0.09 more"
     ],
     "entry": 9.03,
-    "target": null,
-    "stop": null,
-    "sizing": "small: high confidence still means a coin-flip with an edge"
-   },
-   {
-    "symbol": "ICP",
-    "id": "internet-computer",
-    "name": "Internet Computer",
-    "action": "WATCH",
-    "category": "alt",
-    "score": 0.259,
-    "confidence": 36,
-    "factors": {
-     "whale": 0.0,
-     "smart": 0.0,
-     "news": 0.5,
-     "sentiment": 0.826,
-     "momentum": 0.444,
-     "liquidity": -0.055
-    },
-    "reasons": [
-     "coverage is running hot: 14 stories, 0 Reddit posts in 48h",
-     "crowd vote 93% bullish",
-     "trend is up (+3.8% 7d, +29.0% 30d)"
-    ],
-    "invalidation": [
-     "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score +0.26, needs +0.09 more"
-    ],
-    "entry": 3.28,
-    "target": null,
-    "stop": null,
-    "sizing": "small: high confidence still means a coin-flip with an edge"
-   },
-   {
-    "symbol": "ARB",
-    "id": "arbitrum",
-    "name": "Arbitrum",
-    "action": "WATCH",
-    "category": "alt",
-    "score": 0.256,
-    "confidence": 35,
-    "factors": {
-     "whale": 0.0,
-     "smart": 0.0,
-     "news": 0.583,
-     "sentiment": 0.637,
-     "momentum": 0.586,
-     "liquidity": -0.191
-    },
-    "reasons": [
-     "coverage is running hot: 15 stories, 0 Reddit posts in 48h",
-     "crowd vote 89% bullish",
-     "trend is up (-5.3% 7d, +79.7% 30d)"
-    ],
-    "invalidation": [
-     "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score +0.26, needs +0.09 more"
-    ],
-    "entry": 0.206006,
     "target": null,
     "stop": null,
     "sizing": "small: high confidence still means a coin-flip with an edge"
@@ -32211,8 +32151,8 @@
     "name": "Sky",
     "action": "WATCH",
     "category": "alt",
-    "score": 0.252,
-    "confidence": 35,
+    "score": 0.249,
+    "confidence": 34,
     "factors": {
      "whale": 0.0,
      "smart": 0.0,
@@ -32234,31 +32174,60 @@
     "sizing": "small: high confidence still means a coin-flip with an edge"
    },
    {
-    "symbol": "LIT",
-    "id": "lighter",
-    "name": "Lighter",
+    "symbol": "ENA",
+    "id": "ethena",
+    "name": "Ethena",
     "action": "WATCH",
     "category": "alt",
-    "score": 0.212,
-    "confidence": 29,
+    "score": 0.226,
+    "confidence": 31,
     "factors": {
      "whale": 0.0,
-     "smart": 0.603,
-     "news": 1,
-     "sentiment": 0.667,
-     "momentum": -0.742,
-     "liquidity": -0.122
+     "smart": 0.55,
+     "news": 0.033,
+     "sentiment": -1,
+     "momentum": 1,
+     "liquidity": 0.416
     },
     "reasons": [
-     "Hyperliquid top traders: 5 long / 1 short, net $9.68M, 48h flow $1.31M",
-     "coverage is running hot: 34 stories, 0 Reddit posts in 48h",
-     "crowd vote 90% bullish",
-     "trend is down (-20.7% 7d, +8.6% 30d)"
+     "Hyperliquid top traders: 2 long / 0 short, net $337.0k, 48h flow $0",
+     "crowd vote only 60% bullish",
+     "trend is up (+12.1% 7d, +57.3% 30d)"
     ],
     "invalidation": [
-     "score +0.21, needs +0.14 more"
+     "score +0.23, needs +0.12 more"
     ],
-    "entry": 3.87,
+    "entry": 0.244487,
+    "target": null,
+    "stop": null,
+    "sizing": "small: high confidence still means a coin-flip with an edge"
+   },
+   {
+    "symbol": "ICP",
+    "id": "internet-computer",
+    "name": "Internet Computer",
+    "action": "WATCH",
+    "category": "alt",
+    "score": 0.218,
+    "confidence": 30,
+    "factors": {
+     "whale": 0.0,
+     "smart": 0.0,
+     "news": 0.5,
+     "sentiment": 0.826,
+     "momentum": 0.444,
+     "liquidity": -0.055
+    },
+    "reasons": [
+     "coverage is running hot: 14 stories, 0 Reddit posts in 48h",
+     "crowd vote 93% bullish",
+     "trend is up (+3.8% 7d, +29.0% 30d)"
+    ],
+    "invalidation": [
+     "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
+     "score +0.22, needs +0.13 more"
+    ],
+    "entry": 3.28,
     "target": null,
     "stop": null,
     "sizing": "small: high confidence still means a coin-flip with an edge"
@@ -32269,7 +32238,7 @@
     "name": "Shiba Inu",
     "action": "WATCH",
     "category": "meme",
-    "score": 0.21,
+    "score": 0.212,
     "confidence": 29,
     "factors": {
      "whale": 0.0,
@@ -32292,30 +32261,61 @@
     "sizing": "small: high confidence still means a coin-flip with an edge"
    },
    {
-    "symbol": "ENA",
-    "id": "ethena",
-    "name": "Ethena",
+    "symbol": "ARB",
+    "id": "arbitrum",
+    "name": "Arbitrum",
     "action": "WATCH",
     "category": "alt",
     "score": 0.209,
     "confidence": 29,
     "factors": {
      "whale": 0.0,
-     "smart": 0.55,
-     "news": 0.033,
-     "sentiment": -1,
-     "momentum": 1,
-     "liquidity": 0.416
+     "smart": 0.0,
+     "news": 0.583,
+     "sentiment": 0.637,
+     "momentum": 0.586,
+     "liquidity": -0.191
     },
     "reasons": [
-     "Hyperliquid top traders: 2 long / 0 short, net $337.0k, 48h flow $0",
-     "crowd vote only 60% bullish",
-     "trend is up (+12.1% 7d, +57.3% 30d)"
+     "coverage is running hot: 15 stories, 0 Reddit posts in 48h",
+     "crowd vote 89% bullish",
+     "trend is up (-5.3% 7d, +79.7% 30d)"
     ],
     "invalidation": [
+     "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
      "score +0.21, needs +0.14 more"
     ],
-    "entry": 0.244487,
+    "entry": 0.206006,
+    "target": null,
+    "stop": null,
+    "sizing": "small: high confidence still means a coin-flip with an edge"
+   },
+   {
+    "symbol": "LIT",
+    "id": "lighter",
+    "name": "Lighter",
+    "action": "WATCH",
+    "category": "alt",
+    "score": 0.198,
+    "confidence": 27,
+    "factors": {
+     "whale": 0.0,
+     "smart": 0.603,
+     "news": 1,
+     "sentiment": 0.667,
+     "momentum": -0.742,
+     "liquidity": -0.122
+    },
+    "reasons": [
+     "Hyperliquid top traders: 5 long / 1 short, net $9.68M, 48h flow $1.31M",
+     "coverage is running hot: 34 stories, 0 Reddit posts in 48h",
+     "crowd vote 90% bullish",
+     "trend is down (-20.7% 7d, +8.6% 30d)"
+    ],
+    "invalidation": [
+     "score +0.20, needs +0.15 more"
+    ],
+    "entry": 3.87,
     "target": null,
     "stop": null,
     "sizing": "small: high confidence still means a coin-flip with an edge"
@@ -32326,8 +32326,8 @@
     "name": "Chainlink",
     "action": "WATCH",
     "category": "alt",
-    "score": 0.114,
-    "confidence": 15,
+    "score": 0.117,
+    "confidence": 16,
     "factors": {
      "whale": 0.0,
      "smart": 0.0,
@@ -32343,7 +32343,7 @@
     ],
     "invalidation": [
      "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score +0.11, needs +0.24 more"
+     "score +0.12, needs +0.23 more"
     ],
     "entry": 14.37,
     "target": null,
@@ -32356,8 +32356,8 @@
     "name": "Ondo",
     "action": "WATCH",
     "category": "alt",
-    "score": 0.099,
-    "confidence": 13,
+    "score": 0.091,
+    "confidence": 12,
     "factors": {
      "whale": 0.0,
      "smart": 0.0,
@@ -32371,7 +32371,7 @@
     ],
     "invalidation": [
      "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score +0.10, needs +0.25 more"
+     "score +0.09, needs +0.26 more"
     ],
     "entry": 0.504081,
     "target": null,
@@ -32384,8 +32384,8 @@
     "name": "Mantle",
     "action": "WATCH",
     "category": "alt",
-    "score": 0.031,
-    "confidence": 5,
+    "score": 0.054,
+    "confidence": 7,
     "factors": {
      "whale": 0.0,
      "smart": 0.0,
@@ -32399,7 +32399,7 @@
     ],
     "invalidation": [
      "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score +0.03, needs +0.32 more"
+     "score +0.05, needs +0.30 more"
     ],
     "entry": 0.677436,
     "target": null,
@@ -32412,7 +32412,7 @@
     "name": "Worldcoin",
     "action": "WATCH",
     "category": "alt",
-    "score": -0.004,
+    "score": -0.009,
     "confidence": 5,
     "factors": {
      "whale": 0.0,
@@ -32428,9 +32428,37 @@
     ],
     "invalidation": [
      "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score -0.00, needs +0.35 more"
+     "score -0.01, needs +0.36 more"
     ],
     "entry": 0.544507,
+    "target": null,
+    "stop": null,
+    "sizing": "small: high confidence still means a coin-flip with an edge"
+   },
+   {
+    "symbol": "WLFI",
+    "id": "world-liberty-financial",
+    "name": "World Liberty Financial",
+    "action": "WATCH",
+    "category": "alt",
+    "score": -0.013,
+    "confidence": 5,
+    "factors": {
+     "whale": 0.0,
+     "smart": 0.0,
+     "news": 0.167,
+     "sentiment": -1,
+     "momentum": -0.062,
+     "liquidity": 0.7
+    },
+    "reasons": [
+     "crowd vote only 33% bullish"
+    ],
+    "invalidation": [
+     "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
+     "score -0.01, needs +0.36 more"
+    ],
+    "entry": 0.056133,
     "target": null,
     "stop": null,
     "sizing": "small: high confidence still means a coin-flip with an edge"
@@ -32441,7 +32469,7 @@
     "name": "Bitway",
     "action": "WATCH",
     "category": "alt",
-    "score": -0.031,
+    "score": -0.022,
     "confidence": 5,
     "factors": {
      "whale": 0.0,
@@ -32458,37 +32486,9 @@
     ],
     "invalidation": [
      "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score -0.03, needs +0.38 more"
+     "score -0.02, needs +0.37 more"
     ],
     "entry": 1.46,
-    "target": null,
-    "stop": null,
-    "sizing": "small: high confidence still means a coin-flip with an edge"
-   },
-   {
-    "symbol": "WLFI",
-    "id": "world-liberty-financial",
-    "name": "World Liberty Financial",
-    "action": "WATCH",
-    "category": "alt",
-    "score": -0.051,
-    "confidence": 7,
-    "factors": {
-     "whale": 0.0,
-     "smart": 0.0,
-     "news": 0.167,
-     "sentiment": -1,
-     "momentum": -0.062,
-     "liquidity": 0.7
-    },
-    "reasons": [
-     "crowd vote only 33% bullish"
-    ],
-    "invalidation": [
-     "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score -0.05, needs +0.40 more"
-    ],
-    "entry": 0.056133,
     "target": null,
     "stop": null,
     "sizing": "small: high confidence still means a coin-flip with an edge"
@@ -32499,8 +32499,8 @@
     "name": "Morpho",
     "action": "WATCH",
     "category": "alt",
-    "score": -0.202,
-    "confidence": 28,
+    "score": -0.184,
+    "confidence": 25,
     "factors": {
      "whale": 0.0,
      "smart": 0.0,
@@ -32515,7 +32515,7 @@
     ],
     "invalidation": [
      "needs whale or top-trader entry (whale +0.00, smart money +0.00, gate 0.15)",
-     "score -0.20, needs +0.55 more"
+     "score -0.18, needs +0.53 more"
     ],
     "entry": 2.63,
     "target": null,
@@ -32709,10 +32709,10 @@
      "weights": {
       "whale": 0.5,
       "smart": 1.1,
-      "news": 0.4,
-      "sentiment": 0.3,
-      "momentum": 0.9,
-      "liquidity": 0.1
+      "news": 0.3,
+      "sentiment": 0.24,
+      "momentum": 0.72,
+      "liquidity": 0.12
      },
      "buy_threshold": 0.3,
      "sell_threshold": -0.28,
@@ -32731,10 +32731,10 @@
      "weights": {
       "whale": 0.96,
       "smart": 0.904,
-      "news": 0.61,
-      "sentiment": 0.589,
-      "momentum": 0.782,
-      "liquidity": 0.454
+      "news": 0.458,
+      "sentiment": 0.471,
+      "momentum": 0.626,
+      "liquidity": 0.545
      },
      "buy_threshold": 0.35,
      "sell_threshold": -0.3,
@@ -32753,10 +32753,10 @@
      "weights": {
       "whale": 1.2,
       "smart": 1.0,
-      "news": 0.9,
-      "sentiment": 0.2,
-      "momentum": 1.0,
-      "liquidity": 0.6
+      "news": 0.675,
+      "sentiment": 0.16,
+      "momentum": 0.8,
+      "liquidity": 0.72
      },
      "buy_threshold": 0.4,
      "sell_threshold": -0.25,
@@ -32786,6 +32786,29 @@
    "open_return": -1.2
   },
   "log": [
+   {
+    "ts": 1790961554,
+    "symbol": "BACKTEST",
+    "action": "TUNE",
+    "category": "*",
+    "return": 0.0,
+    "why": "backtest",
+    "changes": [
+     "major.weights.news 0.40->0.30 (daily IC -0.25)",
+     "alt.weights.news 0.61->0.46 (daily IC -0.25)",
+     "meme.weights.news 0.90->0.68 (daily IC -0.25)",
+     "major.weights.sentiment 0.30->0.24 (snapshot IC -0.25)",
+     "alt.weights.sentiment 0.59->0.47 (snapshot IC -0.25)",
+     "meme.weights.sentiment 0.20->0.16 (snapshot IC -0.25)",
+     "major.weights.liquidity 0.10->0.12 (snapshot IC +0.16)",
+     "alt.weights.liquidity 0.45->0.55 (snapshot IC +0.16)",
+     "meme.weights.liquidity 0.60->0.72 (snapshot IC +0.16)",
+     "major.weights.momentum 0.90->0.72 (snapshot IC -0.22)",
+     "alt.weights.momentum 0.78->0.63 (snapshot IC -0.22)",
+     "meme.weights.momentum 1.00->0.80 (snapshot IC -0.22)"
+    ],
+    "buy_threshold": null
+   },
    {
     "ts": 1790879709,
     "symbol": "AAVE",
@@ -32848,10 +32871,10 @@
     "source": "Forbes"
    },
    {
-    "title": "Payward Freezes Kraken IPO Plans Amid Sustained Crypto Market Downturn - FinanceFeeds",
+    "title": "Payward Freezes Kraken IPO Plans Amid Sustained Crypto Market Downturn - financefeeds.com",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbzA3b1RFTVlpMkZmQWREUUYtQzdqV0VlYXNhbTRjaHltRGdTNnpSLVpuMV94eEtTejF5UmNGWk14VE5Za2FMMElMMFMxTklFb3ktcThKbHVSTE1EZnNQUW9ZOXM4RzhTTnFWQzROTVBVZ2RXSlprVmg0RU9Sd3hPSDRTd1hINFhHUjNNdWc1NnZ1YnN5eFA5LUFNd1o?oc=5",
     "ts": 1773903600,
-    "source": "FinanceFeeds"
+    "source": "financefeeds.com"
    },
    {
     "title": "Bullish Surges As Crypto IPO Window Opens - Global Finance Magazine",
@@ -32874,10 +32897,22 @@
   ],
   "listings": [
    {
-    "title": "Coinbase CEO Brian Armstrong: On-chain capital formation remains one of the biggest opportunities in the crypto industry, and the company is working on it - ababnews.com",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5meU5sVmlaQ1g3d0pVYWR0aVQ3NkpiUUZfOWRQSkhwUk1FcExoUFEtaEg2ZF9XSkxod09IV2I5TjlRMHdZRUQ2WXBqZnJxNzBlQlZCcnVMT0JYX09MM0FpRVNuX3VEOTg1S2FJN3N3ZzA1ZTZw?oc=5",
-    "ts": 1790932005,
-    "source": "ababnews.com"
+    "title": "5 New Binance Listings To Watch With AlphaPepe Among the Pre-Listing Names Building Exchange Buzz - openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObENSMVRJX094LVJLVTVYWTNJcnVpV3pGVFVpTWJ4LWc0eWFacDFlUk5Kc2l4LTNPbm95LW9WdHVfN3QwTVFSeUkxUlJ6RzhFRzBUNWwxeE1KcnM2b2Jxd1BZSEdPdTNMMm5oS2VvRkUweTRBRC12dnB2QVdyRDk5QXlPUGxvbEJnRUhQREgxS0FGQQ?oc=5",
+    "ts": 1790950844,
+    "source": "openPR.com"
+   },
+   {
+    "title": "BNB Price Prediction: Could BNB Reach $1,000 as AlphaPepe - openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUnM5U1FYbkNhd2VELVhyUUJBVDJleUtmb1hyWHJMNzZUeHppYXhhTFphNjhsLXpZSXVHWUtSU1lXYldIcjFuMzBaSmplZFdzN194U0htUV9CY0hOUjNVaUc3RG0wUzZvUGU0WldwR0lPWE1mcXJkdGZ5bjdpQjZwWU9tLTU5VWpFS1BSdXBkd21wc3c3d1E?oc=5",
+    "ts": 1790948196,
+    "source": "openPR.com"
+   },
+   {
+    "title": "Evernorth Lists on October 8 With 473 Million XRP and More Than $1 Billion Behind It. What Does That Do to XRP? - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVkliLU9vX0hsOTZwUUo2VkFGcDYzT25IMmZNRUtNVGY0ai1fSm0zVzR1WWYtUkVCeTAwZGpFOUtkVm5aT09Ra2loc2h4RjMyX0YyWmZsakZQZS1OSWc3aWVRdUVuQW1qbW9CdlFaY2EwSHFCd2ZpU0I2R3NCTlB3VGQ3YkpMVHJHSVpSMTgyX01wSmJodmNEWTVVM3FQVEI1aXdZemhYQnRmYVBMOU1RTEk3WXZyX0phcWhyNDRSUDlUb2FhMnRXUVY1N2pPTnRIVWNfWjQ0NVplVWlHalNsMmNVcjZQZTJ5S0tJOUZSdEIxdmZkT01zQWZxWQ?oc=5",
+    "ts": 1790942400,
+    "source": "24/7 Wall St."
    },
    {
     "title": "South Korea\u2019s Upbit and Bithumb list new AI tokens - Crypto News",
@@ -32886,16 +32921,10 @@
     "source": "Crypto News"
    },
    {
-    "title": "QNT gets 50x OKX futures after 178% weekly rally - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51YnJsbWpMcXE2UURRajJPM2tuMXlFWlRQS1UtYWhvR0M5SlZlem9tMGdjT2VDZUhuMjRVRzRJeklSdnVMaWZZMjQyMENzUXJfS3Z3SmJzQTRyQWs?oc=5",
-    "ts": 1790926811,
-    "source": "Cryptonews.net"
-   },
-   {
-    "title": "Official Trump Coin Price Prediction Meets October Unlock While Pepeto Eyes a Listing - streetinsider.com",
+    "title": "Official Trump Coin Price Prediction Meets October Unlock While Pepeto Eyes a Listing - StreetInsider",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWWU4MVVjMElSaW1QamZyV2dLdTUzSjFyQU9kMjU0dzN0S25FTzh0aXZPUFVWajkxRDJYb3NWR2ZkM0dIUHBSMnZMRGNpakJkdnVNanVLNGhTT09aU3dXWEw2dHE0Z3BBa2pJT3IybVFlR0VCX0Fhc3hGT3pib2pITVhLOHo1QTFNaldGd0NXdU1BVnlxNkUwNHFnZE9XZExoVFBFSjFXOTdibWtBVmtWSWFqZW5EWWh4bXZSQlFjeDRDUWl3UXVFX0g0ZGxCNWc3R3FkeWlIczcwZXVHNlE?oc=5",
     "ts": 1790911257,
-    "source": "streetinsider.com"
+    "source": "StreetInsider"
    },
    {
     "title": "TermMax price today, TMX to USD live price, marketcap and chart - CoinMarketCap",
@@ -32910,40 +32939,28 @@
     "source": "openPR.com"
    },
    {
-    "title": "Dogecoin Price Prediction: DOGE ETFs Post Record $2.89 Million While Pepeto Eyes 100x From Listing - Coin Gabbar",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLWx3bHJSRVMxdUNNelhzM1RwVlFwSXhWdGUyM3R5dnJmalkwNWVYVkQ5emZDeDBkMEhKUDU0c3FxRmJscUdWN3Y3dXY0R1hoQ2VWSUVyYjh3VEpfT3N0TndzYmw2Q1NYNzE1UkJLX2h3V0xaamlkRmg1QUZkYm9CWkotM1dDVXE0WUVrQ0M1SFVrYk0?oc=5",
-    "ts": 1790896200,
-    "source": "Coin Gabbar"
-   },
-   {
     "title": "Binance New Listing Wave Adds 7 Tokenized Stocks Today While Pepeto Quietly Builds the Entry Every Trader Wants - Coin Gabbar",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNmZRcGhYQ1lTb0p4R0lWT3ZNS0FfOGtZdVdhMkV4WHAtMmd5ZEw1Mjdvai1jUzNFRUR1VGdGejhrQ09LVUJkWUVpUmJndDFxUjl1cFZhMG1fVm1xaWVJeUFuUVhNVUF6VzlFb1ZoX2U3TzJSeFY3eXNXdEdrTmhTOUdCYk54QndhaER5SGFHMGw5U2R3?oc=5",
     "ts": 1790893200,
     "source": "Coin Gabbar"
    },
    {
-    "title": "Kinetiq (KNTQ) Already Trades on Kraken, AlphaPepe Is Still in Presale: The Next Crypto To Explode Entry Debate - streetinsider.com",
+    "title": "The Black Bull Price (ANSEM/USD) Today | Live Price, Market Cap & Chart - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zeERuMGRxUkY3OHBRMTRRQzBmN1MwLWN3UTd1Tm8zQW5mZWRTUGt5SUJOckdMUTBvdExIWWxOOGdVcDJRUWlYcVZwNXdFOS15SXIyZEJWdTVNUVE?oc=5",
+    "ts": 1790889720,
+    "source": "Binance"
+   },
+   {
+    "title": "Kinetiq (KNTQ) Already Trades on Kraken, AlphaPepe Is Still in Presale: The Next Crypto To Explode Entry Debate - StreetInsider",
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPSXFRVmdIdUpUVWFualVTZDE4LWdHZ3dxaWh5YkJYbG9mNUp3bG52QU5kdTFQOXF4dGVRSEhMNThMWklPNnFodFBNc3hfZ3VoSlJvWWlxZ2dSRVBtVWExT1lYbE5wenpaUjZabW53OXFCbWlWb29uVVNxUnAwc0szSkU0Ul9fd1lRcF9mTHhPSjJnSzYtSk5nUVFBQXB0WC1ONDVpNGJGS1d5OERjUjNId28tOUl0a1BPS0pPYWNJNGhLV3hUbGhWMUpvWWhreEh2ZWR1WV9CVGZBM0RhT2c2YWtrWXVRRk9zaXFta3RvZzJhSl8tQ01oMFFSWWV6anRvTWRObzN0OWNaR1E?oc=5",
     "ts": 1790881571,
-    "source": "streetinsider.com"
+    "source": "StreetInsider"
    },
    {
     "title": "Midnight\u2019s NIGHT Token Jumps 23% as Privacy Coins Gain Attention - Altcoin Buzz",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWm4tTTRlVkd0SEdFNjVnZUFHMWZZbmxLZkRwX21oUkZ6eU1SVVFUcElHRkVOUXYtZjdVSXh1c2JidXNvQzRLREdncHIzOHNoZmNDS1FRMUs5bDU4czZKSGpCRl82MlNSVEI5RTZCVExRWU1ZaDljVVlZM3MtRHU3RzBEZmZyblRnTFhOR21oc3gxWVAy?oc=5",
     "ts": 1790879588,
     "source": "Altcoin Buzz"
-   },
-   {
-    "title": "o1.exchange price today, O to USD live price, marketcap and chart - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIVEJ4V3oyZ3FWczlDSTFWSWotYzhDUm56U2drX084TTVPODNGQ3dTdVdJemdDVEF3aVJsVC1FQV9BMmliQkRYN29GV2dTbjFRUl9aWnFoRXl5UHZyR2c?oc=5",
-    "ts": 1790878629,
-    "source": "CoinMarketCap"
-   },
-   {
-    "title": "Binance Coin Price Climbs After the $100 Million Circle Deal and Pepeto Shows What Comes Next - Coin Gabbar",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObG85V0c0NllVMldicThPeG5URXBkYWFSOHpxUWtZMm1NRnd2VUd1V2dKWG1uM2cwaGJXNGgyWUVtMUIxZURKSlJsYnB6LVJHczBxaXVtSVVZR01Sai1XZTY5RHUyV0FQR0RZOUJseS1jWDZFWGxVNnI5TzMyWFYxbnNKd0VKZTZva1ZWaTBB?oc=5",
-    "ts": 1790866200,
-    "source": "Coin Gabbar"
    },
    {
     "title": "Centralized Exchanges Listed 517 Tokens in Third Quarter, Up 47% - tokenpost.com",
@@ -32964,37 +32981,61 @@
     "source": "openPR.com"
    },
    {
-    "title": "The Black Bull Price (ANSEM/USD) Today | Live Price, Market Cap & Chart - Binance",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zeERuMGRxUkY3OHBRMTRRQzBmN1MwLWN3UTd1Tm8zQW5mZWRTUGt5SUJOckdMUTBvdExIWWxOOGdVcDJRUWlYcVZwNXdFOS15SXIyZEJWdTVNUVE?oc=5",
-    "ts": 1790857080,
-    "source": "Binance"
-   },
-   {
-    "title": "Zest Protocol Price (ZEST/USD) Today | Live Price, Market Cap & Chart - Binance",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyUFltc3VEWGMwN2cyQ2pSUWl1bWxaWEVrNWVsMEN6QkVpSW9JVWFiUEhSR0Q3cWJBeTVMaG5hNjdNWGV2OHl1WTBWTWdpVjZFRDNHVnhBTGZXZw?oc=5",
-    "ts": 1790847720,
-    "source": "Binance"
-   },
-   {
     "title": "Ledger Users Can Now Swap Tokens via OKX DEX Integration - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV2doeU93NHJFaTFmYXlUX2VfVmpIejU4RVQtOWNXQk9WTGZidVlNTGpjU3oyNHliZE1ocVA3cjFycHZBUS0taGFWYXZGWUp0VnZfZV9HUXJkeF8xaEgzNkJDRmt6Y1BHZ2xrdm4waUtxLXBjYW4wQ0hXd0Fxdjl5bXBMVWVwV19RQV95YVVhM0lReGY4Mk1GcW1ibTNRTm8?oc=5",
     "ts": 1790845971,
     "source": "CoinMarketCap"
    },
    {
-    "title": "OKX to list QUANTUSD X-Perp - t.co",
-    "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9EdUZ4UG5PWFd0WWRWYzFLSFdCZzhVQm01SGhQcFhEZ1NXbGduSEhRLU5UdXVsTllscm9B?oc=5",
-    "ts": 1790843484,
-    "source": "t.co"
+    "title": "Polkadot Price Prediction: DOT Active Addresses Double as Pepeto Nears Binance Listing - TechBullion",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRlF3ZXBzejlaT2o5a240RlJ5T1BlbHVyMVBCMndVeUcyNDJYU3JaVE85VUxOZ29kdm5BNEx0N29FZWVRVHNGckdYVzlIbWZ3ZkpzUjI0dU9aQUlab0tGZXBpTGVGUXlJZDFlcWt4cU00VmhJZzJpX2ItdGhFNzNPNEdOanBrUXVzRkpKelgtejlodlpXMFRTcWc5NDdDTk5vVkZ5anRiYWlrYy1GSlRJ?oc=5",
+    "ts": 1790819075,
+    "source": "TechBullion"
    },
    {
-    "title": "Binance Review 2026: Fees, Safety, Proof of Reserves, and Risks - Coin Gabbar",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2X2xxTFA0Z2luZjVROWstWlJmcHc1NzhaN2lRUTBCMTJFOGt1dkxodVRtUGhjb3JsQkc2WVM2eGVHSm1MYVJvRDZ5VkpWYVMxOThaeDNIekpvSDJXblJkcTJlaTg5ZXRCZ2lOM0JFaEVLTUNJUFE?oc=5",
-    "ts": 1790836980,
-    "source": "Coin Gabbar"
+    "title": "Mermaid Treasure Hunt Token (mthttoken.com) Price (MTHT/USD) Today | Live Price, Market Cap & Chart - Binance",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ibzYxNWMwd3Z5V2dqUk8wRU4zQ2tlRlJSOTduVVNadFAxMTk3ZTZwNEw1Z25jYlJzbnVjMWhCNVJLN2NMMlpMUWh5Q1FFWE1LNnNsRGhyUG5vUlFqYnVVTDQzY0V1UXJFZEtFSA?oc=5",
+    "ts": 1790816220,
+    "source": "Binance"
+   },
+   {
+    "title": "WazirX Price Today in India | WRX to INR Live Price & Chart - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5mZWlSSWdsUWpfMXdtdGxlYlozTDJIRkZDVU1LMUFTQUg1dEdoS1VuSEpUU1FwMU5QeWxVb0c1cUNJX191MjBKbDRka29GMnJBZ3BnMg?oc=5",
+    "ts": 1790811780,
+    "source": "Binance"
+   },
+   {
+    "title": "Binance New Listing HYPE Hit $21 Billion in One Day, and Pepeto's Presale Is Building the Same Kind of Setup - openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSlpYdHlndkdpc09GVlJ3Tlk1RXRheV8tU01jemYtN0g3anZPejMzQ1g0SV80bHpXNmZ0Q0dQa2FlMk83UkhRYjg1dmkwMTgwVkZ5dDNWbTUzZFRhcnQtQnZmLVpvd0hJVDh6d0hKTUdfTmpzQm55cWNtYXZVOWozNC02R0J0Rm1HeDhqdlQwMS1qRHdRc2hFejIxaWdEUFNa?oc=5",
+    "ts": 1790807725,
+    "source": "openPR.com"
+   },
+   {
+    "title": "Core Price Today in India | CORE to INR Live Price & Chart - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wTkN6TkNCQmRJRlBZR0NyUVQ0VWtzVDRtc1Z3Q2FrQ0JzdmRfdkhMU3F6TnpLNlkteVZ1Ung4WU9HMDNaMndCYnd4STNpVlVPdm4zaEdlMA?oc=5",
+    "ts": 1790800440,
+    "source": "Binance"
    }
   ],
   "tge": [
+   {
+    "title": "Concrete CT Token Explained: Utility, Supply and Governance - Coin Gabbar",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWW1TcThYOW9aYlc5T0JURklBTUVxNUNZNG5mc244bEUzRWJxQzZDZ25qU1ktb211ZnFzUFdsNG5Sak1BOHZ2U3VVYm5lNEowTW8wcndPYkhyMVpWOTFkMndwNWZ6NnRCemR1c0M2aV85QXJJSEZfVzNkZ2JZYzV2dUNHdUEwSG80RDR0YTd0c3c?oc=5",
+    "ts": 1790944200,
+    "source": "Coin Gabbar"
+   },
+   {
+    "title": "Ozak AI Presale Ends Soon: 99.96% $OZ Sold, 2 Days Left! What\u2019s Next? - Coin Gabbar",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVl9odjhLUi1DOF83emhhdG1xVXhNdmpkYWVuSGhfQ0hfcFdsNUlNZ3RrNkpJYUwyaUJXUlk3bmxUUlNqQmtIRzhaX3V6QnlqU3V5RjFaOVpKNVIyaDhtRVB2aHItSFpndFozSHpnczhCMTY0ci1heDVkMk1qbWpmbWxR?oc=5",
+    "ts": 1790943600,
+    "source": "Coin Gabbar"
+   },
+   {
+    "title": "Doppler Finance and Canton Network Integration Boosts XDP Price Today - Coin Gabbar",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdTFjYTVwNEgtekZIM1dDRzlYSVlrZU9zekpRSVpqVy1WOG1XSU4wQjVvS2Zvbkw4TnBDWk5iWlNzSEdKZTJVVS0yT1JrR0Rtci1jcGRvZkNaQTBSMEdITXJUa0VSTFJNaHpMVWFPZGxlanI4VjREbV8ydDV2NW9VVlF4V0k3WGZN?oc=5",
+    "ts": 1790939700,
+    "source": "Coin Gabbar"
+   },
    {
     "title": "Bitcoin Hyper Crypto Review 2026: Bitcoin Layer\u20112, Presale & Risks - Coinspot.io",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TYl9oUXA3WXVwWlNvNW00N2stUHVpcVlNQWRtSFdtd3UtNXo3eElfaTIzVHFSUDZqeTNlS0JQZDZNeDctU1ppc0ZjS0dseVhxUGViVzY4aGI?oc=5",
@@ -33050,12 +33091,6 @@
     "source": "Beebom"
    },
    {
-    "title": "Georgia's Cole Claims Lott IMPACT Trophy Player of the Week for Week 4 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUE5nVTZhWGFZelFnX2prUjhCUHZpbTFFQWcwQ1REWHhDWWRheW5LMURnN2ItNnAtVTJHUnZDcW9NcjIyNHY5cHNKQVI0Qk8tRXE0MkZsWEJxTlpkMEY1R0xPMzdKMEZUM0lEVFQzVW85LVl6TEQwX2FFREtGSkkxQnpqc1Z4SF9GSWJucHRjam5CVVZEV0g1c2xxZ0lpYWF1cHc?oc=5",
-    "ts": 1790795100,
-    "source": "Yahoo Finance"
-   },
-   {
     "title": "Launch Date First: How Blockchain App Factory Builds a Crypto Marketing Strategy Around the TGE - TechBullion",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMTRWRWNmMjFjVDdUT0RscnlnQW1fZ2daZlRUQnhBV3BieU1zN3dVSkRiZ1NSOEcyY0JjMTVzT2gySXk4VkdFbkpWWk5Bb0VCTERfc3JDTUpWdEtrM2hvODlQNDhscklkc2RPb3k5MVB1Ml8tM2VWZU1pNGlFd1o5WHM0QTFROW1TZFRZTGpuM2ExU1h2RHlhamNrMkZQTUVzWDlHTENLUWFMWWRCa0lVaDhGdG1DSk54MmU4?oc=5",
     "ts": 1790782774,
@@ -33066,12 +33101,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYVhqMWJ0cDZZUklNcVI1elpPVENqMHh6Q2pCbkQxQkROT0VpUGlMMHRkczBNMWFVN1pscEk1aWxza3pZQkFXN1lVeng0SXcweFBJUUg1RlhmZHR0Tk16Vmk0N05HTklkSlFkcTQzc3VmYzl3UGJYbi12TkdOTnhEazZPU3dnbUZKN1ZsdFBvVlh2VVU?oc=5",
     "ts": 1790778600,
     "source": "Coin Gabbar"
-   },
-   {
-    "title": "Fables Sets Oct. 20 Token Launch With 75 Million FABLES Cap - tokenpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Wc2MzLTdBN29wUXBoT04yQzFBOUM1VnV3ckpZNHViWGEwOExmN3NYQ2RXRUFhbjdIMDdQa2h6dUVfal85ZXpZX1JHUjltNW01U0llUDdaYWItQWM?oc=5",
-    "ts": 1790774205,
-    "source": "tokenpost.com"
    },
    {
     "title": "Is New Grass Airdrop Reward Coming Next After Multicoin Investment? - Coin Gabbar",
@@ -33092,190 +33121,140 @@
     "source": "Coin Gabbar"
    },
    {
-    "title": "Note Systems Airdrop Guide: Earn Testnet Points and a Diamond Note NFT - UseTheBitcoin",
+    "title": "Note Systems Airdrop Guide: Earn Testnet Points and a Diamond Note NFT - usethebitcoin.com",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FZWZZWS1iZ2JCbVRqeTVxUkRQNHdCQk00M0NDSUFta0xmaHpWUU1VcU5sMDhHRXluSzE3X2lGQzZjdlFoQXZjbktjSHdiSUZrcG5wNUdNNlZTT28?oc=5",
     "ts": 1790734100,
-    "source": "UseTheBitcoin"
-   },
-   {
-    "title": "Student Loan Borrowers Get 3 More Months to Claim an Interest Rate Break - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQazF0UGk1WWhkMHF2dFphdzNSMkhSNEtGVUxKVWVHU2w0YXg2ck1uU2htWWZ0UVprVkxrRnpiZzJBYlE0eVRGWVNUQW03ZEFCUlBVS2l1Nkh0TkdWY3FPdE1IdnFxSVhqbTVCY3NvNVpwYXVPajBmaW5zUWVyeHRtTllmYmdGaEZZbGt4ektiR2N1WU1SVWVDYzZB?oc=5",
-    "ts": 1790698980,
-    "source": "Yahoo Finance"
-   },
-   {
-    "title": "Telegram Game Zoo Launches Airdrop Claims Ahead of ZOO Token Release - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS0VDd3lXWU94WU1WSzI1dEJFTGNoTmhwM0hpSUVBQmdxbHh0MU1sRFRja3JmSTV0Ml9pb0wtV29QX1BjWXFnRzFmQktpRnZ1UXFoN2pCWEV6MzMzOTJXOVotNldpWHNCYlo4NGVWNWFnNHZMbFhHZ2ZEN3VyWmk2Wlhmc1VTTlp4WEM0LTZDXzZEZnVOMzdMOGk1XzhVSUJkS0R0MkRpTEFlRlhwbk5F?oc=5",
-    "ts": 1790692233,
-    "source": "CoinMarketCap"
-   },
-   {
-    "title": "Orbition Roadmap: Key Phases, OBN Launch and Future Network Plans - Coin Gabbar",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZE5JVlA3Y1B6cmxlSWNYbjRINWNWTVc4MjBlTUstZmd3ems1TkxyLUtnRTB3WnBjWnFvZGNXOUswbVhhdzQ3U2pUNmN1bS1vSjBXNEljb3dEZEJJWk55bEdrWHhqX3VWVmcwYkhNMWtPSDZwNGw3VHFDbEhXVkF6TTRQVGlFYnVOaThLbldTeGZNQnR0VkJhMw?oc=5",
-    "ts": 1790688600,
-    "source": "Coin Gabbar"
+    "source": "usethebitcoin.com"
    }
   ],
   "launches": [
    {
     "chain": "solana",
-    "symbol": "BlackHoles",
-    "name": "BlackHoles",
-    "price": 0.0003119,
-    "liq": 54463.13,
-    "vol24": 2990856.02,
-    "chg24": 446,
-    "chg6h": -18.51,
-    "buys24": 18350,
-    "sells24": 17213,
-    "mcap": 302405,
-    "age_h": 7.4,
-    "url": "https://dexscreener.com/solana/geshq9lz2yyatwvmzvrd1jqyfmhqsfhvycfztqa8m5ie",
-    "boosts": 100
+    "symbol": "FILLED",
+    "name": "filled.cards",
+    "price": 0.0006287,
+    "liq": 97145.75,
+    "vol24": 2355938.31,
+    "chg24": 697,
+    "chg6h": 697,
+    "buys24": 15361,
+    "sells24": 11641,
+    "mcap": 609758,
+    "age_h": 1.0,
+    "url": "https://dexscreener.com/solana/a8jmwc6ijm7duubftgrcpg9hqgsn9gipkj39q1hbhqzk",
+    "boosts": null
    },
    {
     "chain": "solana",
     "symbol": "PARASITE",
     "name": "Parasite",
-    "price": 0.0009062,
-    "liq": 113305.99,
-    "vol24": 1232777.94,
-    "chg24": 106,
-    "chg6h": 38.15,
-    "buys24": 8066,
-    "sells24": 8655,
-    "mcap": 868859,
-    "age_h": 80.6,
+    "price": 0.0006019,
+    "liq": 93013.12,
+    "vol24": 2306138.62,
+    "chg24": 60.92,
+    "chg6h": -36.04,
+    "buys24": 13629,
+    "sells24": 12967,
+    "mcap": 577076,
+    "age_h": 88.0,
     "url": "https://dexscreener.com/solana/4zlrghwkdxyatovp8ukv66cskwgo9e7kaagycw1vfh7e",
     "boosts": 100
    },
    {
     "chain": "solana",
-    "symbol": "e/acc",
-    "name": "Elon Accelerationism",
-    "price": 0.0007657,
-    "liq": 82579.7,
-    "vol24": 1080728.71,
-    "chg24": 880,
-    "chg6h": 132,
-    "buys24": 19053,
-    "sells24": 8049,
-    "mcap": 752540,
-    "age_h": 11.2,
-    "url": "https://dexscreener.com/solana/add8yisxcrn6kl6t8lssyicqtwywjtlfy5r7gzanzoqk",
-    "boosts": 50
+    "symbol": "ANON",
+    "name": "Anon",
+    "price": 0.001236,
+    "liq": 106028.86,
+    "vol24": 2161192.82,
+    "chg24": 884,
+    "chg6h": 884,
+    "buys24": 20214,
+    "sells24": 11324,
+    "mcap": 1228669,
+    "age_h": 2.4,
+    "url": "https://dexscreener.com/solana/fyknankgfqr5ryskcx56ijvykadgekefnd9p5x97wfz",
+    "boosts": 500
    },
    {
     "chain": "solana",
-    "symbol": "DIT",
-    "name": "Dead Internet Theory",
-    "price": 0.0005082,
-    "liq": 65896.58,
-    "vol24": 750258.11,
-    "chg24": 902,
-    "chg6h": 902,
-    "buys24": 3705,
-    "sells24": 3415,
-    "mcap": 493256,
-    "age_h": 1.5,
-    "url": "https://dexscreener.com/solana/cmofyktv1w3vgev4bzsmvbfdjp29asm1prl8xprj65gb",
-    "boosts": null
+    "symbol": "SIP",
+    "name": "SuperIntelligence Pets",
+    "price": 0.0006783,
+    "liq": 77444.37,
+    "vol24": 1645648.42,
+    "chg24": 368,
+    "chg6h": 17.78,
+    "buys24": 11309,
+    "sells24": 6122,
+    "mcap": 669935,
+    "age_h": 17.0,
+    "url": "https://dexscreener.com/solana/4bkiawwff5qqjm3all9dklvsowzsb1i8raml6ejaig91",
+    "boosts": 60
    },
    {
-    "chain": "bsc",
-    "symbol": "1000X",
-    "name": "1000X",
-    "price": 0.0003706,
-    "liq": 91632.88,
-    "vol24": 623131.72,
-    "chg24": 146,
-    "chg6h": -7.49,
-    "buys24": 3056,
-    "sells24": 2081,
-    "mcap": 252270,
-    "age_h": 27.2,
-    "url": "https://dexscreener.com/bsc/0x68185e88d6b02005bef78267c3312b624b12cb32",
-    "boosts": 100
+    "chain": "solana",
+    "symbol": "CATFLIX",
+    "name": "Catflix",
+    "price": 0.0003541,
+    "liq": 54038.71,
+    "vol24": 590585.6,
+    "chg24": 309,
+    "chg6h": 309,
+    "buys24": 8143,
+    "sells24": 1596,
+    "mcap": 354149,
+    "age_h": 0.6,
+    "url": "https://dexscreener.com/solana/44qvqxhigiqiftkkenrrlydpedkync92cyepmzhwbhmu",
+    "boosts": null
    },
    {
     "chain": "solana",
     "symbol": "HI",
     "name": "Hallow Inu",
-    "price": 0.0004028,
-    "liq": 62019.67,
-    "vol24": 493468.73,
-    "chg24": 38.09,
-    "chg6h": -8.6,
-    "buys24": 9035,
-    "sells24": 7443,
-    "mcap": 392825,
-    "age_h": 59.3,
+    "price": 0.0004029,
+    "liq": 61672.14,
+    "vol24": 522865.66,
+    "chg24": 53.09,
+    "chg6h": 1,
+    "buys24": 9289,
+    "sells24": 7582,
+    "mcap": 392919,
+    "age_h": 66.7,
     "url": "https://dexscreener.com/solana/fdfvc4hkrierp9kbknjpq1fxjyzbqrsi8pry21mqvr27",
     "boosts": 100
    },
    {
     "chain": "bsc",
-    "symbol": "THESIS",
-    "name": "Thesis AI",
-    "price": 0.0006093,
-    "liq": 82672.64,
-    "vol24": 436984,
-    "chg24": -6.54,
-    "chg6h": -9.23,
-    "buys24": 1786,
-    "sells24": 2396,
-    "mcap": 605367,
-    "age_h": 67.9,
-    "url": "https://dexscreener.com/bsc/0xc0b877452f889983b9d69dd8dd2cb08561e901ea",
-    "boosts": 100
+    "symbol": "BNBCAT",
+    "name": "Binance Cat",
+    "price": 0.0009034,
+    "liq": 138719.86,
+    "vol24": 151833.22,
+    "chg24": 80.27,
+    "chg6h": 61.06,
+    "buys24": 638,
+    "sells24": 1012,
+    "mcap": 903427,
+    "age_h": 990.0,
+    "url": "https://dexscreener.com/bsc/0x8650e3ede7c2d45f89dbbe108bd6568f414167cb",
+    "boosts": 50
    },
    {
     "chain": "solana",
-    "symbol": "Pinata",
-    "name": "Pi\u00f1ata",
-    "price": 0.0002729,
-    "liq": 50062.5,
-    "vol24": 323755.13,
-    "chg24": 8,
-    "chg6h": -1.2,
-    "buys24": 11393,
-    "sells24": 5692,
-    "mcap": 262238,
-    "age_h": 1337.1,
-    "url": "https://dexscreener.com/solana/braoezs1zhzdqwqwkwnh3z4ouylxvlcvglpfhhbvzcht",
+    "symbol": "Pumpoween",
+    "name": "Pumpoween",
+    "price": 0.001213,
+    "liq": 104170.27,
+    "vol24": 147648.56,
+    "chg24": 18.18,
+    "chg6h": -16.1,
+    "buys24": 6608,
+    "sells24": 2683,
+    "mcap": 1140804,
+    "age_h": 669.5,
+    "url": "https://dexscreener.com/solana/8nvfb1unnk9adtl5hoof8hahf2rt4glpwx9cteadikhg",
     "boosts": 100
-   },
-   {
-    "chain": "bsc",
-    "symbol": "BNBO",
-    "name": "\u5e01\u6069\u5b9d",
-    "price": 0.0004141,
-    "liq": 80334.27,
-    "vol24": 56258.77,
-    "chg24": 3.14,
-    "chg6h": -2.25,
-    "buys24": 326,
-    "sells24": 366,
-    "mcap": 414170,
-    "age_h": 876.9,
-    "url": "https://dexscreener.com/bsc/0x7f7cac531dfad516b9bd55e63de2f773d00999cc",
-    "boosts": 100
-   },
-   {
-    "chain": "solana",
-    "symbol": "CATOSHI",
-    "name": "Catoshi Rush",
-    "price": 0.0003689,
-    "liq": 56612.61,
-    "vol24": 46829.8,
-    "chg24": 60.18,
-    "chg6h": 3.88,
-    "buys24": 265,
-    "sells24": 219,
-    "mcap": 368927,
-    "age_h": 424.5,
-    "url": "https://dexscreener.com/solana/3ymdafrgwygy4jd1ax1gpahsd6m5mnwsa5cum35wpqg8",
-    "boosts": 500
    }
   ]
  },

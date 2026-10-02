@@ -176,3 +176,7 @@ Two layers tune the recommender:
 2. Weekly review (`review.py --apply`): looks at the whole sample: exit mix (target / stop / time), returns by category and by entry gate (whale vs top-trader), and which factors actually separated wins from losses. With enough closed calls (8+ per category) it adjusts targets, stops, holding window, whale gate and down-weights contrary factors. Runs Mondays 06:xx UTC in the workflow, or manually via Run workflow with `review = true`. Output: `review.md` / `review.json` in the repo and a `REVIEW` entry in the model log on the Recommend tab.
 
 Run `python review.py` anytime for a read-only report.
+
+3. Backtest (`backtest.py --apply`): replays the desk's own history (every committed desk.json, trades.csv whale flow, the 90-day price chart) and measures which factors actually predicted 1/3/5-day forward returns (rank correlation). Factor weights move a bounded step (x0.75 / x1.25) only when the sign is consistent across horizons with a decent sample. Also runs Mondays with the review. `backtest.md` is the readable report; the grid-search section is informational only.
+
+Whale factor (since Oct 2026): DEX buys/sells plus exchange withdrawals (accumulation) minus exchange deposits (distribution), other transfers at quarter weight. Known exchange hot wallets are in `exchanges.py`. Market-maker wallets' exchange legs are ignored (inventory moves, not conviction).

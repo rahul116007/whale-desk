@@ -2,7 +2,7 @@ name: Whale Desk refresh
 
 on:
   schedule:
-    - cron: "17 */3 * * *"        # every 3 hours (UTC)
+    - cron: "17 * * * *"          # hourly slot; GitHub drops many scheduled runs on free repos, this still yields ~8-12 refreshes a day
   workflow_dispatch:
     inputs:
       research:

@@ -197,7 +197,7 @@ function ringColor(s) { return s >= 65 ? 'var(--up)' : s >= 45 ? 'var(--amber)' 
 function card(c) {
   const m = c.market, w = c.whales, b = c.buzz, i = c.info;
   const c7 = m.price_change_percentage_7d_in_currency, col = (c7 ?? 0) >= 0 ? '#22e58a' : '#ff4d6d';
-  const net = w.net || 0, netMax = Math.max(1, Math.abs(net), 200000);
+  const net = (w.flow !== undefined ? w.flow : w.net) || 0, netMax = Math.max(1, Math.abs(net), 200000);
   const su = i.sentiment_up;
   return `<div class="card" onclick="openCoin('${c.symbol}')">
     <div class="ring" style="background:conic-gradient(${ringColor(c.signal)} ${c.signal*3.6}deg, rgba(255,255,255,.08) 0)"><span>${c.signal}</span></div>

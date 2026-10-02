@@ -96,6 +96,14 @@ def fmt_amt(v):
 def short(addr):
     return addr[:6] + "…" + addr[-4:] if addr else "?"
 
+def label(addr):
+    """Exchange name for known CEX hot wallets, else the short address."""
+    try:
+        import exchanges
+        return exchanges.name_for(addr) or short(addr)
+    except Exception:
+        return short(addr)
+
 def log_alert(line):
     print("  !! " + line)
     with open(ALERTS_LOG, "a") as f:
@@ -352,19 +360,19 @@ def classify(bs, wallet, rows, tx_cap=150):
                 elif self_initiated and (tx["value"] > 0 or venue or tx["to"] not in (t, "")):
                     emit("buy", t, a, None, "bought with ETH" if tx["value"] > 0 else f"via {method or 'contract'}")
                 else:
-                    emit("transfer_in", t, a, None, "from " + short(tx["from"] or trs[0]["from"]))
+                    emit("transfer_in", t, a, None, "from " + label(tx["from"] or trs[0]["from"]))
         elif outflow:
             for t, a in outflow.items():
                 if self_initiated and tx["to"] == t:
-                    emit("transfer_out", t, a, None, "sent to " + short(trs[0]["to"]))
+                    emit("transfer_out", t, a, None, "sent to " + label(trs[0]["to"]))
                 elif defi and self_initiated:
                     emit("defi", t, a, None, f"{method} [{tx['to_name'] or short(tx['to'])}]")
                 elif self_initiated:
                     emit("sell", t, a, None, "sold for ETH" if venue else f"via {method or short(tx['to'])}")
                 elif tx["from"]:
-                    emit("transfer_out", t, a, None, "pulled by " + short(tx["from"]))
+                    emit("transfer_out", t, a, None, "pulled by " + label(tx["from"]))
                 else:
-                    emit("transfer_out", t, a, None, "to " + short(trs[0]["to"]) + " (unresolved)")
+                    emit("transfer_out", t, a, None, "to " + label(trs[0]["to"]) + " (unresolved)")
     events.sort(key=lambda e: (e["ts"], e["hash"]))
     return events
 

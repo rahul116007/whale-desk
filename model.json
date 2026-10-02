@@ -56,6 +56,29 @@
     "alt.liquidity 0.37\u21920.45"
    ],
    "buy_threshold": 0.35
+  },
+  {
+   "ts": 1790961554,
+   "symbol": "BACKTEST",
+   "action": "TUNE",
+   "category": "*",
+   "return": 0.0,
+   "why": "backtest",
+   "changes": [
+    "major.weights.news 0.40->0.30 (daily IC -0.25)",
+    "alt.weights.news 0.61->0.46 (daily IC -0.25)",
+    "meme.weights.news 0.90->0.68 (daily IC -0.25)",
+    "major.weights.sentiment 0.30->0.24 (snapshot IC -0.25)",
+    "alt.weights.sentiment 0.59->0.47 (snapshot IC -0.25)",
+    "meme.weights.sentiment 0.20->0.16 (snapshot IC -0.25)",
+    "major.weights.liquidity 0.10->0.12 (snapshot IC +0.16)",
+    "alt.weights.liquidity 0.45->0.55 (snapshot IC +0.16)",
+    "meme.weights.liquidity 0.60->0.72 (snapshot IC +0.16)",
+    "major.weights.momentum 0.90->0.72 (snapshot IC -0.22)",
+    "alt.weights.momentum 0.78->0.63 (snapshot IC -0.22)",
+    "meme.weights.momentum 1.00->0.80 (snapshot IC -0.22)"
+   ],
+   "buy_threshold": null
   }
  ],
  "by_category": {
@@ -63,10 +86,10 @@
    "weights": {
     "whale": 0.5,
     "smart": 1.1,
-    "news": 0.4,
-    "sentiment": 0.3,
-    "momentum": 0.9,
-    "liquidity": 0.1
+    "news": 0.3,
+    "sentiment": 0.24,
+    "momentum": 0.72,
+    "liquidity": 0.12
    },
    "buy_threshold": 0.3,
    "sell_threshold": -0.28,
@@ -85,10 +108,10 @@
    "weights": {
     "whale": 0.96,
     "smart": 0.904,
-    "news": 0.61,
-    "sentiment": 0.589,
-    "momentum": 0.782,
-    "liquidity": 0.454
+    "news": 0.458,
+    "sentiment": 0.471,
+    "momentum": 0.626,
+    "liquidity": 0.545
    },
    "buy_threshold": 0.35,
    "sell_threshold": -0.3,
@@ -107,10 +130,10 @@
    "weights": {
     "whale": 1.2,
     "smart": 1.0,
-    "news": 0.9,
-    "sentiment": 0.2,
-    "momentum": 1.0,
-    "liquidity": 0.6
+    "news": 0.675,
+    "sentiment": 0.16,
+    "momentum": 0.8,
+    "liquidity": 0.72
    },
    "buy_threshold": 0.4,
    "sell_threshold": -0.25,

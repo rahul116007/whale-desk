@@ -1,13 +1,36 @@
 {
- "ts": 1790506375,
+ "ts": 1790961554,
  "health": [
-  "STALE last refresh 481.6h ago (cron is every 3h) - check the Actions tab"
+  "STALE last refresh 7.4h ago (cron is every 3h) - check the Actions tab"
  ],
- "categories": {},
- "gates": {},
+ "categories": {
+  "alt": {
+   "n": 2,
+   "hit_rate": 50.0,
+   "avg_return": 0.19,
+   "median_return": 0.19,
+   "exits": {
+    "stop": 1,
+    "target": 1
+   },
+   "avg_peak": 7.79,
+   "avg_trough": -6.57,
+   "target_pct": 8.0,
+   "stop_pct": 6.0,
+   "max_days": 7,
+   "buy_threshold": 0.35
+  }
+ },
+ "gates": {
+  "smart": {
+   "n": 2,
+   "hit_rate": 50.0,
+   "avg_return": 0.19
+  }
+ },
  "factors": {},
  "suggestions": [],
- "open": 0,
- "closed": 0,
+ "open": 3,
+ "closed": 2,
  "applied": []
 }

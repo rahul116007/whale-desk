@@ -23,6 +23,7 @@ REDDIT_LOCK = threading.Lock()
 REDDIT_STATE = {"down": False}
 from collections import defaultdict
 import requests
+import exchanges
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(HERE, "config.json")
@@ -276,6 +277,15 @@ def dex_pairs(symbol, eth_address=""):
 
 # ----------------------------------------------------------------------------- whale flows (from the scanner's csvs)
 
+_WTYPES = None
+def wallet_types():
+    """{wallet label: type} from config.json (individual / fund / vc / market_maker / treasury)."""
+    global _WTYPES
+    if _WTYPES is None:
+        try: _WTYPES = {w["label"]: w.get("type", "") for w in load_config().get("wallets", [])}
+        except Exception: _WTYPES = {}
+    return _WTYPES
+
 def whale_flows(symbol, eth_address, days=7):
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)
     ev = []
@@ -288,6 +298,17 @@ def whale_flows(symbol, eth_address, days=7):
                    "usd": float(t["usd_now"] or 0), "note": t["note"], "tx": t["tx"]})
     buys = sum(e["usd"] for e in ev if e["kind"] == "buy"); sells = sum(e["usd"] for e in ev if e["kind"] == "sell")
     tin = sum(e["usd"] for e in ev if e["kind"] == "transfer_in"); tout = sum(e["usd"] for e in ev if e["kind"] == "transfer_out")
+    # exchange flows: withdrawals from a CEX into a tracked wallet = accumulation, deposits to a CEX = distribution.
+    # Market makers are the exception: their exchange legs are inventory management (backtest: mildly contrarian), so
+    # only their non-exchange transfers count, at quarter weight like everyone else's.
+    wtype = wallet_types()
+    for e in ev:
+        e["exchange"] = exchanges.in_note(e["note"]) if e["kind"] in ("transfer_in", "transfer_out") else None
+        if e["exchange"] and wtype.get(e["wallet"], "").startswith("market_maker"): e["exchange"] = None
+    ex_in = sum(e["usd"] for e in ev if e["kind"] == "transfer_in" and e["exchange"]); ex_out = sum(e["usd"] for e in ev if e["kind"] == "transfer_out" and e["exchange"])
+    flow = (buys - sells) + (ex_in - ex_out) + 0.25 * ((tin - ex_in) - (tout - ex_out))
+    accum = sorted({e["wallet"] for e in ev if e["kind"] == "buy" or (e["kind"] == "transfer_in" and e["exchange"] and e["usd"] >= 25_000)})
+    distrib = sorted({e["wallet"] for e in ev if e["kind"] == "sell" or (e["kind"] == "transfer_out" and e["exchange"] and e["usd"] >= 25_000)})
     holders = []
     for h in read_csv(HOLDINGS_CSV):
         if h["symbol"].upper() == symbol.upper() or (eth_address and h["token"] == eth_address):
@@ -296,7 +317,7 @@ def whale_flows(symbol, eth_address, days=7):
     holders.sort(key=lambda x: -x["usd"])
     ev.sort(key=lambda e: e["time"], reverse=True)
     return {"events": ev[:40], "buys": buys, "sells": sells, "net": buys - sells, "transfer_in": tin, "transfer_out": tout,
-            "buyers": sorted({e["wallet"] for e in ev if e["kind"] == "buy"}), "sellers": sorted({e["wallet"] for e in ev if e["kind"] == "sell"}),
+            "ex_in": ex_in, "ex_out": ex_out, "flow": flow, "buyers": accum, "sellers": distrib,
             "holders": holders, "held_usd": sum(h["usd"] for h in holders)}
 
 # ----------------------------------------------------------------------------- scoring
@@ -310,8 +331,9 @@ def signal(coin):
     """A blunt 0-100 'worth a look' number. Not advice, just a sort key."""
     s = 50
     w = coin["whales"]
-    if w["net"] > 0: s += min(20, w["net"] / 50000)
-    if w["net"] < 0: s -= min(20, -w["net"] / 50000)
+    fl = w.get("flow", w["net"])
+    if fl > 0: s += min(20, fl / 50000)
+    if fl < 0: s -= min(20, -fl / 50000)
     s += min(15, coin["buzz"]["score"] / 5)
     su = coin["info"].get("sentiment_up")
     if su: s += (su - 50) / 5
@@ -363,8 +385,9 @@ def rules_take(coin):
     if c7 > 8 and c30 > 0: bull.append(f"momentum is with it: {c7:+.1f}% on the week, {c30:+.1f}% on the month")
     elif c7 < -8: bear.append(f"price is bleeding, {c7:+.1f}% on the week")
     if abs(c24) > 12: watch.append(f"a {c24:+.0f}% day is unusual; check whether it was news or a single large trade")
-    if w["net"] > 25000: bull.append(f"tracked whales are net buyers over the window ({fmt_usd(w['net'])}), led by {', '.join(w['buyers'][:3])}")
-    elif w["net"] < -25000: bear.append(f"tracked whales are net sellers ({fmt_usd(w['net'])}), including {', '.join(w['sellers'][:3])}")
+    fl = w.get("flow", w["net"])
+    if fl > 25000: bull.append(f"tracked whales are net accumulating over the window ({fmt_usd(fl)}, incl. {fmt_usd(w.get('ex_in', 0))} withdrawn from exchanges), led by {', '.join(w['buyers'][:3])}")
+    elif fl < -25000: bear.append(f"tracked whales are net distributing ({fmt_usd(-fl)}, incl. {fmt_usd(w.get('ex_out', 0))} sent to exchanges), including {', '.join(w['sellers'][:3])}")
     if w["transfer_out"] > 5 * max(w["transfer_in"], 1) and w["transfer_out"] > 250000:
         bear.append(f"{fmt_usd(w['transfer_out'])} moved out of tracked wallets, often the step before a sale on an exchange")
     if w["holders"]: bull.append(f"{len(w['holders'])} tracked wallets hold it ({fmt_usd(w['held_usd'])} between them)")

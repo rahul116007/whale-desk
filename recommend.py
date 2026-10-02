@@ -69,9 +69,11 @@ def factors(coin):
     """Each factor is in [-1, 1]. Positive = supportive of going long."""
     m, i, w, b, pairs = coin["market"], coin["info"], coin["whales"], coin["buzz"], coin.get("pairs") or []
     mcap = m.get("market_cap") or 0
-    # whale: net DEX flow scaled by market cap (a $500k buy matters on a $1B coin, not on BTC), plus clusters
+    # whale: DEX buys/sells plus exchange withdrawals (accumulation) minus exchange deposits (distribution), with other
+    # transfers at quarter weight, scaled by market cap (a $500k flow matters on a $1B coin, not on BTC), plus clusters
     scale = max(50_000.0, mcap * 0.0005)            # 0.05% of mcap counts as a full signal
-    whale = clamp(w["net"] / scale, -1, 1)
+    flow = w.get("flow", w["net"])
+    whale = clamp(flow / scale, -1, 1)
     if len(w["buyers"]) >= 2: whale = clamp(whale + 0.3, -1, 1)
     if len(w["sellers"]) >= 2: whale = clamp(whale - 0.3, -1, 1)
     if w["transfer_out"] > 5 * max(w["transfer_in"], 1) and w["transfer_out"] > 250_000: whale = clamp(whale - 0.25, -1, 1)
@@ -106,8 +108,13 @@ def score(f, weights):
 def reasons(coin, f):
     w, b, i, m = coin["whales"], coin["buzz"], coin["info"], coin["market"]
     out = []
-    if f["whale"] > 0.2: out.append(f"tracked whales net bought {_usd(w['net'])} over 7d" + (f" ({', '.join(w['buyers'][:3])})" if w["buyers"] else ""))
-    if f["whale"] < -0.2 and w["net"] < 0: out.append(f"tracked whales net sold {_usd(-w['net'])} over 7d" + (f" ({', '.join(w['sellers'][:3])})" if w["sellers"] else ""))
+    flow = w.get("flow", w["net"])
+    if f["whale"] > 0.2 and flow > 0:
+        bits = [x for x in [f"{_usd(w['net'])} DEX buys" if w["net"] > 0 else "", f"{_usd(w.get('ex_in', 0))} withdrawn from exchanges" if w.get("ex_in", 0) > 0 else ""] if x]
+        out.append(f"tracked whales accumulating {_usd(flow)} over 7d" + (f": {', '.join(bits)}" if bits else "") + (f" ({', '.join(w['buyers'][:3])})" if w["buyers"] else ""))
+    if f["whale"] < -0.2 and flow < 0:
+        bits = [x for x in [f"{_usd(-w['net'])} DEX sells" if w["net"] < 0 else "", f"{_usd(w.get('ex_out', 0))} deposited to exchanges" if w.get("ex_out", 0) > 0 else ""] if x]
+        out.append(f"tracked whales distributing {_usd(-flow)} over 7d" + (f": {', '.join(bits)}" if bits else "") + (f" ({', '.join(w['sellers'][:3])})" if w["sellers"] else ""))
     sm = coin.get("smart") or {}
     if f["smart"] > 0.25: out.append(f"Hyperliquid top traders: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}, 48h flow {_usd(sm.get('flow48',0))}")
     if f["smart"] < -0.25: out.append(f"Hyperliquid top traders lean short: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}")
