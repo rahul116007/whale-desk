@@ -9,6 +9,10 @@ on:
         description: "Coin to deep-dive (optional, e.g. PEPE)"
         required: false
         default: ""
+      review:
+        description: "Run the weekly self-review + backtest now (true/false)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -45,6 +49,10 @@ jobs:
 
       - name: Coin desk refresh (market, news, smart money, recommendations, dashboard)
         run: python -u coin_desk.py refresh
+
+      - name: Weekly self-review + backtest (Mondays 06:xx UTC, or manual with review=true)
+        run: |
+          if [ "$(date -u +%u%H)" = "106" ] || [ "${{ github.event.inputs.review }}" = "true" ]; then python -u review.py --apply && python -u backtest.py --apply; else echo "skipped (Mondays 06:xx UTC)"; fi
 
       - name: Research a coin (manual runs only)
         if: ${{ github.event.inputs.research != '' }}
