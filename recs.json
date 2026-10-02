@@ -25,40 +25,10 @@
     "crowd vote 87% bullish",
     "trend is up (+5.4% 7d, +9.1% 30d)"
    ],
-   "last": 2749.11,
-   "return": 1.41,
+   "last": 2661.61,
+   "return": -1.82,
    "peak": 1.41,
    "trough": -2.25
-  },
-  {
-   "symbol": "ENA",
-   "id": "ethena",
-   "name": "Ethena",
-   "action": "BUY",
-   "category": "alt",
-   "opened": 1790849767,
-   "entry": 0.257377,
-   "target": 0.27796716000000005,
-   "stop": 0.24193438,
-   "score": 0.447,
-   "confidence": 62,
-   "factors": {
-    "whale": 0.0,
-    "smart": 0.55,
-    "news": 0.167,
-    "sentiment": 0.852,
-    "momentum": 1,
-    "liquidity": 0.374
-   },
-   "reasons": [
-    "Hyperliquid top traders: 2 long / 0 short, net $337.0k, 48h flow $0",
-    "crowd vote 93% bullish",
-    "trend is up (+28.1% 7d, +73.5% 30d)"
-   ],
-   "last": 0.244487,
-   "return": -5.01,
-   "peak": 0.0,
-   "trough": -5.74
   },
   {
    "symbol": "BTC",
@@ -85,10 +55,10 @@
     "coverage is running hot: 97 stories, 0 Reddit posts in 48h",
     "crowd vote 86% bullish"
    ],
-   "last": 86374,
-   "return": 0.0,
+   "last": 84519,
+   "return": -2.15,
    "peak": 0.0,
-   "trough": 0.0
+   "trough": -2.15
   }
  ],
  "closed": [
@@ -160,6 +130,39 @@
    "closed": 1790879709,
    "why": "target",
    "outcome": "win"
+  },
+  {
+   "symbol": "ENA",
+   "id": "ethena",
+   "name": "Ethena",
+   "action": "BUY",
+   "category": "alt",
+   "opened": 1790849767,
+   "entry": 0.257377,
+   "target": 0.27796716000000005,
+   "stop": 0.24193438,
+   "score": 0.447,
+   "confidence": 62,
+   "factors": {
+    "whale": 0.0,
+    "smart": 0.55,
+    "news": 0.167,
+    "sentiment": 0.852,
+    "momentum": 1,
+    "liquidity": 0.374
+   },
+   "reasons": [
+    "Hyperliquid top traders: 2 long / 0 short, net $337.0k, 48h flow $0",
+    "crowd vote 93% bullish",
+    "trend is up (+28.1% 7d, +73.5% 30d)"
+   ],
+   "last": 0.22908,
+   "return": -10.99,
+   "peak": 0.0,
+   "trough": -10.99,
+   "closed": 1790980320,
+   "why": "stop",
+   "outcome": "loss"
   }
  ]
 }
