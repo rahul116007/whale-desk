@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 3,
+  "closed": 4,
   "wins": 1,
-  "losses": 2,
-  "sum_return": -10.610000000000001,
+  "losses": 3,
+  "sum_return": -11.13,
   "best": 8.51,
   "worst": -10.99
  },
@@ -95,16 +95,31 @@
     "alt.liquidity 0.55\u21920.47"
    ],
    "buy_threshold": 0.35
+  },
+  {
+   "ts": 1791120253,
+   "symbol": "ETH",
+   "action": "BUY",
+   "category": "major",
+   "return": -0.52,
+   "why": "time",
+   "changes": [
+    "major.smart 1.10\u21921.09",
+    "major.news 0.30\u21920.30",
+    "major.sentiment 0.24\u21920.23",
+    "major.momentum 0.72\u21920.72"
+   ],
+   "buy_threshold": 0.3
   }
  ],
  "by_category": {
   "major": {
    "weights": {
     "whale": 0.5,
-    "smart": 1.1,
-    "news": 0.3,
-    "sentiment": 0.24,
-    "momentum": 0.72,
+    "smart": 1.091,
+    "news": 0.297,
+    "sentiment": 0.232,
+    "momentum": 0.715,
     "liquidity": 0.12
    },
    "buy_threshold": 0.3,
@@ -114,10 +129,10 @@
    "stop_pct": 4.0,
    "max_days": 7,
    "stats": {
-    "closed": 0,
+    "closed": 1,
     "wins": 0,
-    "losses": 0,
-    "sum_return": 0.0
+    "losses": 1,
+    "sum_return": -0.52
    }
   },
   "alt": {

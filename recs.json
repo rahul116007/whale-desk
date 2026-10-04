@@ -1,36 +1,6 @@
 {
  "open": [
   {
-   "symbol": "ETH",
-   "id": "ethereum",
-   "name": "Ethereum",
-   "action": "BUY",
-   "category": "major",
-   "opened": 1790505945,
-   "entry": 2710.93,
-   "target": 2846.4764999999998,
-   "stop": 2602.4927999999995,
-   "score": 0.348,
-   "confidence": 48,
-   "factors": {
-    "whale": 0.0,
-    "smart": 0.57,
-    "news": 0.222,
-    "sentiment": 0.513,
-    "momentum": 0.309,
-    "liquidity": 0.0
-   },
-   "reasons": [
-    "Hyperliquid top traders: 16 long / 0 short, net $315.03M, 48h flow $3.43M",
-    "crowd vote 87% bullish",
-    "trend is up (+5.4% 7d, +9.1% 30d)"
-   ],
-   "last": 2698.18,
-   "return": -0.47,
-   "peak": 1.41,
-   "trough": -2.25
-  },
-  {
    "symbol": "BTC",
    "id": "bitcoin",
    "name": "Bitcoin",
@@ -55,8 +25,8 @@
     "coverage is running hot: 97 stories, 0 Reddit posts in 48h",
     "crowd vote 86% bullish"
    ],
-   "last": 85057,
-   "return": -1.52,
+   "last": 85152,
+   "return": -1.41,
    "peak": 0.0,
    "trough": -2.15
   },
@@ -86,10 +56,10 @@
     "crowd vote 95% bullish",
     "trend is up (+17.0% 7d, +35.0% 30d)"
    ],
-   "last": 181.56,
-   "return": 0.61,
+   "last": 179.81,
+   "return": -0.36,
    "peak": 1.25,
-   "trough": 0.0
+   "trough": -0.36
   }
  ],
  "closed": [
@@ -193,6 +163,39 @@
    "trough": -10.99,
    "closed": 1790980320,
    "why": "stop",
+   "outcome": "loss"
+  },
+  {
+   "symbol": "ETH",
+   "id": "ethereum",
+   "name": "Ethereum",
+   "action": "BUY",
+   "category": "major",
+   "opened": 1790505945,
+   "entry": 2710.93,
+   "target": 2846.4764999999998,
+   "stop": 2602.4927999999995,
+   "score": 0.348,
+   "confidence": 48,
+   "factors": {
+    "whale": 0.0,
+    "smart": 0.57,
+    "news": 0.222,
+    "sentiment": 0.513,
+    "momentum": 0.309,
+    "liquidity": 0.0
+   },
+   "reasons": [
+    "Hyperliquid top traders: 16 long / 0 short, net $315.03M, 48h flow $3.43M",
+    "crowd vote 87% bullish",
+    "trend is up (+5.4% 7d, +9.1% 30d)"
+   ],
+   "last": 2696.89,
+   "return": -0.52,
+   "peak": 1.41,
+   "trough": -2.25,
+   "closed": 1791120253,
+   "why": "time",
    "outcome": "loss"
   }
  ]
