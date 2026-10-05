@@ -61,7 +61,9 @@ def leaderboard(max_age=6 * 3600):
     if c and time.time() - c.get("_ts", 0) < max_age:
         return c["rows"]
     r = requests.get(LEADERBOARD, headers=H, timeout=120)
+    if r.status_code != 200: raise RuntimeError(f"leaderboard HTTP {r.status_code}")
     rows = r.json().get("leaderboardRows", [])
+    if not rows: raise RuntimeError("leaderboard came back empty")
     slim = []
     for x in rows:
         w = {k: v for k, v in x.get("windowPerformances", [])}
@@ -96,7 +98,8 @@ def pick_traders(rows, cfg):
 # ----------------------------------------------------------------------------- positions + fills
 
 def positions(addr):
-    j = info({"type": "clearinghouseState", "user": addr}) or {}
+    j = info({"type": "clearinghouseState", "user": addr})
+    if j is None: return None, 0.0          # API did not answer (not the same as "no open positions")
     out = []
     for ap in j.get("assetPositions", []):
         p = ap.get("position") or {}
@@ -125,15 +128,29 @@ def norm_coin(c):
 # ----------------------------------------------------------------------------- aggregate
 
 def run(cfg=None, verbose=True):
-    cfg = cfg or cfg_get()
-    rows = leaderboard()
-    top = pick_traders(rows, cfg)
+    # coin_desk.py passes its own config, which has no hl_* keys: always fill in the defaults
+    cfg = dict(cfg) if cfg else cfg_get()
+    for k, v in DEFAULTS.items(): cfg.setdefault(k, v)
+    note = None
+    try:
+        rows = leaderboard()
+        top = pick_traders(rows, cfg)
+    except Exception as e:
+        # leaderboard unreachable: keep following the traders from the last good run, positions and fills still refresh
+        prev = load_json(HL_JSON, {}).get("traders", [])
+        if not prev: raise
+        keep = ("addr", "name", "value", "d_pnl", "w_pnl", "w_roi", "w_vlm", "m_pnl", "m_roi", "m_vlm", "a_pnl", "a_roi", "score", "pinned")
+        rows = []; top = [{k: t[k] for k in keep if k in t} for t in prev]
+        note = f"leaderboard unavailable ({e}); trader list carried over from the last good run"
+        print("  [hl]", note)
     if verbose: print(f"[hl] leaderboard {len(rows)} accounts, following {len(top)} traders")
     now = int(time.time()); cut48 = now - 48 * 3600
     per_coin = {}
     traders = []
+    unread = 0
     for i, t in enumerate(top):
         pos, value = positions(t["addr"])
+        if pos is None: unread += 1; pos = []
         fl = fills(t["addr"])
         time.sleep(0.25)
         t = dict(t); t["value"] = value or t["value"]; t["positions"] = sorted(pos, key=lambda p: -p["notional"])[:8]
@@ -168,6 +185,8 @@ def run(cfg=None, verbose=True):
             c = per_coin[norm_coin(coin)]
             (c["entries"] if d.startswith("Open") else c["exits"]).append(a)
         if verbose and (i + 1) % 10 == 0: print(f"  … {i + 1}/{len(top)} traders read")
+    if top and unread == len(top):
+        raise RuntimeError("Hyperliquid API did not answer for any trader; keeping the previous hl.json")
     coins = []
     for c in per_coin.values():
         c["net_ntl"] = c["long_ntl"] - c["short_ntl"]
@@ -184,6 +203,8 @@ def run(cfg=None, verbose=True):
     coins.sort(key=lambda c: -(c["long_ntl"] + c["short_ntl"]))
     out = {"updated": now, "n_traders": len(traders), "traders": sorted(traders, key=lambda t: -t["m_pnl"]), "coins": coins,
            "params": {k: cfg[k] for k in ("hl_top_n", "hl_min_account", "hl_min_month_roi", "hl_max_turnover")}}
+    if note: out["note"] = note
+    if unread: out["unread_traders"] = unread
     save_json(HL_JSON, out)
     if verbose:
         print(f"[hl] {len(coins)} coins with top-trader exposure. Most crowded:")
