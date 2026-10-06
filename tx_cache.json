@@ -24596,5 +24596,117 @@
     "to_name": "Uniswap",
     "value": 0.0,
     "method": "transfer"
+  },
+  "0x53f109a88a180457eb8f558e73c02636f9a3ddb8d017f886a242dd2c4dc1a8e9": {
+    "from": "0xd2cb3dabfb5e758c63dbc4230d43d5085e3766e3",
+    "to": "0xca11bde05977b3631167028862be2a173976ca11",
+    "to_name": "Multicall3",
+    "value": 0.0,
+    "method": "aggregate3"
+  },
+  "0x4ef1d0631f2e935700e21317eb833d33b2a54f742060ecca4e488b0ef72c72ce": {
+    "from": "0x040d6d590f4deb5013cdfdd7cd0df46ec9fe0f3f",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x781de9b44e8a889d86cf89c5cca3dcb5a0664dffcac1fd1acfb2d647e447ad21": {
+    "from": "0x040d6d590f4deb5013cdfdd7cd0df46ec9fe0f3f",
+    "to": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+    "to_name": "POL (ex-MATIC)",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x8e35d567df67a20fd63a7433a42cbe0f8f4f62ae1f9e8f5f3087e4dadbf2627c": {
+    "from": "0x123d3fd6cfbd635309bd409dc2b81d431ed5a1ca",
+    "to": "0xb08d14ea10c1c8b00727d24d2890d5d19513318c",
+    "to_name": "",
+    "value": 0.0,
+    "method": "sendMultiSigToken"
+  },
+  "0xcaac4a89dcf7ed7752598d62dda723a6b53b708d2ec4aef680dc8ed02b9d41d2": {
+    "from": "0x87b49a99cbce4a9030e67919b776aa97d538adda",
+    "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "to_name": "USDC",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xb6f57c47104324ff6587da730bb79db52363bef654ea6f868c3787634bccd325": {
+    "from": "0x123d3fd6cfbd635309bd409dc2b81d431ed5a1ca",
+    "to": "0xb08d14ea10c1c8b00727d24d2890d5d19513318c",
+    "to_name": "",
+    "value": 0.0,
+    "method": "sendMultiSigToken"
+  },
+  "0x069d41e439da7b1556c71a13bba210137382718bcf11dd0f598f005f302f7db8": {
+    "from": "0xbbbc5264675a9bb5883417a9e64b97898833edb7",
+    "to": "0x7c135549504245b5eae64fc0e99fa5ebabb8e35d",
+    "to_name": "ERC1967Proxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xd5aeeac1c471ef5fa5ffd96dacb055ee15ad393f8a313ff47981cf9117b0bb1a": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x600fa4df6f9ed6c0ff096f3c0050a79427e844b34306fe640ccee27cf930e497": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x9c489400e0e55bcb4adc7fea1f6b5cae3cad24e785105f0316a740cfebe8294d": {
+    "from": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+    "to": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "to_name": "Aave",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x057fa8935518480ac3c76ef73c782356b628219094968770f7c33d180cf366ea": {
+    "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x43375a6b58b4f1837941cc3caf637a5485811ecbfc8ba03c0e2e1428242b3dd0": {
+    "from": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "to": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+    "to_name": "Aethir",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x9b3568d78a69537e5e1a5f8859df8095a411bdb28cc5e190c6db2e8d44625421": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+    "to_name": "Aethir",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x30dd7e6a45696ee90223b4668f4781813d31fecafa66ef13991b457b320c5956": {
+    "from": "0x46340b20830761efd32832a74d7169b29feb9758",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x8c9b435136216cdaa4b612a51a33bf4affa936b1a107aa397c0f90ba1f533206": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x58f82d29ed6412749b2282f22022eba1e1368d594e2d08e070de4b5be8636572": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "to_name": "Aave",
+    "value": 0.0,
+    "method": "transfer"
   }
 }

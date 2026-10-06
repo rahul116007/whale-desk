@@ -1,36 +1,56 @@
 {
- "ts": 1790961554,
+ "ts": 1791266612,
  "health": [
-  "STALE last refresh 7.4h ago (cron is every 3h) - check the Actions tab"
+  "OK last refresh 0.0h ago",
+  "OK Hyperliquid top-trader data read 0.0h ago",
+  "OK second opinion 'lighter' read 0.0h ago, 40 coins",
+  "OK second opinion 'vaults' read 0.0h ago, 31 coins",
+  "OK second opinion 'cextop' read 0.0h ago, 18 coins",
+  "OK second opinion 'funding' read 0.0h ago, 17 coins"
  ],
  "categories": {
   "alt": {
-   "n": 2,
-   "hit_rate": 50.0,
-   "avg_return": 0.19,
-   "median_return": 0.19,
+   "n": 3,
+   "hit_rate": 33.3,
+   "avg_return": -3.54,
+   "median_return": -8.13,
    "exits": {
-    "stop": 1,
+    "stop": 2,
     "target": 1
    },
-   "avg_peak": 7.79,
-   "avg_trough": -6.57,
+   "avg_peak": 5.19,
+   "avg_trough": -8.04,
    "target_pct": 8.0,
    "stop_pct": 6.0,
    "max_days": 7,
    "buy_threshold": 0.35
+  },
+  "major": {
+   "n": 1,
+   "hit_rate": 0.0,
+   "avg_return": -0.52,
+   "median_return": -0.52,
+   "exits": {
+    "time": 1
+   },
+   "avg_peak": 1.41,
+   "avg_trough": -2.25,
+   "target_pct": 5.0,
+   "stop_pct": 4.0,
+   "max_days": 7,
+   "buy_threshold": 0.3
   }
  },
  "gates": {
   "smart": {
-   "n": 2,
-   "hit_rate": 50.0,
-   "avg_return": 0.19
+   "n": 4,
+   "hit_rate": 25.0,
+   "avg_return": -2.78
   }
  },
  "factors": {},
  "suggestions": [],
- "open": 3,
- "closed": 2,
+ "open": 2,
+ "closed": 4,
  "applied": []
 }
