@@ -2,8 +2,9 @@
 Recommendation engine + performance tracker for coin_desk.py
 
 Every refresh:
-  1. score each focus coin on five factors (whale flow, news buzz, crowd sentiment, momentum, liquidity)
-     using the current factor weights in model.json
+  1. score each focus coin on six weighted factors (whale flow, Hyperliquid top traders, news buzz, crowd sentiment,
+     momentum, liquidity) using the current factor weights in model.json, and record up to four watch-only
+     second opinions (Lighter top traders, Hyperliquid vaults, exchange top-trader ratio, funding)
   2. turn the score into BUY / WATCH / SELL with entry, target, stop and a written thesis
   3. open a tracked recommendation when BUY or SELL fires (one per coin at a time, with a cooldown)
   4. mark open recommendations to market; close them on target, stop or after max_days
@@ -96,12 +97,24 @@ def factors(coin):
     # smart money: Hyperliquid top-trader positioning + 48h flow (hl_smart.py); 0 when none of them touch the coin
     sm = coin.get("smart") or {}
     smart = sm.get("factor", 0.0) if (sm.get("longs", 0) + sm.get("shorts", 0)) >= 2 else 0.0
-    return {"whale": round(whale, 3), "smart": round(smart, 3), "news": round(news, 3), "sentiment": round(sentiment, 3),
-            "momentum": round(momentum, 3), "liquidity": round(clamp(liquidity, -1, 1), 3)}
+    out = {"whale": round(whale, 3), "smart": round(smart, 3), "news": round(news, 3), "sentiment": round(sentiment, 3),
+           "momentum": round(momentum, 3), "liquidity": round(clamp(liquidity, -1, 1), 3)}
+    # second opinions (positioning.py): recorded only when the source covers the coin. They carry no weight until
+    # backtest.py has seen them predict forward returns, so by default they are measured, not acted on.
+    pz = coin.get("positioning") or {}
+    for k in ("lighter", "vaults"):
+        b = pz.get(k)
+        if b and b.get("factor") is not None and (b.get("longs", 0) + b.get("shorts", 0)) >= 2: out[k] = round(clamp(b["factor"], -1, 1), 3)
+    for k in ("cextop", "funding"):
+        b = pz.get(k)
+        if b and b.get("factor") is not None: out[k] = round(clamp(b["factor"], -1, 1), 3)
+    return out
+
+SHADOW = ("lighter", "vaults", "cextop", "funding")     # watch-only until the backtest promotes them into the weights
 
 def score(f, weights):
     tot = sum(abs(v) for v in weights.values()) or 1
-    return sum(weights[k] * f[k] for k in weights) / tot
+    return sum(weights[k] * f.get(k, 0.0) for k in weights) / tot      # a factor with no cover for this coin counts as neutral
 
 # ----------------------------------------------------------------------------- recommendation
 
@@ -118,6 +131,8 @@ def reasons(coin, f):
     sm = coin.get("smart") or {}
     if f["smart"] > 0.25: out.append(f"Hyperliquid top traders: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}, 48h flow {_usd(sm.get('flow48',0))}")
     if f["smart"] < -0.25: out.append(f"Hyperliquid top traders lean short: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}")
+    so = second_opinion(coin, f)
+    if so and abs(f["smart"]) > 0.25: out.append(so); so = None      # next to the Hyperliquid line it is checking
     if w["transfer_out"] > 250_000 and w["transfer_out"] > 5 * max(w["transfer_in"], 1): out.append(f"{_usd(w['transfer_out'])} left tracked wallets, often an exchange deposit before a sale")
     if f["news"] > 0.3: out.append(f"coverage is running hot: {b['news48']} stories, {b['reddit48']} Reddit posts in 48h")
     if f["news"] < -0.3: out.append("coverage is unusually quiet for a coin this size")
@@ -128,7 +143,28 @@ def reasons(coin, f):
     if f["momentum"] < -0.3: out.append(f"trend is down ({c7:+.1f}% 7d, {c30:+.1f}% 30d)")
     if (m.get("price_change_percentage_24h") or 0) > 15: out.append("already up >15% today; chasing risk")
     if f["liquidity"] < -0.5: out.append("thin DEX liquidity; slippage and manipulation risk")
+    if so: out.append(so)
     return out
+
+def second_opinion(coin, f):
+    """One line on what the other positioning sources say, so a Hyperliquid-driven call can be sanity-checked by eye."""
+    pz = coin.get("positioning") or {}; bits = []
+    for k, label in (("lighter", "Lighter top traders"), ("vaults", "Hyperliquid vaults")):
+        b = pz.get(k)
+        if k in f and b: bits.append(f"{label} {b.get('longs', 0)} long / {b.get('shorts', 0)} short")
+    b = pz.get("cextop")
+    if "cextop" in f and b and (abs(f["cextop"]) >= 0.3 or abs(f.get("smart") or 0) >= 0.15 or bits): bits.append(f"exchange top traders {b['long_share'] * 100:.0f}% long ({b['delta_pts']:+.1f} pts vs their 2-week norm)")
+    b = pz.get("funding")
+    if "funding" in f and b and abs(f["funding"]) >= 0.4:
+        bits.append(f"funding {b['apr']:+.0f}% a year, " + ("longs are crowded" if f["funding"] < 0 else "shorts are paying"))
+    if not bits: return None
+    live = [k for k in SHADOW if k in f and abs(f[k]) >= 0.15]
+    agree = sum(1 for k in live if k != "funding" and f[k] * (f.get("smart") or 0) > 0)
+    against = sum(1 for k in live if k != "funding" and f[k] * (f.get("smart") or 0) < 0)
+    tail = ""
+    if abs(f.get("smart") or 0) >= 0.15 and (agree or against):
+        tail = f" [{agree} agree, {against} disagree with the Hyperliquid read]"
+    return "second opinion: " + "; ".join(bits) + tail
 
 def _usd(v):
     v = float(v or 0)

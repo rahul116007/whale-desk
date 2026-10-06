@@ -562,6 +562,19 @@ def inline_logo(url, cache):
 
 # ----------------------------------------------------------------------------- commands
 
+HL_MAX_AGE = 12 * 3600
+
+def fresh_hl(hl, why=""):
+    """A saved Hyperliquid read may stand in for a failed fetch for 12 hours. Past that it is dropped, so stale
+    positioning can never open a call (this is what went unnoticed from 14 Sep to 5 Oct 2026)."""
+    age = now_ts() - (hl.get("updated") or 0)
+    if hl.get("coins") and age > HL_MAX_AGE:
+        print(f"  hl data is {age / 3600:.0f}h old: ignored until a fresh read succeeds")
+        return {"coins": [], "traders": [], "n_traders": 0, "updated": hl.get("updated"), "params": hl.get("params", {}), "stale": True,
+                "note": f"last good Hyperliquid read was {age / 3600:.0f}h ago and is being ignored" + (f" ({why[:120]})" if why else "")}
+    if why: hl = {**hl, "note": f"fetch failed ({why[:120]}); showing the last good read"}
+    return hl
+
 def cmd_refresh(args):
     cfg = load_config()
     if not cfg["focus_coins"]:
@@ -604,11 +617,19 @@ def cmd_refresh(args):
     try:
         hl = hl_smart.run(cfg, verbose=False)
     except Exception as e:
-        print("  hl failed:", e); hl = load_json(os.path.join(HERE, "hl.json"), {"coins": [], "traders": []})
+        print("  hl failed:", e); hl = fresh_hl(load_json(os.path.join(HERE, "hl.json"), {"coins": [], "traders": []}), str(e))
     by_sym = {c["coin"].upper(): c for c in hl.get("coins", [])}
     for c in coins:
         sm = by_sym.get(c["symbol"].upper())
         c["smart"] = {k: v for k, v in sm.items() if k != "holders"} if sm else None
+    print("  second opinions (Lighter top traders, Hyperliquid vaults, exchange top traders, funding)…")
+    pos = {}
+    try:
+        import positioning
+        pos = positioning.run([c["symbol"] for c in coins if recommend.category(c) != "stable"], cfg)
+    except Exception as e:
+        print("  positioning failed:", e)
+    for c in coins: c["positioning"] = (pos.get("coins") or {}).get(c["symbol"].upper()) or None
     reco = recommend.run(coins)
     for r in reco["recs"]:
         print(f"  {r['action']:<5} {r['symbol']:<6} score {r['score']:+.2f} conf {r['confidence']}%  " + "; ".join(r["reasons"][:2]))
@@ -618,13 +639,31 @@ def cmd_refresh(args):
     ipo = ipo_block()
     desk = load_json(DESK_JSON, {})
     desk.update({"coins": coins, "trending": cg_trending(), "updated": now_ts(), "x_enabled": bool(cfg.get("x_bearer_token")),
-                 "reco": reco, "ipo": ipo, "hl": hl,
+                 "reco": reco, "ipo": ipo, "hl": hl, "positioning": {k: v for k, v in pos.items() if k != "hist"},
                  "alerts": open(ALERTS_LOG).read().splitlines()[-60:][::-1] if os.path.exists(ALERTS_LOG) else [],
                  "feed": read_csv(TRADES_CSV)[-300:][::-1]})
     desk.setdefault("research", {})
     save_json(DESK_JSON, desk)
     render(desk, DASHBOARD)
     print(f"dashboard: {DASHBOARD}")
+    weekly_tune()
+
+def weekly_tune():
+    """Run the self-review and the backtest once a week from inside the refresh. The workflow's own Monday 06:xx UTC
+    step only fires when GitHub happens to start a run in that hour, and it often does not; this does not depend on it.
+    Both scripts refuse to tune twice within six days, so the two triggers cannot double up."""
+    import subprocess
+    try:
+        import backtest
+        model = load_json(os.path.join(HERE, "model.json"), {})
+        if not model: return
+        due = [k for k in ("review", "backtest") if now_ts() - backtest.last_tuned(model, k) > 6.5 * 86400]
+        for k in due:
+            print(f"  weekly {k} is due, running it…")
+            r = subprocess.run([sys.executable, "-u", os.path.join(HERE, f"{k}.py"), "--apply"], cwd=HERE, capture_output=True, text=True, timeout=900)
+            print("    " + "\n    ".join((r.stdout or r.stderr or "").strip().splitlines()[-12:]))
+    except Exception as e:
+        print("  weekly tune skipped:", e)
 
 def cmd_research(args):
     cfg = load_config(); cache = load_json(CG_CACHE, {})
@@ -673,11 +712,19 @@ def cmd_rescore(args):
     import recommend
     desk = load_json(DESK_JSON, {})
     if not desk.get("coins"): print("no desk.json yet, run refresh"); return
-    hl = load_json(os.path.join(HERE, "hl.json"), {"coins": [], "traders": []})
+    hl = fresh_hl(load_json(os.path.join(HERE, "hl.json"), {"coins": [], "traders": []}))
     by_sym = {c["coin"].upper(): c for c in hl.get("coins", [])}
     for c in desk["coins"]:
         sm = by_sym.get(c["symbol"].upper()); c["smart"] = {k: v for k, v in sm.items() if k != "holders"} if sm else None
     desk["hl"] = hl
+    try:
+        import positioning
+        pos = load_json(positioning.OUT, {})
+        pz = positioning.per_coin(pos, [c["symbol"].upper() for c in desk["coins"]])
+        desk["positioning"] = {**positioning.public(pos), "coins": pz}
+    except Exception as e:
+        print("  positioning skipped:", e); pz = {}
+    for c in desk["coins"]: c["positioning"] = pz.get(c["symbol"].upper()) or None
     desk["reco"] = recommend.run(desk["coins"])
     desk["ipo"] = ipo_block()
     for r in desk["reco"]["recs"]:

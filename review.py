@@ -15,7 +15,8 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 RECS = os.path.join(HERE, "recs.json"); MODEL = os.path.join(HERE, "model.json"); DESK = os.path.join(HERE, "desk.json")
 MIN_SAMPLE = 8          # closed calls in a category before any parameter is touched
-FACTORS = ["whale", "smart", "news", "sentiment", "momentum", "liquidity"]
+FACTORS = ["whale", "smart", "news", "sentiment", "momentum", "liquidity", "lighter", "vaults", "cextop", "funding"]
+FEED_MAX_AGE_H = 12     # positioning data older than this is ignored by the desk and flagged here
 
 def load(p, d):
     try:
@@ -35,8 +36,20 @@ def analyse(recs, model, desk):
         except Exception: gen = 0
     age_h = (now - gen) / 3600 if gen else None
     if age_h is None: out["health"].append("WARN desk.json has no updated timestamp; cannot tell when the last refresh ran")
-    elif age_h > 4: out["health"].append(f"STALE last refresh {age_h:.1f}h ago (cron is every 3h) - check the Actions tab")
+    elif age_h > 7: out["health"].append(f"STALE last refresh {age_h:.1f}h ago (GitHub normally delivers one every 3 to 6 hours) - check the Actions tab")
     else: out["health"].append(f"OK last refresh {age_h:.1f}h ago")
+    # the feeds behind the entry gate: a refresh can succeed while one of these has quietly stopped updating
+    hl = desk.get("hl") or {}
+    hl_age = (now - hl["updated"]) / 3600 if hl.get("updated") else None
+    if hl_age is None: out["health"].append("WARN no Hyperliquid top-trader data at all: the smart-money gate cannot open")
+    elif hl_age > FEED_MAX_AGE_H: out["health"].append(f"STALE Hyperliquid top-trader data is {hl_age:.0f}h old ({hl.get('note') or 'fetch failing'}): ignored by the desk until it recovers")
+    else: out["health"].append(f"OK Hyperliquid top-trader data read {hl_age:.1f}h ago" + (f" (note: {hl['note']})" if hl.get("note") else ""))
+    blocks = (desk.get("positioning") or {}).get("blocks") or {}
+    for name, b in blocks.items():
+        b_age = (now - b["updated"]) / 3600 if b.get("updated") else None
+        if b.get("ok") and b_age is not None and b_age <= FEED_MAX_AGE_H: out["health"].append(f"OK second opinion '{name}' read {b_age:.1f}h ago, {len(b.get('coins') or {})} coins")
+        else: out["health"].append(f"WARN second opinion '{name}' is not updating: {b.get('note') or 'no data'}")
+    if not blocks: out["health"].append("NOTE second opinions (positioning.py) have not run yet")
     stale_open = [r for r in opened if (now - r["opened"]) / 86400 > 9]
     if stale_open: out["health"].append(f"WARN {len(stale_open)} open call(s) older than 9 days: tracking is not closing them ({', '.join(r['symbol'] for r in stale_open)})")
     ms = model.get("stats", {})
@@ -95,7 +108,8 @@ def analyse(recs, model, desk):
         for k in FACTORS:
             mw = st.mean(r["factors"].get(k, 0) for r in wins); ml = st.mean(r["factors"].get(k, 0) for r in losses)
             out["factors"][k] = {"wins": round(mw, 2), "losses": round(ml, 2), "edge": round(mw - ml, 2)}
-        worst = min(out["factors"].items(), key=lambda kv: kv[1]["edge"])
+        weighted = {k for cp in model.get("by_category", {}).values() for k in cp.get("weights", {})} or set(FACTORS)
+        worst = min(((k, v) for k, v in out["factors"].items() if k in weighted), key=lambda kv: kv[1]["edge"])   # watch-only factors have no weight to cut
         if worst[1]["edge"] < -0.15 and len(closed) >= 2 * MIN_SAMPLE:
             out["suggestions"].append({"cat": "*", "param": f"weights.{worst[0]}", "from": None, "to": "x0.7",
                                        "why": f"{worst[0]} averaged {worst[1]['losses']:+.2f} in losses vs {worst[1]['wins']:+.2f} in wins: it is a contrary signal here"})
@@ -142,9 +156,16 @@ def main():
         sys.path.insert(0, HERE); import recommend
         for cat in {r.get("category", "alt") for r in recs.get("closed", []) + recs.get("open", [])} | {"major", "alt", "meme"}:
             recommend.params_for(model, cat)
+    want_apply = "--apply" in sys.argv and bool(model)
+    if want_apply and "--force" not in sys.argv:
+        import backtest
+        since = time.time() - backtest.last_tuned(model, "review")
+        if since < backtest.TUNE_EVERY:
+            print(f"review already tuned the model {since / 86400:.1f} days ago; skipping (use --force to override)"); return
     out = analyse(recs, model, desk)
-    applied = apply(out, model) if "--apply" in sys.argv and model else []
-    if applied:
+    applied = apply(out, model) if want_apply else []
+    if want_apply:
+        model.setdefault("tuned", {})["review"] = int(time.time())
         with open(MODEL, "w") as f: json.dump(model, f, indent=1)
     out["applied"] = applied
     txt = report(out, applied)

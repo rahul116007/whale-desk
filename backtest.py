@@ -36,14 +36,31 @@ def day_of(ts): return int(ts // DAY) * DAY
 
 # ----------------------------------------------------------------------------- data
 
+def ensure_history():
+    """GitHub Actions checks out only the latest commit, which leaves the backtest with a single snapshot and nothing
+    to measure. Pull enough history to work with (about two months of refreshes) when the clone is shallow."""
+    if sh("git rev-parse --is-shallow-repository").strip() == "true":
+        print("shallow clone: fetching history for the backtest…")
+        subprocess.run("git fetch --quiet --depth=400 origin", cwd=HERE, shell=True, timeout=600)
+
+TUNE_EVERY = 6 * DAY      # --apply acts at most once per this period, however often it is invoked
+
+def last_tuned(model, kind):
+    """When model.json was last tuned by 'review' or 'backtest' (falls back to the model log for older files)."""
+    t = (model.get("tuned") or {}).get(kind)
+    if t: return t
+    tag = "REVIEW" if kind == "review" else "BACKTEST"
+    return max([l.get("ts", 0) for l in model.get("log", []) if l.get("symbol") == tag] or [0])
+
 def snapshots():
     """[(ts, {symbol: {category, factors, score, action, price, mcap}})] from committed desk.json history."""
-    out = []
+    out = []; seen_ts = set()
     for sha in sh("git log --format=%H -- desk.json").split():
         try: d = json.loads(sh(f"git show {sha}:desk.json"))
         except Exception: continue
         ts = d.get("updated")
-        if not ts: continue
+        if not ts or ts in seen_ts: continue          # a commit that did not refresh carries the previous snapshot again
+        seen_ts.add(ts)
         mc = {c["symbol"]: c["market"].get("market_cap") or 0 for c in d.get("coins", [])}
         px = {c["symbol"]: c["market"].get("current_price") for c in d.get("coins", [])}
         rows = {}
@@ -51,7 +68,7 @@ def snapshots():
             rows[r["symbol"]] = {"category": r.get("category", "alt"), "factors": r["factors"], "score": r["score"], "action": r["action"],
                                  "price": px.get(r["symbol"]) or r.get("entry"), "mcap": mc.get(r["symbol"], 0)}
         out.append((ts, rows))
-    out.sort()
+    out.sort(key=lambda x: x[0])
     return out
 
 def price_series(desk, snaps):
@@ -224,7 +241,11 @@ def main():
     desk = json.load(open(os.path.join(HERE, "desk.json")))
     model = json.load(open(os.path.join(HERE, "model.json")))
     for cat in ("major", "alt", "meme"): recommend.params_for(model, cat)
+    if apply_ and "--force" not in sys.argv and time.time() - last_tuned(model, "backtest") < TUNE_EVERY:
+        print(f"backtest already tuned the model {(time.time() - last_tuned(model, 'backtest')) / DAY:.1f} days ago; skipping (use --force to override)"); return
+    ensure_history()
     snaps = snapshots()
+    if not snaps: print("no desk.json history to backtest yet"); return
     raw = []
     for sha in sh("git log --format=%H -- desk.json").split()[:60]:
         try: raw.append(json.loads(sh(f"git show {sha}:desk.json")))
@@ -296,11 +317,40 @@ def main():
             mult = 1.2 if e > 0 else 0.8
             for cat, cp in model["by_category"].items():
                 old = cp["weights"][k]; cp["weights"][k] = round(clamp(old * mult, 0.1, 2.5), 3); changes.append(f"{cat}.weights.{k} {old:.2f}->{cp['weights'][k]:.2f} (snapshot IC {e:+.2f})")
+    # second-opinion factors (positioning.py) start with no weight. One earns a starting weight once it has two weeks
+    # of history and a consistent positive rank correlation; a live one that turns contrary is cut and then retired.
+    seen = {}
+    for ts, rows in snaps:
+        for r in rows.values():
+            for k in r["factors"]:
+                if k in recommend.SHADOW: seen[k] = min(seen.get(k, ts), ts)
+    out["second_opinions"] = {}
+    for k in recommend.SHADOW:
+        days = round((snaps[-1][0] - seen[k]) / DAY, 1) if k in seen and snaps else 0.0
+        e = consistent(ics, k, 300, ("1", "3", "5"))
+        live = any(k in cp["weights"] for cp in model["by_category"].values())
+        verdict = "watching"
+        if days >= 14 and e >= 0.10 and not live:
+            for cat, cp in model["by_category"].items(): cp["weights"][k] = 0.3
+            changes.append(f"*.weights.{k} promoted from watch-only to 0.30 ({days:.0f} days of history, snapshot IC {e:+.2f})"); verdict = "promoted"
+        elif live and e:
+            for cat, cp in model["by_category"].items():
+                if k not in cp["weights"]: continue
+                old = cp["weights"][k]; new = round(clamp(old * (1.2 if e > 0 else 0.8), 0.1, 2.5), 3)
+                if e < 0 and new <= 0.15:
+                    del cp["weights"][k]; changes.append(f"{cat}.weights.{k} {old:.2f}->retired to watch-only (snapshot IC {e:+.2f})")
+                else:
+                    cp["weights"][k] = new; changes.append(f"{cat}.weights.{k} {old:.2f}->{new:.2f} (snapshot IC {e:+.2f})")
+            verdict = "live"
+        elif live: verdict = "live"
+        out["second_opinions"][k] = {"days": days, "ic": round(e, 3), "status": verdict}
     # the grid runs on a panel without smart / sentiment / liquidity history, so it is reported for reading, not applied
     out["changes"] = changes
-    if apply_ and changes:
-        model.setdefault("log", []).append({"ts": int(time.time()), "symbol": "BACKTEST", "action": "TUNE", "category": "*", "return": 0.0, "why": "backtest", "changes": changes, "buy_threshold": None})
-        model["log"] = model["log"][-100:]
+    if apply_:
+        if changes:
+            model.setdefault("log", []).append({"ts": int(time.time()), "symbol": "BACKTEST", "action": "TUNE", "category": "*", "return": 0.0, "why": "backtest", "changes": changes, "buy_threshold": None})
+            model["log"] = model["log"][-100:]
+        model.setdefault("tuned", {})["backtest"] = int(time.time())
         with open(os.path.join(HERE, "model.json"), "w") as f: json.dump(model, f, indent=1)
     out["applied"] = bool(apply_ and changes)
 
@@ -310,8 +360,12 @@ def main():
          "## Which factors predicted forward returns (rank correlation; +0.10 is a usable edge, below 0.05 is noise)", "",
          "Daily panel (whale from trades.csv, momentum from prices, news where covered):"]
     for k, hs in icd.items(): L.append("- " + k + ": " + ", ".join(f"{h}d {('%+.2f' % v[0]) if v[0] is not None else 'n/a'} (n={v[1]})" for h, v in sorted(hs.items())))
-    L += ["", "Refresh snapshots (all six factors + the combined score, short history):"]
+    L += ["", "Refresh snapshots (every factor + the combined score, short history):"]
     for k, hs in ics.items(): L.append("- " + k + ": " + ", ".join(f"{h}d {('%+.2f' % v[0]) if v[0] is not None else 'n/a'} (n={v[1]})" for h, v in sorted(hs.items())))
+    L += ["", "## Second opinions (Lighter top traders, Hyperliquid vaults, exchange top traders, funding)", "",
+          "Recorded every refresh with no weight. One is promoted into the score after 14+ days of history with a consistent rank correlation of +0.10 or better."]
+    for k, v in out["second_opinions"].items():
+        L.append(f"- {k}: {v['status']}, {v['days']} days of history" + (f", consistent IC {v['ic']:+.2f}" if v["ic"] else ", no consistent edge yet"))
     L += ["", "## Entry / exit settings by category (daily simulation on whale + momentum + news only; informational, not applied)"]
     for cat, g in out["grid"].items():
         c = g["current"]; u = g["unconditional"]

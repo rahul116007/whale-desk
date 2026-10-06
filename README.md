@@ -180,3 +180,20 @@ Run `python review.py` anytime for a read-only report.
 3. Backtest (`backtest.py --apply`): replays the desk's own history (every committed desk.json, trades.csv whale flow, the 90-day price chart) and measures which factors actually predicted 1/3/5-day forward returns (rank correlation). Factor weights move a bounded step (x0.75 / x1.25) only when the sign is consistent across horizons with a decent sample. Also runs Mondays with the review. `backtest.md` is the readable report; the grid-search section is informational only.
 
 Whale factor (since Oct 2026): DEX buys/sells plus exchange withdrawals (accumulation) minus exchange deposits (distribution), other transfers at quarter weight. Known exchange hot wallets are in `exchanges.py`. Market-maker wallets' exchange legs are ignored (inventory moves, not conviction).
+
+## Second opinions (positioning.py, since Oct 2026)
+
+The Hyperliquid leaderboard is one cohort on one venue. Every refresh now also reads four more public, key-less sources and shows them on the Smart money tab and on each call ("second opinion: ..."):
+
+* `lighter`: Lighter's 30-day PnL leaderboard (account >= $250k, ROI >= 5%, market makers filtered by turnover) and what those traders hold now
+* `vaults`: Hyperliquid user vaults that are open, >= $1M and in profit over the month and all-time (HLP excluded), and their open positions
+* `cextop`: exchange "top trader" long/short ratio by position size from OKX and Gate, measured against each coin's own two-week norm
+* `funding`: perp funding on Hyperliquid and OKX, annualised; well above ~11% a year means longs are crowded
+
+They are watch-only. `recommend.py` records them as extra factors with no weight, so they cannot change a BUY or SELL by themselves. `backtest.py --apply` promotes one into the score (starting weight 0.30) once it has 14+ days of history and a consistent rank correlation of +0.10 or better with forward returns, and cuts or retires it again if that reverses. `backtest.md` has a "Second opinions" section showing where each one stands.
+
+Each source fails soft: if one is down the refresh carries on, the Smart money tab shows it in red with the reason, and its last good read is used for at most 12 hours. The same 12-hour rule now applies to the Hyperliquid data itself, so a stale copy can no longer open calls. Binance and Bybit publish similar ratios but block US-hosted servers (GitHub Actions), so they are not used. Settings (`pos_sources`, `pos_lighter_top_n`, `pos_vault_min_tvl`, ...) can be overridden in `config.json`; defaults live at the top of `positioning.py`.
+
+    python3 positioning.py            # refresh positioning.json and print the read per focus coin
+
+Weekly tuning no longer depends on a run landing in the Monday 06:xx UTC hour: the refresh itself runs `review.py --apply` and `backtest.py --apply` when the last tune is more than 6.5 days old, both scripts refuse to tune twice within six days, and the backtest fetches the git history it needs when the checkout is shallow (GitHub's default), which previously left it with a single snapshot.
