@@ -52,6 +52,18 @@ DEFAULT_MODEL = {
     "log": [],
 }
 
+# The Hyperliquid read only counts when enough top traders hold the coin with real size. Two traders with a few
+# hundred thousand dollars between them is not a consensus: both ENA stop-outs (Sep/Oct 2026) were opened on exactly that.
+SMART_MIN_TRADERS = 3
+SMART_MIN_NOTIONAL = 1_000_000      # combined long + short notional, USD
+
+def smart_cover(sm):
+    """(traders, combined notional, enough?) for a coin's Hyperliquid block."""
+    sm = sm or {}
+    n = (sm.get("longs") or 0) + (sm.get("shorts") or 0)
+    ntl = abs(sm.get("long_ntl") or 0.0) + abs(sm.get("short_ntl") or 0.0)
+    return n, ntl, (n >= SMART_MIN_TRADERS and ntl >= SMART_MIN_NOTIONAL)
+
 def _load(p, d):
     try:
         with open(p) as f: return json.load(f)
@@ -94,9 +106,10 @@ def factors(coin):
     liq = pairs[0]["liq"] if pairs else None
     liquidity = 0.0 if liq is None else clamp((liq - 1e6) / 5e6, -1, 0.5)
     if pairs and pairs[0]["buys24"] > 1.5 * max(pairs[0]["sells24"], 1): liquidity += 0.2
-    # smart money: Hyperliquid top-trader positioning + 48h flow (hl_smart.py); 0 when none of them touch the coin
+    # smart money: Hyperliquid top-trader positioning + 48h flow (hl_smart.py); 0 when too few of them hold the coin
+    # or the combined position is too small to mean anything (SMART_MIN_TRADERS / SMART_MIN_NOTIONAL)
     sm = coin.get("smart") or {}
-    smart = sm.get("factor", 0.0) if (sm.get("longs", 0) + sm.get("shorts", 0)) >= 2 else 0.0
+    smart = (sm.get("factor") or 0.0) if smart_cover(sm)[2] else 0.0
     out = {"whale": round(whale, 3), "smart": round(smart, 3), "news": round(news, 3), "sentiment": round(sentiment, 3),
            "momentum": round(momentum, 3), "liquidity": round(clamp(liquidity, -1, 1), 3)}
     # second opinions (positioning.py): recorded only when the source covers the coin. They carry no weight until
@@ -131,6 +144,9 @@ def reasons(coin, f):
     sm = coin.get("smart") or {}
     if f["smart"] > 0.25: out.append(f"Hyperliquid top traders: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}, 48h flow {_usd(sm.get('flow48',0))}")
     if f["smart"] < -0.25: out.append(f"Hyperliquid top traders lean short: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}")
+    n_sm, ntl_sm, ok_sm = smart_cover(sm)
+    if n_sm and not ok_sm and abs(sm.get("factor") or 0.0) >= 0.15:
+        out.append(f"Hyperliquid read ignored: only {n_sm} top trader{'s' if n_sm != 1 else ''} with {_usd(ntl_sm)} in this coin (needs {SMART_MIN_TRADERS}+ and {_usd(SMART_MIN_NOTIONAL)})")
     so = second_opinion(coin, f)
     if so and abs(f["smart"]) > 0.25: out.append(so); so = None      # next to the Hyperliquid line it is checking
     if w["transfer_out"] > 250_000 and w["transfer_out"] > 5 * max(w["transfer_in"], 1): out.append(f"{_usd(w['transfer_out'])} left tracked wallets, often an exchange deposit before a sale")
@@ -244,6 +260,10 @@ def update_tracking(recs_by_symbol, prices, model):
         elif age >= cp["max_days"]: why = "time"
         if why:
             r["closed"] = now; r["why"] = why; r["outcome"] = "win" if r["return"] > 0 else "loss"
+            # refreshes are hours apart, so a stop is usually seen after the price has already gone through it.
+            # The booked return stays as seen (what following the dashboard by hand would have got); slip records
+            # how far past the stop that was, so the review can show it and the learner can ignore it.
+            if why == "stop": r["slip"] = round(min(0.0, r["return"] + cp["stop_pct"]), 2)
             state["closed"].append(r); closed_now.append(r); learn(r, model)
         else:
             still.append(r)
@@ -265,7 +285,9 @@ def learn(rec, model):
     """Nudge the category's weights toward factors present in a win, away from those present in a loss."""
     cat = rec.get("category", "alt"); cp = params_for(model, cat)
     lr = model["learning_rate"]; sign = 1 if rec["action"] == "BUY" else -1
-    ret = clamp(rec["return"] / cp["target_pct"], -1.5, 1.5)   # normalised outcome
+    # normalised outcome, bounded at the stop and the target: how far past the stop the price had run by the time a
+    # refresh noticed is an accident of timing, not evidence about the factors, and it used to nearly double the penalty
+    ret = clamp(rec["return"], -cp["stop_pct"], cp["target_pct"]) / cp["target_pct"]
     changes = []
     for k, v in rec["factors"].items():
         if abs(v) < 0.15 or k not in cp["weights"]: continue
