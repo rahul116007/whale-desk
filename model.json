@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 4,
+  "closed": 6,
   "wins": 1,
-  "losses": 3,
-  "sum_return": -11.13,
+  "losses": 5,
+  "sum_return": -25.509999999999998,
   "best": 8.51,
   "worst": -10.99
  },
@@ -110,16 +110,47 @@
     "major.momentum 0.72\u21920.72"
    ],
    "buy_threshold": 0.3
+  },
+  {
+   "ts": 1791478233,
+   "symbol": "BTC",
+   "action": "BUY",
+   "category": "major",
+   "return": -6.05,
+   "why": "stop",
+   "changes": [
+    "major.smart 1.09\u21921.02",
+    "major.news 0.30\u21920.16",
+    "major.sentiment 0.23\u21920.15",
+    "major.momentum 0.71\u21920.68"
+   ],
+   "buy_threshold": 0.3
+  },
+  {
+   "ts": 1791478233,
+   "symbol": "AAVE",
+   "action": "BUY",
+   "category": "alt",
+   "return": -8.33,
+   "why": "stop",
+   "changes": [
+    "alt.smart 0.79\u21920.71",
+    "alt.news 0.42\u21920.27",
+    "alt.sentiment 0.29\u21920.15",
+    "alt.momentum 0.42\u21920.26",
+    "alt.liquidity 0.47\u21920.39"
+   ],
+   "buy_threshold": 0.35
   }
  ],
  "by_category": {
   "major": {
    "weights": {
     "whale": 0.5,
-    "smart": 1.091,
-    "news": 0.297,
-    "sentiment": 0.232,
-    "momentum": 0.715,
+    "smart": 1.02,
+    "news": 0.157,
+    "sentiment": 0.151,
+    "momentum": 0.675,
     "liquidity": 0.12
    },
    "buy_threshold": 0.3,
@@ -129,20 +160,20 @@
    "stop_pct": 4.0,
    "max_days": 7,
    "stats": {
-    "closed": 1,
+    "closed": 2,
     "wins": 0,
-    "losses": 1,
-    "sum_return": -0.52
+    "losses": 2,
+    "sum_return": -6.57
    }
   },
   "alt": {
    "weights": {
     "whale": 0.96,
-    "smart": 0.791,
-    "news": 0.424,
-    "sentiment": 0.295,
-    "momentum": 0.42,
-    "liquidity": 0.468
+    "smart": 0.705,
+    "news": 0.268,
+    "sentiment": 0.15,
+    "momentum": 0.264,
+    "liquidity": 0.39
    },
    "buy_threshold": 0.35,
    "sell_threshold": -0.3,
@@ -151,10 +182,10 @@
    "stop_pct": 6.0,
    "max_days": 7,
    "stats": {
-    "closed": 3,
+    "closed": 4,
     "wins": 1,
-    "losses": 2,
-    "sum_return": -10.610000000000001
+    "losses": 3,
+    "sum_return": -18.94
    }
   },
   "meme": {

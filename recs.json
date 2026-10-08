@@ -1,67 +1,5 @@
 {
- "open": [
-  {
-   "symbol": "BTC",
-   "id": "bitcoin",
-   "name": "Bitcoin",
-   "action": "BUY",
-   "category": "major",
-   "opened": 1790934923,
-   "entry": 86374,
-   "target": 90692.7,
-   "stop": 82919.04,
-   "score": 0.323,
-   "confidence": 45,
-   "factors": {
-    "whale": 0.0,
-    "smart": 0.39,
-    "news": 0.77,
-    "sentiment": 0.444,
-    "momentum": 0.218,
-    "liquidity": 0.0
-   },
-   "reasons": [
-    "Hyperliquid top traders: 13 long / 3 short, net $226.64M, 48h flow $7.89M",
-    "coverage is running hot: 97 stories, 0 Reddit posts in 48h",
-    "crowd vote 86% bullish"
-   ],
-   "last": 82969,
-   "return": -3.94,
-   "peak": 0.24,
-   "trough": -3.94
-  },
-  {
-   "symbol": "AAVE",
-   "id": "aave",
-   "name": "Aave",
-   "action": "BUY",
-   "category": "alt",
-   "opened": 1791063062,
-   "entry": 180.46,
-   "target": 194.8968,
-   "stop": 169.6324,
-   "score": 0.53,
-   "confidence": 74,
-   "factors": {
-    "whale": -0.008,
-    "smart": 0.55,
-    "news": 1,
-    "sentiment": 0.93,
-    "momentum": 1,
-    "liquidity": 0.5
-   },
-   "reasons": [
-    "Hyperliquid top traders: 3 long / 0 short, net $7.54M, 48h flow $0",
-    "coverage is running hot: 56 stories, 0 Reddit posts in 48h",
-    "crowd vote 95% bullish",
-    "trend is up (+17.0% 7d, +35.0% 30d)"
-   ],
-   "last": 172.79,
-   "return": -4.25,
-   "peak": 2.37,
-   "trough": -4.7
-  }
- ],
+ "open": [],
  "closed": [
   {
    "symbol": "ENA",
@@ -196,6 +134,73 @@
    "trough": -2.25,
    "closed": 1791120253,
    "why": "time",
+   "outcome": "loss"
+  },
+  {
+   "symbol": "BTC",
+   "id": "bitcoin",
+   "name": "Bitcoin",
+   "action": "BUY",
+   "category": "major",
+   "opened": 1790934923,
+   "entry": 86374,
+   "target": 90692.7,
+   "stop": 82919.04,
+   "score": 0.323,
+   "confidence": 45,
+   "factors": {
+    "whale": 0.0,
+    "smart": 0.39,
+    "news": 0.77,
+    "sentiment": 0.444,
+    "momentum": 0.218,
+    "liquidity": 0.0
+   },
+   "reasons": [
+    "Hyperliquid top traders: 13 long / 3 short, net $226.64M, 48h flow $7.89M",
+    "coverage is running hot: 97 stories, 0 Reddit posts in 48h",
+    "crowd vote 86% bullish"
+   ],
+   "last": 81151,
+   "return": -6.05,
+   "peak": 0.24,
+   "trough": -6.05,
+   "closed": 1791478233,
+   "why": "stop",
+   "outcome": "loss"
+  },
+  {
+   "symbol": "AAVE",
+   "id": "aave",
+   "name": "Aave",
+   "action": "BUY",
+   "category": "alt",
+   "opened": 1791063062,
+   "entry": 180.46,
+   "target": 194.8968,
+   "stop": 169.6324,
+   "score": 0.53,
+   "confidence": 74,
+   "factors": {
+    "whale": -0.008,
+    "smart": 0.55,
+    "news": 1,
+    "sentiment": 0.93,
+    "momentum": 1,
+    "liquidity": 0.5
+   },
+   "reasons": [
+    "Hyperliquid top traders: 3 long / 0 short, net $7.54M, 48h flow $0",
+    "coverage is running hot: 56 stories, 0 Reddit posts in 48h",
+    "crowd vote 95% bullish",
+    "trend is up (+17.0% 7d, +35.0% 30d)"
+   ],
+   "last": 165.42,
+   "return": -8.33,
+   "peak": 2.37,
+   "trough": -8.33,
+   "closed": 1791478233,
+   "why": "stop",
    "outcome": "loss"
   }
  ]
