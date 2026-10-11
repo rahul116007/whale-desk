@@ -17,6 +17,14 @@ RECS = os.path.join(HERE, "recs.json"); MODEL = os.path.join(HERE, "model.json")
 MIN_SAMPLE = 8          # closed calls in a category before any parameter is touched
 FACTORS = ["whale", "smart", "news", "sentiment", "momentum", "liquidity", "lighter", "vaults", "cextop", "funding"]
 FEED_MAX_AGE_H = 12     # positioning data older than this is ignored by the desk and flagged here
+# Calls opened before this moment were made on a Hyperliquid read frozen at 14 Sept (see recommend.FEED_FIXED_TS).
+# They are reported, but nothing is tuned on them: they say nothing about how the live read performs.
+try:
+    sys.path.insert(0, HERE); from recommend import FEED_FIXED_TS
+except Exception:
+    FEED_FIXED_TS = 1791187080
+
+def on_live_feed(r): return (r.get("opened") or 0) >= FEED_FIXED_TS
 
 def load(p, d):
     try:
@@ -28,6 +36,7 @@ def pct(a, b): return round(100.0 * a / b, 1) if b else None
 def analyse(recs, model, desk):
     now = time.time(); out = {"ts": int(now), "health": [], "categories": {}, "gates": {}, "factors": {}, "suggestions": []}
     closed = recs.get("closed", []); opened = recs.get("open", [])
+    live = [r for r in closed if on_live_feed(r)]
 
     # --- pipeline health ------------------------------------------------------------------------------------
     gen = desk.get("updated") or desk.get("generated_at") or 0
@@ -58,9 +67,11 @@ def analyse(recs, model, desk):
     n_recs = len(desk.get("reco", {}).get("recs", [])) if isinstance(desk.get("reco"), dict) else None
     if n_recs is not None:
         buys = sum(1 for r in desk["reco"]["recs"] if r.get("action") == "BUY")
-        if buys == 0 and len(closed) >= MIN_SAMPLE: out["health"].append("NOTE no BUY calls on the board: thresholds may have drifted too high")
+        if buys == 0 and len(live) >= MIN_SAMPLE: out["health"].append("NOTE no BUY calls on the board: thresholds may have drifted too high")
         if buys >= 8: out["health"].append(f"NOTE {buys} BUY calls at once: threshold may be too loose for the coin universe")
-    out["open"] = len(opened); out["closed"] = len(closed)
+    out["open"] = len(opened); out["closed"] = len(closed); out["closed_live_feed"] = len(live)
+    if len(live) < len(closed):
+        out["health"].append(f"NOTE {len(closed) - len(live)} of {len(closed)} closed calls were opened before 5 Oct on a frozen Hyperliquid feed: listed below, left out of tuning")
 
     # --- by category ------------------------------------------------------------------------------------------
     bycat = defaultdict(list)
@@ -71,12 +82,18 @@ def analyse(recs, model, desk):
         for r in rs: why[r.get("why", "?")] += 1
         peaks = [r.get("peak", 0) for r in rs]; troughs = [r.get("trough", 0) for r in rs]
         cp = model.get("by_category", {}).get(cat, {})
-        c = {"n": len(rs), "hit_rate": pct(len(wins), len(rs)), "avg_return": round(st.mean(rets), 2), "median_return": round(st.median(rets), 2),
+        c = {"n": len(rs), "n_live_feed": sum(1 for r in rs if on_live_feed(r)), "hit_rate": pct(len(wins), len(rs)), "avg_return": round(st.mean(rets), 2), "median_return": round(st.median(rets), 2),
              "exits": dict(why), "avg_peak": round(st.mean(peaks), 2), "avg_trough": round(st.mean(troughs), 2),
              "target_pct": cp.get("target_pct"), "stop_pct": cp.get("stop_pct"), "max_days": cp.get("max_days"), "buy_threshold": cp.get("buy_threshold")}
         out["categories"][cat] = c
+        # tuning sample: live-feed calls only. Everything below this line is measured on them.
+        rs = [r for r in rs if on_live_feed(r)]
         if len(rs) < MIN_SAMPLE: continue
-        n = len(rs)
+        n = len(rs); rets = [r["return"] for r in rs]; wins = [r for r in rs if r["return"] > 0]
+        why = defaultdict(int)
+        for r in rs: why[r.get("why", "?")] += 1
+        c = {**c, "hit_rate": pct(len(wins), n), "avg_return": round(st.mean(rets), 2),
+             "avg_peak": round(st.mean(r.get("peak", 0) for r in rs), 2), "avg_trough": round(st.mean(r.get("trough", 0) for r in rs), 2)}
         # target never reached but peaks are decent -> target too ambitious for the holding period
         if why.get("time", 0) / n > 0.6 and c["avg_peak"] > 0 and cp.get("target_pct") and c["avg_peak"] < cp["target_pct"] * 0.8:
             out["suggestions"].append({"cat": cat, "param": "target_pct", "from": cp["target_pct"], "to": round(max(cp["target_pct"] * 0.8, 3.0), 1),
@@ -103,14 +120,14 @@ def analyse(recs, model, desk):
         out["gates"][g] = {"n": len(rets), "hit_rate": pct(sum(1 for x in rets if x > 0), len(rets)), "avg_return": round(st.mean(rets), 2)}
 
     # --- factor separation: mean factor value in wins minus in losses ---------------------------------------------
-    wins = [r for r in closed if r["return"] > 0]; losses = [r for r in closed if r["return"] <= 0]
+    wins = [r for r in live if r["return"] > 0]; losses = [r for r in live if r["return"] <= 0]
     if len(wins) >= 4 and len(losses) >= 4:
         for k in FACTORS:
             mw = st.mean(r["factors"].get(k, 0) for r in wins); ml = st.mean(r["factors"].get(k, 0) for r in losses)
             out["factors"][k] = {"wins": round(mw, 2), "losses": round(ml, 2), "edge": round(mw - ml, 2)}
         weighted = {k for cp in model.get("by_category", {}).values() for k in cp.get("weights", {})} or set(FACTORS)
         worst = min(((k, v) for k, v in out["factors"].items() if k in weighted), key=lambda kv: kv[1]["edge"])   # watch-only factors have no weight to cut
-        if worst[1]["edge"] < -0.15 and len(closed) >= 2 * MIN_SAMPLE:
+        if worst[1]["edge"] < -0.15 and len(live) >= 2 * MIN_SAMPLE:
             out["suggestions"].append({"cat": "*", "param": f"weights.{worst[0]}", "from": None, "to": "x0.7",
                                        "why": f"{worst[0]} averaged {worst[1]['losses']:+.2f} in losses vs {worst[1]['wins']:+.2f} in wins: it is a contrary signal here"})
     return out
@@ -140,7 +157,7 @@ def report(out, applied):
     L = [f"# Whale Desk review  {time.strftime('%Y-%m-%d %H:%M', time.gmtime(out['ts']))}Z", "",
          f"Open calls: {out['open']}   Closed: {out['closed']}", "", "## Health"] + [f"- {h}" for h in out["health"]] + ["", "## By category"]
     for cat, c in sorted(out["categories"].items()):
-        L.append(f"- **{cat}** n={c['n']} hit {c['hit_rate']}% avg {c['avg_return']:+.2f}% (median {c['median_return']:+.2f}%) exits {c['exits']} "
+        L.append(f"- **{cat}** n={c['n']} ({c.get('n_live_feed', c['n'])} on the live feed) hit {c['hit_rate']}% avg {c['avg_return']:+.2f}% (median {c['median_return']:+.2f}%) exits {c['exits']} "
                  f"peak {c['avg_peak']:+.1f}% trough {c['avg_trough']:+.1f}% | target {c['target_pct']} stop {c['stop_pct']} days {c['max_days']} bar {c['buy_threshold']}")
     if not out["categories"]: L.append("- no closed calls yet")
     L += ["", "## By entry gate"] + [f"- {g}: n={v['n']} hit {v['hit_rate']}% avg {v['avg_return']:+.2f}%" for g, v in out["gates"].items()]

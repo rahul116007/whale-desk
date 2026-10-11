@@ -57,6 +57,15 @@ DEFAULT_MODEL = {
 SMART_MIN_TRADERS = 3
 SMART_MIN_NOTIONAL = 1_000_000      # combined long + short notional, USD
 
+# Until this moment (5 Oct 2026 07:58 UTC) the Hyperliquid data the desk read was a frozen copy from 14 Sept: the fetch
+# was failing quietly and the old file kept being reused. Every call opened before it was made on a top-trader read
+# that was two to three weeks old, so those calls say nothing about how the live read performs. They stay in the
+# history, but the threshold learner and the weekly review leave them out of their samples.
+FEED_FIXED_TS = 1791187080
+
+def on_live_feed(rec):
+    return (rec.get("opened") or 0) >= FEED_FIXED_TS
+
 def smart_cover(sm):
     """(traders, combined notional, enough?) for a coin's Hyperliquid block."""
     sm = sm or {}
@@ -146,7 +155,9 @@ def reasons(coin, f):
     if f["smart"] < -0.25: out.append(f"Hyperliquid top traders lean short: {sm.get('longs',0)} long / {sm.get('shorts',0)} short, net {_usd(sm.get('net_ntl',0))}")
     n_sm, ntl_sm, ok_sm = smart_cover(sm)
     if n_sm and not ok_sm and abs(sm.get("factor") or 0.0) >= 0.15:
-        out.append(f"Hyperliquid read ignored: only {n_sm} top trader{'s' if n_sm != 1 else ''} with {_usd(ntl_sm)} in this coin (needs {SMART_MIN_TRADERS}+ and {_usd(SMART_MIN_NOTIONAL)})")
+        who = f"{n_sm} top trader{'s' if n_sm != 1 else ''}"
+        if n_sm < SMART_MIN_TRADERS: out.append(f"Hyperliquid read ignored: only {who} in this coin, with {_usd(ntl_sm)} (needs {SMART_MIN_TRADERS}+ traders and {_usd(SMART_MIN_NOTIONAL)})")
+        else: out.append(f"Hyperliquid read ignored: {who} but only {_usd(ntl_sm)} between them (needs {_usd(SMART_MIN_NOTIONAL)})")
     so = second_opinion(coin, f)
     if so and abs(f["smart"]) > 0.25: out.append(so); so = None      # next to the Hyperliquid line it is checking
     if w["transfer_out"] > 250_000 and w["transfer_out"] > 5 * max(w["transfer_in"], 1): out.append(f"{_usd(w['transfer_out'])} left tracked wallets, often an exchange deposit before a sale")
@@ -211,7 +222,9 @@ def recommend(coin, model):
     exit_ = min(f["whale"], f["smart"])
     if s >= model["buy_threshold"] and entry >= model.get("whale_gate", 0.15):
         action = "BUY"
-    elif (s <= model["sell_threshold"] and exit_ <= -0.1) or exit_ < -0.6:
+    elif (s <= model["sell_threshold"] and exit_ <= -0.1) or f["whale"] < -0.6:
+        # heavy on-chain selling by tracked wallets is a SELL on its own. The Hyperliquid read is not: it hits -1 as soon
+        # as top traders close longs (the positions it is measured against shrink), so it has to carry the score too.
         action = "SELL"
     else:
         action = "WATCH"
@@ -241,29 +254,51 @@ def _ret(rec, price):
     r = (price / rec["entry"] - 1) * 100
     return r if rec["action"] == "BUY" else -r
 
-def update_tracking(recs_by_symbol, prices, model):
-    """recs_by_symbol: {symbol: recommendation}; prices: {symbol: current price}. Returns (recs_state, closed_now)."""
+def _levels(rec, cp):
+    """(target %, stop %) for a call: the levels it was opened with, falling back to the category's current ones."""
+    try:
+        t = abs(rec["target"] / rec["entry"] - 1) * 100; s = abs(rec["stop"] / rec["entry"] - 1) * 100
+        if t > 0 and s > 0: return t, s
+    except Exception: pass
+    return cp["target_pct"], cp["stop_pct"]
+
+def update_tracking(recs_by_symbol, prices, model, ranges=None):
+    """recs_by_symbol: {symbol: recommendation}; prices: {symbol: current price}; ranges: {symbol: (24h low, 24h high)}.
+    Returns (recs_state, closed_now).
+
+    Calls are booked as if the target and the stop were resting orders, which is what the card tells you to place.
+    Refreshes are hours apart, so the price at a refresh is a poor witness: a stop used to be booked wherever the price
+    happened to be when a refresh noticed (-8% to -11% against a 6% stop), and a target or stop touched and left again
+    between two refreshes was missed altogether. Now the 24h high and low that every refresh already downloads are checked
+    as well (once a call is a day old, so the whole window lies inside its life), and an exit is booked at its level.
+    seen_return keeps what the price was at the refresh that noticed, slip how far past the stop that was."""
     state = _load(RECS, {"open": [], "closed": []})
     now = int(time.time()); closed_now = []
     # 1. mark to market / close
     still = []
     for r in state["open"]:
         p = prices.get(r["symbol"])
-        if p:
-            r["last"] = p; r["return"] = round(_ret(r, p), 2)
-            r["peak"] = max(r.get("peak", 0.0), r["return"]); r["trough"] = min(r.get("trough", 0.0), r["return"])
-        age = (now - r["opened"]) / 86400
-        why = None
         cp = params_for(model, r.get("category", "alt"))
-        if r["return"] >= cp["target_pct"]: why = "target"
-        elif r["return"] <= -cp["stop_pct"]: why = "stop"
+        tgt, stp = _levels(r, cp)
+        age = (now - r["opened"]) / 86400
+        if p:
+            r["last"] = p; r["return"] = round(_ret(r, p), 2) + 0.0      # + 0.0 turns -0.0 into 0.0
+        best = worst = r["return"]
+        lo, hi = (ranges or {}).get(r["symbol"]) or (None, None)
+        if p and lo and hi and age >= 1.0 and 0 < lo <= hi and lo <= p * 1.02 and hi >= p * 0.98:   # range must bracket the price
+            a, b = _ret(r, lo), _ret(r, hi)
+            best = max(best, a, b); worst = min(worst, a, b)
+        r["peak"] = round(max(r.get("peak", 0.0), best), 2); r["trough"] = round(min(r.get("trough", 0.0), worst), 2)
+        why = None
+        if worst <= -stp: why = "stop"            # if both levels were touched inside one window, assume the stop came first
+        elif best >= tgt: why = "target"
         elif age >= cp["max_days"]: why = "time"
         if why:
+            if why in ("stop", "target"):
+                r["seen_return"] = r["return"]
+                r["return"] = round(-stp if why == "stop" else tgt, 2)
+                if why == "stop": r["slip"] = round(min(0.0, r["seen_return"] + stp), 2)
             r["closed"] = now; r["why"] = why; r["outcome"] = "win" if r["return"] > 0 else "loss"
-            # refreshes are hours apart, so a stop is usually seen after the price has already gone through it.
-            # The booked return stays as seen (what following the dashboard by hand would have got); slip records
-            # how far past the stop that was, so the review can show it and the learner can ignore it.
-            if why == "stop": r["slip"] = round(min(0.0, r["return"] + cp["stop_pct"]), 2)
             state["closed"].append(r); closed_now.append(r); learn(r, model)
         else:
             still.append(r)
@@ -300,7 +335,7 @@ def learn(rec, model):
     st["wins" if rec["outcome"] == "win" else "losses"] += 1
     st["best"] = max(st["best"], rec["return"]); st["worst"] = min(st["worst"], rec["return"])
     # adaptive threshold: tighten when the hit rate is poor, loosen when it is good (only once there is a sample)
-    recent = [r for r in _load(RECS, {"closed": []})["closed"][-30:] if r.get("category", "alt") == cat][-10:] + [rec]
+    recent = [r for r in _load(RECS, {"closed": []})["closed"][-30:] if r.get("category", "alt") == cat and on_live_feed(r)][-10:] + ([rec] if on_live_feed(rec) else [])
     if len(recent) >= 5:
         hr = sum(1 for r in recent if r.get("outcome") == "win") / len(recent)
         if hr < 0.45: cp["buy_threshold"] = round(clamp(cp["buy_threshold"] + 0.04, 0.2, 0.7), 3)
@@ -316,7 +351,8 @@ def run(coins):
     for k, v in DEFAULT_MODEL["weights"].items(): model["weights"].setdefault(k, v)
     recs = {c["symbol"]: recommend(c, model) for c in coins}
     prices = {c["symbol"]: c["market"].get("current_price") or 0 for c in coins}
-    state, closed_now = update_tracking(recs, prices, model)
+    ranges = {c["symbol"]: (c["market"].get("low_24h"), c["market"].get("high_24h")) for c in coins}
+    state, closed_now = update_tracking(recs, prices, model, ranges)
     _save(MODEL, model)
     st = model["stats"]; n = st["closed"] or 1
     for c in coins:
