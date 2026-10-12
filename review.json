@@ -1,40 +1,44 @@
 {
- "ts": 1791266612,
+ "ts": 1791835337,
  "health": [
   "OK last refresh 0.0h ago",
   "OK Hyperliquid top-trader data read 0.0h ago",
   "OK second opinion 'lighter' read 0.0h ago, 40 coins",
-  "OK second opinion 'vaults' read 0.0h ago, 31 coins",
+  "OK second opinion 'vaults' read 0.0h ago, 40 coins",
   "OK second opinion 'cextop' read 0.0h ago, 18 coins",
-  "OK second opinion 'funding' read 0.0h ago, 17 coins"
+  "OK second opinion 'funding' read 0.0h ago, 17 coins",
+  "NOTE 6 of 6 closed calls were opened before 5 Oct on a frozen Hyperliquid feed: listed below, left out of tuning"
  ],
  "categories": {
   "alt": {
-   "n": 3,
-   "hit_rate": 33.3,
-   "avg_return": -3.54,
-   "median_return": -8.13,
+   "n": 4,
+   "n_live_feed": 0,
+   "hit_rate": 25.0,
+   "avg_return": -4.74,
+   "median_return": -8.23,
    "exits": {
-    "stop": 2,
+    "stop": 3,
     "target": 1
    },
-   "avg_peak": 5.19,
-   "avg_trough": -8.04,
+   "avg_peak": 4.48,
+   "avg_trough": -8.11,
    "target_pct": 8.0,
    "stop_pct": 6.0,
    "max_days": 7,
    "buy_threshold": 0.35
   },
   "major": {
-   "n": 1,
+   "n": 2,
+   "n_live_feed": 0,
    "hit_rate": 0.0,
-   "avg_return": -0.52,
-   "median_return": -0.52,
+   "avg_return": -3.29,
+   "median_return": -3.29,
    "exits": {
-    "time": 1
+    "time": 1,
+    "stop": 1
    },
-   "avg_peak": 1.41,
-   "avg_trough": -2.25,
+   "avg_peak": 0.82,
+   "avg_trough": -4.15,
    "target_pct": 5.0,
    "stop_pct": 4.0,
    "max_days": 7,
@@ -43,14 +47,15 @@
  },
  "gates": {
   "smart": {
-   "n": 4,
-   "hit_rate": 25.0,
-   "avg_return": -2.78
+   "n": 6,
+   "hit_rate": 16.7,
+   "avg_return": -4.25
   }
  },
  "factors": {},
  "suggestions": [],
  "open": 2,
- "closed": 4,
+ "closed": 6,
+ "closed_live_feed": 0,
  "applied": []
 }
