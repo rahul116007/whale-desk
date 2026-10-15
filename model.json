@@ -173,16 +173,42 @@
     "major.momentum 0.54\u21920.58"
    ],
    "buy_threshold": 0.3
+  },
+  {
+   "ts": 1792103655,
+   "symbol": "BACKTEST",
+   "action": "TUNE",
+   "category": "*",
+   "return": 0.0,
+   "why": "backtest",
+   "changes": [
+    "major.weights.whale 0.50->0.38 (daily IC -0.07)",
+    "alt.weights.whale 0.96->0.72 (daily IC -0.07)",
+    "meme.weights.whale 1.20->0.90 (daily IC -0.07)",
+    "major.weights.momentum 0.58->0.72 (daily IC +0.09)",
+    "alt.weights.momentum 0.21->0.26 (daily IC +0.09)",
+    "meme.weights.momentum 0.64->0.80 (daily IC +0.09)",
+    "major.weights.news 0.10->0.10 (daily IC -0.22)",
+    "alt.weights.news 0.20->0.15 (daily IC -0.22)",
+    "meme.weights.news 0.51->0.38 (daily IC -0.22)",
+    "major.weights.smart 1.13->0.91 (snapshot IC -0.07)",
+    "alt.weights.smart 0.70->0.56 (snapshot IC -0.07)",
+    "meme.weights.smart 1.00->0.80 (snapshot IC -0.07)",
+    "major.weights.sentiment 0.12->0.10 (snapshot IC -0.06)",
+    "alt.weights.sentiment 0.15->0.12 (snapshot IC -0.06)",
+    "meme.weights.sentiment 0.16->0.13 (snapshot IC -0.06)"
+   ],
+   "buy_threshold": null
   }
  ],
  "by_category": {
   "major": {
    "weights": {
-    "whale": 0.5,
-    "smart": 1.133,
+    "whale": 0.375,
+    "smart": 0.906,
     "news": 0.1,
-    "sentiment": 0.115,
-    "momentum": 0.577,
+    "sentiment": 0.1,
+    "momentum": 0.721,
     "liquidity": 0.12
    },
    "buy_threshold": 0.3,
@@ -200,11 +226,11 @@
   },
   "alt": {
    "weights": {
-    "whale": 0.96,
-    "smart": 0.705,
-    "news": 0.201,
-    "sentiment": 0.15,
-    "momentum": 0.211,
+    "whale": 0.72,
+    "smart": 0.564,
+    "news": 0.151,
+    "sentiment": 0.12,
+    "momentum": 0.264,
     "liquidity": 0.39
    },
    "buy_threshold": 0.35,
@@ -222,11 +248,11 @@
   },
   "meme": {
    "weights": {
-    "whale": 1.2,
-    "smart": 1.0,
-    "news": 0.506,
-    "sentiment": 0.16,
-    "momentum": 0.64,
+    "whale": 0.9,
+    "smart": 0.8,
+    "news": 0.38,
+    "sentiment": 0.128,
+    "momentum": 0.8,
     "liquidity": 0.72
    },
    "buy_threshold": 0.4,
@@ -245,6 +271,6 @@
  },
  "tuned": {
   "review": 1791835337,
-  "backtest": 1791538407
+  "backtest": 1792103655
  }
 }
