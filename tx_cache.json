@@ -47647,5 +47647,61 @@
     "to_name": "",
     "value": 0.0,
     "method": "transferFrom"
+  },
+  "0x33e270e1a6db37368f3aaa57cb65fd62c4c3e825c7e457ed4528f0a5742d1eb3": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x514910771af9ca656af840dff83e8264ecf986ca",
+    "to_name": "LinkToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xc4c708f373d7600b9d15d9fd0a18d5aea88aee4bc4bab1ec36673a79a0e50c63": {
+    "from": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xa007b550a52e54f2295aac09b1e79954fdd279a65cb6dc9744196e37cd45e5a7": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x063bf9a800ab2d827de0a8cc1d720688d7ff5b107b67f1eafc9c1b93d432b0aa": {
+    "from": "0x46340b20830761efd32832a74d7169b29feb9758",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x425022e22e3cfc5689829c0259ac19de5cc873d4ceeeff98b1ffd5d735d02182": {
+    "from": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xcc90efddd665700f1bf699ca57b496526b89ad2967d93e72d2afc15498a67ef5": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x75878468062b553bcc8974ebb6ab4d7209affb59a5bc04a8fcaa21b91ee8ea82": {
+    "from": "0x7f2ee458d58e61345ad61a70e8072511bf9f6671",
+    "to": "0xca11bde05977b3631167028862be2a173976ca11",
+    "to_name": "Multicall3",
+    "value": 0.0,
+    "method": "aggregate3Value"
+  },
+  "0x0069ebc87adc8266f085185e1e49024dcf98e0c1565c6ac17bf8cea7c927e1a6": {
+    "from": "0x7f2ee458d58e61345ad61a70e8072511bf9f6671",
+    "to": "0xca11bde05977b3631167028862be2a173976ca11",
+    "to_name": "Multicall3",
+    "value": 0.0,
+    "method": "aggregate3Value"
   }
 }
