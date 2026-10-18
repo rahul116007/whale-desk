@@ -1,41 +1,5 @@
 {
- "open": [
-  {
-   "symbol": "BTC",
-   "id": "bitcoin",
-   "name": "Bitcoin",
-   "action": "SELL",
-   "category": "major",
-   "opened": 1791699108,
-   "entry": 82976,
-   "target": 78827.2,
-   "stop": 86295.04000000001,
-   "score": -0.352,
-   "confidence": 49,
-   "factors": {
-    "whale": 0.0,
-    "smart": -0.817,
-    "news": 0.622,
-    "sentiment": -0.652,
-    "momentum": -0.009,
-    "liquidity": 0.0,
-    "lighter": 0.344,
-    "vaults": 0.531,
-    "cextop": -0.119,
-    "funding": 0.518
-   },
-   "reasons": [
-    "Hyperliquid top traders lean short: 1 long / 5 short, net $-13.63M",
-    "second opinion: Lighter top traders 13 long / 3 short; Hyperliquid vaults 6 long / 0 short; exchange top traders 50% long (-0.6 pts vs their 2-week norm); funding -10% a year, shorts are paying [0 agree, 2 disagree with the Hyperliquid read]",
-    "coverage is running hot: 87 stories, 0 Reddit posts in 48h",
-    "crowd vote only 66% bullish"
-   ],
-   "last": 81510,
-   "return": 1.77,
-   "peak": 3.82,
-   "trough": -1.51
-  }
- ],
+ "open": [],
  "closed": [
   {
    "symbol": "ENA",
@@ -275,6 +239,44 @@
    "seen_return": 1.9,
    "closed": 1791884790,
    "why": "target",
+   "outcome": "win"
+  },
+  {
+   "symbol": "BTC",
+   "id": "bitcoin",
+   "name": "Bitcoin",
+   "action": "SELL",
+   "category": "major",
+   "opened": 1791699108,
+   "entry": 82976,
+   "target": 78827.2,
+   "stop": 86295.04000000001,
+   "score": -0.352,
+   "confidence": 49,
+   "factors": {
+    "whale": 0.0,
+    "smart": -0.817,
+    "news": 0.622,
+    "sentiment": -0.652,
+    "momentum": -0.009,
+    "liquidity": 0.0,
+    "lighter": 0.344,
+    "vaults": 0.531,
+    "cextop": -0.119,
+    "funding": 0.518
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 1 long / 5 short, net $-13.63M",
+    "second opinion: Lighter top traders 13 long / 3 short; Hyperliquid vaults 6 long / 0 short; exchange top traders 50% long (-0.6 pts vs their 2-week norm); funding -10% a year, shorts are paying [0 agree, 2 disagree with the Hyperliquid read]",
+    "coverage is running hot: 87 stories, 0 Reddit posts in 48h",
+    "crowd vote only 66% bullish"
+   ],
+   "last": 81687,
+   "return": 1.55,
+   "peak": 3.82,
+   "trough": -1.51,
+   "closed": 1792304090,
+   "why": "time",
    "outcome": "win"
   }
  ]
