@@ -212,17 +212,42 @@
     "major.sentiment 0.10\u21920.13"
    ],
    "buy_threshold": 0.3
+  },
+  {
+   "ts": 1792678061,
+   "symbol": "BACKTEST",
+   "action": "TUNE",
+   "category": "*",
+   "return": 0.0,
+   "why": "backtest",
+   "changes": [
+    "major.weights.whale 0.38->0.28 (daily IC -0.11)",
+    "alt.weights.whale 0.72->0.54 (daily IC -0.11)",
+    "meme.weights.whale 0.90->0.68 (daily IC -0.11)",
+    "major.weights.momentum 0.72->0.90 (daily IC +0.14)",
+    "alt.weights.momentum 0.26->0.33 (daily IC +0.14)",
+    "meme.weights.momentum 0.80->1.00 (daily IC +0.14)",
+    "major.weights.news 0.10->0.12 (daily IC +0.05)",
+    "alt.weights.news 0.15->0.19 (daily IC +0.05)",
+    "meme.weights.news 0.38->0.47 (daily IC +0.05)",
+    "major.weights.smart 0.94->0.76 (snapshot IC -0.18)",
+    "alt.weights.smart 0.56->0.45 (snapshot IC -0.18)",
+    "meme.weights.smart 0.80->0.64 (snapshot IC -0.18)",
+    "*.weights.funding promoted from watch-only to 0.30 (16 days of history, snapshot IC +0.12)"
+   ],
+   "buy_threshold": null
   }
  ],
  "by_category": {
   "major": {
    "weights": {
-    "whale": 0.375,
-    "smart": 0.944,
-    "news": 0.1,
+    "whale": 0.281,
+    "smart": 0.755,
+    "news": 0.125,
     "sentiment": 0.13,
-    "momentum": 0.721,
-    "liquidity": 0.12
+    "momentum": 0.901,
+    "liquidity": 0.12,
+    "funding": 0.3
    },
    "buy_threshold": 0.3,
    "sell_threshold": -0.28,
@@ -239,12 +264,13 @@
   },
   "alt": {
    "weights": {
-    "whale": 0.72,
-    "smart": 0.564,
-    "news": 0.151,
+    "whale": 0.54,
+    "smart": 0.451,
+    "news": 0.189,
     "sentiment": 0.12,
-    "momentum": 0.264,
-    "liquidity": 0.39
+    "momentum": 0.33,
+    "liquidity": 0.39,
+    "funding": 0.3
    },
    "buy_threshold": 0.35,
    "sell_threshold": -0.3,
@@ -261,12 +287,13 @@
   },
   "meme": {
    "weights": {
-    "whale": 0.9,
-    "smart": 0.8,
-    "news": 0.38,
+    "whale": 0.675,
+    "smart": 0.64,
+    "news": 0.475,
     "sentiment": 0.128,
-    "momentum": 0.8,
-    "liquidity": 0.72
+    "momentum": 1.0,
+    "liquidity": 0.72,
+    "funding": 0.3
    },
    "buy_threshold": 0.4,
    "sell_threshold": -0.25,
@@ -284,6 +311,6 @@
  },
  "tuned": {
   "review": 1792408046,
-  "backtest": 1792103655
+  "backtest": 1792678061
  }
 }
