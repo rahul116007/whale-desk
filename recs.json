@@ -1,5 +1,41 @@
 {
- "open": [],
+ "open": [
+  {
+   "symbol": "ENA",
+   "id": "ethena",
+   "name": "Ethena",
+   "action": "SELL",
+   "category": "alt",
+   "opened": 1792827089,
+   "entry": 0.192461,
+   "target": 0.17706412,
+   "stop": 0.20400866,
+   "score": -0.265,
+   "confidence": 37,
+   "factors": {
+    "whale": -0.772,
+    "smart": -0.48,
+    "news": -0.4,
+    "sentiment": -0.167,
+    "momentum": -0.181,
+    "liquidity": 0.373,
+    "lighter": -0.64,
+    "cextop": -0.133,
+    "funding": 0.095
+   },
+   "reasons": [
+    "tracked whales distributing $673.4k over 7d",
+    "Hyperliquid top traders lean short: 1 long / 11 short, net $-22.33M",
+    "second opinion: Lighter top traders 0 long / 7 short; exchange top traders 47% long (-0.7 pts vs their 2-week norm) [1 agree, 0 disagree with the Hyperliquid read]",
+    "$2.69M left tracked wallets, often an exchange deposit before a sale",
+    "coverage is unusually quiet for a coin this size"
+   ],
+   "last": 0.192461,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  }
+ ],
  "closed": [
   {
    "symbol": "ENA",
