@@ -60464,5 +60464,145 @@
     "to_name": "USDC",
     "value": 0.0,
     "method": "transfer"
+  },
+  "0x4216520a7cfc6c51ccee4b5a8da5e19e73c0d8540501a6812b2cecdbd1d0a8c3": {
+    "from": "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x53f179714022e7b993fc501e282134f58d40c284a5264d068c04e1038f2e242c": {
+    "from": "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x3a00843f7985a58dc57a8680d90d1d76a869cec15c3cf47d9700a0a073598397": {
+    "from": "0x260b364fe0d3d37e6fd3cda0fa50926a06c54cea",
+    "to": "0x6fa5b6d93e2539caea358518d3fe8f75418e5a1d",
+    "to_name": "ERC1967Proxy",
+    "value": 0.0,
+    "method": "execute"
+  },
+  "0x691a063cafdb6d57395815cd45bd8ef27345cbb94e113585f1a4f354554c87fb": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x4aacb6d253509bf7a8d6894a6d4e1a297a43680a273ee39318e95fa527e2f06c": {
+    "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x0174be22b7796b3a8398a6082522664feefbb05c776b8f89f803750aebdecca3": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x5fd8719d365f5036b71e4c5bbc415629a3957e884569ae41806ae18faf7fb093": {
+    "from": "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x31643d980f3df6f656c555bd7a658e2044419624f8e91b9f4f20be462c89bb83": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x9e5216235e35c00ba1178b14ddd9cd8e8dc3602fd89810f934974c77a15cb9d0": {
+    "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x762e163aaf4bdfbc90ad88fcefdeacbff8a39c22f0f9ff58c30b4a15fe1c1b07": {
+    "from": "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xf7310c15dd93986819126cc5acef8ed54bd32e049de73439a039a8252ea412d4": {
+    "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+    "to": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "to_name": "Aave",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xd74b7356e64c58a87ddee82b545cf5f2c0b450cc0fb837bec1fa749d0144c63e": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
+    "to_name": "KaioToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xdab6717179f1294d14a634cadd9b93108888e70e6377069404fafe85a5a8da60": {
+    "from": "0x260b364fe0d3d37e6fd3cda0fa50926a06c54cea",
+    "to": "0x6fa5b6d93e2539caea358518d3fe8f75418e5a1d",
+    "to_name": "ERC1967Proxy",
+    "value": 0.0,
+    "method": "execute"
+  },
+  "0x32a6587c8b8cb03cd2dd952d44fa78e6cb16c34bf8a7980bacb44e43ef81c591": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x13d57e45d590b6369223ae2ea886676b90bdf1016ffa50a3c88ec3590cab345b": {
+    "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "to_name": "Uniswap",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x3d91c0bd800ccfff6b658b81a86b7a6c23c5600ed283e43793700cc1c029e392": {
+    "from": "0x46340b20830761efd32832a74d7169b29feb9758",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xdc261b8b52526557eefb2bd42704fec43929052a49c933a4939318dcb1658204": {
+    "from": "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xa3ff0011c75b7909d6f2fb5e080a3691b5616d2c78f1c1e59c5806a2da211ec5": {
+    "from": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+    "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xe5a805d1e5f7476abb80deec5c79631de3054f56b7bd4806346b31caf5c31524": {
+    "from": "0x260b364fe0d3d37e6fd3cda0fa50926a06c54cea",
+    "to": "0x6fa5b6d93e2539caea358518d3fe8f75418e5a1d",
+    "to_name": "ERC1967Proxy",
+    "value": 0.0,
+    "method": "execute"
+  },
+  "0x867d64beb91ec5ca2e7d53d522230c332ef8b019e307235bffa70e2521ca34b4": {
+    "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "to": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+    "to_name": "ERC1967Proxy",
+    "value": 0.0,
+    "method": "execute"
   }
 }
