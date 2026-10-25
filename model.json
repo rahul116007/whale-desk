@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 8,
+  "closed": 9,
   "wins": 3,
-  "losses": 5,
-  "sum_return": -18.959999999999997,
+  "losses": 6,
+  "sum_return": -24.959999999999997,
   "best": 8.51,
   "worst": -10.99
  },
@@ -236,6 +236,23 @@
     "*.weights.funding promoted from watch-only to 0.30 (16 days of history, snapshot IC +0.12)"
    ],
    "buy_threshold": null
+  },
+  {
+   "ts": 1792948463,
+   "symbol": "ENA",
+   "action": "SELL",
+   "category": "alt",
+   "return": -6.0,
+   "why": "stop",
+   "changes": [
+    "alt.whale 0.54\u21920.45",
+    "alt.smart 0.45\u21920.40",
+    "alt.news 0.19\u21920.14",
+    "alt.sentiment 0.12\u21920.10",
+    "alt.momentum 0.33\u21920.31",
+    "alt.liquidity 0.39\u21920.43"
+   ],
+   "buy_threshold": 0.35
   }
  ],
  "by_category": {
@@ -264,12 +281,12 @@
   },
   "alt": {
    "weights": {
-    "whale": 0.54,
-    "smart": 0.451,
-    "news": 0.189,
-    "sentiment": 0.12,
-    "momentum": 0.33,
-    "liquidity": 0.39,
+    "whale": 0.453,
+    "smart": 0.397,
+    "news": 0.144,
+    "sentiment": 0.101,
+    "momentum": 0.31,
+    "liquidity": 0.432,
     "funding": 0.3
    },
    "buy_threshold": 0.35,
@@ -279,10 +296,10 @@
    "stop_pct": 6.0,
    "max_days": 7,
    "stats": {
-    "closed": 4,
+    "closed": 5,
     "wins": 1,
-    "losses": 3,
-    "sum_return": -18.94
+    "losses": 4,
+    "sum_return": -24.94
    }
   },
   "meme": {
