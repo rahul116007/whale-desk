@@ -1,41 +1,5 @@
 {
- "open": [
-  {
-   "symbol": "ENA",
-   "id": "ethena",
-   "name": "Ethena",
-   "action": "SELL",
-   "category": "alt",
-   "opened": 1793130676,
-   "entry": 0.210242,
-   "target": 0.19342264,
-   "stop": 0.22285652000000003,
-   "score": -0.213,
-   "confidence": 29,
-   "factors": {
-    "whale": -1,
-    "smart": -0.402,
-    "news": 0.067,
-    "sentiment": -0.629,
-    "momentum": 0.046,
-    "liquidity": 0.412,
-    "lighter": -0.482,
-    "cextop": -0.082,
-    "funding": 0.066
-   },
-   "reasons": [
-    "tracked whales distributing $1.36M over 7d",
-    "Hyperliquid top traders lean short: 2 long / 12 short, net $-23.42M",
-    "second opinion: Lighter top traders 2 long / 9 short; exchange top traders 48% long (-0.4 pts vs their 2-week norm) [1 agree, 0 disagree with the Hyperliquid read]",
-    "$5.43M left tracked wallets, often an exchange deposit before a sale",
-    "crowd vote only 67% bullish"
-   ],
-   "last": 0.203059,
-   "return": 3.42,
-   "peak": 5.35,
-   "trough": 0.0
-  }
- ],
+ "open": [],
  "closed": [
   {
    "symbol": "ENA",
@@ -354,6 +318,45 @@
    "closed": 1792948463,
    "why": "stop",
    "outcome": "loss"
+  },
+  {
+   "symbol": "ENA",
+   "id": "ethena",
+   "name": "Ethena",
+   "action": "SELL",
+   "category": "alt",
+   "opened": 1793130676,
+   "entry": 0.210242,
+   "target": 0.19342264,
+   "stop": 0.22285652000000003,
+   "score": -0.213,
+   "confidence": 29,
+   "factors": {
+    "whale": -1,
+    "smart": -0.402,
+    "news": 0.067,
+    "sentiment": -0.629,
+    "momentum": 0.046,
+    "liquidity": 0.412,
+    "lighter": -0.482,
+    "cextop": -0.082,
+    "funding": 0.066
+   },
+   "reasons": [
+    "tracked whales distributing $1.36M over 7d",
+    "Hyperliquid top traders lean short: 2 long / 12 short, net $-23.42M",
+    "second opinion: Lighter top traders 2 long / 9 short; exchange top traders 48% long (-0.4 pts vs their 2-week norm) [1 agree, 0 disagree with the Hyperliquid read]",
+    "$5.43M left tracked wallets, often an exchange deposit before a sale",
+    "crowd vote only 67% bullish"
+   ],
+   "last": 0.208844,
+   "return": 8.0,
+   "peak": 8.29,
+   "trough": -1.79,
+   "seen_return": 0.66,
+   "closed": 1793230240,
+   "why": "target",
+   "outcome": "win"
   }
  ]
 }
