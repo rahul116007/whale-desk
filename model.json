@@ -268,18 +268,41 @@
     "alt.liquidity 0.43\u21920.37"
    ],
    "buy_threshold": 0.35
+  },
+  {
+   "ts": 1793254845,
+   "symbol": "BACKTEST",
+   "action": "TUNE",
+   "category": "*",
+   "return": 0.0,
+   "why": "backtest",
+   "changes": [
+    "major.weights.whale 0.28->0.21 (daily IC -0.15)",
+    "alt.weights.whale 0.60->0.45 (daily IC -0.15)",
+    "meme.weights.whale 0.68->0.51 (daily IC -0.15)",
+    "major.weights.smart 0.76->0.60 (snapshot IC -0.11)",
+    "alt.weights.smart 0.46->0.37 (snapshot IC -0.11)",
+    "meme.weights.smart 0.64->0.51 (snapshot IC -0.11)",
+    "major.weights.momentum 0.90->0.72 (snapshot IC -0.21)",
+    "alt.weights.momentum 0.31->0.25 (snapshot IC -0.21)",
+    "meme.weights.momentum 1.00->0.80 (snapshot IC -0.21)",
+    "major.weights.funding 0.30->0.36 (snapshot IC +0.05)",
+    "alt.weights.funding 0.30->0.36 (snapshot IC +0.05)",
+    "meme.weights.funding 0.30->0.36 (snapshot IC +0.05)"
+   ],
+   "buy_threshold": null
   }
  ],
  "by_category": {
   "major": {
    "weights": {
-    "whale": 0.281,
-    "smart": 0.755,
+    "whale": 0.211,
+    "smart": 0.604,
     "news": 0.125,
     "sentiment": 0.13,
-    "momentum": 0.901,
+    "momentum": 0.721,
     "liquidity": 0.12,
-    "funding": 0.3
+    "funding": 0.36
    },
    "buy_threshold": 0.3,
    "sell_threshold": -0.28,
@@ -296,13 +319,13 @@
   },
   "alt": {
    "weights": {
-    "whale": 0.603,
-    "smart": 0.457,
+    "whale": 0.452,
+    "smart": 0.366,
     "news": 0.144,
     "sentiment": 0.195,
-    "momentum": 0.31,
+    "momentum": 0.248,
     "liquidity": 0.37,
-    "funding": 0.3
+    "funding": 0.36
    },
    "buy_threshold": 0.35,
    "sell_threshold": -0.3,
@@ -319,13 +342,13 @@
   },
   "meme": {
    "weights": {
-    "whale": 0.675,
-    "smart": 0.64,
+    "whale": 0.506,
+    "smart": 0.512,
     "news": 0.475,
     "sentiment": 0.128,
-    "momentum": 1.0,
+    "momentum": 0.8,
     "liquidity": 0.72,
-    "funding": 0.3
+    "funding": 0.36
    },
    "buy_threshold": 0.4,
    "sell_threshold": -0.25,
@@ -343,6 +366,6 @@
  },
  "tuned": {
   "review": 1792977755,
-  "backtest": 1792678061
+  "backtest": 1793254845
  }
 }
