@@ -1,5 +1,41 @@
 {
- "open": [],
+ "open": [
+  {
+   "symbol": "ENA",
+   "id": "ethena",
+   "name": "Ethena",
+   "action": "SELL",
+   "category": "alt",
+   "opened": 1793414325,
+   "entry": 0.191864,
+   "target": 0.17651488,
+   "stop": 0.20337584000000003,
+   "score": -0.24,
+   "confidence": 33,
+   "factors": {
+    "whale": -1,
+    "smart": -0.048,
+    "news": -0.233,
+    "sentiment": -0.861,
+    "momentum": -0.354,
+    "liquidity": 0.414,
+    "lighter": -0.495,
+    "cextop": 0.232,
+    "funding": 0.256
+   },
+   "reasons": [
+    "tracked whales distributing $1.36M over 7d",
+    "$5.43M left tracked wallets, often an exchange deposit before a sale",
+    "crowd vote only 62% bullish",
+    "trend is down (-1.8% 7d, -28.1% 30d)",
+    "second opinion: Lighter top traders 2 long / 10 short; exchange top traders 49% long (+1.2 pts vs their 2-week norm)"
+   ],
+   "last": 0.191864,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  }
+ ],
  "closed": [
   {
    "symbol": "ENA",
