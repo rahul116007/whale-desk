@@ -73792,5 +73792,1328 @@
     "to_name": "TetherToken",
     "value": 0.0,
     "method": "transfer"
+  },
+  "0xe8e96479027e20717f910a508b6249baaa19568b8ae715f70569a72ba0dc81a1": {
+    "from": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872",
+    "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "to_name": "USDC",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xb5f38868b5059121c5d0afcf6ce7f71cc209d500d73619b02f0c7a500f1cd7a4": {
+    "from": "0x020ca66c30bec2c4fe3861a94e4db4a498a35872",
+    "to": "0x0000000000000068f116a894984e2db1123eb395",
+    "to_name": "Seaport",
+    "value": 0.0,
+    "method": "matchAdvancedOrders"
+  },
+  "0xf51588a220b122c01c959dd8e83eb200bca1ee3c92d4e3b6ec08543293bffd66": {
+    "from": "0xbee44aba13855ad98d57190906803b09c175cccb",
+    "to": "0xbee162fa5ae892be74f3f3e01c23da89adbccccc",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x6d7b7040"
+  },
+  "0x398cba0737923d8118eca548ac8c8a8cc2730598f61ae73d147ce3817752a595": {
+    "from": "0xb99a2c4c1c4f1fc27150681b740396f6ce1cbcf5",
+    "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "to_name": "USDC",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xf5940b93a2dca7f2211656ccf61bada8779cb40586b3cd1f06671f0fafec617d": {
+    "from": "0xb99a2c4c1c4f1fc27150681b740396f6ce1cbcf5",
+    "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "to_name": "USDC",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x40f4946b55875c09c0a9026999e3422c9876d6359c8caf1df9e3105e23c75d3a": {
+    "from": "0x4588dd854bd3669eec1433f9a36f19a4f68b1548",
+    "to": "0xe9236c2de544076f974b402c8b6f26058449d745",
+    "to_name": "",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x9f4d2afcf09a6969d11516054d0d603d9cb14f8179c7b22f094f0d2ed2c1020e": {
+    "from": "0x5a4fc9dd7b390a0f9b2909a0c34ce55cedc42377",
+    "to": "0x743f1b0291a490b924ffcfe8508af2a9ac1a6552",
+    "to_name": "over.computer",
+    "value": 0.0,
+    "method": "0x983bc41b"
+  },
+  "0x4c0a8f26137858c335061c6615787873ea390299b9406fe131044d6b887b476f": {
+    "from": "0x4588dd854bd3669eec1433f9a36f19a4f68b1548",
+    "to": "0xe9236c2de544076f974b402c8b6f26058449d745",
+    "to_name": "",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xc274ab2aedfcc5efaf38f12852c20b5919144767d85c797b8a29fd6575ee4809": {
+    "from": "0x3b98b9e9cb75c1cb1729aab8f09ced2936505e4f",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xe004fb0df1212de24af860869a7dd9061ee42214cf98c7c042bdf4ca256056ec": {
+    "from": "0x5a4fc9dd7b390a0f9b2909a0c34ce55cedc42377",
+    "to": "0x743f1b0291a490b924ffcfe8508af2a9ac1a6552",
+    "to_name": "over.computer",
+    "value": 0.0,
+    "method": "0x983bc41b"
+  },
+  "0x16b8f61c1c03a6c8b163a68c444a662fef831771497fbf054a53a9514b8b5ae9": {
+    "from": "0x012437b23bb065a70655bd1d4012a1e1a3cf6641",
+    "to": "0xa2f8b8511c8daacaf422a42a0d1ea200f3b89d13",
+    "to_name": "",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xaacf6446cdbaba15450a10eed0b57d0608f5630a14bec636b63cc7779c008d33": {
+    "from": "0xb99a2c4c1c4f1fc27150681b740396f6ce1cbcf5",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xb66397a47c3ff081112c7b70eadca27b80e4faf0d48671f8934c498f6a83485c": {
+    "from": "0xb99a2c4c1c4f1fc27150681b740396f6ce1cbcf5",
+    "to": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+    "to_name": "InitializableImmutableAdminUpgradeabilityProxy",
+    "value": 0.0,
+    "method": "withdraw"
+  },
+  "0x36dbb66233a2eabd132ab1a23456c24c27f5140ae7813d9a402a04f610da3873": {
+    "from": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xc7fecec7595e0db0cc26723ff8456184a2792aefbe629ed1ff0572d55632e8c5": {
+    "from": "0x05ff6964d21e5dae3b1010d5ae0465b3c450f381",
+    "to": "0x2744dfd9898f0babbc570cc594bbbc84b487a22b",
+    "to_name": "ERC1967Proxy",
+    "value": 0.0,
+    "method": "execute"
+  },
+  "0xc9338980844ddd4e9109d80827dbb58907829db4cb88d8c0b4c2d25cd3c65989": {
+    "from": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+    "to": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+    "to_name": "InitializableImmutableAdminUpgradeabilityProxy",
+    "value": 0.0,
+    "method": "withdraw"
+  },
+  "0x23432a774bb0f28514da39b47c5c3c7bca89d663d2464ed4ed9a66198138743d": {
+    "from": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+    "to": "0xc13e21b648a5ee794902342038ff3adab66be987",
+    "to_name": "InitializableImmutableAdminUpgradeabilityProxy",
+    "value": 0.0,
+    "method": "repayWithPermit"
+  },
+  "0xaa2f35061de7a44e6c33ddba9ec5a84858e2c7480314d496a79bf036e5f0b78e": {
+    "from": "0x3b98b9e9cb75c1cb1729aab8f09ced2936505e4f",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xf3f75992c7a8cf52ffc6a82a7422e630c1e6534e555b267effd1a74b582b58c1": {
+    "from": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+    "to": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+    "to_name": "InitializableImmutableAdminUpgradeabilityProxy",
+    "value": 0.0,
+    "method": "supply"
+  },
+  "0x1a256f2e68d26259994b0ba9d31ca282476ab6962f60523758c97ebdca7fda1e": {
+    "from": "0xc6fe7b7fbc7ef114284896a6631251cf54a8c304",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xee8d3d547adec481efc1c7424a00ebf7c5e93f38d2170e249493ad5c0886715e": {
+    "from": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xe0ebcff8114b39ca609632ae56de182695e386541dab74026609cef448587085": {
+    "from": "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d",
+    "to": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x5d1a245ecf424e5e6faaa069e151d2f8300870995f38f2a3b97c84f7c24ae79a": {
+    "from": "0x187c9fbf5bd0f266883c03f320260c407c7b4100",
+    "to": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xf69a4f82a5beafa6749b12ab8843885d2404841f743ef4a7155a6fa998c308af": {
+    "from": "0x187c9fbf5bd0f266883c03f320260c407c7b4100",
+    "to": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x9c7728532143e8ff897bd1e4dd36e8afd52e256f05261beb5a09eb1954bbebd7": {
+    "from": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x6c5c564084b33813b141fd1928e04a6a673ac3655bb0a98c7730c9efcdeeae56": {
+    "from": "0x187c9fbf5bd0f266883c03f320260c407c7b4100",
+    "to": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xa8f08ac4e514c028b4d94c391142d394cf97ef6bda581c2149ab059178d75398": {
+    "from": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+    "to": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xd3d2e4ed001e9feaef25088c9b4d22aad34c2cb70ad3faca75df459cfbaa0a7d": {
+    "from": "0xaa8ba7d4611437141192e7ceced531bc0a133efb",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x423ca54f1bb6d4991c1598f654749e407aadf762b2a73354bb687c055106dfe3": {
+    "from": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+    "to": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x4dc4beef7d6b2c5cca43c198a1edc0d1a77b2c010aa429617890fa4bba4302e7": {
+    "from": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+    "to": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+    "to_name": "InitializableImmutableAdminUpgradeabilityProxy",
+    "value": 0.0,
+    "method": "supply"
+  },
+  "0x46d5fd230e022e805dc7496eb3a4f48845ed05da23f5dbbfa1a53a7e1ed34810": {
+    "from": "0xaa8ba7d4611437141192e7ceced531bc0a133efb",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x01e8e9233e04194922fe17888b45a14d3c5e10a7275208c1bd7160343fcce93f": {
+    "from": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+    "to": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+    "to_name": "InitializableImmutableAdminUpgradeabilityProxy",
+    "value": 0.0,
+    "method": "supply"
+  },
+  "0x8d46265f93b733b8fa910d762ae398ace15ac17e470bac9aecfc459fd64ca21a": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+    "to_name": "Aethir",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x62755b22f030625e11df6987d9caa38a89ddd51180481951944e269948bbd86e": {
+    "from": "0x260b364fe0d3d37e6fd3cda0fa50926a06c54cea",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x1ca567c16c5e3921c196b26cd6403adc38baefa1fe025b548f512c54ed6a53b9": {
+    "from": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "to": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+    "to_name": "Aethir",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xd0c553b8f782ac4736afe49c740bd56eaae2bd55b17d70cf705ccd2af7d2dfce": {
+    "from": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x0fb2e039a4a7720e3cb05400f7d256bf276d5294104dd51f1b61bb86e9365146": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x3f0ba0fdf8793f8e63849c129457e7f2d1111290b61ba98ed0baceb97efa1197": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+    "to_name": "Aethir",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x964f49f00c1ed17e3d10e23f3f82012f94e543efe40fa3549ccda5d3ca9accdc": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x0a1b84bb2c3d0dfa02d4c2a68414e9e4aaf2b188487fa15e23b7f61d77af8518": {
+    "from": "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a",
+    "to": "0x114c3473d43d320c4f093f5ce5ecf32f2a2ee407",
+    "to_name": "GuardToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xe15bffaf743d8f77ca9ddae8665c3cc0140d9b64039f605192ce297952a32177": {
+    "from": "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a",
+    "to": "0x114c3473d43d320c4f093f5ce5ecf32f2a2ee407",
+    "to_name": "GuardToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x1821fb7d3918ca0e2df020cb144e2f7bb4245c76c2594c578749fbc69a316e67": {
+    "from": "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a",
+    "to": "0x114c3473d43d320c4f093f5ce5ecf32f2a2ee407",
+    "to_name": "GuardToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x935bd35cd2efcaad30a06b750952588e30ca15bef259ae087b4b5fe5dc3f6a6a": {
+    "from": "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a",
+    "to": "",
+    "to_name": "",
+    "value": 0.0,
+    "method": ""
+  },
+  "0xab2e483f6b29950488b896253211a9170a85d1df37d4d812307348dcd4c5bdfe": {
+    "from": "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a",
+    "to": "0x114c3473d43d320c4f093f5ce5ecf32f2a2ee407",
+    "to_name": "GuardToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xacfabd0cc8bef66c8e5a72fd38cd91ff63719327160b216ea352cb59690f0edd": {
+    "from": "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a",
+    "to": "0x114c3473d43d320c4f093f5ce5ecf32f2a2ee407",
+    "to_name": "GuardToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x49e09b3b21901f653d97c645c992432205df4911e623db9260065d61b0558f76": {
+    "from": "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a",
+    "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "to_name": "UniswapV2Router02",
+    "value": 0.11523399073064894,
+    "method": "swapExactETHForTokensSupportingFeeOnTransferTokens"
+  },
+  "0x2810ca491df20395090cdb569a0f56d8288bd4345ac63a0de2ebe1a6963964eb": {
+    "from": "0x5a4fc9dd7b390a0f9b2909a0c34ce55cedc42377",
+    "to": "0x743f1b0291a490b924ffcfe8508af2a9ac1a6552",
+    "to_name": "over.computer",
+    "value": 0.0,
+    "method": "0x983bc41b"
+  },
+  "0xa146997ab7466b135de792879baa2a1e9bdd156ed4b5df398609626c19ffa114": {
+    "from": "0x0d459f23f801c1833b393877d3835f4992d310ac",
+    "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "to_name": "UniswapV2Router02",
+    "value": 0.001865182771596559,
+    "method": "swapExactETHForTokensSupportingFeeOnTransferTokens"
+  },
+  "0xfea749188f22dc85d8f3ca09c62125f20dc52e6e400ff7d7f28e2fbb1d39721a": {
+    "from": "0xd837d38a79989222f2a4de4a2c12ba41ee256fa4",
+    "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "to_name": "UniswapV2Router02",
+    "value": 0.05,
+    "method": "swapExactETHForTokensSupportingFeeOnTransferTokens"
+  },
+  "0x243db7a5b6bcdda65d1cf82510090c41714d3455854aea43102e2da4c312012b": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.03,
+    "method": "SigmaSwap"
+  },
+  "0x1e1918b8fce40182e0af17c889b9fdef2b61c71f900f77a1a24ee8f26d0fc9a1": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.03,
+    "method": "SigmaSwap"
+  },
+  "0x01f7fbe59845dad8da3fe220a310cc1cb5b36d6d20d6285fb3ed684f1122717f": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.035,
+    "method": "SigmaSwap"
+  },
+  "0x11f4b5ddbad5b7ffd2a3a107301103083323685aca3ebe00133af3e645676b31": {
+    "from": "0x9b228b4f71b3bc7e4b478251f218060d7b70dc25",
+    "to": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+    "to_name": "MetaAggregationRouterV2",
+    "value": 0.069,
+    "method": "swap"
+  },
+  "0x64077b7669fefe9dce0e382398ee1ec6659b39d1c566a67c847d7ea187df8917": {
+    "from": "0xcbb0f94d8fb6da4999d31d37c3bc9f3832aaef03",
+    "to": "0xf26720000f5ca4951c9ebf7760e93d8e7c8d2c68",
+    "to_name": "",
+    "value": 0.15,
+    "method": "0x768a7b53"
+  },
+  "0x4dfa6b9aa12d149780111b29b0084f1364f80647af1ce6150540f5b6b54b6173": {
+    "from": "0xd074448d3336333c35e991116808a97a2aea7d31",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.1,
+    "method": "SigmaSwap"
+  },
+  "0x6edb9993b1c216b7975e1e47902c35a857cb64a792b48e37955acf21462373e9": {
+    "from": "0x4a5f3aa6993f9fdd2f010ecbedf832b8f7366666",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.026523,
+    "method": "0x39ecce49"
+  },
+  "0x81d718b37b48f5b27761c91af13225225f84c90f9807c06f652de5421eb47b9f": {
+    "from": "0x34ba6bb28fcd3b2a776dcc430351b9a917148ff3",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.19,
+    "method": "swap"
+  },
+  "0xa05aa2923edb2f975e94e89f8818e5fa6b38e022f949d2933b9b27e084af1637": {
+    "from": "0x4a141a2f50b0abbf9ec3b24051ac6b8106ae6777",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.02,
+    "method": "0x39ecce49"
+  },
+  "0xc9f60c20aae0325bf21610eb7e8ec7494046e73cd07e29b8f5fe98100df78946": {
+    "from": "0x56c262027e0de4aea31d2489529cb25d23e58a8b",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x096614c7b55125c2a094b5858cc3a14d8e64438a4011e09081df832083e0ee54": {
+    "from": "0xada5bb90d0de0bd1b6f3938708f49295a8d1f7cb",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x58f8c761fb04f42d1e5f8524e9af2ebf9d7f4febe9045cd480ff7c9f559d811f": {
+    "from": "0xa67d7eb4dc68fa6ce8e34ef8cadaf075b9893fbb",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x5d2fca84d3f4049b1bcc86cf9ee98f47f03dcd8ff615b112ddac2447b23c525a": {
+    "from": "0x9217e1d33366d1f686902d6a62d7b2b45c84f0db",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.02,
+    "method": "swap"
+  },
+  "0x89f4b60d5c94ac9e4cf60d2d98f5f8f5e1021297fbee540aa7066131865ec09c": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.035,
+    "method": "SigmaSwap"
+  },
+  "0xadf894c06dd49a0f5f94cbbc88804b371645b4249169d93bc37591af0c8af746": {
+    "from": "0x42468ae5ccb714191910d7519cffb98bc95dff5d",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.02,
+    "method": "swap"
+  },
+  "0xa0f71406f3475196a798f08149ecd655d04c66c297b2c434762ff8b54c380357": {
+    "from": "0xc31cefe38a606a667b4c076e264abd4552a7b060",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.05,
+    "method": "0x39ecce49"
+  },
+  "0xf989d55449b1e4203e1c2801f30fc132893fcad9e75fba25c9f7f05e96400aef": {
+    "from": "0x4a141a2f50b0abbf9ec3b24051ac6b8106ae6777",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.02,
+    "method": "0x39ecce49"
+  },
+  "0x10f477d5e34250b6880ef2286f925eed0f8ccb7ae5bea210162ec3646f3cc86b": {
+    "from": "0x4a141a2f50b0abbf9ec3b24051ac6b8106ae6777",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.01,
+    "method": "0x39ecce49"
+  },
+  "0x3ba6ecf988abb17a9bec99b97fbfdc96722518b52755dac1b4c54ffe5f9d7832": {
+    "from": "0x10270a1637de752b536e330d8727f5861c950632",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.025,
+    "method": "swap"
+  },
+  "0x391c588221e120e3ff2625791d5f301512c33c4e3925059f5e17b982dc878083": {
+    "from": "0xa9c57e147e51c5190315bc8d1e6be1afe2cb3147",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.2,
+    "method": "swap"
+  },
+  "0x5fa72cc00b678966dc38e8002cdd447144c9f15f248ad8b5359a2296b8c4ad68": {
+    "from": "0x9e8f85e5456e4e2cc27e6ae89cee31aa9b3e76a0",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.025,
+    "method": "swap"
+  },
+  "0x88fbfbb7823a6f5c71d8e298c1a29b52c501a8a771b11cefa70b18a3abd8ecf5": {
+    "from": "0xa005d8d19bb166c1263e23d06f697827caa1f864",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.025,
+    "method": "swap"
+  },
+  "0xaa4e23e4a573eea44abb09db493377f1de1d2f2a3c74d6b89cd565135da87107": {
+    "from": "0x150952108f28dcaf4e4542090e67cd2696563944",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.1,
+    "method": "0x39ecce49"
+  },
+  "0x97c5453225503e83ed9c9ef6eec30dfecf73c605d2233c77a5c545e146c627a6": {
+    "from": "0xf32160b46c2a9d10c6a35d14139220a661471dab",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.025,
+    "method": "swap"
+  },
+  "0xff3ffd17fa8380c6cc41a80cafb4a40f003ed7a2a1048c9f41580652fd0df5c8": {
+    "from": "0xa9c57e147e51c5190315bc8d1e6be1afe2cb3147",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.1,
+    "method": "swap"
+  },
+  "0x618e54d8369325e1f622782f78e547a07d7d73f203a5b5bfd28aa1b085569104": {
+    "from": "0xc31cefe38a606a667b4c076e264abd4552a7b060",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.03,
+    "method": "0x39ecce49"
+  },
+  "0x98cdfd1c19ed3d1fdbed82ead183f9b4529990de0a3533907c1c9dda7e42c2ae": {
+    "from": "0x61f3519a58a71d9904d892fbe14632dc590db49f",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.088,
+    "method": "swap"
+  },
+  "0x13d134fbe002e58845587418c0a44de3a34a419b5c5d937c4d5952eb703cbcf1": {
+    "from": "0xada5bb90d0de0bd1b6f3938708f49295a8d1f7cb",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0xe5165611d4f05bfeef3d5bc988bbc2ec1f65212dda5b8cdbff70843832d97ba4": {
+    "from": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x1a918c4408a555e4cb6e3af01faf21bad0b67936439fdfe32cc2c7dce187faa5": {
+    "from": "0x7898c168e05bfff963345247a62a54af9b0e79fa",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.04,
+    "method": "swap"
+  },
+  "0x5e539496def9e6d280a070b39aec3a24ab37987f9bcb2c7df0128c7c246dadd2": {
+    "from": "0x5c013217d3105d9925fe172f17bec3efc8cd7226",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.05,
+    "method": "0x39ecce49"
+  },
+  "0x789b298a347ade3fce58d9b29ebc53226cff7883f34682a46f34678b7bff3397": {
+    "from": "0x5978384d0aa527ecc7fe0fafde20c163efc8e06d",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.01,
+    "method": "0x39ecce49"
+  },
+  "0x7a471810506ac72f151425cc6a0e1e07f5c88fce0d94fe915bc4fc9e3bbbc002": {
+    "from": "0xf45cec2ba1461999b29f54179d44e1194ff1e8ac",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.01,
+    "method": "0x39ecce49"
+  },
+  "0xa7bcadabcd7bce529850554ce94b532cb1e074396a9a544eb3100f50e601c228": {
+    "from": "0xc219ba31c11a86c7e78e7af7f989a3255f4f0421",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.01,
+    "method": "0x39ecce49"
+  },
+  "0xa2e65c04ecad8962ef1001467a0647005a59b420241f80879dd9ea36142cd0f7": {
+    "from": "0xca7ded7e4f4ba8ab3b10009236ae6d1b95094589",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x36075fb6f3db672c6259199fb81691a70f0fa95ee6f9bfd3502b02fdedf7e107": {
+    "from": "0x5c013217d3105d9925fe172f17bec3efc8cd7226",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.05,
+    "method": "0x39ecce49"
+  },
+  "0xde5a268c1d732be8ef67bd960b6965a073a0f031bb4155c5c01c221a090c9a98": {
+    "from": "0x150952108f28dcaf4e4542090e67cd2696563944",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.1,
+    "method": "0x39ecce49"
+  },
+  "0x7ddc9ce03044a49ae31974d3d4eabad843a2ec2a9943f5b26e4636daca0a705e": {
+    "from": "0xada5bb90d0de0bd1b6f3938708f49295a8d1f7cb",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x145e6245c7563d7793369ee2f709548c1b1d809bdaceccf7606686542bf08632": {
+    "from": "0x42468ae5ccb714191910d7519cffb98bc95dff5d",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x09ad9151400b670e01954113a10325b16b75f111da6edd2cbb1217c26b658837": {
+    "from": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x88f4c8751401038a2b161bb7aaddd7cfea665c62330b14d6858ab33f7c600c7f": {
+    "from": "0xa5a5491bca93dd4c076e4906e79e7673f4a5a142",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x1bbf70aced566c9053b12237af58f07c1b7555820769ed76c0dd09deee779008": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0x9a984a50734313495ea3d1a8347861e76ad16e07ec04e226348f98f4faaecdc2": {
+    "from": "0x1e59ec6a0e15d46a42eeb3d293c08fc3ac4ce007",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.15,
+    "method": "0x39ecce49"
+  },
+  "0x8828bd57e51be8965a819f63a914e99ebf9b12a0759e905aaf4e6bf708e83c96": {
+    "from": "0xc16f65b92bc7a4105b1cbcc1c12a2a2b73abc96e",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.25,
+    "method": "0x39ecce49"
+  },
+  "0x6e425007b4ba20c82103d0c51e1ab3b66fc3bc229097b853fa34710b989f93e5": {
+    "from": "0x56c262027e0de4aea31d2489529cb25d23e58a8b",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x6f43eef18ddb4ec5f22743e610da857da51dcd5e11e91b8f48e6847a5d04c34a": {
+    "from": "0x87c18872e21096631a39e6939ae05534a2eeca59",
+    "to": "0x8feab81d36e7576107d5de0758c1b839be31b4f6",
+    "to_name": "DexRouter",
+    "value": 0.01,
+    "method": "unxswapTo"
+  },
+  "0xa07636c648f18e00534b9c2d15982d18c35e30d2343176624cd5ffe59fd2676c": {
+    "from": "0xddbcdf710c21219dc5e56a6e1e8576fb4aa99d96",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.2,
+    "method": "0x39ecce49"
+  },
+  "0xa150ed1cad52aa874ddd677d51a1ae570154b811ef43230886cc6a88da1f0098": {
+    "from": "0x536d328c5eb6be5e96b050b3c46f4d5039a290c2",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.005,
+    "method": "0x39ecce49"
+  },
+  "0xbabfbff40f3ce1b11ad53b64e91afd6f02e9c4d27e32a7f2191912197a4379f6": {
+    "from": "0xa69a86ffc5e58b01ec54f7b09c619f2359b0db43",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.04,
+    "method": "0x39ecce49"
+  },
+  "0xb88d6e8bbf2591e40d6437d77fc67e4d333ea4c410b438c04b5191e54a8b264d": {
+    "from": "0xa67d7eb4dc68fa6ce8e34ef8cadaf075b9893fbb",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x058194068650e55248e4b996efa810f2fb38246af084b99773793af5d797c1a3": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0x3e4790e147525b86c665ef54bebf5b627b7b17c7e8739bddd22193270a0b6a6d": {
+    "from": "0xffebecd947ba2e9a83f824a6f9f3128b36a092b1",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.05,
+    "method": "SigmaSwap"
+  },
+  "0x2527f225dbf9bb4980c75f2a198dcb4c2b0992a5ed9d70ff0dc77e9c6ebba315": {
+    "from": "0xa67d7eb4dc68fa6ce8e34ef8cadaf075b9893fbb",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x525a39651e4ae957b94fcea409b1b0cea13437ff0e124809a55639ae9e822e79": {
+    "from": "0x02b0c14d2c03852ccebd1b2e66ab3c075a57711d",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.2,
+    "method": "0x39ecce49"
+  },
+  "0x2f09a39d1de7d4c949bfe1f3c693a3e27fc67164f9cc8e2cc908ef61b8632781": {
+    "from": "0x1e59ec6a0e15d46a42eeb3d293c08fc3ac4ce007",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x39ecce49"
+  },
+  "0xbf5faf038624d30aeffcd6f1d2aae6b2b16d86be4eb33f6b58dd52d6937004da": {
+    "from": "0x8b30976ea53f538b45bcb92bf67656beba0b3e66",
+    "to": "0x00000000e91fc5bad977c0cc4ad60557c06886a2",
+    "to_name": "",
+    "value": 0.01,
+    "method": "0x1dcd4dad"
+  },
+  "0xe5945bcd3d1362e0e3c903169eaf30989ecb33a3e300b8c51191f95ee90eeb03": {
+    "from": "0x6c39d7e6d7689b7a0d81aff7cc8a346fe054ff13",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.21,
+    "method": "0x39ecce49"
+  },
+  "0x68a60798ab511c2e70357f1a517a9eb1a4d3dcf8e45daeb3603cc02bab195754": {
+    "from": "0x9217e1d33366d1f686902d6a62d7b2b45c84f0db",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x9f0ed60fcc49551d9e43c088be1eacc275cefeb9c21d159eec1d2ad226e7101b": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0xced19835fc94e9d7da57505c22ff6bbff610ac60212d50b4e139a839beca17be": {
+    "from": "0x8106a1babbf4e727412424f2ecf341686da4a935",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.1,
+    "method": "swap"
+  },
+  "0xee8cf1a75afc1c0b05f07d0a9b35de54b015a9cd71a3c43891d3488d5be63e14": {
+    "from": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0xff774a4df5d0959c600b42c66451ed98d16cf98dbdf52e3fdd2477dd8148e8bf": {
+    "from": "0xcbb0f94d8fb6da4999d31d37c3bc9f3832aaef03",
+    "to": "0xf26720000f5ca4951c9ebf7760e93d8e7c8d2c68",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x768a7b53"
+  },
+  "0x04ea818f7653d65724102b55d44a53377ed9c99b9592cfdf751dfc7c58639873": {
+    "from": "0x3a394f8387072ccd55f819a80a77c3722ea0ef27",
+    "to": "0x23617e59a5925b2a4bf75d73ff6711cd0b29de85",
+    "to_name": "UniversalRouter",
+    "value": 0.1,
+    "method": "execute"
+  },
+  "0x12c14475b6373416db0cb10c0f82b58cdd555a693ab2d8fab62563590770fa27": {
+    "from": "0xeedf66927405f7e5f98c623c303d1aa39d93ce40",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.1,
+    "method": "swap"
+  },
+  "0x22b03be92dcbf9d0523f8d5299325f99912e42d3eb371f87f474d5cdab139c3b": {
+    "from": "0x7898c168e05bfff963345247a62a54af9b0e79fa",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x4a4d746c01b0735a62618792a67c1f1114a62158c3c3fdce6b51f7587628e387": {
+    "from": "0x42468ae5ccb714191910d7519cffb98bc95dff5d",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0xf4888d97dc39a5cdb607667e88294c33c592f0fd75e14e4010ac1a60f0a27b20": {
+    "from": "0xbd3b62c433081ba63b3579fa9751f3bc3ed3086e",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.02,
+    "method": "swap"
+  },
+  "0xbe036958eaf6275ad59dc83c64b7e8115206e3e36ffe80ace001330582850766": {
+    "from": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0xa0e5ee0dce0697fb06c387b0786b276cfb8dd89f8956d63f5e94e95cbb6ed9a9": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0x9cc828111b2b8262286bb175284f5e3bd0307c2d7d9892272de285624cc830de": {
+    "from": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0xbba0e85d62d17afe995b16f15a4d90a90684e571484d9586b790ac2774ffcf01": {
+    "from": "0xc16f65b92bc7a4105b1cbcc1c12a2a2b73abc96e",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x39ecce49"
+  },
+  "0xe0b08bd583d8abcc5ceba9ca51aa270b3bc357d208acb88c7d9e1201cfb1f1df": {
+    "from": "0x6c39d7e6d7689b7a0d81aff7cc8a346fe054ff13",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x39ecce49"
+  },
+  "0xba6e693799763a27500eea4f4232fcd2b72b317316ffb4fed70d939f61853ad0": {
+    "from": "0xe950337f36e45c316c53c69a5f285487b54f0bad",
+    "to": "0xab830fcccb4f20bad23b7669d58cb35a96d57d5a",
+    "to_name": "ERC1967Proxy",
+    "value": 0.0,
+    "method": "0xeb46f6eb"
+  },
+  "0xad28822905e0adb4446005b006f84e5bb4f186bfeccd44fa6c668b3389d86a21": {
+    "from": "0x4337447cf61594fdd791a09ae93ef230f0654e0f",
+    "to": "0x4337084d9e255ff0702461cf8895ce9e3b5ff108",
+    "to_name": "EntryPoint",
+    "value": 0.0,
+    "method": "handleOps"
+  },
+  "0x51659ab2455e668680febaadee1ae68c7176dbb990153f94f90ca4762d1e43c4": {
+    "from": "0x61f3519a58a71d9904d892fbe14632dc590db49f",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x74c5eb3e6a250c207696697c1660556469ee3c34e2295cd658c1bdc7ce2ba02b": {
+    "from": "0x7898c168e05bfff963345247a62a54af9b0e79fa",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x88721e8bc8000ceeb45118eed6cb2a34170769298ec4c4c64c152c372ac12995": {
+    "from": "0x8106a1babbf4e727412424f2ecf341686da4a935",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x39ecce49"
+  },
+  "0x75a2f9bf06b082d4843341233dc35a9074c386706d0653cbe29d8b752bdb8506": {
+    "from": "0xcbb0f94d8fb6da4999d31d37c3bc9f3832aaef03",
+    "to": "0xf26720000f5ca4951c9ebf7760e93d8e7c8d2c68",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x768a7b53"
+  },
+  "0x531a0aa445c6e3b8efe390fd8c13d8ff18d996b25f473ff2bfcb205b5779326d": {
+    "from": "0x5db7460d529192fefe1cba322304364fa4e3a806",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.075,
+    "method": "swap"
+  },
+  "0x6ff0121214bb916856c03536e19d748e8c1b17b82e6aa30d4397a9e06bf4d03d": {
+    "from": "0xeae3e1e1bb178fbb35656e7e4be6103c87712b67",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.075,
+    "method": "swap"
+  },
+  "0x3218e16e896ca5cc941b2f96c4330d34a593f2a191898f010ac9af46764df2be": {
+    "from": "0xa4fd253f9309dec87393c92a6e305dd2d395a20a",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.1,
+    "method": "0x39ecce49"
+  },
+  "0x53296f7c64cbccff7f57ae1d1476ce08ad6a64a982c36a9c9d20174b2b6d0413": {
+    "from": "0xabb2acd3be814a80e502575d6c1dc5f789e9cd10",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x9bbb0dff7cf4aff2a124fd1dff5fc6c59d5534c3b1566c1fef0ea3435366bd96": {
+    "from": "0xafa54e6945803ec0025bb5adf7dea1e50c32bb41",
+    "to": "0x836b336fca26913176efc45a5a6e5e72cd7bd13b",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x814920c0"
+  },
+  "0xf2669961b04b59778ebee012e041895c077ed03c516bf8d24dd0ef62176fb13d": {
+    "from": "0xeedf66927405f7e5f98c623c303d1aa39d93ce40",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.05,
+    "method": "swap"
+  },
+  "0x3e24b038b77b893642ecca4b7464e763350b97f0917ddbdb8302a442bab8d51e": {
+    "from": "0xeae3e1e1bb178fbb35656e7e4be6103c87712b67",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x4a11edb7b35ee643a7b6e79381c620c4a9e173d4dc20ab259ba0c58ff6af950c": {
+    "from": "0x74ad402e0e9618800864e528e173065655ca117a",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.01,
+    "method": "swap"
+  },
+  "0x42950ce5be09af2bb010774cec6088fd744a8b4db9b0a4dff472e97544c41e9f": {
+    "from": "0xa44db311bf4401469d27f251b35928ddda047bf3",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.02,
+    "method": "SigmaSwap"
+  },
+  "0x4d05d35546678370e70d7ff588bf23c957ab8a96f825cc6d517f35ed5798807f": {
+    "from": "0xa4fd253f9309dec87393c92a6e305dd2d395a20a",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.25,
+    "method": "0x39ecce49"
+  },
+  "0x7762168413d6a614e2eed6d0d53b71a41c9ce0acbd81a3e205bd55d602883e36": {
+    "from": "0x5db7460d529192fefe1cba322304364fa4e3a806",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x01456754d1096ff89e78a8f43b8710e7881240fcdddc5120c85631fdee087a54": {
+    "from": "0x7898c168e05bfff963345247a62a54af9b0e79fa",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.04,
+    "method": "swap"
+  },
+  "0x56e431c8ae3084041d8c72121e899db36b9f82a16dfd0791a93ff7950d7fc76b": {
+    "from": "0x74ad402e0e9618800864e528e173065655ca117a",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x5f5bd276444132e3a4923b2384abb5fcad41b8ca4119d4779499502cf6e44a4a": {
+    "from": "0x858a4293a9aa59ea2577cc57999f9e3689c01c2a",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.05,
+    "method": "SigmaSwap"
+  },
+  "0x6c128adff2a5b7d87eba6aa0b0be2fc3b21e7b737838712703e43732745d6e30": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0x0020bf6195f10f528661924292d3d89bb805484cb0881855e854ad7c3d7e9a05": {
+    "from": "0x3a394f8387072ccd55f819a80a77c3722ea0ef27",
+    "to": "0x23617e59a5925b2a4bf75d73ff6711cd0b29de85",
+    "to_name": "UniversalRouter",
+    "value": 0.1,
+    "method": "execute"
+  },
+  "0x6ce6c0554673bf4dbca2f50f1cec59eb8f023b3679226136d91dddac65ed27a0": {
+    "from": "0x0299165d60d4ac737f238c21a753b4903d04e12d",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.08333333333333333,
+    "method": "0x39ecce49"
+  },
+  "0x8f03b4fafde5f42dbf5660adecc8d198256ed7874edb2123ff4dd9aa68c13927": {
+    "from": "0x9d15ed6eef5a30c21ffa01e3ee8d61605bd93a94",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.08333333333333333,
+    "method": "0x39ecce49"
+  },
+  "0xb880915bafbe8ce0f01cbc81448a31b6b8053233de84ba208eaa2b737ed463cf": {
+    "from": "0x0c251f3b07067119cc76f78c8556b17ee1d914f4",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.08333333333333333,
+    "method": "0x39ecce49"
+  },
+  "0xe91774f8d89df09cf46e003bd4bdf9c963884defca501baf6ba3957c57c94e7e": {
+    "from": "0xa4fd253f9309dec87393c92a6e305dd2d395a20a",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x39ecce49"
+  },
+  "0x1c7171daf1108f42fe22409c56b3c1e7d9bbcc50ca75ce7d4e0003c5941795b0": {
+    "from": "0xafa54e6945803ec0025bb5adf7dea1e50c32bb41",
+    "to": "0x836b336fca26913176efc45a5a6e5e72cd7bd13b",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x814920c0"
+  },
+  "0x467a4045bf09e3e44503f5dfa4f3b5f994ce06fdf3dceac86cf16de3cdaa63dc": {
+    "from": "0x2c1a75b5246f0e8e5110822a9daf20bbabb2fcef",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.1,
+    "method": "swap"
+  },
+  "0x8cf24d03dc6c771fd73cd6479f23ca21521fb9a8670318f496c045503bdf8d74": {
+    "from": "0xeedf66927405f7e5f98c623c303d1aa39d93ce40",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x3d23ac7c0d8cfeb937a8fa15d130c9dbf9b0ec8fc7ef35874da9e7378a4b1666": {
+    "from": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0xee0696405d96e94614d698df5cdc1f8f397f9f93f421a8425aa9d3beb9b0e6f6": {
+    "from": "0xcf3aa2456cb2c8c21ef947ea774f9da131bae7b9",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.04,
+    "method": "0x39ecce49"
+  },
+  "0xeea69fa011e1b850b062b9a750c66da0bf6022f7ca1e5971a48a3d94c7af681e": {
+    "from": "0xbd3b62c433081ba63b3579fa9751f3bc3ed3086e",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.02,
+    "method": "swap"
+  },
+  "0xf190b410d4d2569ceb3d65369fa3a59ae7675abd00188d034ba5c7cdd95bc541": {
+    "from": "0x2c1a75b5246f0e8e5110822a9daf20bbabb2fcef",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.1,
+    "method": "swap"
+  },
+  "0x019d1373684b9af4708d731f4c77a19b684c467dd4f686969430ad16a057e61f": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0x1a09455d84106bb7668e45b92dda5bd0c0b028b016e1ce397f33f100ad1acd44": {
+    "from": "0x9e8f85e5456e4e2cc27e6ae89cee31aa9b3e76a0",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0xa8b379728ba195d5406f26345041b3aee91306d72f1a3de714b33c9532f7367f": {
+    "from": "0x4337447cf61594fdd791a09ae93ef230f0654e0f",
+    "to": "0x4337084d9e255ff0702461cf8895ce9e3b5ff108",
+    "to_name": "EntryPoint",
+    "value": 0.0,
+    "method": "handleOps"
+  },
+  "0x5c2f4a3b522eb1595137e88d39e53ef2e37ecd27011d64fe103ca7862611b481": {
+    "from": "0xf32160b46c2a9d10c6a35d14139220a661471dab",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x714e88f773e284c9140211e95a414325628f16b3f354cc53465e1a60309716ce": {
+    "from": "0xd9bc5189fa908e9626ff0713d6a979a639566f48",
+    "to": "0x2f4084fb43072c263caaea0901ff4e8647ef4887",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0xc3c16ee4"
+  },
+  "0x5d2dbcee82a2339a299f33e38a018ce9cc98481902db1e863c76026ee93b7858": {
+    "from": "0x0299165d60d4ac737f238c21a753b4903d04e12d",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.08333333333333333,
+    "method": "0x39ecce49"
+  },
+  "0x75180f2a494e6494914316b737d8d4e8a66805321db402b12f7cbb7cdc6dc1a3": {
+    "from": "0x9d15ed6eef5a30c21ffa01e3ee8d61605bd93a94",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.08333333333333333,
+    "method": "0x39ecce49"
+  },
+  "0x791f02e56e52178d034194472c27d233c305751549aa29114bedf435b7a30689": {
+    "from": "0x0c251f3b07067119cc76f78c8556b17ee1d914f4",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.08333333333333333,
+    "method": "0x39ecce49"
+  },
+  "0x8f3418cc7b9b6d6b076055f3aa16592845e08c81e786e64e9c4b67d9fd42509b": {
+    "from": "0xa005d8d19bb166c1263e23d06f697827caa1f864",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0xb5a6429ac846ee7b31731d49b8ebf1b7293ec875baae1f528cccddb8ac9f75dd": {
+    "from": "0xd074448d3336333c35e991116808a97a2aea7d31",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0xd80a2bb00f4b83a3c35159e15e1bd08478dcffae12256a55111cbef506e0bfe4": {
+    "from": "0x10270a1637de752b536e330d8727f5861c950632",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x7a23dd64de987f17a0b000a5ce9da590358753fabb9c6f3a56290b943b22a27a": {
+    "from": "0xa6b37b6450a8d73a13097bb1cc2c450dddc76957",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.05,
+    "method": "SigmaSwap"
+  },
+  "0x98ad29278646fbd43d086b4e11239e11bc9058ea04a1268ed300623006e086a7": {
+    "from": "0x858a4293a9aa59ea2577cc57999f9e3689c01c2a",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0xb84c09b2d071c62338f6e12b6862c1d1c5dc52ab380d93ee9312dcd5151bca83": {
+    "from": "0x4337edb05773d3927c63f9a2734c15d03c5062bc",
+    "to": "0x4337084d9e255ff0702461cf8895ce9e3b5ff108",
+    "to_name": "EntryPoint",
+    "value": 0.0,
+    "method": "handleOps"
+  },
+  "0x85d216c34523136d544f358def3e970205f87f422674098074a8d46477f1afeb": {
+    "from": "0xafa54e6945803ec0025bb5adf7dea1e50c32bb41",
+    "to": "0x2d4ddbc0242e63ec40bdbc6a917ccbffe6f4b76e",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0xc3c16ee4"
+  },
+  "0xb1cfe466685a77b1033daadcef5f5a9723c597f869fb6ed59e4006ef0e96a485": {
+    "from": "0xafa54e6945803ec0025bb5adf7dea1e50c32bb41",
+    "to": "0xa36ce5f0dcd49ac55ea6376f24957bbe888161d8",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0xc3c16ee4"
+  },
+  "0x174fd3ed13da74771d246f190cae1bb1c0fcd894e5081b486640be7e85ac0e72": {
+    "from": "0x065cde376ee7988a3afbbd9de70977b99bee3c21",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0xa38c54e963aac812eded582f1f8bb63d59b3367fa42163d4d75ba35224e030e3": {
+    "from": "0xcf3aa2456cb2c8c21ef947ea774f9da131bae7b9",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x39ecce49"
+  },
+  "0x038b97b1016afa05dfbf22fb8ed9f4a400fd9cb5c641a996949b98d60076ef77": {
+    "from": "0x4337edb05773d3927c63f9a2734c15d03c5062bc",
+    "to": "0x4337084d9e255ff0702461cf8895ce9e3b5ff108",
+    "to_name": "EntryPoint",
+    "value": 0.0,
+    "method": "handleOps"
+  },
+  "0xc5fa3936cd00529423a130352733a5d9c10cbe623c67a6bec29abf6574a69dfe": {
+    "from": "0x6f3193659942ed5dc94c2b925a989a672ee8cfc0",
+    "to": "0x00000000e91fc5bad977c0cc4ad60557c06886a2",
+    "to_name": "",
+    "value": 0.1,
+    "method": "0x1dcd4dad"
+  },
+  "0x7ad5d7fc6fc7ebc61a680eddababbf7c91cc4607c1d7b1a62e2d915b8041ff34": {
+    "from": "0x2c1a75b5246f0e8e5110822a9daf20bbabb2fcef",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x103eca92bb6e7a0694245081ca2d7b0ae6b68c42a86a0ea7d0303152e65954e6": {
+    "from": "0xbd3b62c433081ba63b3579fa9751f3bc3ed3086e",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.02,
+    "method": "swap"
+  },
+  "0x3b383f497919e92014e40cf5251d7cf89acaf3f14d58de17ff052822884832e8": {
+    "from": "0x0299165d60d4ac737f238c21a753b4903d04e12d",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0xc3a55e8556241bcafec3c640b0012fe93e92222f65a8d5ca4ca46238330593c9": {
+    "from": "0xd6484935f92bc9c7889771794b1f68a97404d959",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.005,
+    "method": "0x39ecce49"
+  },
+  "0xa9ca033a84714644666cd8d6563e5f57cafe232c294669cae22d07d813d06555": {
+    "from": "0x4337523811c593e7bb5e0e0f301e82b88cb5c7b8",
+    "to": "0x4337084d9e255ff0702461cf8895ce9e3b5ff108",
+    "to_name": "EntryPoint",
+    "value": 0.0,
+    "method": "handleOps"
+  },
+  "0xfd39618a5c3dc4719c7d0cadc5613bea1d1f31b9319d152d3dfb0755e26d895c": {
+    "from": "0xa67d7eb4dc68fa6ce8e34ef8cadaf075b9893fbb",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x4942221418d7aa85668e3eb20a16d7f1c294996f1893b4adc9b82d79e2ece33c": {
+    "from": "0xa6b37b6450a8d73a13097bb1cc2c450dddc76957",
+    "to": "0x90c496dea71307da373ea6fbca54b24bf5025de3",
+    "to_name": "",
+    "value": 0.0,
+    "method": "SigmaSwap"
+  },
+  "0x4f4bcbb41edc1ec5013491e41ea26f5f5e527d1aaf44797fada1109e27685963": {
+    "from": "0x0c251f3b07067119cc76f78c8556b17ee1d914f4",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0xf4d045fee49db1740ebf7fbba674da7cef4a4dc2a7709e7bd3b1e80a863fe579": {
+    "from": "0x9d15ed6eef5a30c21ffa01e3ee8d61605bd93a94",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x8d5a12ce0656efdb0f8cd80652aa85186916f5f685275d6a20236be566996e39": {
+    "from": "0xa9c57e147e51c5190315bc8d1e6be1afe2cb3147",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0x905365033800f5348cfa17829883c862f1cab178c0e925f53deb15b0b073b1ea": {
+    "from": "0xbd3b62c433081ba63b3579fa9751f3bc3ed3086e",
+    "to": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "swap"
+  },
+  "0xc55ca63de0b52f2b653b4148afbd530c3ccc7a875f15aa2fad2b24d68ab1c92c": {
+    "from": "0x370a7e2d300c14d79d4a7ee07aaca46c4b3012cf",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x64aa21169f0c3874150552ee75cccb479d6680288baed58fd2bcbef040a64bfa": {
+    "from": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
+  },
+  "0x3257800329e1bb5a710b0559f8be1339cfcd79afc1d352e89839dd434452cc62": {
+    "from": "0xc31cefe38a606a667b4c076e264abd4552a7b060",
+    "to": "0xba412d8b36bfd7d65dff5cc0df7b3c29a7eae687",
+    "to_name": "",
+    "value": 0.0,
+    "method": "0x39ecce49"
+  },
+  "0x6b68e795d7adb8855885ddd96772c2898b74d63f0925d40b7705cf95db0a25c8": {
+    "from": "0x370a7e2d300c14d79d4a7ee07aaca46c4b3012cf",
+    "to": "0x5567954cd026cebfe486062cb75848e0f1c12e58",
+    "to_name": "RelayApprovalProxy",
+    "value": 0.0,
+    "method": "permit2TransferAndMulticall"
   }
 }
