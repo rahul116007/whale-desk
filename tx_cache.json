@@ -88989,5 +88989,61 @@
     "to_name": "TetherToken",
     "value": 0.0,
     "method": "transfer"
+  },
+  "0x7687ac66b594178cfb1a21916b6ee1dca4fad33cc044967300cca4e247e7c40c": {
+    "from": "0x79ee72b4038c1da4613ac6d1c16305afe7d7b74f",
+    "to": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xaee99223cb51c3c941b0f7fd3e7b5940641a26041a070d558cf9ac81badb0082": {
+    "from": "0x91355870a334ffc33e84503327773259e3030366",
+    "to": "0x1c957191f4624ee11060318080e88774725e7bb6",
+    "to_name": "",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0xb16999e6d461d9e06c2e81003b394e6ee7f403232704ef761469a5334c4fc3f6": {
+    "from": "0x012437b23bb065a70655bd1d4012a1e1a3cf6641",
+    "to": "0xe2ea16b72555e12eaf7c4799d7d35dc898ded619",
+    "to_name": "",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x756f7964cd54be966050f72e3a9701c9370b2f0d532853287b92955eec440e07": {
+    "from": "0x16f6d15381bee4a25b25f0d1c4161b78f7f21fde",
+    "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "to_name": "USDC",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x63c71449813fe3d2cd97cab579c15c6606819e20155c8c139eaaae547d489548": {
+    "from": "0x260b364fe0d3d37e6fd3cda0fa50926a06c54cea",
+    "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+    "to_name": "TransparentUpgradeableProxy",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x377e0f84a56d8ba3de367e961ac67c6dc5a2a905a953fa7fd5506241d0f7ce4a": {
+    "from": "0xf584f8728b874a6a5c7a8d4d387c9aae9172d621",
+    "to": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2",
+    "to_name": "Lighter",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x4c799c7d7582aeab8431f579e8261e122225adb9cf538a9e62b0f8c2c9d44130": {
+    "from": "0xed9ab5bc05a0152b9dc2f7902e8369af7bc18771",
+    "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "to_name": "TetherToken",
+    "value": 0.0,
+    "method": "transfer"
+  },
+  "0x8ccc962878559e13663c5e8bd67056a31479b251679b4d6dffe3a86f959a861a": {
+    "from": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+    "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "to_name": "USDC",
+    "value": 0.0,
+    "method": "transfer"
   }
 }
