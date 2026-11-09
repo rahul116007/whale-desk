@@ -1,5 +1,41 @@
 {
- "open": [],
+ "open": [
+  {
+   "symbol": "WLD",
+   "id": "worldcoin-wld",
+   "name": "Worldcoin",
+   "action": "SELL",
+   "category": "alt",
+   "opened": 1794212762,
+   "entry": 0.311468,
+   "target": 0.28655056,
+   "stop": 0.33015608,
+   "score": -0.321,
+   "confidence": 44,
+   "factors": {
+    "whale": -0.0,
+    "smart": -0.42,
+    "news": -0.167,
+    "sentiment": -1,
+    "momentum": -1,
+    "liquidity": -0.166,
+    "lighter": -0.439,
+    "vaults": -0.537,
+    "cextop": 0.024,
+    "funding": 0.196
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 1 long / 8 short, net $-9.33M",
+    "second opinion: Lighter top traders 2 long / 14 short; Hyperliquid vaults 0 long / 4 short; exchange top traders 45% long (+0.1 pts vs their 2-week norm) [2 agree, 0 disagree with the Hyperliquid read]",
+    "crowd vote only 57% bullish",
+    "trend is down (-19.3% 7d, -44.8% 30d)"
+   ],
+   "last": 0.311468,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  }
+ ],
  "closed": [
   {
    "symbol": "ENA",
