@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 11,
-  "wins": 5,
+  "closed": 12,
+  "wins": 6,
   "losses": 6,
-  "sum_return": -8.959999999999997,
+  "sum_return": -0.9599999999999973,
   "best": 8.51,
   "worst": -10.99
  },
@@ -354,6 +354,23 @@
     "meme.weights.momentum 0.64->0.51 (snapshot IC -0.17)"
    ],
    "buy_threshold": null
+  },
+  {
+   "ts": 1794563786,
+   "symbol": "WLD",
+   "action": "SELL",
+   "category": "alt",
+   "return": 8.0,
+   "why": "target",
+   "changes": [
+    "alt.smart 0.23\u21920.30",
+    "alt.news 0.13\u21920.16",
+    "alt.sentiment 0.32\u21920.47",
+    "alt.momentum 0.19\u21920.34",
+    "alt.liquidity 0.31\u21920.33",
+    "alt.funding 0.39\u21920.36"
+   ],
+   "buy_threshold": 0.35
   }
  ],
  "by_category": {
@@ -383,12 +400,12 @@
   "alt": {
    "weights": {
     "whale": 0.339,
-    "smart": 0.234,
-    "news": 0.134,
-    "sentiment": 0.324,
-    "momentum": 0.193,
-    "liquidity": 0.308,
-    "funding": 0.386
+    "smart": 0.297,
+    "news": 0.159,
+    "sentiment": 0.474,
+    "momentum": 0.343,
+    "liquidity": 0.333,
+    "funding": 0.357
    },
    "buy_threshold": 0.35,
    "sell_threshold": -0.3,
@@ -397,10 +414,10 @@
    "stop_pct": 6.0,
    "max_days": 7,
    "stats": {
-    "closed": 7,
-    "wins": 3,
+    "closed": 8,
+    "wins": 4,
     "losses": 4,
-    "sum_return": -8.940000000000001
+    "sum_return": -0.9400000000000013
    }
   },
   "meme": {
