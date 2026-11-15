@@ -2,40 +2,256 @@
  "bitcoin": {
   "news": [
    {
+    "title": "Cobra Warns AI Threatens Bitcoin Self-Custody as Winter Looms - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzSG1xQXYwSmhWZHBWUnVOaEo4eUxiRV9qaUE4MmFkQmZVczJKc0E1QmtfUjZFZERCMlJvbndpY2Z3M0NhcDFtN2VKekh4Ty1ZYnNZRUpxa0U?oc=5",
+    "ts": 1794741325,
+    "source": "Cryptonews.net"
+   },
+   {
+    "title": "OneKey founder urges Bitcoin holders to avoid leverage, altcoins amid crash - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NV0ZNc0pid29SbF9Qa20zWVptQks0a0pkUDFSY1R6a2R6UDFDQ1JhU0d2X2pHcWdsVkluZ2wzeXp6Yl9hVV9sSUc5UnU0c3k1TWpfaUJSTU1vbmJUZmk1NktuOE1ubjZmbmE3dmhaVlRiUWxPejlWbw?oc=5",
+    "ts": 1794739125,
+    "source": "Crypto News"
+   },
+   {
+    "title": "Bitcoin Drops to $62,000, a Three-Month Low, Amid ETF Outflows and Liquidations - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbzJMTHFPN1dSc2RQWl9VWW5KeVFHMms4YzdFVFFQOF9MMEprUmRsRHlnMUxIOWxTUlFoVTB6WFZlVDI5S2Jhd0tWOVM3QlFpMkZwNm14b1NJLWtIcWplU2VkdnU3cTV6Mjk5bjVEcFhEckN5RTB4NWNmajNMQU1IMlU1UFVxUnhCbHQ5aTdyOEhNUDZrNVJzZlluN19qellVOW43QjFBbXAzZl9CUmpQZUM4dy14QQ?oc=5",
+    "ts": 1794738942,
+    "source": "KuCoin"
+   },
+   {
+    "title": "Strategy Is Officially Out of MSCI: What It Could Mean for MSTR and Bitcoin - CryptoPotato",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaE1Cb3pRQkRuT3JCbHg0STREcWxNSTZzUU4tMzNmaVFGNmNRZjlyeWI1bmE5Z1N2U25pWmdpQ3dPdEdSY29TaFpzd2tYa0VFMVIzcnJFQlBmcDBRenlQSV96UjlNMkVYakQ1NFFFUnZIQmhMNkJsRU9RRHNZU0FyZlFZek9QTnc5TzZCUnJwZDVDQkFPYUxiaU5hazFxajQtMnc?oc=5",
+    "ts": 1794738720,
+    "source": "CryptoPotato"
+   },
+   {
+    "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWXc1YnhCUXVJS3NPVnhrS0ZPYjlUYktCd0NMdDF1WFpkZW1NRE5iLUdXcWktVl9fZ0xCaWVnRTNFQ1VnUkM4WnpUZWx0YlNFdUo1RElVWjdhMmRmMER5TjNHWlhvM0RFZnQ4cUZUb2M3MUJFYk9JRlhkbVhiUlNDMUFIckU0N3kwUFFEMEFFcnFMSFhweGt3NDNHdGRmMkxCTjVwd3dsV21peG1tbGdmQmtxdnhWX1picjN6eTNNYld5TmpNVU5Bb3VR?oc=5",
+    "ts": 1794738197,
+    "source": "TradingView"
+   },
+   {
+    "title": "CRYPTO MARKET SELLOFF \ud83d\udea8 Bitcoin drops below $65K as majo - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10TThKRjd5LUJOWDkyaHhJZzZoX3Vhd0ZweTFTRXhzXzB2WGNqZWxiMkRCWkxmQ0ZyRmJzbTRBa3VuWVpNRF9LdTFsT1NmZlNmUUl2dGpSNC1MWFB3WFQzYVVYck5rcjRsSjFOS3B1UUVqZw?oc=5",
+    "ts": 1794735968,
+    "source": "KuCoin"
+   },
+   {
+    "title": "Bitcoin\u2019s Fall to $62,000 Sparks Market Manipulation Claims - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeEg1QmxvektXaDI3N2J6NXFzS1pqNXJjRDNqWHRKU2RYT3owbWg5V2NGRm5aSmpBZFFWU19yM0JKNzdEY095NUFIQ3h2LXpJZEhmaGJ4YzNhU181MGVIcUtRR3hVa3htWjlnQ2lfVmxTQld2QzlIS3RRQ1FYZGdpUG1lUXBuZWIyZDNzMTRQV1FFVHlZSXc?oc=5",
+    "ts": 1794734669,
+    "source": "Yahoo Finance"
+   },
+   {
+    "title": "Bitcoin Price Crash to $65K: Who Is Really Selling BTC and Who Is Buying the Dip? - Coinpedia",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeDJOY3ZTTzFKakU0eGhPTFMtM0Z6bXlFdlQ0UEdWODcwNlI3cVUtWVVvVThLalloRFNIQ3MzOXFoSFpnZjJ1eElNTDR2dHNkaGMyeWxyQnlWU29pZGcxWXBsemNoQlVPV3hPYWtYcmxnbllnN3FkZFd6UFotYnhQbFlYaFcycXkyVHBCSDFxRnoxQ3VuUVc3U2EtS1ROdDZOUGR2Uk1LdmkxTU9MRGY4ZUs2bk5pRlpz0gG-AUFVX3lxTE9xZGkzcjAxNEJmWFhqVGhqQ2tZalJ2YzZrYlJURkp4VFRwLUIwOUswa3dRMGg1RFJ4ejVJXzNhODF4dG0xZFhObzJIcnBDR3J1eWFFem03czdLdThFRXptUUtYNllxcXlYYndtWmRMTElieFMzSEUwdVd2OUlNZzJnMGZ0c1lPa3BPZVhZcGttakZlNVVRZjFqSlJvNE1Hdnl0VHFtSW1naFRuSUtVUFdLZGU3c2dzTHNoUGZKa1E?oc=5",
+    "ts": 1794734114,
+    "source": "Coinpedia"
+   },
+   {
+    "title": "Bitcoin\u2019s Fall to $62,000 Sparks Market Manipulation Claims - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iYTJacEtmUVIyUUdzYUtNYmJ4R3pVSlRUeTVHdmdxUHF6cVhNeXhBTHpnbnl1U3gtQ21Ca2tYWi1RUkVUeU9hcGhta19YRngtWG1OVGxCRzV2UVNTd3JYS1R2RmVkOVU1cnBWUmRRbG0?oc=5",
+    "ts": 1794733949,
+    "source": "BeInCrypto"
+   },
+   {
+    "title": "Crypto Market Downturn: Bitcoin Below $64K, Altcoins Drop 22% - Bitcoin Foundation",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdnY1YmdIbXBNWERaVVI1bUhZRGxCeFg3N3V1cHo2NHp4b0s1eklXQWxPcmNLelI1Zzl3akVDUzk4dDJjSm5mUVBVX2dPeTgzUlBZSXhYM01UOGdIQTFyczBlMHU3Q05TRTQ3RXA4ZVdCNWs5c2NjR3owakNXT21iVF9NUGJXaHUtTVk0LWxmUlVUNXE4RW9PSm9tSkR0ZTVLYUQ3eFpn?oc=5",
+    "ts": 1794733006,
+    "source": "Bitcoin Foundation"
+   },
+   {
+    "title": "Why Is Bitcoin Dropping? $1.9B Fund Exodus Adds Pressure - Bitcoin Foundation",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUE1Ec04zTjBuNnp4LWtKNEVoZmVMenl1ZVpQdHA0S0pXR0tSdGw0NlA5cFZNQTJNaUh6dUsycDcxQ1pLVFdHeFNuYlIxeW05cEpYVVV6cUZ1bUdqLUp6N0I2ZUxlb1FpbXVZZHhtUktwMHJyWEE5VjZXTm9pcHRhOTdGQjZFSVgwRS1sMThGRXgtZkxWX2ZOTVRsMA?oc=5",
+    "ts": 1794733006,
+    "source": "Bitcoin Foundation"
+   },
+   {
+    "title": "Crypto Markets Lost $300B in Days as Bitcoin (BTC) Slumped Below $62K: Weekend Watch - CryptoPotato",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZTdPeWZZLVEtLVhjYXAzaXJsbzA0MVZTbDZBaXpQVzIxZUJKYmd5YlJlV0tUWWdXX2wwWE53RE9BRW5KRENpNUtUUDZuTjN3U2xocm5tYnhpODVpNkY3a2JZQnVKeGhReHI4dUxzMG1PMjZ5RXJNYVd3WlEwd2FpNlZmZnpGYTc5bm55MzdiamlMRDZuMnVQWTNEcW5KdnRnM2hMVVFWUlM?oc=5",
+    "ts": 1794732480,
+    "source": "CryptoPotato"
+   },
+   {
+    "title": "Bitcoin Price Prediction: Can BTC Reclaim $70K After a $1.4B Crypto ETF Exodus? Remittix RTX Is 10 Days From Launch - StreetInsider",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNMEx4djcxOHZXeHFYa2M5enZqWkhfRWJWN0pKcTRvb0F5SGh4bXBpTmF5X3NLVExxQWd4NHNWNmZSSzhvVzB4dmVUWktYRG9oQk9rVGlMeVdzX0gtMXZtLVdoSWxBNHhKanotQ2VOc1FhNFZ3cGdtc0tWb2FVMFhqSGcyUVJDV1hobHV3dWJoTWh1NHg1ZTZiZUlXZHJERjhhYUNBWFhqMDlRWF9EbGJobTB5MkFtbDVrbVg2eVRTeVRSZ0FTOEdJM1AzUDBtcjV6VHRJY0xZaUtnMEJhUUVKajU1eFNmM2VWVFIwTkZoWkhKMkVtanRzSG5LeUdHNmNOSlpNclFNakVUNHQx?oc=5",
+    "ts": 1794732414,
+    "source": "StreetInsider"
+   },
+   {
+    "title": "Crypto free fall: Lost 7% in 24 hours, $1.5 billion wiped out - The Jerusalem Post",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ELVVISXZyOUFTNEhMYTA3YWRsZVJUVDdQdTdkdWhNYVpfVUxmMm9Wem9JRWRJUG5SUWRHZ2Q0UXBHTmE5TTdGTElldlEwaXpoNktzczhPWTFDOGJDSlZvY1NXX2xCNlVuY3RvX0phSFF4UHNCOGtTWA?oc=5",
+    "ts": 1794732000,
+    "source": "The Jerusalem Post"
+   },
+   {
+    "title": "Bitcoin Slips Under $62K as Anthropic's Mega-IPO Siphons Market Liquidity - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BYVZyOTJUMC1pX3FrajFna2xDOWpwX2NmeFUtaS1OV0ZqQ1RGTmlHMzNaTG9vMEh1RkZWeGZXeUIwUmRHdUxfZ0ZicEl1X2t1ZGMxWXNWTTdRZ2p4TEFZa2xxSXVkdVhKbGtwdWZhUjJCVmcyRFE?oc=5",
+    "ts": 1794729900,
+    "source": "BigGo Finance"
+   },
+   {
+    "title": "Bitcoin Slumps, but Saylor Touts STRC Dividends - Cointribune",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR3pTWS0xSHVaeXAxWjFTVkZjazd3N2EyUXB3VjRNS0UzdVpCYnpSYlhVbmU3NTNEaUdPR0JrcmpwMUJLc3NmSEthUzFCd0FSVlVSYm9fWjBYVzJVNU1oX1VObTI4UUlCQjFSVS0yYzhmMm5YcEg4Q2Ixc3E4TzZzd09Hb1o?oc=5",
+    "ts": 1794729900,
+    "source": "Cointribune"
+   },
+   {
+    "title": "Jordi Visser Sees December Fed Decision As Bitcoin\u2019s Next Catalyst, Questions Wall Street\u2019s Nvidia Downgrades - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmVIdUhYQjJveVgtdEVaMGRiSmxOdkhQeU9oOXkzS3BHUGNNZVJEeUtyOVBRTHF6Z2taSnNqRHFnNG1sd18zLVV4dTE3cWJyb1EtalhRVnE2QW04YzB3TEwxYVhsdW1NVWkzcDNXTkhvY1owbXpnUHdLN2dneDh0cmJJU0kwcTQweE1kMmUwOFNlWGQwMGxVR3czSQ?oc=5",
+    "ts": 1794729112,
+    "source": "Yahoo Finance"
+   },
+   {
+    "title": "Bitcoin price falls to three-month low: Is $60K the next stop? - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1aZ0F6UThiTEp2cVhxeGZoSm13MlRlZnRVRDV4Y29TSlh6T1pnZGRXSEJBVllPZUFmenM1Uy1MbnZiZ2xqTnhQR0lfUUZEcU1RNlNxbHJVeUJFRVJ5djJxOEF5d0hJMmtqVTRmZjQxcWRPVVBuaWNCUzlhUWw?oc=5",
+    "ts": 1794726120,
+    "source": "Crypto News"
+   },
+   {
+    "title": "Trump Media May Sell Bitcoin as Up to $1 Billion in Debt Repayments Loom - bloomingbit",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWcC1pN0pLdEJIUng0Vkg4MFNxbFVXZS1zT1AxWXE2R01aNVVlaGFwOXhkZDJKWUhIMF9ZRHlUTXJ3YlZCMDIyeUt4b0ZhVXVDQjdtOA?oc=5",
+    "ts": 1794726067,
+    "source": "bloomingbit"
+   },
+   {
+    "title": "The Hidden Reason Behind Bitcoin\u2019s Massive Crash Below $62K - CryptoPotato",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbjg1WldCZ3ozd2tubnBFUWdQQnBYeWZLY0UzOVVDX0JVMzN5MXpYb0RlQVpPME1TdE1KZVB2eWVkajNwa0EwU0M4SV9PMDloQlBDcGd0V0xKV1R0MVExaXR2VVZ3dVI5Wkk3X3RLdUQ1LTF1MFBvZW5nWXV1d3Q4aldiRjF5c3M1ZXZZ?oc=5",
+    "ts": 1794725160,
+    "source": "CryptoPotato"
+   },
+   {
+    "title": "Bitcoin May Never Hit New ATH, Legendary Trader Peter Brandt Warns - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY081a3B3YWZMNXBPZ0RNbFNUaDBDWHBodF8yaXdKdml3Vl9wNm1fSUFhV0dsbVhJQkEzcTBSUmFacWN0ZnVITVhibmdGWWlJRWQtOURtUnZlWEJYcEZZVjRWVHlXSU85Nng1RTlKMUsyd1NidW1iWkhRVmtpU1FHV2xVVm5vZVVRdEs1dEVyNXRvZEUwbG5VbWpkczB1eVBRTGkzNjA0LVRBcGpTS05nLTV4QS1hSV9vUW5TZThTcDA?oc=5",
+    "ts": 1794724560,
+    "source": "TradingView"
+   },
+   {
+    "title": "Bitcoin selloff tests resolve of committed investors - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pa04wNlRDYlQtbWdud3JlQXIyWnBUdm1HLXZVR3ZleGxSTy04bTA4alM0TXNuU0FrQVRZaGppdThlVzBjVFRFdzI4N2ZWMHAzLThtM0xvRTNqQkN1U0ZfazBJOXZHZkRCSGcyc3QzWWYtaHJydE05Yg?oc=5",
+    "ts": 1794724519,
+    "source": "Crypto Briefing"
+   },
+   {
+    "title": "Crypto Sheds $571 Billion in Ten Days as Losses Deepen - The Defiant",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcUtHNzNBUUROY21pNExTVW5HY1AtcVViOEFZMjFPNFBYZWI3UHVOaHQtc1dVQmtkZnJnaGlzVDdlSWdFT2g1NnNZSEFRdDVyMjZwUFVXNXlvMFp1YWhaeFNDSGF6X3VoZHd1Sl91X3hpeDg2c0lwV2lXMWwxMUhtRG9fTXF6RlRFMW9VTGRaVGpyUQ?oc=5",
+    "ts": 1794723740,
+    "source": "The Defiant"
+   },
+   {
+    "title": "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSXpXdC1Qeng0eEJORnVwaDlIbURad0NMazJVaEtsckhTVWhfemdUdTJ4bzdOQmVhQXNodXlicnJpTVNFQll6TmlVSnNXdmRfTUlCX3JTNllGZ1JqOFQtbU1fSjBsUzVHY2tROUFkOC1UM0JCYTJLOUNwckVNald1VjRxV0ZZeC04cDgyMm1lam1GY1pqTTFjVDRxVFgxQzljMjRUUTNxcnFhbTZxTE5yaG9mR0ctNVpndnBRVnhERG5SQ0E0LWhuTQ?oc=5",
+    "ts": 1794721599,
+    "source": "Investing.com"
+   },
+   {
+    "title": "What Nvidia's CEO Ouster and Bitcoin Have in Common - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzN3d6VkVGNVgzTmhFcTI2MFNfcS1BLS1uYk1abTlMQXpOSkdVVmp1R1AyTkVyTkltXzRVUnktQm4tYVdMN0ljNDhERTNfd3BFRE0yRUNn?oc=5",
+    "ts": 1794720077,
+    "source": "Cryptonews.net"
+   },
+   {
+    "title": "Crypto\u2019s Slow-Motion Selloff Leaves Traders Weary and Hopeless - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbkNtd29JSVN3NktDZF9RamdWQlQySzg4UzBEUFZkeWkxY2JINnFlZEFyMHd1c1FoSEsxcjZEN3F5V2R4WlZ6djdQQllXNDNqVWo1SnZWTlNpY3Ywb2w3QVNuTlI3UzdtUFg2RWFUYnktM3VRWFJUSWY0a1BIYUdxc19HVnk2ZGZxY2t3UXdEeGpqY0lhclFZVXhFN01vUXFxcFZ5b2E5WmxYX1lXSnJWMnprTQ?oc=5",
+    "ts": 1794719400,
+    "source": "Bloomberg.com"
+   },
+   {
+    "title": "How Low Can Bitcoin Go by the End of 2026 After Losing $68K? 3 AIs Gave Us Brutal Targets - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ0J6bE9aSWNyemgxWWZ0S09EN0JaY2R6dDJsbU10eFRreFJyZzhob3o5MUozbXBZblZjOWdwcG1zZ3hRREJ4X3FDN0tZRktfNnJfTTltRVZwQWM4N0wwXzN3U0NyRUMxbFl2S0VaY3Z4WFJPZkZyZXMwVmoySXExTlBkbjNCSkRQOHJ5MmFNc0xydHFEN25hMHczczB1MjYtdGQ2ZjFTTnJOdWotcndmeHYyN2YteHJNUlFnTTNGT3FoVzQ?oc=5",
+    "ts": 1794718955,
+    "source": "CryptoRank"
+   },
+   {
+    "title": "How Low Can Bitcoin Go by the End of 2026 After Losing $68K? 3 AIs Gave Us Brutal Targets - CryptoPotato",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDF6QURPSUJtRmxSbDNLUEI0MThNU004cnl3UXFWenlkbUduLTIwN3N6al9xQ204MjJjM0I2WkYwS0FsNW9BUzJNZV9NMXpqWGpDckxNbnQ5ME9tODRFZVpuZVVJZjJOSnVFMkNrUWFxWUk2Ni1VSVNSdzl4R2habVdoS2cwTzdwX2kzc0hqZ0RBRVZiVE5yTFE4NlFianpZbGJvQUJBR042UmdwQnU0b3BjVQ?oc=5",
+    "ts": 1794718620,
+    "source": "CryptoPotato"
+   },
+   {
+    "title": "Crypto Presale Watch: Strategy Shares Slide With Bitcoin as Remittix RTX Counts Down to November 24 - StreetInsider",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQUlXandwUXRkM0xtZkRZdktzbXg2MllWOEY2MWJkMFpvTXNscnRYSjJMZG5DMlJkTExReTUwczhQU2lGeE1mQXBXeXRWYW54VzRkaVBmMXUtbFQ4eFBTMk1iSnJDNnIyMEphQVlMVFlySk0wOHpFb2dzQnVVOUl6YklsOU52MnpYUU1xYlk4WlZLbEFUMXhJMFdTLTBGVDdEZDVLWWRscExvTkVDTXZBamZsOFcyUlZRQ0NLTVFPanZPSkd1ZkdDczZSZkhkTnZfY3lHWkxLTmczbHdxTy12c2R1TE8zeTFDM3dLelcwbW9Oa0k?oc=5",
+    "ts": 1794718104,
+    "source": "StreetInsider"
+   },
+   {
+    "title": "Bitcoin hits four-month low as sell-off wipes out US$2 billion in crypto bets - The Business Times",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN01sMzBwNjF0T2RXMnZOalh3S1h2UUJsQkR5UDJuS29pNmFDWXk3ZWZzRmRfUDYxRE5hZy1lV29DYlhpQm1nMm5RMnNEVUZLTkdyM1pmOWJWbUtsYzA1TU9UVFdJbkVVMjdCYUdldDBraE1GWVRVSklSNVV2NmYxYms5SHE3UTVOV0hRdk5nRmYxbFRQc2dFVG8zbzE4T2toVXlYSWtQSUNlQWs5ak5hdUw2VlNZYl9odFdrX3FQNEdEN0JBRXpqSHdSUWY?oc=5",
+    "ts": 1794716040,
+    "source": "The Business Times"
+   },
+   {
+    "title": "Crypto Update: Bitcoin Swings More Than $3K Intraday as Remittix Earn Goes Public With Weekly Payouts - StreetInsider",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOTEtVDhTTGU2MGJWcE01MGlhdExjbFJpYTFtVzlnWFRyOHpOSm1ZNGVOcndNOGJyTXZ6ZnNOODhETFloRmtHaU85VTRqaDhZTVJiS20tblBsYmdPQVEtUjR2SkVXYUJDSlBrTlJOc3I3WTFpVGtCMGluSmdnTzFqTWY1OGlmWmdqQV90Rll3U05RUW4yY0hKdnVtUUQwMFA1Z01JaDVwSDVpVm44a3h3VGJkYnVPcnRWT0NWWExXckcyNERjUk94SzBsVFdSb2pFZHVkc0M1ODFuM19kck43eWhBRGtmSVBFVGNETWh6ODdHUTVYamtWUg?oc=5",
+    "ts": 1794715584,
+    "source": "StreetInsider"
+   },
+   {
+    "title": "Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZFN4Yk1qMGk3ejFQc2RuVXlMMWoxUmd6T3NHOGM1WEFCd2E2ZFplM0NXMGRhb3VFS0VtWEtVajlzUS1UV0N6aVpZSlB5Wm5rbWNTUG9nNTNoNUI1LXB1OF9vUWxRNHVSaXBkbmJlbXFYZ1BWWllpY2FoUm5KWXdycXM4VTZXNldjVDJTUHYzRG1IWUt5Ujc3NjFvYWVab1IyUWxQaVVkb2E0NWlLY1hyRHZ3?oc=5",
+    "ts": 1794715260,
+    "source": "Bloomberg.com"
+   },
+   {
+    "title": "Bitcoin Faces Final Capitulation Risk: Could $40,000 Be Next? - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWldYVUVlb0hwUVRSUzk5SHZjc1R4V05sdk16Rjk4Z0JINnJUdlhOSmNleGpUU1BKWlc3VlZyUDdrek1BY3MxUGV1SDc4SW5oZnpBcW5lZWhWXzNqYS1LWWdIaE9Ray1NMVhiVDFjd1F5N3RPaHFheDFyTF9JWVJPR2JEa1NtaXFlREJNS1lqajRXOGc2QURMM0gzcjJsZW1PWTBHWHVneUF0OWpzWWpzNHdiSWNHLWh1ZEE?oc=5",
+    "ts": 1794715257,
+    "source": "Benzinga"
+   },
+   {
+    "title": "Bitcoin plunged to a three-month low \u2014 crypto traders lost nearly $2 billion in a day - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZkhXaHdsRHhzY2VUTExaYmxSRWNuS25BZlE0T3I4SHc4YzNSQXZEbzBnM1M4RGNaT3hNdlJ4dWU3eXU1MkZrNUEwb0R2ZWR1R3RLWXl6WHg2WkRiakt1N3dwb3JSNFRIenk5c3JIanA0VjlNTk4wcmZFLXVGZjFiNDlXcGNsdDctMHlzbVRqclB1OFFqRHNkeVdqYjhMVjJHdm8xVUdvQ3R2elJSMVhUU9IBrwFBVV95cUxPckZHeHFuVzZfVS1tYlpqTkpLRUdvX2lZQ2dENmpKLVpxbmF5UVFSQ3g1Nm85MGtuczg2MXBaQXhDUUdtMXcyb3VseXZMNUg4X0VyR0JvZnQ1T0VpQU5pdjl3d2hnT0NuNnM5UVBmLWRkUTJ3TWJ6R2JjaDRHeU9OQnhUS0pyN0hTZGl0cmZ5X3JFSDJ3Wk1YQk9Kakp2WFRCVWQxc0Y1eWZTUEpqWVJZ?oc=5",
+    "ts": 1794714940,
+    "source": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+   },
+   {
+    "title": "JPMorgan Lifts Strategy Stake 36% and Holds $540M in Bitcoin ETF - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwcHFrZ1NOYjFoMXNaZW9sbXAxeEZnMGY5TFZMbUw2NzFWM2tXRTVOOEh6dGhRSlpGdXVHX2FXSHUxVzJBQzVfOVRaOVZTU2ZHb3dqcEVlM3M?oc=5",
+    "ts": 1794714837,
+    "source": "Cryptonews.net"
+   },
+   {
+    "title": "Bitcoin Selloff Deepens As Bitwise CIO Warns Of \u2018Wilderness\u2019 Ahead, Whales Buy The Dip \u2013 But $57K Remains In Sight - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWXBES09DcFc1UDFJZ0Z3NDVFcDVDWldRVlVZYjR1XzhTOEdwYUJpbXctU3MzRzRjb1FCNWtwbVpEd0JMYlJocjB5NGVta3dxdGJnWWMtSi1pSzRJR2tKSXhOZE1HWmtFWjZBUVFRSzFWTnFQTUZnbjRVOVRtVkRFQVM1WWJFazd5RU1TMmxiMnhKTzV6aDZVbWY0RmdRUGZUaUE?oc=5",
+    "ts": 1794711060,
+    "source": "Yahoo Finance"
+   },
+   {
+    "title": "XRP news: Ripple coin crashes below $1 as money leaves crypto - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVGpwSUxwZjlmaE9MMTZqMmplUGYxX3lkVC1xN3Izc1V5bVRVNDNCOUtNUldOSWNGdTM5MG0yc0VzU3haVmExU1FhdDZEN0J0V2VuSXJmWktFYTZIdHRoSVlvVFRybU9SU3VleC1teXNCbzdYVzZDNm4tSGlvYlhEV2pSaFAxdVJpSkxSRnVqajctUWhZM3V6aWFjZzlNU3R1eHlWQkRzN25fRXdBTm9JRjRB?oc=5",
+    "ts": 1794711000,
+    "source": "CoinDesk"
+   },
+   {
+    "title": "Bitcoin tumbles to four-month low as leveraged bets face mass liquidations - Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTEJERDlsVHBaY3JEVlozZE44RUUxdXBpSXpfNkROcGxPYUdDclhsUXZIZ2lGWlpQUHdzR1hsbEZRejhRZ0tjZnBxbHVteUhyZzRPamFnZ1VlY1VLU3h3SkNYS2tYYVdtdktvRnQtU2NHQndlMlFyVnZVNlJialRQOFpQT0ZhNk5vUEVTRUg3dlJ6Ry0tTkdGalBtSDkzSjJmbkp0TEJYVWo2dm1FWEtDaHBCdGY5ZDhXRFhnZEtnX0hxQld1alFSVHh5cGV2MUp3Q1BZRG1QQzhGeDdoVk9ZbHJqYVlnd9IB6wFBVV95cUxPZ1lQelZTS01yM3JXRURUU2xLRDFHdkl5YmZCSmM1VDZJbVdoQVlYMG5QY0dZQlUzcFBQUEV5RTg3c3MzRFpuRHdrYzZTQ1gybno2MTVIOWpDU2hxcklrdkdqR0NwSHcteld0clRodVNyRE1EMXpycEEwaFE0LUpWcDljTE5XNGlScVpQVWhFVnJHNzlGcTc4STdxbms5UDl5bngyc2VvT29reGRQaE5aZEZvc1JjeU5JMlRQbk5GaXdNel93LUtLNGQ2RTNRMDJybjgtUF9mZi1hbkcwTjdCZmZWbnh4aExpV1cw?oc=5",
+    "ts": 1794710529,
+    "source": "Business Standard"
+   },
+   {
     "title": "A forced Bitcoin Lightning exit can be cheap and still leave you waiting days - CryptoSlate",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVEdETlU4SWVlZjNqUGRCUXc5TkJya1JmNnZZWG9tbC05TkF6QkxacV9Ebng1RENDeXJsbDJkc0h5UTByWURwc2xVdjRuNzJjY29RaVRDSmpFRWxnZGN0VXQxVE9qWmhINDNRaWZPRzd5b0kwYkpJVy1KQzNsS3dIZDFLWmNjLV9zYXRPdVpFd3UzcnB3dU1DTDhXRkgtZUJqRTBSTw?oc=5",
     "ts": 1794710400,
     "source": "CryptoSlate"
    },
    {
-    "title": "Crypto Sheds $571 Billion in Ten Days as Losses Deepen - The Defiant",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcUtHNzNBUUROY21pNExTVW5HY1AtcVViOEFZMjFPNFBYZWI3UHVOaHQtc1dVQmtkZnJnaGlzVDdlSWdFT2g1NnNZSEFRdDVyMjZwUFVXNXlvMFp1YWhaeFNDSGF6X3VoZHd1Sl91X3hpeDg2c0lwV2lXMWwxMUhtRG9fTXF6RlRFMW9VTGRaVGpyUQ?oc=5",
-    "ts": 1794710079,
-    "source": "The Defiant"
-   },
-   {
-    "title": "Bitcoin Falls Below $63,000 to Three-Month Low; 318,700 Traders Liquidated in 24 Hours, $1.9 Billion Wiped Out - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5TDR4ZEFLYmxtN0JLcHZrRVhUam1LN3o0bk5GLVQxdzlScW5ndm9kaWxsY0hMOERTcHk1a2tGTmdsRE5ONmhKSlcxNGtSUlFWUU54eHotemVXdmFFY2tZRkVYemhhWFNyWVdhZTI0Qm9Mdlk2TlE?oc=5",
-    "ts": 1794709500,
-    "source": "BigGo Finance"
-   },
-   {
     "title": "Is this crypto crash as bad as 2022? Bitcoin is down about 50%; past crashes went past 75% - Nacionale",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ1pLLVgwVmR4VXVVal9ULTFfZVFVeGR5VlhJLUhnUzQyTXBtRkpkamlqby1uLVdWNGN2TjVGdnZvTURCWnpSLUZ1UTAyTlBaUEJraG91enBRLU9MYUFFTVc0dlpQM3hqYTN0SExyWFhnZXZncjczMldab2lSZUw3cXJzaWFGajdna1IxOUFMN2FmQ1Nma2dvM2JBcXhnUlpqSDhxVFZLTjdDbE9UNVZYNE1iNA?oc=5",
-    "ts": 1794709119,
+    "ts": 1794709080,
     "source": "Nacionale"
    },
    {
-    "title": "Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZFN4Yk1qMGk3ejFQc2RuVXlMMWoxUmd6T3NHOGM1WEFCd2E2ZFplM0NXMGRhb3VFS0VtWEtVajlzUS1UV0N6aVpZSlB5Wm5rbWNTUG9nNTNoNUI1LXB1OF9vUWxRNHVSaXBkbmJlbXFYZ1BWWllpY2FoUm5KWXdycXM4VTZXNldjVDJTUHYzRG1IWUt5Ujc3NjFvYWVab1IyUWxQaVVkb2E0NWlLY1hyRHZ3?oc=5",
-    "ts": 1794707340,
-    "source": "Bloomberg.com"
+    "title": "Bitcoin Is Headed for a Sixth Straight Weekly Loss, and the Fed\u2019s Report Named the Risk - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sUjhtZUhnbmJmNGJ5eS03TjlRQXBndVFabGVrSHhDbWxHbS1hZk1YMmhPOFNlelJMdERDQ3p2b3dNY3ZwUHpfTUpHTlZfcUQ3d2QxZkRwenc?oc=5",
+    "ts": 1794708660,
+    "source": "Cryptonews.net"
    },
    {
-    "title": "Bitcoin\u2019s oil relief has a catch: more oil at sea, less on land - CryptoSlate",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeTE4elpaUmxWRDlHR1VBYzJOQ0tpMFpFNHZoY1FpRnB0QlFaTm55bzV4RE1TNXNZNlJpZmxFc28tTlJxZzRESUMzTEJRTjZTbXVsb3lwWm5XT2NGcUZrWXdHbXVwalhkMnE3X1d3QlpXVmFXVmhWYURqRU5pVGh4MjE5R01OTXBZNDE0aDRB?oc=5",
-    "ts": 1794706800,
-    "source": "CryptoSlate"
+    "title": "Bitcoin price analysis: BTC continues to decline Saturday, entering 'deep value zone' - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPREhQQTJ6T1M4cmdyMzU2SUhaYWszWDZOOWp0TzJ1M240RnY3RjI4OEpCQmlHR0pFbU1FekdXMXE1dzVjVHJlZ2ZMUjdOYXZIem5JY01DQ3JyYnIyUWxnZWNoR25TTG9DdExHNjNGMTdSNzJLZ3pKQ0JJeWxzMjV5cUlid3JkR0czV3ZmWlRnWXZ5QVBaSFJYZmltaU1Caks4NkdPTHo2bjE?oc=5",
+    "ts": 1794708060,
+    "source": "CoinDesk"
    },
    {
     "title": "Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day - Investing.com",
@@ -54,12 +270,6 @@
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13TnItRVZIeUZGZW96MTVLYjQ0NXRmZVZZUHN2NjYyTVgzdUM5bU40bTU2Z3pzdVQwUHN4clBrS3BJNlQwUUdqdVhudjJ6bHJr?oc=5",
     "ts": 1794705639,
     "source": "The Edge Malaysia"
-   },
-   {
-    "title": "Bitcoin Gives Up $63,000 - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HcS01QlZad3dtc21pYVl5bmhQRkx3eXYwQm5xUHlLeEdEOGRlcXFLTUxhbmZLbFB5TjNUV2Q5X3JUb1Q5YnVOSW80bUJUUUlmNGE3VA?oc=5",
-    "ts": 1794704632,
-    "source": "bloomingbit"
    },
    {
     "title": "Crypto liquidations surge past $1.9 billion as Bitcoin nears $63,000 - Crypto Briefing",
@@ -86,54 +296,6 @@
     "source": "24/7 Wall St."
    },
    {
-    "title": "Bitcoin drops below $64,000 as bullish bets get wiped out over the weekend - CryptoSlate",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV21Nc3NaMi1yZ01scDdLT3dFSndVaEdfUkhicG1tckVPVlhaOC1VSmloQ3FQRm9ua01HNEUyOWs1NGM0Vlo5bExGWkhXNFppdXY5Y3BLSE1WV2NnOGctZzNLSWhlYkpKQlRfSnFKQVBDMDdtWEpmZ2NrWWhkWHdHdWk1ZXljSm8?oc=5",
-    "ts": 1794699635,
-    "source": "CryptoSlate"
-   },
-   {
-    "title": "Claude AI Predicts Which Could Recover First in 2027: XRP or Chainlink - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaDRnOEh2Zy1DX0RHdGhiQjdqazFWeWdLT0d5X2c0S0h4Q29pOXpQU3VneTNWNFlrd2VFb0lxdU9EUDFkMTIzdVVYNUhSMGxGZU91b1I1ZVY5T0IzVG5VdnYybzUtV1V0SGVUOEdIWDNvN1Nia0J2WV9mNzhIS0dMNHhaT2pYckpJaFNpY0p0WGtsQTZEbTZfVDdpb1BQUjZmMHdYMWZOblpJR0xQcEJvWG42OHlyMHc0TTY0aFBNei16Ynl0Y1Zr?oc=5",
-    "ts": 1794698820,
-    "source": "24/7 Wall St."
-   },
-   {
-    "title": "Bitcoin price analysis: BTC continues to decline Saturday, entering 'deep value zone' - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPREhQQTJ6T1M4cmdyMzU2SUhaYWszWDZOOWp0TzJ1M240RnY3RjI4OEpCQmlHR0pFbU1FekdXMXE1dzVjVHJlZ2ZMUjdOYXZIem5JY01DQ3JyYnIyUWxnZWNoR25TTG9DdExHNjNGMTdSNzJLZ3pKQ0JJeWxzMjV5cUlid3JkR0czV3ZmWlRnWXZ5QVBaSFJYZmltaU1Caks4NkdPTHo2bjE?oc=5",
-    "ts": 1794697729,
-    "source": "CoinDesk"
-   },
-   {
-    "title": "Bitcoin Plunges, but Michael Saylor Says STRC Still Delivers Gains - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VYXFYenVOUlBtZkZ2NHpuVkVJdzRGczdnR3dPdVlwaVB2TE96X1JiSUxmeVZBM0tfcmRSRHF3VkZ1VU9NQzZZM2IxZ1U4T1ZFb1oyd1FNWEk?oc=5",
-    "ts": 1794696792,
-    "source": "Cryptonews.net"
-   },
-   {
-    "title": "Grok AI Predicts How Low XRP Could Fall Before Year-End - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmhRSG9yMHpCMVRQSmQ3b2txanlhN1I0YzdfalNaLThJdlREWExDdlp5dnp6ZjY0cUxmdHRuR0Z5MHdNZFptekVWeEwtYnJpdTg4a1E1YTRYNGs2bHF4Njk0VDd0Z1ItSE9qdzNLbEdxc1pnb2h4ZkhFYVVhT3dkaVRibFFSOTg0R19LZlNBU1pwZ04xSVZwVzZNSkN2OG4tVmJPaXNmenRwbzFXOFBFeVFxSEw?oc=5",
-    "ts": 1794696780,
-    "source": "24/7 Wall St."
-   },
-   {
-    "title": "Bitcoin Drops Under $65,000, Reports Influencer @Gemini - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hZmVRTEpBMDB3RTNUdHhTLWJKOXRib2R3RDAzZnpKODdyX3M2RllGYlFBSmhoTjYwVFJLOWxHazhndHpwMS1IS005Vzd5SWxULXRKTTNMT2M?oc=5",
-    "ts": 1794696750,
-    "source": "Cryptonews.net"
-   },
-   {
-    "title": "Bitcoin Faces Massive Liquidation Cluster Near $60K, Glassnode Warns - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QSUxTODRkdG9LV1NheldBVWhBMDNYc3A5VTFrS2stcVB3V0F3cmxUS0l4Z2kzZTJPQWRfVHB0ZG5DN29yekF5eXBGd3pMWnpLTldobHY0SXg?oc=5",
-    "ts": 1794696660,
-    "source": "Cryptonews.net"
-   },
-   {
-    "title": "Peter Schiff argues Bitcoin may fall below $16,500 by year-end if $50,000 breaks next - CryptoSlate",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOXJJdU9lRHI0QjdBaFYwWEtiUHBFaUNHUnlaYloxWmM0dXBXTzBxcGd0N1dZcXN2MkRuZy1OV1RlQkpZcTljNXdVdnItWG0xdnd5OFd4ODhvVGpyVFdHelNtYzNQUUZXV19WODB5TlNVQTZiQVdJbWw0RXZCY2I0NEJQdlV0MTY1THQtQjcwRzFTMHY3ajVjMG1GUGRZTk5pRFpqbzRSQnRBQQ?oc=5",
-    "ts": 1794696415,
-    "source": "CryptoSlate"
-   },
-   {
     "title": "What Is the Best Crypto to Buy With $1,000 During This Crash? - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ0tiRXV1bS1RRWxTYTFzREJDd2p1d1dJdjdNZ3VTa1I0dXg4RVBXeUljenlTc1VkVHJkVW5kZnA4Q1F1UTRRYjM2X1h0aTVvbDlfU3Q0S3liZm41QThJS2RFaFMxQVUwNW5UWjEzUGVfbXk1cThhcGJTVkt3N19NRWpGUU5hT084Um9HdldTdDU3X0thZTdRancwRnNrQ0FIMGhvMHU3VTNrdmdHelBoMU96MWtNT1JK?oc=5",
     "ts": 1794695820,
@@ -150,12 +312,6 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNay1mV0lDVnEzVWZVZEo4MjdfVzVCYXhLQmVTMllibVlpaEE0aUxoQ0E4V3lwV3k0dkNMZzBCY1BGX1p6U2hjSkFpNm5XRDFHZ2ZNV0NXWTZ6QjRrejdRTDZqSVJxZDNGU0pzdGszTzdrelFwQVVtSWVkZWx2b2l0a3pkOHk4XzlVME9OZFJrUEJIR0VEYkRQLXlnUGU3dGdUZU9V?oc=5",
     "ts": 1794693808,
     "source": "Yahoo Finance"
-   },
-   {
-    "title": "Market Uncertainty Grows as Bitcoin Approaches Key Levels - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xSGlvNmxselZsVnpOcS1ob2RVbWNuX2RYaldQZ0F5UnA4VXZUUzJCWnVIZzRvMFFCX2M0S2k3dVFHRHJ4TVM3cEY0QnVRSDFEaFZZZzhFY00?oc=5",
-    "ts": 1794693787,
-    "source": "Cryptonews.net"
    },
    {
     "title": "Bitcoin Price Prediction: Where Could Bitcoin Be by Year-End? - 24/7 Wall St.",
@@ -188,34 +344,10 @@
     "source": "24/7 Wall St."
    },
    {
-    "title": "Analyst Explains Why Bitcoin Dumped Below $65K on Saturday: UPDATE - CryptoPotato",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMEdBaENodW1hNGIxSlZSLTRRc0d2LW55NHhENHNUbkRYR2xoNlA0aUdvOUFUNE01VjFRUVBHS216RG1ZbUY5X0ZnOUwtRFRiUU9ScUhVLU5jLU1uVnRaaXVjN0tNblpXWVpRZ0JfcHVabXh4YndJc3dLRnVrNGZiblVyc3BpOGl6VjJnSmdQaWt4dw?oc=5",
-    "ts": 1794690360,
-    "source": "CryptoPotato"
-   },
-   {
     "title": "Crypto News: Bitcoin, Ethereum And XRP Hit Make-Or-Break Levels After Brutal Sell-Off - Cryptonews.net",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56S01pazd6TDZiZUpIQUhnRUJMWXJIVTEwdjdNRFRGSkVFV1FPVUEtbU9VQTBzNVk1T1NxVFF0WEJ3NW1nZThoTk5iZVJsTmlxTm5uMlQ0N3ZkVkE?oc=5",
     "ts": 1794689905,
     "source": "Cryptonews.net"
-   },
-   {
-    "title": "What XRP Did the Last Time It Fell Below $1 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcHJ5QnhaTFlfX2o0MkxpNVBWc0VVSGlFdkZCSThObHoxcU5pQUI5WDZyMHNVYTNpVm1yYWRnNHpyQ2I3MDFXOFp3M0xhaGdiWnZfbVZQeUQyNE1mSVkxb3JzMmVPOTdtUkc3WG82QkRTMXkyUFF1Ty1BWEdnSDhzTjRxQ1d4UktUZHlKb1B6Wk8?oc=5",
-    "ts": 1794689836,
-    "source": "Yahoo Finance"
-   },
-   {
-    "title": "What XRP Did the Last Time It Fell Below $1 - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQlZfMDhpZDNiNXlfWTNMOUNOaVlON2ZUa1FnUEdzQ3dOY01YdWpSc1VaX29KVGRCaDRrQzI0YjJ5YkdacGNSemgtMWhlMG1NeEpQTmZZY21YdFZFTFRoWWhFZ1BPOGxmQ0FjRHRHQmp6Q1NYcXRnTV9ReVlVR3ViUll5SWEzUFRyS3ZNZFV1RmI3YUNqSTgwa2ZqUGxsS3JzWW1J?oc=5",
-    "ts": 1794689820,
-    "source": "24/7 Wall St."
-   },
-   {
-    "title": "Analyst Explains Why Bitcoin Dumped to $65K on Saturday: Details - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVUdIQ1lXYlJxbW9WeDZLN0kwMWdiZzltM3FyeUl4QVMzTHBrN1ozd0hjZWlYYWYwRVNRa2FEV0ZyX0NwU1lFTnVBczVLVlVaNFI2VFl4d0NpVGJkRVFzeWl6YXZQeVNEYWl2UUYxQnJKbFhiMnBremVYbWRuai1xNWRrcGRoM3BRZnowUkotQ1pFRlMyWkVXbXJUeXNXRkpqQUE?oc=5",
-    "ts": 1794688836,
-    "source": "CryptoRank"
    },
    {
     "title": "US government holds about $20 billion in Bitcoin and Ether - TradingView",
@@ -242,12 +374,6 @@
     "source": "Yahoo Finance"
    },
    {
-    "title": "Jordi Visser: This Is the Real Reason Behind Bitcoin\u2019s Decline\u2014What Does It Take for a Rally? - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5qX1NWU3RNcVI0Q3FLSGZXU285UXBnekZCRHN3amFJVUFSVWRLSVpVcXlUaTdTSmktazd4WGlsY0x0U3N4QWVRbjF6RFpwWnBTYlJHRzhCcEM?oc=5",
-    "ts": 1794684771,
-    "source": "Cryptonews.net"
-   },
-   {
     "title": "Bitwise's Matt Hougan Says 'Demographics' Trump Election's Impact on Crypto - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMTBNTTBKd0otbF9aM0Ewejh1c3VaQzdUTE84TFdFMlFIM2xSeGJZNmNYbXZmTWk1NnpKekNkcVlxcGlQUnJUZzNwYUFlaHlEbXZSMHJpQVNhNENSQlNVVERDbDMzdVB3X19iSzFwc292YUp5QkNCa2RwU25IVWpSY1Z3QkpvQnF0aGRTMkpidmlVcDM2Q21iTjlTMVI2R3FxUXJmdlFB?oc=5",
     "ts": 1794684607,
@@ -266,28 +392,10 @@
     "source": "24/7 Wall St."
    },
    {
-    "title": "JPMorgan Lifts Strategy Stake 36% and Holds $540M in BlackRock\u2019s Bitcoin ETF - CryptoPotato",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPanl1MU15aDN3WndmZ3BDS1lBc0JwTDEwQ3VndDU5WnNlODl2TmRobjJYVkxHeTRWdFZiNlZBaU5SaGxpMG5RTk1GdEVEUVFaOV91LWxyT2ktR1o2YXhIc1Y2MkZnc0xOcGFYYjZEQ1lJbFdrV00yMG04MUFYTlNfcU9GUjdOSW5sak14bUY0aGlzZXVadWswYlZRSEJERzQ0?oc=5",
-    "ts": 1794682140,
-    "source": "CryptoPotato"
-   },
-   {
-    "title": "Bitcoin Falls to $65,000: Analyst James Check Shares Critical Assessment - Kriptofoni",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWXVQTnN4dVRlZER6Q0lrZDVxX3BBUk1aX19IU3BfaUJIMk94MzlOcjRReUJVaHBndDlBeU0wT3JFZkpqQWFxVEhiaWZtVHRKSUJiNkRIQS1zWThfT0o3OU1IVkt0aTc4bWp5TlJuVXk3NnB3NmJSaUZSOVhJQ2RfVW9rUUM0eE9KaWZEM1lqZG5Tc3RDNERhTlB3cTh5VU9aUG9R?oc=5",
-    "ts": 1794679857,
-    "source": "Kriptofoni"
-   },
-   {
     "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding - The Block",
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOd2RhQ3lIWVBkNjRaQ1ZucjBhNkItQ21qZi1NMFhuRE1Kd0FPMWhsb0F6eWVLVkpRVDZtSHJoQWdCQ0RacUNkdEJLQ1dHLVdHYzN4MkpUdU1od1FUcm8ybmdUdFEzb25BYTl0WUtJQy1oQ21nSnRybXBUbFExQmpmZDN2b3g2dTRZMjRHWE9FVlZ5UldzMVhMb0ZiWktmcjJHOElUYndGbG5XQS10dm5oLTlQQkphTEFTYUZubTVRbUpyV0pWV3VuV2ZESVpyOHdvSG9ieW5Bck9sTDFHUVhHZWY0WGJXYW9yelBHcA?oc=5",
     "ts": 1794678600,
     "source": "The Block"
-   },
-   {
-    "title": "Is Bitcoin Going to Crash Toward $60K? Here\u2019s What Investors Should Watch - Coinpedia",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLTdiOEQ3Q19veUNZa1NLN3NrWDc1UGZ0WnBZbWhibFFRajZNdV9ZeFAzSThPVVROVXZqZjJERVVXSUJnc0M1MnlzUEx2ZXRYZjdhOTEyMUNIMjVOSFdFMjVwbUhINUhXUWxWWFY5Q3JmQUlpQ3FsbDItN0NpREw5bXVEZnA3QTFraklKQnNVX2xSSVhLWjRPLWJCTWJxcFhMQkg5TGFvRFVYa2Yx0gGyAUFVX3lxTE9TbGNfZXY1U1ZBNXV1ZnVld0VkTVU4d0hlMDl5dEhpM1M1Ump0VTJ0dW5qcG5mUUp0TWNqWlRZa1JxWUREaGFPeksxMTA0OTVhbjhGeGg4bXpWTE1jSWhsNEVBRTRHcXVjTTJBbk9jV055VXF0b0tySnFKTm5GSmQ2M1FFV25ZWXhLbGdjZUlqWDJWZUx6YXFUZEZ3RWdzYWJaNF9MXzJlX01xYnJnUDFXb3c?oc=5",
-    "ts": 1794677358,
-    "source": "Coinpedia"
    },
    {
     "title": "Bitcoin Slides to $65,000 as $1 Billion in Bets Are Liquidated - www.trendingtopics.eu",
@@ -296,16 +404,16 @@
     "source": "www.trendingtopics.eu"
    },
    {
-    "title": "Strategy's Michael Saylor proposes $10B-$30B digital credit plan - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTmI0ZFYzQ2dkU2Q3d1NtOW9nMldmZGJpc2tFTUhGVUlTTFYzdGJzYzN2M21BMFlqSUFRRmdWRnhTMU1Bb1EzXzZrNTdMQkZkRG02YzY3aWFkQzkwNnJpSElDNHNfdzBVYk40UnlLYkptcFJseEVfREd5OE1hSmJKcGd0SXBhTzUweEpLTFJjNXV1RzFWeW4xU09QcWNEUlJRQnIyTkdLSFdubE5ORjRUc1c4bmd5azh2dW1CQnAzcHRFMzRGSHc?oc=5",
-    "ts": 1794676662,
-    "source": "TradingView"
+    "title": "Crypto News: Bitcoin, Ethereum And XRP Hit Make-Or-Break Levels After Brutal Sell-Off - Coinpedia",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY1JxUURPWFdCbTM3NTlrc3lwdk9zRXdZSGdsOEVjbTYtTThPWE9LVW9meFpHWVVqSTV5a0I0UEFrcXRDdnBRaW85ZjBNREpIYmFoMDY3WDlDQnZ0U0RrRWdGQkswdC1JajdRdTdLRzhndy1JaTN4MzlyX3RlZU9lNVE5VGZ2anRUeUdNdzc4MlVzc2E5V1dFNlJGWWVNU0VqWXp5UXRiSDFtR3VHMHp3UNIB7AFBVV95cUxQaVlRcTF0Z21nN0RSQWxDaDBKNFA4MC0wcVN0TzNmZFJBQXZyNW9KbE5WWC01OExGMmoxVkxsWVVaX1pmY180dkpGcWNSQjZEM0txcjZOZjhhRGtJc0NLbnVMZXk1M2UwdWE3Tk0wU0JDWkFXS1VnMjJXWWR6TU80WlctMzdoZTduSmp4Ti1Jb0ptbGtmMHlVd3ByZTVBT0tYMjZIajNMTVhUVzRDaUNCbnpJckxiTzVmRmdiRmNXMXMxM1lsVzBTN2xNeUozc1dDdTI4S1RiQm1tSkpYeHM2enl3NThjWEVuTTcwTw?oc=5",
+    "ts": 1794675540,
+    "source": "Coinpedia"
    },
    {
-    "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56eTR5WnRnbnhWY0ppeE5yQ3J3YjdrNHNzT2JuSEx5MkpWRmdnZEVhU1IwUkV3cC1INVFVWHliQVhtSkd3Vnk4N0tKdTdueVppOHR4ODJRMFo?oc=5",
-    "ts": 1794675790,
-    "source": "Cryptonews.net"
+    "title": "Bitcoin Falls Below $75,000, Crypto Stocks Plunge as Clarity Act Vote Fails - TradingKey",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLTlMOFdMQ3U3TVBxVzZkWElVWEpNUHRWaXdYcXloUlEwSF9fVElUbmhGSXRFeWFRTXBMNGxlOXJqSjdBMmRWb1JuTnlsT0h5a1R4bFdHdDgxMDdVUWloM3pnWDRRcmlXdU92eDFlUnltTHpEVllZODVUVlhpQlc4TGJCbGR5OUd0bnJmUHhqTF9VVVpVRGZieGpMUEF4Und4bHI5WnpGNERIU2ZWVElzU3hvcWlmMHBOdHRYcFB3b0RxdU1NSHhMVFFmZlNqeXhIYXNKbnkyMU0?oc=5",
+    "ts": 1794673658,
+    "source": "TradingKey"
    },
    {
     "title": "Bitcoin Just Crashed Toward $66,000. History Says the Worst May Not Be Over - Yahoo Finance",
@@ -326,28 +434,10 @@
     "source": "CoinDesk"
    },
    {
-    "title": "Bitcoin has fallen below $66,000 and continues to lose value - UkrMedia News",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xSFRXclZWM05xYVRoZ2xBSDBGU2F3OXNfc2tLd0VCTHE3WTZUclBFSklRaGxLcmZNS1NxWnJGdk4zTnM5b0NsRzZIM2h0UkZHcE1KYVdGcklHTGNHeHJ5Y0xFTGRsNXh5OEt0V0VwRllXdnZxd2E2Rw?oc=5",
-    "ts": 1794671626,
-    "source": "UkrMedia News"
-   },
-   {
-    "title": "Bitcoin Price Analysis: Where Is the Bottom as BTC\u2019s Correction Accelerates? - CryptoPotato",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdk9sbGg0TmgxbnpHTTR4dTVseGdQXzVRMmY3czhzWGNiSUpnZUNXWktRUXRxSWM3SGc5VzZwaGhocEdORE1pTGg4VlRVNlVrdUdOWlFDV0V3ZE5CVlN3Vk40MTZoN0NneFRpSnI2NlRpQV9nUjF5ZjNCWDdYZWVkbGNZbWw1aU9JMDdOajg1dDlmZnVLamRhVDlyRlNaMGZF?oc=5",
-    "ts": 1794669960,
-    "source": "CryptoPotato"
-   },
-   {
-    "title": "Why Tech and Crypto Sold Off After the Blue Wave - Entrepreneur",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc0R2N01GeG01eDh3Mjg0RDBXbWZvbkFFTzVyc0ZPZldqNXpsZThERFpTbzdaUEJ1SHM1MExXWG50T3lJajIyaXB2ekpUMWRvU1prU1F1TkpENmNYVWlVeFYtakJCcUFCZ3hDekQzdG1hY0JZZW5rTURzREF6dW1RMFdQMkctSnBPaGlDZmY0UmJMZDB3bUVHSGQ1bkk?oc=5",
-    "ts": 1794668417,
-    "source": "Entrepreneur"
-   },
-   {
-    "title": "Bitcoin Price Prediction: BTC Poised to Drop to $60K as ETFs Accumulate 7-Day Streak of Outflows - FXEmpire",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV2NvNUx3T1IwSTNvd0RURVlFbno4ZFZIRm9EU1lQMEtTOXFvWWZvWnUtcFJYQV9DRDhmWnEzQk5YSTZ6dGcyQVotXzRWOXNNTVB6dzlzVXdYc0NId3Z6MnViaFBBb2ZGR0VDOG9YS210NUVZOVdOaDEwTXZvbmJrMHdDN3dRbGtIdEt3Mzg4WU5adXE2akF2WnBDVGswOXZuTmNYX29WSTN3cDZnU1BfZzQxYlZOUDZKLVlsWC1PODdITG1hd3BWODh0TWVYSXlfOXdCV1FIalY5Vm0tTmc?oc=5",
+    "title": "Bitcoin Price Prediction: BTC Poised to Drop to $60K as ETFs Accumulate 7-Day Streak of Outflows - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ1hwRVMydFhadU5wZHJhaUlxSTd1aHc0REJwU2lHTGZwOWNNQ3hQQTEwYWxpLUs1akthejg4SXBQRkhWVklUYTg2bWt3SzdxeFdlR1ZORWJEVmtsQU55bTBaSGJMdVJ3RTRMUUh0OEFhbzFZM09wTEVPMmhuVVBSa3NGX3ZhaWI3d09OYmRQc1haMHN1ZTZadXdGTk82cU9aR1E?oc=5",
     "ts": 1794667785,
-    "source": "FXEmpire"
+    "source": "Yahoo Finance"
    },
    {
     "title": "Crypto Market Crashes as Bitcoin and Altcoins Slide, Fear and Greed Index Sinks to 17 and Liquidations Surge - Benzinga",
@@ -356,52 +446,16 @@
     "source": "Benzinga"
    },
    {
-    "title": "Bitcoin\u2019s Crash Isn\u2019t Over Yet? Analysts See More Downside Toward $60K - CryptoPotato",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnVkUk5hX0tJWGpZX0Y0eWQ3a1RZcTI3LTQ1RElOUUVtQWgtdC1qVXRPUVZtem9hcjk2VlR0MW9ZZ0JtUDNfTmNJTUtpZ1pyMVFVQjBub3VvTGxXZkZ0VzM3UnhfT2NZbjFHWFViNzlSR1o5X3FYVF84azRicjRNYkFDcms3d2VaZDN6U3dMb0tvY1RLU0RV?oc=5",
-    "ts": 1794665700,
-    "source": "CryptoPotato"
-   },
-   {
-    "title": "Crypto News: Bitcoin, Ethereum And XRP Hit Make-Or-Break Levels After Brutal Sell-Off - Coinpedia",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY1JxUURPWFdCbTM3NTlrc3lwdk9zRXdZSGdsOEVjbTYtTThPWE9LVW9meFpHWVVqSTV5a0I0UEFrcXRDdnBRaW85ZjBNREpIYmFoMDY3WDlDQnZ0U0RrRWdGQkswdC1JajdRdTdLRzhndy1JaTN4MzlyX3RlZU9lNVE5VGZ2anRUeUdNdzc4MlVzc2E5V1dFNlJGWWVNU0VqWXp5UXRiSDFtR3VHMHp3UNIBtgFBVV95cUxNYlZJc1ZwSlFJdVZXVWdzTmVlLTlSSXRJTEgycEQ5RWVtRnc0M3hfU0EzNnBjZGpqRGpaeWpJdHI4dDVlYTVkR0lNOGN5NU1nTjlyS2h1Nk15dlMzVVRDRURWQV9EbEdXXzBvYzF6aDVYblRMVEVaOUF0Q21JVDdlY1FwRDljODVKT1dLd2t5X3luaFdjSFdfMG4xU3h1RlVQanBPVmEyQ2k3RGRnd0N4R2FvRE1PQQ?oc=5",
-    "ts": 1794664788,
-    "source": "Coinpedia"
-   },
-   {
     "title": "Bitcoin, Ether Lead Crypto Chatter, but Avalanche Is the Only Token With Positive Buzz - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IUnpGVzdxMzNrY2J6TVJvTWdEcUJSdThpTlRrWWxFbk5oMUhvX2E4T25YU2lMNzM0QTBVRm0yRDdZNy1HUVhMTUk1cXljUk85aDlIdm1keGg4TzRyQmhTVmlGaFNldlFsOEQtR0hwUzZidW9nTFE?oc=5",
     "ts": 1794663300,
     "source": "BigGo Finance"
    },
    {
-    "title": "US Government Holds 306,790 Bitcoin, Crypto Valued at $20.57 Billion - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NbmdYWXdyVDJZRXNNRmRnMWlKWm1UUHNubEpCa0l2SEJKd1Z3ZTZpN1N6WkFUcmlBUE14STRQV0RZNUswZGQtMGhqb1p1Zm1DZ2ItdA?oc=5",
-    "ts": 1794663083,
-    "source": "bloomingbit"
-   },
-   {
-    "title": "Will Bitcoin Never Set Another All-Time High? Analysts Debate On X - BeInCrypto",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GbjhSUHNOOVdRMGtJS2hrbWx0NjFTOFFZM3VZOFRxZ05pUzhRdGlOY1ZDMVpmOEkxTFdhMTlwcThWTnktRVRpTkdPRXFjYUpkQVIzSlRzZkFyTUZ1V04xaXhseXdlXzVOc01ZZ2JHNGlkVElmcjFaU1pn?oc=5",
-    "ts": 1794662131,
-    "source": "BeInCrypto"
-   },
-   {
-    "title": "Crypto Market\u2019s Nearly 6% Slide Costs Bulls $1 Billion in a Day - BeInCrypto",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oanYwemUwUmc4Y1pmV0FrT09RaHEyeVZsVDJCYlhuUjBxb3VpM25jSU0teHY1QTY1X0wtU0pFblJGSlNEc0p6YV84MlQyTWszc2pFVHJyQnptbTFOUnk5bmE1MS1PTWxQdHI5VElpcUJaelpETF9ZcA?oc=5",
-    "ts": 1794662131,
-    "source": "BeInCrypto"
-   },
-   {
     "title": "Bitcoin Policy Institute pitches mining as a fix for Scotland's wasted wind power - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONjhxeks2Z3BUdFVUUzN4WGpnMndlVk90UzBMdDJwaENGeS12eG9wTVotV1dETjFQaGIzbGFjYjRzbUozMlh6cHUydFBGTkQtQ09RMmNWcE5pT214M2ozRTZGVUMxOXlQTTRLUzE5eW9qcFY1bU9nNG1aSHZhdzhEakxsSmx3MS11NmNvSFhoV0ZEclU1QTFEcWxKdGJCeTN3NVFLWl9zNEtQOGRqcjFHSUVHMVFiVUxmX0o4NkNKSDQzbXE5SDIzLVJLbG54S0x2ekdtUDYyX0JKbjBMYkpR?oc=5",
     "ts": 1794661493,
     "source": "TradingView"
-   },
-   {
-    "title": "Bitcoin whales turn net long, retailers capitulate as BTC falls to $67K \u2014 Rebound coming? - AMBCrypto",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT0dQU09zS1o3cnV2OGNMeGprZzVSR2lIYnRIc3NTWlRuSXo2bWg0QWVreTNEMlZwSG1mQUVBNnhBSmtWWXZ2ZElSekJEVFZHaXZSVFd0VGlvVnMzNUgtTjdfenJMYWtJYUF0Nmdac1pMM2gwdWhzWHM2SG44aEN2LXF4NVlTVWU1dXRLNl9naWhpX2o5Z01mSkVXc0tpZjM5S2dVazBpZW5LS1U?oc=5",
-    "ts": 1794661242,
-    "source": "AMBCrypto"
    },
    {
     "title": "Trump Media group stares down $1bn debt crunch as bitcoin bet fades - Financial Times",
@@ -416,10 +470,10 @@
     "source": "CoinDesk"
    },
    {
-    "title": "Bitcoin Drops Below $67,000 as Crypto Selloff Deepens - The Defiant",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDVaaUZCZldMU2doOEtJMXpaalh1Sm1JNzl0ZGhDckZpTTdKQ3JhdHU2c1JQOW9SU3lCTDBZMjR0cGU4NUFtbjd6U2hSZ09tSi1oVGsxc1JST1ZYYUdhRVc3aWtKWjM3OFBjWTlkblZqSUlfVVJCczl2UFhmQkE1VmE3YmI5YTJpOXlmWXlzbkI?oc=5",
-    "ts": 1794660749,
-    "source": "The Defiant"
+    "title": "Binance Market Update | Bitcoin Hits $67K: Is Anthropic\u2019s IPO Draining Crypto? - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQjNqdVBLOW9kc2FsTnU2MGRCZkhRTDVkWU90d2djYXozNXdjRXBWb2kxLTFONXZPRlE2QzZEWjd6TmdwUndERDltQlRHemF4RmdIbGxxaHJGV1VBcEY5UmVOX29RWEZWSFl1dTRwMC1FMEVTMjV5X0FQbnJUMEZicl9WT2VCbXBxMDlUMHI4eWtUcVNMMEoxSVJKREJoOHVWdWs3Qk9iSF9uZFhkNGFxU2hEUU9YMm1NWEppRzdqc1dRVTN5aVF1NjhnQ0ZXblB6SEE?oc=5",
+    "ts": 1794660120,
+    "source": "TradingView"
    },
    {
     "title": "\u2018Don't Wait\u2019\u2014Bitcoin Suddenly In Free Fall As Price \u2018Collapse\u2019 Fears Trigger Surprise $2 Trillion Crypto Crash - Forbes",
@@ -434,52 +488,10 @@
     "source": "Yahoo Finance"
    },
    {
-    "title": "9 Reasons Bitcoin Crashed From $81K to $67K in Just 10 Days - CryptoPotato",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd3ZGd0RzV253T2xnZ2NvdnVoSEJxQ1Bycy02ek9OSXVESEk2SG1wdkY2S1ZnN000ZXNNempDelFXZHZCWlF0OG5qcms3a1NKenpKYUxhdk0tWmx2cXJWbTdxRl9iTjhtRUVtSUJoT3BGYWF4WVBVZDFBTWtvRlRqTDE1S1J1bnNfR3h3?oc=5",
-    "ts": 1794657360,
-    "source": "CryptoPotato"
-   },
-   {
-    "title": "Bitcoin could fall below $16.5K, Peter Schiff warns Strategy - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBiRktsVGtDWVJ2WWZKUGk2QXdiNzZiZUxzcVdtYWFXbE0xTkc3dlBxT2Y2RTZjMEJGeDNnY0ZMNHh3SThYUHJrTFFLM2NfQkRmc1NnaXRlRTJYOWtxZDBrRWhQNko5d3lRVnByUllxMnNGdw?oc=5",
-    "ts": 1794655800,
-    "source": "Crypto News"
-   },
-   {
     "title": "Most Investors Are Wrong About Who Owns the Most Bitcoin. That Misunderstanding Is a Buying Opportunity. - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeTJRelRuVEZUUU54SFZuYklGQ3ZQNEJ3T0pqNGVGOVNMc25iVW82bGc5Mk42TG1FMEV2Vk9WLTVKeUQ3ZWRZZ0JJVTJuVWtwOS1XLTg5Tjhkakl0TjNibUkwVTNqVEtjcEFHMGFtcVZWQXlqR0NtbkE4cTl3NEZoeWt3NDBaYjZCSVFEbGZxM1AyLXB5bHBQenlNRQ?oc=5",
     "ts": 1794655320,
     "source": "Yahoo Finance"
-   },
-   {
-    "title": "August Crypto Market Review and Outlook: Bitcoin Surge Above $80,000 Sparks Broad Crypto Rally, Fed Decision to Determine If Gains Continue - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQXpOZ3lTOEtZQWpOSktpYlpOZ3pRS19aV1lXaTVRc1BLRUNpRXRyUXl5dTRKWGRnWkwyOWRzcm56aThITmVxak5lckszNHhVVTJxVF9PYi0wWERaSzUyMGFiQkhfd05RZlVvc1N4RFdKZjVRUmdiS0RETHFjVExGQkZZQ0k4LUlNMUlPdUNNcmtTaUhZUnJieC1zYnpxanFrOVcwdWN3RXhOZ2lEcTd6TGpKVXp3Z2JtWkJDWlN0YUVlYWVZNnJlV2FB?oc=5",
-    "ts": 1794649515,
-    "source": "TradingKey"
-   },
-   {
-    "title": "Bitcoin plunges below $67,000 as crypto liquidations reach $656 million - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVU1OeXFfSjEtWlFhSm5FSjVEWVhWNW1oQWl4TTU2dkJyQ2xwcllRaDRQd2FkdkQ5bWxtVEp0ajNENE9QeTFYREJNX3d1MGpzY09ENDZCQVhZQnhhTkQydE5aZEJlSkJ6WElyZTZlVkpUbXVDNzV4VHdoQy1peFJmUW41OFB0cVpvT251enl4dVM5TGJ1NmIzZF93Z0V1bXlnNVlPd2VvWGxja1ZRZm0zLWJzdmJwWkpNRmpxXzh1d1V1V1dTSWpQQkhnOU0?oc=5",
-    "ts": 1794646342,
-    "source": "Traders Union"
-   },
-   {
-    "title": "Crypto ETFs lose $1.53B as Bitcoin leads another week of withdrawals - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSnh3RHd3U1FqVFR6QVE4Y2NoeU1nMnlVMk5oVDZtSHJQVlE1TkNaMDd3MFg2QUhaMVc2aW9jeFlONUFLTXBYbVNvQmd1SzN3WUtLNWRMajEzT2NDa2J0enJTUEJ1WExBQlJTbFcwUGZsM1BVYnNNYW1EZ0E5UzdxLWln?oc=5",
-    "ts": 1794644243,
-    "source": "Crypto News"
-   },
-   {
-    "title": "Bitcoin price loses $68K trendline: Can buyers defend $66K? - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkSFJ4cFJLTHRwYjRJa24zS1hILTBzZjIwVk5obXpTMnpfeE42SUcwVFcwWllMbkF6c1l1RXB1QlV6UVl2Tmt2Zi1fU3Zfd1htdkZhbGNCUW4wWTV6NU96UVI1OFMxQnc?oc=5",
-    "ts": 1794643457,
-    "source": "Crypto News"
-   },
-   {
-    "title": "NFT sales fall to $33.63M as Bitcoin volume rises - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdGhZNk5kb0RSclRHcnAwYjlYVmFCVzNpOXM3NGZyZjJlcUwtMGtKaEJOLW8tQ3lkUWo0Q2YwY3MxMW14ZUJnVTY1VXRTcFZURzNvY0xpNUppZlROUUF5cnlubFhJel9UNDhOenUyNHNQbDhkSnlrUFZ1eXJxNkRGTE53?oc=5",
-    "ts": 1794639120,
-    "source": "Crypto News"
    },
    {
     "title": "Bitcoin\u2019s Billion-Dollar Wipeouts Are Becoming a Familiar Sight - Bloomberg.com",
@@ -518,22 +530,10 @@
     "source": "Yahoo Finance"
    },
    {
-    "title": "Claude AI Predicts What Bitcoin and Ethereum Could Be Worth by 2030 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUzdTTmdsREU3WWdrVlZIRUFCa1ZrVm0tTWdOdHc2d2tYbkhVQUpPclc4aXpYQXU3VGU5MTRjaUxpaU0td0VUZllBbDRPNFl3SUZHaEJJYk1hQWZwcmdrT25KY2RhOTY1V2dvblBjNGtJbGVVZkVuWW45S1NWcnV6Z3dBemhHYjctdExWQnJqd0ZMSm1SSEdZWmVJbUFTamxndXc?oc=5",
-    "ts": 1794595406,
-    "source": "Yahoo Finance"
-   },
-   {
-    "title": "Why Bitcoin Is Falling Today - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTXNMM3YxTGlpTGtkckZHdjRXaWVhTlhwOXk4ZGNldGJ1Z0ZnRmM4Y29CNHJ4R1cyX0dYYTNXVEV2UFh4c295OWZFdXhMNTFuQkRKcTFVZW82NUVhZ3ZHN1ZleU5uUlZIR0ctTTZFaGdCZTJXQnlWWW9MNjJ3ZjBrVGRITEF3NTNqZzRXdUc3VTBUQm8y?oc=5",
-    "ts": 1794594902,
-    "source": "Yahoo Finance"
-   },
-   {
-    "title": "What Bitcoin Did Every Time It Fell to Its 200-Week Average - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWE5wNnRPNE1nampDMDI2aF9nQ2pGMkN6SUEtTFZ6TVFVd1hGM1R4NUd2SUVFWTMyRUdaczdjWEJEU3dGZjg5OUIyS2ZULVpDTGIwQ3hTdmJPMHZXSDlURDlqUDlxZlV0Yll2SnUxMFZ2R2x5ZGdmdzRNM2JlYTRJVHh3eTJ0LUZlZ212aHNCcDZyV053RGNZ?oc=5",
-    "ts": 1794592783,
-    "source": "Yahoo Finance"
+    "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRVg5eFZrR292cU51UDRvU0piaHlybGw4MkNaRFFzclNieGdmUEhDVGNYcklBYjJDUDFTcmg1aDcxYVdvdnItMW1UQ1VkS05vTzBUeXRESGF1bTQyWVREMDB2enBybHBxWXFzZHhQdkZiWnhLRVR4b2VLUTN6SmY1czhycEFQbzU0OTdyMUNvbnl0TUtabkNnbFNyWC1LMFdfVFBuUXQ2cE5mVDRmSnlNRms0ak96U05UYmJUbmw2eUVGUWUwNHBmZw?oc=5",
+    "ts": 1794595198,
+    "source": "CoinDesk"
    },
    {
     "title": "Bitcoin\u2019s six-week slide draws parallels with sell-off before SpaceX IPO - CoinDesk",
@@ -548,6 +548,18 @@
     "source": "Fast Company"
    },
    {
+    "title": "Current price of Bitcoin for November 13, 2026 - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3SmQxZ1EyU2VheHYzYmZZWm11N3R0ZmNKOEtUcVJSLXVyTDkxWERDb3pxMkhuZm9GMzJQeHUwbmlreXJjdUJTYkdlUEZ2U0Zxc25EbC1JSndUOENZMk9NY3BrRzBVQms?oc=5",
+    "ts": 1794576600,
+    "source": "Fortune"
+   },
+   {
+    "title": "Cryptocurrencies Price Prediction: Bitcoin, Ripple & Crypto \u2013 European Wrap 13 November - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa3ZaN3lZTTFpblhVTk9FVGxIb2liUWgtTGhLOUUwWEJCM0dmQUdFMHlZZFlrWW4yOEZzZDhzYWd4TjBXRlgxdEFwdjh4c3JzUXJRRlhtLVZscFBrLVN6UGdaRENJelplSU5rWFZ1cl9WcGJ2SzZwSTZrUjFtS3MyZjc0QUoza1VJN0ZFQ3BZQUdlTEhXdzlRczdWRkdWd1JPWWxpN2JUTFRPMEVuY0EtWlNGSC1Sd3F5V1ZSRXBjWUtPT2QxT3V5b3pZNEtkRXdZdEY4RmFIbTA?oc=5",
+    "ts": 1794571807,
+    "source": "FXStreet"
+   },
+   {
     "title": "Bitcoin Holds Below $70,000 as Risk-Off Mood Pressures Crypto - WSJ",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWkRFdXJ3VnJvNExRVTFoQVJFRG83VHNleGp6YURoaFJ4cW5UWlh0STJBZ01fb3ZJTlBNVWZtYWUyeVVtOXg1T2h0RDJ2Wk50SXFtMjFLaTBZZjRjS0FMSHpvZnByblFhZ3ppQkNrRHdENVkwalo1d2RiRkRDa2U1WHhnZ2lkZkhYcjRMaUozWG80dUIwZ2tyeGhPVDhCVXRzMkExRzZjeXIwUTlq?oc=5",
     "ts": 1794569734,
@@ -560,28 +572,10 @@
     "source": "Yahoo Finance"
    },
    {
-    "title": "Why are Bitcoin, Ethereum and XRP crashing as crypto liquidity dries up? - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53b2JPbm5LSDhaXzhMa3A3akdqRVN3R1NTc0NhOWdzbUtMRWx0ZHFIMVZpUDNSX2NsNW4teEtkckpzdUE4VTI4d2NPM2hrRG1QVmhWT01zeW9weWNaNWlLNTZONy1KamJDaGxOMS1YY2F1VzMzLVYzVVkwSQ?oc=5",
-    "ts": 1794548220,
-    "source": "Crypto News"
-   },
-   {
-    "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdEdURUU2eTU3MTIzN2V0a2FYNVZhUVVYX0p1VnpYR2lrcW5mak9LRW9YdmgtbmFfYk1oZU1PX3lNWGhsLXEyWXBmLWNpeEoxa3FlMkstRFU3LXNtaFZwOXNCRE5lMjY0a3ZXMnpJWXk3cWpCY2hxOTRoM1pITTFWOUtUZ203aFg1QWVaUGdUdHhDRS02Vlo0TTM2SHV1T1FMMV9IUw?oc=5",
-    "ts": 1794547990,
-    "source": "CoinDesk"
-   },
-   {
     "title": "The Alpine crypto \u2018wonderland\u2019 forging close ties with Tether - Financial Times",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmZkck9DMDk4bUhpbDRyOFh6YWhGbURJMGVycTVIQjNpXzNLZGFCcXNBcHV4NmlLdHFZeWFDUUFQV0Nnb1BldFF1VkdSZWQzWEJ5aldqd0dJX3ZSYVE5c2lGU1h0NTJkeUJTNjlucG1qNmFvUTVBOXZ1RmlaQmJ6OUJRU0o?oc=5",
     "ts": 1794546189,
     "source": "Financial Times"
-   },
-   {
-    "title": "BTC news: Prices slip below $70K, triggering $1.2 billion in liquidations - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUFvUmV4NkRTR3k0bnVVUjBYQTh5Z1BNX3NsTE1YWE9YUEpRMTJ4TEF5NFJfVmxPaUZQWl9CZEJpNGQtOTRMNmtYRHV0N3NUM2FtOUp1dWNaSV9OSlVYMFRwNld4ZWI4bUV4a251VjdzeUVnTW1EbFBuUndERzNjTWg1cDZ4Y1d1aXFPbzZYUXFoT2NJcnVBcXFXdFo?oc=5",
-    "ts": 1794542340,
-    "source": "CoinDesk"
    },
    {
     "title": "Nearly $600 Million in Crypto Longs Liquidated as Bitcoin and Ethereum Fall to August Lows - Yahoo Finance",
@@ -600,15 +594,81 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeEotY2tFTzVZQ1VKa0pBbTRGejVzaktfTjRPNUdzT0JKN3ZzaGxicDVxaWtadWthSm5ZWVo0bUIxdlhDSHpSbkZjNkx3dGFJaF9fU2U4TkdxS1Q0ZUhYLXpYbGNGc0ExeU1tN0JXQ0pmemU0cmRFb21nSDZJeENwX2ZhUVkxak9TcU1VdFcxdy1XNjhWb3lKdWU5dkVOdWVPWXMxSGhLdWZWcmM?oc=5",
     "ts": 1794502804,
     "source": "StoneX"
+   },
+   {
+    "title": "Bitcoin Selloff Deepens as Midterm Sweep Stalls Crypto Bill - FOREX.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRVFnOEVuTi16OWY2SzNzYXFwUDFPUnNjckt6SGhWUzZuckJNbzk1cFhIWlF3ZVZoWkpjNGlTNVRtdXE3VUk5dE1IdDdySHNDNUhmTjRKa2lTc1RJSk5xV3hMdXdfUkNxcXI0TFBSTWdpYU4wajdHUGlxVzNnd28weU9VdUN4Vk5qQ1FRRnloT1E0a2NfYlVvTlpISWZhWWZZbU5YWTE3aUpjdw?oc=5",
+    "ts": 1794495988,
+    "source": "FOREX.com"
    }
   ],
   "reddit": [],
   "x": [],
   "pairs": [],
-  "_ts": 1794711097
+  "_ts": 1794741714
  },
  "ethereum": {
   "news": [
+   {
+    "title": "Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff - MarketForces Africa",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM1hiLS15amtGVVYtdUpRTDZtZjFqM0dNNkFhN1otMHlBUFJFMUNfNlZZdXdCaXRBY3BiTFVCaEM0SUowdlZtYVVHNXBMdXp1X0ExV2NvWXZkdDdwdnA5cndNWlRYOGR1T2U5UHlSN0l5VVZ4Ti1zSlNpWWZlWXZJTW9EY3VXZXJWTGFITDF1a1VGalp4dHhiWkRtQQ?oc=5",
+    "ts": 1794739867,
+    "source": "MarketForces Africa"
+   },
+   {
+    "title": "Crypto selloff cuts XRP 33%, Ethereum 30%, Sola... - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYkZvODAxNkRIOVM5VUJkc0ZpakMxM0hCdGFTT2R4aHhXLWRSRlZsZ29lYVotRjZFWTMxTXZKcEsxSlNpNDM4bnNPUjFidmc3WVhFSkQ3eng4Rkx1RG40R3pTQUptVVhaeFN0TWFJbzlzWVhYaUdSZC1iWGZKRC1fUUJqbnNRQWhOeDNwUG1HX1RfMC1I?oc=5",
+    "ts": 1794738736,
+    "source": "Pluang"
+   },
+   {
+    "title": "Peter Schiff Warns Of \u2018A Black Monday\u2019 For BitMine And Ethereum ETFs If ETH Loses Key Support - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMnlzbUJDczlHUXpvN250TFZDbVp3dkhZUTJMWXhqNmlpdUI4elJnVnAtZFZmOWV2TjlGRXAyc01RMjItQVFCbUthRFpaZFZQWnhNclhTdmR3SkRuSlRCRk1YSlhaQXF4T2tmaFFjdm95aHRpNEEycy10YUhBbTlhRXFxSzZ0aEEyay1XOU1LVnROZndQY0VUZWR1dGhWM1NFN3hIb2dfVzc3cDYxdlR5akpfdl9nMW5McC05aExhSW9xeXlZdGZzd3lZSGMzc1d3bTFQYzJyOWZGd1ViM3RhS1BndWl6Q2c?oc=5",
+    "ts": 1794738365,
+    "source": "TradingView"
+   },
+   {
+    "title": "Ethereum reserves on Binance hit five-year low as ETH price falls - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HWWFBTFN6VV9xcFpTMWE4TlZNV2RxNm1ZalJwSUFlNm13UzJzSTdzYldGelFOSHhucDJWZzF0MElKc2xkSTZHSVpoX2w2Yy1laC1CRnoxdU5fVlVUUm5Tb3c0cS1KaHJZTEFUWFo3RGp6Sl9rTFE?oc=5",
+    "ts": 1794737532,
+    "source": "Crypto News"
+   },
+   {
+    "title": "Ethereum price hits lowest since July, dropping 4.1% amid broad crypto sell-off and Fed rate hike fears - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTEItWm9tSFdsVEw1VXFvaTBBbFBSUEQtaVJBNWpmZzNibTlyb3lkU2liTEJzM2RUM0dZcVA3NFliXy1MbEk3Nnp3WXkxRzhINkNrdXhWOHd4eU4wdzB6Z1FVcnR0UlhqM0hidm9KYzlZODdUVXRYN3dNd0pnZ3NfYXpGSkF2SGk0SFJTenZiNGdaSm9pYmc?oc=5",
+    "ts": 1794722274,
+    "source": "Pluang"
+   },
+   {
+    "title": "Ethereum Price Prediction: ETH Trades Near $1,910 as Remittix Announces a Planned $0.46 RTX Listing Price - StreetInsider",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMk52Y2dKNkxjQXQzdmVIdWhEN080Yzd4MjVORWtTSnktVldTNVdaOXM4endZSVlEVzdsOS01RXhrMEJKZmdCaWkwOV9JY3BGUlNlWUctME02VEVLT0tKWXU2bFBTU1pXcVpBT0FiM0d1UVYxaGhjTEctMG5OVTh1Y2JxRTdORHFKcW5QNUpncnA4WGVpWEpQNHU3RTJZR2hNTUtvWFR2dlNyX2x3VUUyQkpPS2t3aUhJT09Ia1ZobDBHRmZpaEdYMGltT0ZBSnExRmR3YlBWUlNuNW8xNXB1LW9NU0JndWhYQUgwSk8ySFJ2bG1iS3N2WENrMWZ2UVFvcXRJ?oc=5",
+    "ts": 1794715584,
+    "source": "StreetInsider"
+   },
+   {
+    "title": "Bitcoin plunged to a three-month low \u2014 crypto traders lost nearly $2 billion in a day - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZkhXaHdsRHhzY2VUTExaYmxSRWNuS25BZlE0T3I4SHc4YzNSQXZEbzBnM1M4RGNaT3hNdlJ4dWU3eXU1MkZrNUEwb0R2ZWR1R3RLWXl6WHg2WkRiakt1N3dwb3JSNFRIenk5c3JIanA0VjlNTk4wcmZFLXVGZjFiNDlXcGNsdDctMHlzbVRqclB1OFFqRHNkeVdqYjhMVjJHdm8xVUdvQ3R2elJSMVhUU9IBrwFBVV95cUxPckZHeHFuVzZfVS1tYlpqTkpLRUdvX2lZQ2dENmpKLVpxbmF5UVFSQ3g1Nm85MGtuczg2MXBaQXhDUUdtMXcyb3VseXZMNUg4X0VyR0JvZnQ1T0VpQU5pdjl3d2hnT0NuNnM5UVBmLWRkUTJ3TWJ6R2JjaDRHeU9OQnhUS0pyN0hTZGl0cmZ5X3JFSDJ3Wk1YQk9Kakp2WFRCVWQxc0Y1eWZTUEpqWVJZ?oc=5",
+    "ts": 1794714940,
+    "source": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+   },
+   {
+    "title": "Ethereum falls 8.3% to $1,768, erasing months of recovery gains - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3lwaHpnNmozaFY1WWVBLTAtYW5feDMzNE9lNjg2clN0TzdnUHBvbmY1VFBfTjZfYmg4Sk5RU1NEelRyaHczcFlKVkxDQU9VbUprcjd3VFJ3RVlrUDIzeFJMQ1N5UENIN04yb0pDNV8yaFlteFJBQkExQnFOa1lPZEpHR3VrcC05S1kzWmZTLTE3TDhqT3JoMmJzZjZrVDhXZzJYMTFnZUtEMjJIYzBWV0hlZzBFWDhRMzY0R2tQdjJoTHpNZHF1UXZn?oc=5",
+    "ts": 1794713042,
+    "source": "24/7 Wall St."
+   },
+   {
+    "title": "Ethereum Tops $1,800 - bloomingbit",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzOC14WWtmcWlLcVoxY0I1anNkUVFmdmtsMkcxaHVYN3JFQmhPZkM3a3B4aUl3RUplTmRYemRtQVgwWWhJVjZseTBrUkVvV2NMaGpyYg?oc=5",
+    "ts": 1794709081,
+    "source": "bloomingbit"
+   },
+   {
+    "title": "Ethereum Falls 10% In Rout - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVEdPZWZvYnlPOWtRWTI1em1IaXp0NW9DMDJmOGdlVTgwSGxXdGtoMEo4QUNpcklGNlJkZWFtLXd4NjNLVHN2RFp0UGY2bjBUdC1wT3J3WUNKSmlUQXk0NEthb2o1bUpicGRKMGZBODNrZjR3SHlyM19Id1VEdjVGeXRkaTk3VFVTeWtpLQ?oc=5",
+    "ts": 1794706232,
+    "source": "Investing.com"
+   },
    {
     "title": "How Much Will 1 Ethereum (ETH) Be Worth by 2030? - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSE5zVy1oSVZxU2M0SS04QnBtd3VfbXFPZzhnclFPM0kxWUtOUXQ0emNhenBaNFpuSHBrZTlVXzctc1A1SmZzT0NmeEhlQmFEVko3amF1a3gxWjRJRmxBaUdnTnotR1RlZU9BOGJJSmdac3Z0Z3BROWtjUDBPdmlJaWtEZEVwMjZMTmRzMWlDdlVaa2dLZXpjV3lidTBkS1hWQkFOM2xrSQ?oc=5",
@@ -682,10 +742,10 @@
     "source": "24/7 Wall St."
    },
    {
-    "title": "Ethereum price falls to $1,830, its lowest since July, as the Foundation sells 7,500 ETH - CryptoTicker.io",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BNVlWb2xMbWRzWnZOLTFRU1FaODJ4NVlkQWh1QVIzRDl2ZmZmQ0c4VmdMX3BLOEdlcHNuQl9ON2trVDVGUGpqZTJaN2tSNlg3S0FXU2V2dFpXSWpSTm9kYnEtbzJvSFZtWnRqRg?oc=5",
-    "ts": 1794685004,
-    "source": "CryptoTicker.io"
+    "title": "Will the CLARITY Act Pass Before the New Congress Takes Over in January? - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMUlteERUN0tjZDhPSWxWWFZGMmdNb3ZaU1RfTW93THhDT2d6VzI1OTktQ3Mtdk0xdmZmSThHT2Q1Ul94Q0pJS0V1dFU1ZFNiTk05dDB3Zmc1Z2ZEMDlSUW1ibjZtNkJzRlVYR25PczVmOW1mSW9BLU1HaEtwMDVNZks2c09aWVpaUXY2bkMtRDlsc0JUREM1ZnBjMkFheWdqeUs2NWQwMFY2cmF5WXZTZmExb1M2MnhZejZDWmVtTGRDZDQ4TjNHOG5B?oc=5",
+    "ts": 1794684780,
+    "source": "24/7 Wall St."
    },
    {
     "title": "Ethereum Flashes Death Cross as ETF Outflows Surge, Futures Open Interest Dives - Benzinga",
@@ -724,10 +784,10 @@
     "source": "CoinDesk"
    },
    {
-    "title": "Ethereum drops over 1.5%, breaks below $1,900 and approac - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aRFdNRHpQVk9iTDVmZHdTa1MwLTFlT1R6ZVJkSmtyY29vclRiS05sR2U3WFFzaXp2b2x6ZnJRT3dhTWthdU42Z01qYTROMnFUNVpWaThUdTc0ME1wckNPSXJka1NkdEs0RVlLdHlMeEh0dw?oc=5",
-    "ts": 1794664210,
-    "source": "KuCoin"
+    "title": "Ethereum faces temporary issues due to cloud provider malfunction - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xc1oyUzI2RzdncjZqb0l2RmY1TWllX2l1Q0NEV01HV2FnVEVpTUVjT0s3aGY5WndEcjhOT0ZXdXlzM0U3elh3SEhnMzdTeGJ3UHRUWXVSMklDQQ?oc=5",
+    "ts": 1794663746,
+    "source": "Cryptonews.net"
    },
    {
     "title": "Bitcoin, Ether Lead Crypto Chatter, but Avalanche Is the Only Token With Positive Buzz - BigGo Finance",
@@ -742,28 +802,16 @@
     "source": "Cryptonews.net"
    },
    {
-    "title": "How Low Could Ethereum Price Go In NOV 2026? Kalshi Traders Predict $1,760 - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Gd0tXWlB3cDkxWk8zWnY1alU0eGd6dDd6XzJsUHdWUnRKWGQ2NGhvT0lLeEMtdjNhZERqamxvQWxIY0NfYV9lWnFUMUlXamh5WGN6WFF2VlhyZw?oc=5",
-    "ts": 1794661046,
-    "source": "Cryptonews.net"
-   },
-   {
-    "title": "Ethereum faces temporary issues due to cloud provider malfunction - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oaHVnRFlleDJUX21PRHVOcmtwWXNRWVFMTXBBdlhWYVk5Yld1YnJ0d2lBLU8waDQ4cV9zYy05Y2ZnSVZqMmxfN3RjV0J3UHE5TldWaC1hSFlUZWZxRjVWaWFsQTBqYWRhd1FNMUFzbGhoRVAxcE9kS09lRTY?oc=5",
-    "ts": 1794659071,
-    "source": "Crypto Briefing"
+    "title": "Crypto Market\u2019s Nearly 6% Slide Costs Bulls $1 Billion in a Day - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oanYwemUwUmc4Y1pmV0FrT09RaHEyeVZsVDJCYlhuUjBxb3VpM25jSU0teHY1QTY1X0wtU0pFblJGSlNEc0p6YV84MlQyTWszc2pFVHJyQnptbTFOUnk5bmE1MS1PTWxQdHI5VElpcUJaelpETF9ZcA?oc=5",
+    "ts": 1794662131,
+    "source": "BeInCrypto"
    },
    {
     "title": "Ethereum Price Prediction: 36.5% Staked as ETH Nears $1.9K - Coinpaper",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlc3cGZrMjJENjVSQmlrUGJ3NXBSTmdiXzNHczNNRFI3UExHLXVzRE40bFF2TlhqS2ZzRTRaSTZlREpmZmVnV2d1Rk9SbXZXcDROQURnUDZLdkU5ZGhTNkhPZ0MzZVVNU3U5c3o0ZVptbTBURXNzaFdfcHM3dEh2SWNtNDdPNFQ4UEMzLQ?oc=5",
     "ts": 1794658715,
     "source": "Coinpaper"
-   },
-   {
-    "title": "ETH Foundation Wallet Sells 2,000 Ethereum as ETF Exits Run 87 Times Bigger - CryptoDaily",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObURBX0FZQkJjWjhkVUlWckdORVpzcll0eWVtY2tveFBSODVMOGFuVndfbHdkWFV2NFgtYWxaaHVqU3o4TFdjRmswMDNTb2RFdUZRMHZVOGg1Z1NJWlJObldYamhIRjlUdEJlZE0xSktjcFJmVTRReGhHUlFJcU5FWEU5bGZ5bUhCaXRrLS1HSDlLWmVldU05VmJCYjdlb2RmcmdreWh4WU9IZGhRSkE?oc=5",
-    "ts": 1794657600,
-    "source": "CryptoDaily"
    },
    {
     "title": "ETH Price vs. Onchain Economy: App Revenue Tells a Different Story - CCN.com",
@@ -796,12 +844,6 @@
     "source": "Crypto News"
    },
    {
-    "title": "NFT sales fall to $33.63M as Bitcoin volume rises - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdGhZNk5kb0RSclRHcnAwYjlYVmFCVzNpOXM3NGZyZjJlcUwtMGtKaEJOLW8tQ3lkUWo0Q2YwY3MxMW14ZUJnVTY1VXRTcFZURzNvY0xpNUppZlROUUF5cnlubFhJel9UNDhOenUyNHNQbDhkSnlrUFZ1eXJxNkRGTE53?oc=5",
-    "ts": 1794639120,
-    "source": "Crypto News"
-   },
-   {
     "title": "Bitcoin, Ethereum Rally 20%+ \u2014 Is the Crypto Bear Market Over? - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVnNZbmY4SHdIU0pQTUxuZUhJeWFzNW9iNVFTZmpBenFWYVhIWC1BZzdxRzR1bS10bFU0cWNRRUxOakszWlBTcDhQWXNBWExCOHlTMjAyLVVla2hlWDlpVDlmT1UxMFZoTjhlenFUN2YtaWRZeE9HVjg5UWZDSWRDNnJvWC12WXhyRnQ3UjRJRXN1VHVZQWc?oc=5",
     "ts": 1794633928,
@@ -814,15 +856,15 @@
     "source": "unchainedcrypto.com"
    },
    {
-    "title": "Arca\u2019s Jeff Dorman Calls Vitalik Buterin\u2019s ETH Store-of-Value Pitch \u2018Really Misguided\u2019 - unchainedcrypto.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUTdaeG51U040REsxcWctVFJYZVFRdDhuWjBLMk9UMmktNVVEZ3RnbHg4RDNtbUtoVGFhVXhVTEJSRGk3bkRXVm1BcnhRdS1kMWZsb19pZEhLUUpwb0J1S0NEZ3k4ejdFX1VRTEpNSW1ocWJLdi15MlhZaHBrUG9pbGxTbzRYREZBMDJycTkwV0EtY1hOMUNLdVpncVkwNS1HQldNXzFBN0l1Zk5VbkJvaA?oc=5",
-    "ts": 1794624720,
-    "source": "unchainedcrypto.com"
-   },
-   {
     "title": "Ethereum Price Forecast: Are inflation and the AI decline keeping ETH below $2,000? - www.tmgm.com",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNEdpUElrcnl6WllSTGNSbl9pX3V5WjJBY1hPckR5OHplbC1jS3dNdUIzeHhMYlRkN2dpUXdPUWswNTZPejZWeU9lUmtuSnhvLThoeGVjdTY0ZkthZllRU2x6SDY5eUFuYXV6UWFVQllmOU1FUTZ3QVBTcVVabGhZd1FCUE1jcGdFRmhReER0T1J5UXZCUFJic0J6SHY2c213V1BZYjZJMUJucUZZN2hMTEJMeW8zU2RwcV9PbWNVdTVfTExEaDJIS0llTXRrSllsZThaUWoyS0cyazNnVzJJMUJFQV9uLVU?oc=5",
     "ts": 1794618539,
+    "source": "www.tmgm.com"
+   },
+   {
+    "title": "Ethereum Price Forecast: Inflation and AI decline keep ETH below $2,000 - www.tmgm.com",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUDNzMi0yZ1pzbjM0dmhRYXl0cEYyU3VRV2gzLTZQVFVOVEVScGU2cktTTW5LMnBDZXJWSmZhdGxjQnhJMHU0VU5XX3VsMHlnSWdpeVJURU5Fd3BJNmJDZEg2clRXeHpIS1ctWGhfdWxqamN0R3NNeVYyZXR0aWNnU2JNV3QwNW5QNmxsZWdtRTdjSkliSUJOWWRfVnFTWGFDMy1sM3RONGVtUVlBS1E5c2pBbHozblA3VWM1Yk01NndZMGdiLWtROGxsUmpTcGg5Um1kN3pvRmhIRDNfVDhVZ1B1UklVUHM?oc=5",
+    "ts": 1794618169,
     "source": "www.tmgm.com"
    },
    {
@@ -832,10 +874,10 @@
     "source": "BeInCrypto"
    },
    {
-    "title": "Bitcoin, Ethereum, XRP Bottom Calls Get Louder but Prediction Markets Disagree - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa2VmSUtpVkxWU1lnZWh2eW1LQTNzSjk5WkZqN2VaZ01ETHotVzRWY3QyeklsbFpOLXRmTjdhVTVqNU5PYXduYmw1cldtMGZvSFdYWkZDc0Z0RU5SazA0dVh1YmJyaFBXSV9fRVYzbHB5MThNb0NCQ0VfYm9BT1FHXzBCOHFTR3ZXNWROV0RTX00wNzhfVDVSQ1JXRkZ6QjZ0aE12a0xzM3doTHZGanhkbV9ISmQ1TE5wZ0pJQm1iMVY0QkY3bjJXTGZ3Sk5DME1v?oc=5",
+    "title": "Bitcoin, Ethereum, XRP Bottom Calls Get Louder but Prediction Markets Disagree - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZVNLMHRMMDlHS09qbHNLTjIyRnFxaWlfS0xOOHJOQ3VTSDJUOVA0RGhHX09RRWZBNktQeEh2R0ZiZktGQWlLZDh6S0d1aGc4cFZOcG44ei02YlpWYVh2Q0FmcjFrbldudWpueWNqcXFqRmN2WGN6Qzktald6ODlvWkFyanYyQmViYjA2MWQ2b2NfaW5NaFJkd0dKMVl1dXVfY290WGIyaHkxanFiaFY4VnJMQ2Q2dHFydVlpUXBqbS14NWpRV3JGUlBLajRGeXIwWjBCdw?oc=5",
     "ts": 1794607208,
-    "source": "TradingView"
+    "source": "Benzinga"
    },
    {
     "title": "Renowned Analyst Issues Warning About Ethereum: \u201cWhales Are Watching This Level\u201d - Cryptonews.net",
@@ -874,16 +916,16 @@
     "source": "BigGo Finance"
    },
    {
-    "title": "Jonas (Crypto Big Stories) (@cryptobigstories): \"Ethereum: The sleeping giant!\" - Substack",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Ec1ZtWGc2X1A4WU04b3pneV9kd0tOSUl2Y25WQzk3c285dG5IUkxwLUJXa2ZnSDktQUk2aVBRY19hS0RrUXpJQkZJcGtKMEpmRDFXa1FlQXdQaUVoZFJMR0FLTUZSQQ?oc=5",
-    "ts": 1794591667,
-    "source": "Substack"
-   },
-   {
     "title": "Bitcoin ETFs Face $1B Exodus As Ethereum, Solana Funds Bleed: Is Institutional Crypto Demand Cracking? - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcnNMWW1ERE9rVkR1R0pMNGEzdndtYUtoRlU4QkxuQm9LM3BjUHRZclcwSnVuYUF5dXJYT0hXd3Brem9DMUZISl9UV2wzSXk5LXZTS0VaYldabkV1UmJnSWt3SkloVXVGVW9qRU52SHVaQnZoeFZta0xmeGZzdXB1RldYZ0s2QlNqRXFBNGJXREVNRzlOengyZXk4dm1EX1ZNaUtfb2loQUxWMi1mNDk1dFIwOGlMd2tUUUExaGVFNklaXzhfWVRzMF9janVtX3l4TXlDRmNMYUZsUW9CQi1UV056Ym01cENOenI3cm9R?oc=5",
     "ts": 1794591608,
     "source": "TradingView"
+   },
+   {
+    "title": "Bitcoin ETFs Face $1B Exodus As Ethereum, Solana Funds Bleed: Is Institutional Crypto Demand Cracking? - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUXlQeUJESjlLZEhnaFRoRi0xNTUyVWFXcWxZbkVaUGJZT0RoVU52TG53bENnWllSNm1TZDltOU5SQ1FpMDJHQmxTbDIwVWluV0lkTFVMYk5ieHRyZnc3WW4yTnppSUtEeUJNVHY3cEwwY01ucTFIS2RzUlBoMmg0eWVDYWpRLVFiRG9GYW5ESXIyM3RYRi0xelF2QU0tX3BDUkI0eVpLTW1xd2tSenVyeFJLMTlDQmZ4NVkyTE0yMmhjOUpwYi1YMHRYUmZVUl9qOFlSaE80RTFWNno1RjZmRDRnWnFXQnp2Z3NvZkdyWQ?oc=5",
+    "ts": 1794591608,
+    "source": "Benzinga"
    },
    {
     "title": "Ethereum (ETH) Price Prediction 2026, 2027 \u2013 2030: Can ETH Reach $10k? - Coinpedia",
@@ -964,6 +1006,12 @@
     "source": "Benzinga"
    },
    {
+    "title": "Top 10 Cryptocurrencies Of November 13, 2026 - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLS13Z29idEcxNEVOMHV1Vkk0eVNLZGliRExwZmtuUzBLZjY4dnNsRWlvWWRwZ3g1d19Lc0lHaVl5ZkdtWmV2NUx5bWRhTUlxc0htbnllTDU1ZjV3UmVDVVFaZTBJQ0FvRHdYY0toRFY2Q05TMnc2ZXp2bFpycHR3anlpVVEtNVE?oc=5",
+    "ts": 1794573480,
+    "source": "Forbes"
+   },
+   {
     "title": "BTCS sells Ethereum below cost to manage $64.1M Aave loan amid falling ETH prices - Pluang",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWkMxajVSajlSbmFWS2VxMm5LbU9GTnRaTzd0MXkwRzMyUlJTZjBVd0p4RlAtUzdCX0xlaExlUzZZaTFIZWFMeTYtUC1EaWlKUTJXanNJa0JFRjVVV2lQX0lMNi1KWUpmNVZmdDM1dWhvdW5KQlJ3ZXhxWXV2OGYxZGJPaVdMbXp3aVF6aFJGSjNhekN1OVA1ZVNOWl81Ul9TU1QwTjlyMjdBdw?oc=5",
     "ts": 1794573446,
@@ -988,12 +1036,6 @@
     "source": "BitKE"
    },
    {
-    "title": "Ethereum Foundation sells more ETH as price falls below $2,000: What\u2019s next? - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kWlNaNlRVNXpONVJidHc5TDE4YTVucnVoVktKTF9CcFdVeHBBU051TFBuc05oREtnRjVRd1g1M09ZdlkxbGhWQnVkT0k5S2U4RzhFbjlpX2lLVzZlcEVJYWphS0NJRElINUNSaTl1SXZHX2R0dWRN?oc=5",
-    "ts": 1794562392,
-    "source": "Crypto News"
-   },
-   {
     "title": "How much lower can Bitcoin, Ethereum and XRP go? - FXStreet",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd09lTTVCRXJvSk13SG9HQ3pkTGdSUlVKQXNFa2xpUFIzYVg0YnMwU0lLT0RMdXpDSEtXZjJMREgtc0pYUE51V25GbWZaQUc1VXBraGNaTG0tM2owTUt4T3pCMG9iMW8zU1p6cTYzMzZ5LVRaczIzeHRLUDdCRHpvQlBUN3l4bHJCZmlXQnlMLWt0VWNtRHAwWFYyeDhNSDFPNklZUEhZdElPRzdvZDYyblhIUzdEdkYwZE1JV2hiRE5hVk1tTkl4QVBFc08wS2JH?oc=5",
     "ts": 1794562146,
@@ -1010,6 +1052,12 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRlJENzc1RU01OXpwWTA4NkJnSVJRMmItX09BaDdRd0JsSUV0bzRUa1RpWUdwQlNaYng2R2RPMXhraDVXbUNYZXVMOG00RXJyVm0wMjkzRkE1NUFKZGRnYlpQOG1adFhmY3VCdHFXdElkdzdfRXVKMEV2M0lRcExpUGFaQzVXRnR4S3NzM3ZEbTRBT3NwdnBXcWFBYS1jbjlUVTgwQ3Qydk1NVFFEWDlGOExrbmZNQzA?oc=5",
     "ts": 1794559544,
     "source": "TradingKey"
+   },
+   {
+    "title": "Crypto Today: Mounting bearish pressure drives further losses in Bitcoin, Ethereum and XRP - www.tmgm.com",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOVR5TTBsWlVSQ2JOaXAwaWhSak9HOTVMR0ozTi12dmx2RHU5endmVW9zYWppZ3RsenRWelRnUC1GNW5FeEZtSmFmUFRCVVdlYW0xMWo3M3pYdjYyOTUtcTBBajYxbEt4YkkwTlh3TTNGMVp3cmpUcE92MnhvNmtzZHFrUzVhQ09hbnp6ZC1uaXp4d3ZGdE5SZkdWd1M1bDR2bmdidV9URHI1RDJYMncyR2laUmRkYWJzWnZEVldoaWVlVjZJMWNKMGtudUU5ME10SFZNZVlJb3hMUExM?oc=5",
+    "ts": 1794556800,
+    "source": "www.tmgm.com"
    },
    {
     "title": "Ethereum drops below $2,000: Can ETH recover amid $1.64 billion in crypto liquidations? - Traders Union",
@@ -1054,12 +1102,6 @@
     "source": "Crypto News"
    },
    {
-    "title": "Peter Schiff Says Bitcoin Is in a \u2018Long-Term Bear Market\u2019 as BTC Crashes Below $69,000 \u2014 Ethereum, XRP Also Slide - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWWEwc3RPdHFqaGliaHVBQ1pRMFJZQlV4QmV6TlhmZXBWdzVISk9UWjRnbThCa3Q0Q1FMTjRyUExvdVU2amVyZWZzd252RXlXaU5KVjFKYzRoakUzdFk4M1pOM3MtTS1Wc3ZrYl9qT2FtbXcxbExsVWVWbWJ2cWF0MzFrSjJtTU52MHNNQzBDamVJWDNObEZMTHcxay1ZUmlkMUFv?oc=5",
-    "ts": 1794544994,
-    "source": "Benzinga"
-   },
-   {
     "title": "Ethereum Classic Drops 4.5% Amid Broad Crypto Selloff - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZeGhFa3ZRazlBLXQ1dEcyQnpxVnNNYlJadHFVQi05ZU5nZ21mYUJWQjNIMlozRk5uQ2U4UUVxRGQxd3p6cGFFVFdQSnFteXk5NEhVZlFkbUNkQ1BkWmNzSUFDOHptUDBjT1VRQjYxWjM?oc=5",
     "ts": 1794542760,
@@ -1100,12 +1142,6 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMmRGTG8yQU43TjhNSFpQUmkxN05DWnB0R09LZHliTUx3Si1STjctMkEyUWE4bHB3WTdjV2V3QWdhRWJ2RGN3aXhoc3JXbERCak9JQkZ6aF9UN25VeEpHcGNLbl9PRzBRbVlHVjkxVG5KVGVueGRoWENnc1NDN0twWlBaNU11XzlOS3pjem5vRWVsUUFsSXJwdDczay1PODZGT05YOC1CXzBRTW9lMzBVaHRyZ3BTUVg5Q2V0Uld0NmFUYlpmVWQ4TDRqUkxmTm9obmVSeThNeGg?oc=5",
     "ts": 1794514201,
     "source": "FXStreet"
-   },
-   {
-    "title": "Israel Discount Bank to Offer Bitcoin, Ethereum Trading From Nov. 26 - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbExHUWVSbmRLYlYwOWh6LVNvd2Z3RExzWm1VUnBzeGFKZFUzd3ZERjRxOVZuS0l1cktJNmJKNmdqbGtiZFlTMTlDb3N3dzZhSV9MNmxkODBiUUFXRGViZXVRSlVWRTIyY01ULUVWcl85QmxwTEFIREZZUEZXNmpXeE1vam1FWjJsMHBGSmZGZHc?oc=5",
-    "ts": 1794513837,
-    "source": "CoinMarketCap"
    },
    {
     "title": "Is Ethereum a Buy Below $2,000? We Asked 3 AI Models - 24/7 Wall St.",
@@ -1156,12 +1192,6 @@
     "source": "Yahoo Finance"
    },
    {
-    "title": "Discount Bank to offer crypto trading via app - The Paypers",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbXNzZFpPdlJHZm9MSHRoa09raWl5YTJCSlJ5WFRjZk9BTXkxM2NuTHlxRTlxRl9YazBKZjNuSV93RG5sUW5KZ3pZTWxadVJRdFRqWWxfWndvQ2dPaDdFQ3hJRkFQcUh5NDVQQ3EzX3l5ckFHakxHc25SRmdLSkcxMkV5RFZjckRYOHIybmQxSG5zOGpLTXdmZXhpdmY5dVM0MWJqQzlvNWNsRVg5NWh0LQ?oc=5",
-    "ts": 1794496443,
-    "source": "The Paypers"
-   },
-   {
     "title": "Top 10 Cryptos To Invest In 2026 [Ranked By Market Cap] - CoinDCX",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nb3pKdmtZR3NDVWhLdnlOdzJEaFREcFh0RVM1ZUwwZS1ab1BiUGlLY1g4R3ZWOFZSbTU5Sm9GMkdwdGdTaGwzWUdJd29uMDY1Rk9KSTlqaTRWa3pZakkzdjB3RFN3LUVtTV9kSUU0WmxJMDJCdXc?oc=5",
     "ts": 1794491822,
@@ -1178,45 +1208,51 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSG5nQ21keXQ0VlB5TDhaYThnMlBRcFdOYXpPZFdLOHEtYkhCWUtXbjJMWGNGZW1ZSUVkRnZHdFFaX3g3YVE3RWJQR1VJamhmOHJnZkdhVE9RNGJtdGNtRkY4TWRLSUEtMTFudTRISDBBZDJkS0xBZU5BRTZPWUdSYzl0WkV4dzljeDcxb2d2N0psOGktc2FmNDFPSkJmRGc3NERYQzBvb1BsNHlHdnNrdndFaEZIb1MtZ1ZMaQ?oc=5",
     "ts": 1794483821,
     "source": "CoinDesk"
-   },
-   {
-    "title": "Crypto Today: Bitcoin, Ethereum, XRP face selling pressure with no clear signs of a bottom - www.tmgm.com",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObzBvc2RITklTUnYwQWtzdDdzMC1hclVHdlNuZGVBQ3dCU3JDdUJIQ3o4TkQzX1h3RHlONWlndElBSmtzTW1sOWRSMmRhT1pLTS01UTRBOHNNak8tYWg2aWR5VENNNVYwd3JYMVJOZTNXNURjNzRHS2lsOXRVa3ozdndmR0ZZdXAwUUVJQXBtMGs2RS1tWUpMQk1ucXl5ZjdpMWxwMXFuSnlmVjZfT1AzdjdZTU52b0tSb25RTlQ1WWJZOE94QVpSQjBybTI0NTBhcnJyakZsVFEwVmFoMVAwQ3hrRzdjVVd1ZGplSg?oc=5",
-    "ts": 1794482055,
-    "source": "www.tmgm.com"
-   },
-   {
-    "title": "Ethereum\u2019s Co-Founder Has a 2-Year ETH Prediction - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbkphUFVHb0Z2NDdPaFAzT2IzZDRNb3RIcFpFVU14YTFNdFdoS1djcHBsOWJPN1Y0NW5fSkV5LTZyYVV1UzBmcTl3M240WlhLb0IzR3lZUnBXWjYtMGp0SVlGcWxWYkVrMEFZMWJobmZPZzFUcGpsLXFGeTMyMnlVU0ViZENrOUlJOUNzVmpMXzFtZlFp?oc=5",
-    "ts": 1794481081,
-    "source": "Yahoo Finance"
-   },
-   {
-    "title": "Crypto Today: Bitcoin, Ethereum, XRP trade under pressure as bottom signals remain elusive - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPakt4TU02MjhSaGxfRm94YnBTaUYtaG0zTmM3aXQ1NWpJLW5TUFBIaVZCY1RJbjl4M3BXM08xa0NfeUJRaDdscDREQVVKS1E2LXJ1T3VOY2c3aFRabEtwZEFKQ25xZWluRllUMW0yXzcxYUZZMHhCNEdlRGkxNGpLdElkWVJQVkkzRC1nU2FkZ1p4QjQ0cG53YkcyTXNnVndQd2otelZkS3QyRUV4SU94NmJMWFZqRmE3NnJLYXlVY05WMk03NXh0RXV1al9Lb3BvU2E2T0UyQVZyZUxfLXF0Mw?oc=5",
-    "ts": 1794477727,
-    "source": "FXStreet"
-   },
-   {
-    "title": "Crypto Market Sell-Off Deepens: Why Are Bitcoin, Ethereum and Solana Falling? - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOWM5dmF2OTdVYU5CNEl6dE93VWp0UzNDeTI2d3JnMV9SQTBETDgwOFZJTUFPVC0xTFNUVlY2YkdvSjVrR0FpRG9XRDB4U25OdzducjJiZHQ2YWJQQl95akFJeVFfNU8zS0JiUjBSemR6VVA2OWxyV0Vhckhhak9pTlNZdWk1ZGhHcF9VT1ZmNkRjWHpnMlRSVkdTMjJ0bTVCSWMwQmt0OWZLVkx1c0FyeUhjQWhXTkd3bElILU5iTG5OMVhLUERwWmN3T3V1X2s?oc=5",
-    "ts": 1794471831,
-    "source": "TradingView"
-   },
-   {
-    "title": "This 1 Important Signal Is Now Flashing Red for Ethereum. That's Why I'm Selling ETH Right Now. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMFdDVlNfWUx3cUxtd0p4Q2hvTUJNTXZUcmdtcnl6RVExclFxc3I5YXo1TnI5TEg4MnRCM0xwYXJCVWh1T2NpTVZPNkV4Q2NoM3pWSFNiVVlSVkpTRDVRNlNpclFRb09MQ0ZEX2dwbFBidEZuNGFWU0pvbkwwbVlZV0w2Y3ZkRFRqUjNmbnhwVWJzZzRwMUZqZmxwQnc?oc=5",
-    "ts": 1794464400,
-    "source": "Yahoo Finance"
    }
   ],
   "reddit": [],
   "x": [],
   "pairs": [],
-  "_ts": 1794711097
+  "_ts": 1794741714
  },
  "chainlink": {
   "news": [
+   {
+    "title": "B2C2 Group-Linked Address Holds About 1,445 Chainlink Tokens - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aenFQVkhxQ0ZyZzM3V2VlMUdNcVo1WmJ5TXgtdXpVMXRxa3c4c0tEelhqR3lGWF9zUUFuTkwzQnJ5SGJuc2RRTFJMOVo4dXh1SlFqMkNOX0pkZw?oc=5",
+    "ts": 1794727468,
+    "source": "www.tokenpost.com"
+   },
+   {
+    "title": "Chainlink price in focus after Schwab adds LINK trading - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMGhpNnR2ZDZCOERwT3pKMkpDbjluZkhsZS1rdldtdkJ5ZWlPSVQtVzVYOXlhOXRYQm9jd2tFMnFGaW8zQ0prai0xR0FwQmk1SHFTMDlZYTBrZVl1TWRGdE16VHo2QzdPUGw4dnZaMEtBM0VEazBLMDBRVFYzMXVZMDEzRnlneVhERGU2clJUTzNIWmRzM25udS01ZWg2RUtMVUxxWHkyaGtCN0xQc3ZGaHJuTU41bWhG?oc=5",
+    "ts": 1794722905,
+    "source": "ad-hoc-news.de"
+   },
+   {
+    "title": "Chainlink price drops over 10% amid broad crypt... - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObnJWWlFnVXhCRi1KRHhpSGtpS1JheDVjXzFPTF8xaDJkQ2RqUWVFc2NuT2ZYaURNU0s3ZzJhdWxuS1BFel8xVHR4TU13SnhsWnBCd05pdGwtYmdvekdMc25aYVRudGNqTVN2LUxYbFd4MjkySUpTLTNyaGFTRTV2dw?oc=5",
+    "ts": 1794716257,
+    "source": "Pluang"
+   },
+   {
+    "title": "Chainlink Price Crash: LINK Falls Below the $9 Mark - CryptoTicker.io",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcWl0cHNtRHEwdmpmYWp6Zk5ySHozNUFIZDhXYXdnaEdjdDRzdnZCdjhuQXluN2pfT19BdE8zNDdHSXJIdWJYcmZEQ3RmSUZ3Qm5GOHNPWEhtbGl4cTg2MTVydFNwNWtKM3k0STJNc3pTQ09GeWJBbjV0R2RxMkpWTWdXdmNTSlhudkx1cTdB?oc=5",
+    "ts": 1794712460,
+    "source": "CryptoTicker.io"
+   },
+   {
+    "title": "Chainlink Rises 3.41% in One Hour to $9.07 on Binance Spot - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPV1EyaVF1QWFoWHBIdW5wbjlDZGxJV3NUZzFleDJhMVNfMDN3UVhnQlJxb0hCNldjalhwaGFEYTU2ZnBaX2Z4a1d4bGtIcGc5Uk9BVGVfLXFudw?oc=5",
+    "ts": 1794709200,
+    "source": "www.tokenpost.com"
+   },
+   {
+    "title": "Chainlink (LINK) Price Prediction & Forecast for 2026, 2027, 2028\u20132030, 2040 and Beyond - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT191OTJGMjJsd0t2cEQ3TlpYODFfN0VMSktYS24xV1M3VDhQMDdfYzUxVDAwRUVReTRCRWhjYWhSR1VnbmlodDRZSUpVZ05EYmNHeEN5clo3RVkxWmNLaTV6VWdxekp5b182TGRnVDk5Y2RGSzdGV2FKbVF4MzhwN01lREM?oc=5",
+    "ts": 1794707005,
+    "source": "LiteFinance"
+   },
    {
     "title": "Claude AI Predicts Which Could Recover First in 2027: XRP or Chainlink - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaDRnOEh2Zy1DX0RHdGhiQjdqazFWeWdLT0d5X2c0S0h4Q29pOXpQU3VneTNWNFlrd2VFb0lxdU9EUDFkMTIzdVVYNUhSMGxGZU91b1I1ZVY5T0IzVG5VdnYybzUtV1V0SGVUOEdIWDNvN1Nia0J2WV9mNzhIS0dMNHhaT2pYckpJaFNpY0p0WGtsQTZEbTZfVDdpb1BQUjZmMHdYMWZOblpJR0xQcEJvWG42OHlyMHc0TTY0aFBNei16Ynl0Y1Zr?oc=5",
@@ -1228,6 +1264,12 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNejg2T1V2d1NfYk54RHJNLUlzQ29rQU1GamlkcXNVQ05xaEpOY0JKOERCNnA4cmctbFFNSkViYmhZOXQyZkFiOWhQWFBxaUVMQm00TU82M1REQUc3UXN6eGQwMjZqUURpcGRoRi1zYTlFRF9VX2N1NC1sQnlVNFVQajd3?oc=5",
     "ts": 1794670636,
     "source": "Coinfomania"
+   },
+   {
+    "title": "Chainlink Drops 5% Amid Broad Crypto Risk-Off, Tech Breakdown - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TY2xSMHFmLW9fRENyZHRlbUNnZlVaM25kc25hN3dIQklSY1FSQkNtTHhZZmlaZVUyR2ZJN1hzQzRXdTA2SGQ1SjBLZlJ6bWVfRVNqRERFOW85ZWJTVjJyZkIxRFd0Q042TVQ3NXg3N2g?oc=5",
+    "ts": 1794668760,
+    "source": "CoinMarketCap"
    },
    {
     "title": "Chainlink Price Prediction: Will LINK reclaim the $11.620? - Coin Gabbar",
@@ -1242,12 +1284,6 @@
     "source": "CryptoTicker.io"
    },
    {
-    "title": "Chainlink (LINK) Price Prediction & Forecast for 2026, 2027, 2028\u20132030, 2040 and Beyond - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT191OTJGMjJsd0t2cEQ3TlpYODFfN0VMSktYS24xV1M3VDhQMDdfYzUxVDAwRUVReTRCRWhjYWhSR1VnbmlodDRZSUpVZ05EYmNHeEN5clo3RVkxWmNLaTV6VWdxekp5b182TGRnVDk5Y2RGSzdGV2FKbVF4MzhwN01lREM?oc=5",
-    "ts": 1794637791,
-    "source": "LiteFinance"
-   },
-   {
     "title": "Chainlink Powers Price Feeds for Ondo Tokenized Stocks - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZEhZR3ZNRUVadG9UbFpuSGRDWmdVcmtqLUd4ZmJYY2hOU1JBaTZrWkdHcko4c2FiMXZLWTlkOUR4STJKc2NTZmxKbng0QVN1eG1xWWJJWWhTQ1R4R2lvaHdDYTF1X3dFVTZsd3ZpTDYzNWN5SmxxTkFGUjFKcjJLNjJXdXBGZ196bnhIQUFSVGJrN2p1QUw1WlhleU4?oc=5",
     "ts": 1794627613,
@@ -1260,12 +1296,6 @@
     "source": "Pluang"
    },
    {
-    "title": "Chainlink (LINK) Tokens Traced to Revolut-Associated Coinbase Custody Address - www.tokenpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxaERvOUZicFR6eUN5RXVoTnNnMnlseWtXbWs4bFZZb3Qyelo1d0xPRWhYdmJJVEtEcU9TSDFma2sxNVRkdmZkM05XUVZGWldIREVvQWxGOF9rdw?oc=5",
-    "ts": 1794626100,
-    "source": "www.tokenpost.com"
-   },
-   {
     "title": "Polymarket Debuts 5-Minute Bitcoin Prediction Markets With Instant Settlement - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSlRXRmVFRXBhOWJxMXM5ekh1dWlmZlVpSjQyYkFDZlMtVkpUNUtCNU5tMWloVE5oTE9JTlpsMU95T0prSzZZVHhYWDlsTnRJN2JDdjhXemtuMzdRMzZ4bU5wZ04tLTRlSUVNUEtGYWJrU3pNSWVLUXBDUEVzaTQtTjMxaUFZZmcxOEt3dUIyMVdxcmJUb1M3YmFHbjNVTFp6aEJNc1hKNDRFYU5zbG82LS1JVy1hcXkwNThB?oc=5",
     "ts": 1794624502,
@@ -1275,12 +1305,6 @@
     "title": "Dash tops Santiment's 30-day GitHub ranking for privacy crypto projects, with Chainlink second and HOPR third. - Pluang",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb0c3Qkxzc3BsN2tXTjZxbUpmeWVFbV9pelFoS2tsRXM1WS1vdWNmajdVUXVTUG5Qby1XRmRIMS1aN19mRmZ0MXdWWDZqTy1ySGNrWlJyOE42SXdhb2wtWW1jQWhnRUlzOXltMDR4bEp0VGpoaV9ITHFZc0xwNEdHNmJvRFlLbU05RmFZRmJjZ25PMXlaYW40SHB4QlpOc2RCcGJ5WQ?oc=5",
     "ts": 1794614311,
-    "source": "Pluang"
-   },
-   {
-    "title": "Dash leads crypto projects in development activity, followed by Chainlink and HOPR, says Santiment. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbndQSWN2dHV6UENFR09uakFSOFQzLUcwTzVrejA5Yjdxa1NiOHlGdllSS1ZqUFgtaXpoSGZfZjd4R3AxTWFlVlNBQkRkQUtDY0NRdlN5dVFsV2g4VWstZ1liRHBOQVBkMV9jenU0Umx5NC1pUFdyc3FCU19QMUhDci1PcjhqTWMtb1VRYnNkMWdYRnU0ZFZhNmZnb2d5ZzhZbkhqQUVR?oc=5",
-    "ts": 1794614310,
     "source": "Pluang"
    },
    {
@@ -1296,6 +1320,18 @@
     "source": "Altcoin Buzz"
    },
    {
+    "title": "Convert 10 PLN (Poland Z\u0142oty) to LINK (Chainlink) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iS01YZGZZLVVodXdKa3QxbzRoZVdQRWNILUZZVDN3YXRjYkNqbHlfWjZhaG52eXFqcXpUekJfb1c3aXF4OEw0aWNUbkNRSmVpdTBRQ194aGktQUs2?oc=5",
+    "ts": 1794545131,
+    "source": "Bybit"
+   },
+   {
+    "title": "Convert 1 LINK (Chainlink) to USD (United States Dollar) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pM2VqOTZWc2cwQkxmOExETHZnMU9WbzZ2WW5nRHFuQXd0dzVJSS0wTDZMMklLWnZBYVRSUDZrT3lmdjhaZFBjYVFxNmFDYklZbmVUTm1lY20?oc=5",
+    "ts": 1794543894,
+    "source": "Bybit"
+   },
+   {
     "title": "Chainlink Drops 3.8% Amid Broad Crypto Risk Off Move - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Sb2FmRE5IOVA2dmZ3bTdJZzl4MExPaGc4Q0FDa0xYRXlUN0tTNGROOFdNY19xOGY3X2Q0UVotMENsZjBXdzAxb2c3dHByRzRXR2MtNXZmdTZrMDg3OWFtOXBWT3Q1M2ItSUpLZWdfc3g?oc=5",
     "ts": 1794542760,
@@ -1306,30 +1342,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTUVuRUEyRTczdDdHbTJ4OXV2R3Vmem5tRXVtSXhHdlB0NzA0MV9MQlltLS0tZ2RGUlh2OFhkeDNsLWI2TkJsUUNMX3c1NU9tRWtHUUd0c3BvcTR1LUJUWE43OTEzbkJDU3RRSEgzVDhhRFUwckNBaFRJRDhHRXRQeEozZmtQSDVDUU1LaUF3TEVtRHJkdFpqT1BOUWxmQlE?oc=5",
     "ts": 1794493825,
     "source": "FinanceFeeds"
-   },
-   {
-    "title": "Chainlink Co-Founder Sergey Nazarov Praises BlackRock for Driving Blockchain Adoption and Fund Tokenization - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tVm1zRnNlbzJZYl81eUg0cXhGRW9DYVk0RDhjdkFnOGg4TFFUSkllRzIwUXBMNXUtdXo1Mi0wVXFiNDdJbllQWVJ5ZE85X1A2aU1nNGFyYlV5a1VF?oc=5",
-    "ts": 1794485361,
-    "source": "Cryptonews.net"
-   },
-   {
-    "title": "Chainlink LINK (LINK-USD) Live Price, News, Chart and Price History - Yahoo Finance Australia",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5YT2U4Nk9YaDJiLVZrOUJRWUpUWC02YTNMdXRpS2pBRmlacm9tSURfUGRwUnFoZDJXSHVHbjBMRDB1cHhRU1ZOLUFJa0UzQlU1NTlNY1dNdw?oc=5",
-    "ts": 1794477795,
-    "source": "Yahoo Finance Australia"
-   },
-   {
-    "title": "Chainlink: Moody's pilot as LINK drops below 200-day line - CryptoTicker.io",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYmRRQmRSUGhvVnZidFhHSXVlNHpJcDRId1JFNldEVlhna2czdVBUWmU3NWE3T09kN2hya3REV1QwWmh3MjNRUjNGay12d2NCcUpkazAzdGt4Y3dmcGpjTkdFa3FhMG00ODVHNWUtcmRmYTc5MEVRQ29QamVyTFJCUG80NUFRZHc?oc=5",
-    "ts": 1794467856,
-    "source": "CryptoTicker.io"
-   },
-   {
-    "title": "Next Crypto to Make You Rich: 3 Picks as Moody\u2019s Tests Chainlink and Big Investors Enter Pepeto Early - StreetInsider",
-    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcUR3U0x0dWtyRjJPdWhCRlM3NVdvM1ZwWEl5LVdiWno3Q0d5eTJ5YXRoMm1JbGN3Q3g3V2l3b3lfSDEwZ1VpUU5tcHN5dUJlelYwakRuZFVjNkwxVnVFQk5hcHVFUzdyaDVCQzZJeDhTblhtcHhiU0FEYThWaF9RN1lQMUpWWS1MZEpRM2FTc2hJN2VlTnR1MHlxd2JkVXBid2FFdnVLc1RGQWhEQkhJT1djcDJlRmRmb0lZQmppcldlRWlMU2JQQnZrUlRTelFyZ2hqOXpLZnA4YU9FRW5ZMlUxNG9ucWpXM2FQTjM1YnRpelRkNk9UMW1HdjVIbVN6?oc=5",
-    "ts": 1794464751,
-    "source": "StreetInsider"
    }
   ],
   "reddit": [],
@@ -1338,58 +1350,70 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 11815715.49,
-    "vol24": 512962.68,
+    "liq": 11906383.88,
+    "vol24": 550674.56,
     "url": "https://dexscreener.com/ethereum/0xb2b5618903d74bbac9e9049a035c3827afc4487cde3b994a1568b050f4c8e2e4",
-    "price": 9.07,
-    "buys24": 81,
-    "sells24": 102
+    "price": 9.22,
+    "buys24": 117,
+    "sells24": 91
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 11016179.92,
-    "vol24": 2922857.27,
+    "liq": 11231297.29,
+    "vol24": 3298025.33,
     "url": "https://dexscreener.com/ethereum/0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8",
-    "price": 9.061,
-    "buys24": 140,
-    "sells24": 193
+    "price": 9.24,
+    "buys24": 187,
+    "sells24": 173
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 1042890.94,
-    "vol24": 25667.23,
+    "liq": 1056959.82,
+    "vol24": 27744.73,
     "url": "https://dexscreener.com/ethereum/0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974",
-    "price": 9.064,
-    "buys24": 53,
-    "sells24": 70
+    "price": 9.22,
+    "buys24": 71,
+    "sells24": 69
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 863012.16,
-    "vol24": 161766.38,
+    "liq": 875959,
+    "vol24": 182639.13,
     "url": "https://dexscreener.com/ethereum/0xfad57d2039c21811c8f2b5d5b65308aa99d31559",
-    "price": 9.063,
-    "buys24": 175,
+    "price": 9.25,
+    "buys24": 184,
     "sells24": 204
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 386093.12,
-    "vol24": 103128.35,
+    "liq": 392956.53,
+    "vol24": 109378.44,
     "url": "https://dexscreener.com/ethereum/0x50ae33c238824aa1937d5d9f1766c487bca39b548f8d957994e8357eeeca3280",
-    "price": 9.056,
-    "buys24": 124,
-    "sells24": 145
+    "price": 9.24,
+    "buys24": 132,
+    "sells24": 148
    }
   ],
-  "_ts": 1794711097
+  "_ts": 1794741714
  },
  "uniswap": {
   "news": [
+   {
+    "title": "Uniswap crash: UNI closes below $5 and gives up half its September high - CryptoTicker.io",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWNMZFNFVmNMbE1sUVBTVHdBanFCUFNqQmI0V1U1MUZ1NldoX0NVUHZDdGdIN3F3MGNJajQ5MnFUM1lUcW02ZWRHQnFpaW1UT2dGclBPSHdySVZhQnhQU3hGTGJ3Y2lDSVEzTnp3bjRvZHVxSzV3UFdfX3FqQ2liQzM0a01KOXp1Q2NPNTB1SQ?oc=5",
+    "ts": 1794741383,
+    "source": "CryptoTicker.io"
+   },
+   {
+    "title": "what the hook? Exchanges - Buy, Sell & Trade WTH - CoinCodex",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxUGI3cU5NcHVkbWJZOTFTM3MxYWpzYUV1VVF2dFFQcGR5RWhJZWVacTdacWV3eXdkUnF2dHY1dVNVMDBQci1VWXBHZ1k0aFZnQ2hzajhUcWwwZGhEd1FvOTk2MA?oc=5",
+    "ts": 1794725300,
+    "source": "CoinCodex"
+   },
    {
     "title": "Cryptocurrency News: DTCC Picks Solana for Tokenization and Uniswap Deploys on Elysium as Remittix Earn Passes $2M in TVL - TechBullion",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdGViQmlldFlOVlVLOHhtWXlDRjFBZXBTOXVGYXc5VExTcjVmWF9CVDZrdGpFa0lhN2g4eVExZWJSOTRKNjJZT0VoN25uLWJTSkowVi1aN1g3bWpSZzNKY3BaV0tOT25qOWc2aUpvTTJsLU44TERaR3Y2SzdwRWRnRXQ0NjRlT0ExNnNxWFEyZFJqWTZXZUx4MXFDdDBzRVRyRFgwOFh6eDZhWERiZDFnOVVyTk4zelVrWjBkdk1mZ2J4R3RrekJJR0pSU0FxUHd3WTVja0pJY0NUWU9v?oc=5",
@@ -1407,12 +1431,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMzBDMFdDV2NRekdkRTRfQzI3UmxEWEptT3hUOGRWSU8xanExcTlyQUJSMW0xeW1naldOdXNPUWQ3M1FtTGlydFZmQnFheURtMzhLY1EyWUFqSllRZ2N5bTJpT2tBVW1JUHpsNkxyVFl0cFIzN1E1cnNBUWhBeWRQWmhEY3NUTDhGcGRmTGZpVUR0WXM?oc=5",
     "ts": 1794695027,
     "source": "Pluang"
-   },
-   {
-    "title": "Uniswap to USD (UNI/USD) Today | 1 UNI to USD Live Rate & Calculator - Binance",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56SnpXQXVoemFKSFJkQkpQUHZidFFkNEoybEdrVmFHazFVbEZsejR3SDh2QW0wMlU4NnNVbDBRU08wZDVCZU9reDlBUkZZUTU2WF85RmdpMmhqZGM?oc=5",
-    "ts": 1794673123,
-    "source": "Binance"
    },
    {
     "title": "A16z, Paradigm and Uniswap back the suit against Illinois' 0.2% crypto tax - Startup Fortune",
@@ -1499,28 +1517,16 @@
     "source": "Crypto Briefing"
    },
    {
+    "title": "Texel Exchanges - Buy, Sell & Trade TEXEL - CoinCodex",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3dnZnbmZ3VlZkSFl5QlF2TzQtc2RuYzBGVVJLYXBSYW9ZWG9uSHV0UHZ1Nk81dmNJLWVLNDlzeUgzWDJHWlZ4RENMdDdrYUQwX1NPdldQeWo?oc=5",
+    "ts": 1794508649,
+    "source": "CoinCodex"
+   },
+   {
     "title": "Uniswap Price Shows Neutral Daily Structure - The Cryptonomist",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQktzWkl2amlGOXVqWENEbmFtd1pHVUVUUDFHRVRnWGl0YjBvZk5tSHNRd0VLckoxLXo2eHR0OTRBQURuOFhlN1BYWkE3b0tGTG15b1VkMDJuQXcxNDFKZ3lvQ1ZHbGV5eDF1dm8yZXJTY0FxeVZ1dnZqSExyV0d5Ul9KYUhfcG14RFRZLVZpdlFtNnYzR1lVTms0TQ?oc=5",
     "ts": 1794507956,
     "source": "The Cryptonomist"
-   },
-   {
-    "title": "One Cryptocurrency Sustaining Below the Resistance Levels- Uniswap (UNI) - Kalkine",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTVJpSklnUVRWS0hqNjdpSzU4Qk1YUjdkblZmNlhOWFJvZnV5dGpIMGg2UnpBaHZVUTZ0eHV2ZmZWdmE5Y2RSRENhSm5pRHVGX2lHYUJKNFZ4T01JNlVQRGJsSGJncGgwQXV3TVdZWjlmYXlpRnpTNEpKVEIyNjJpU1ZzNEFlbDNEbFZ5aVh6NXE2RjhKS3R2NjNYcW5RY3BwbXc?oc=5",
-    "ts": 1794479275,
-    "source": "Kalkine"
-   },
-   {
-    "title": "Uniswap leads stablecoin trading on DEXs with $2.2B in 24-hour volume - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRW1mVDJBc0VXWTNad3lUeWNrd2lfTmM2YXlIdlg4MzNEZ1QtcnRwRlplSXNscUVac0xtY0JrcXowZGVuZFY4TjZxWHRoc2NFUjAzN2J2V2RuSWNiMjZvRWJwSnVjclhjbzNGV1cwaVV3YVlVYlZndTdPV0pBNUNncG1UT2dYanVQWklXV2tZZ2pza2M1d2RmMS1IU3AtUXM?oc=5",
-    "ts": 1794468858,
-    "source": "Pluang"
-   },
-   {
-    "title": "Uniswap UNI7083 (UNI7083-USD) Live Price, News, Chart & Price History - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Pd0l0TENlVXdCTElVMU13aGsyVnkwYjFkb2hyZnpJU0EwX0F2bDRTeW9Zamw3dkUwaGs1N25FLVlxQ3dwZVk1LURYbVBsc3BPVmpqa2VZaTBDZm8?oc=5",
-    "ts": 1794464970,
-    "source": "Yahoo! Finance Canada"
    }
   ],
   "reddit": [],
@@ -1529,58 +1535,70 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 11110795.51,
-    "vol24": 2881748.51,
+    "liq": 11377174.05,
+    "vol24": 3132161.19,
     "url": "https://dexscreener.com/ethereum/0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801",
-    "price": 5.015,
-    "buys24": 199,
-    "sells24": 352
+    "price": 5.16,
+    "buys24": 266,
+    "sells24": 336
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 5173425.88,
-    "vol24": 1420355.09,
+    "liq": 5325583.01,
+    "vol24": 1537509.33,
     "url": "https://dexscreener.com/ethereum/0x053f6a47ccba79e7d5d623173ed6dd5a31cf19c28bae0fb8276f4506295f90da",
-    "price": 5.015,
-    "buys24": 111,
-    "sells24": 254
+    "price": 5.15,
+    "buys24": 171,
+    "sells24": 242
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2963996.85,
-    "vol24": 2024.9,
+    "liq": 3148415.76,
+    "vol24": 1646.07,
     "url": "https://dexscreener.com/ethereum/0x360b9726186c0f62cc719450685ce70280774dc8",
-    "price": 4.84,
-    "buys24": 3,
-    "sells24": 40
+    "price": 5.15,
+    "buys24": 7,
+    "sells24": 28
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2724979.46,
-    "vol24": 219614.31,
+    "liq": 2777973.03,
+    "vol24": 255583.74,
     "url": "https://dexscreener.com/ethereum/0xd3d2e2692501a5c9ca623199d38826e513033a17",
-    "price": 5.015,
-    "buys24": 116,
-    "sells24": 240
+    "price": 5.16,
+    "buys24": 166,
+    "sells24": 230
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2634925.3,
-    "vol24": 1346776.98,
+    "liq": 2480823.51,
+    "vol24": 1385862.52,
     "url": "https://dexscreener.com/ethereum/0x9a5c1d2f4a7a7962a63259de6fcc1afb1d0aa1abdf5d19c23d22fd78953c5167",
-    "price": 5.0097,
-    "buys24": 284,
-    "sells24": 414
+    "price": 5.15,
+    "buys24": 302,
+    "sells24": 398
    }
   ],
-  "_ts": 1794711097
+  "_ts": 1794741714
  },
  "shiba-inu": {
   "news": [
+   {
+    "title": "Shiba Inu (SHIB) price hits $0.00000392 with a 24-hour low of $0.0000037 on Nov. 15 - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWFNlSmJqeTAxd3NrTnZFSjBhTDllX3AtV3FJM09IZUNySVRGUjNGalBhcHQweV9ZQndiNEpyODJZb0NEWTVpdWo3VE1pR0Z6TzlLZmNRQkZGVHR1X1ByWmpUSmxvYnR2M3c3T0VvaU9mVk9zZGItUDU3UHNsUG1yMjAyRU16b0hieTl2MHF3?oc=5",
+    "ts": 1794740782,
+    "source": "Pluang"
+   },
+   {
+    "title": "Shiba Inu Death Cross Completes After 14-Month Wait, What\u2019s Next? - U.Today",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUmhFWG9yQTQyVWxuemdrM1YtRVBHaEJlaXpJdGJiR2ZRSndVdzR6QzVnUHg4d3V2T19EVWw3dTYtS0xpT1IwbzBZYklEV1dnNG1sdjFxSFJlMDRmeXFkNWNvSk5vcVR5MzVlbVJhbG16MFlhMHlYYjBuRHR0dkVDaW5sR1XSAYoBQVVfeXFMUHNBYnY2UmYyc2E0aTVncmhLOXpPREJMdnBwTkhCNXV1M3RBTlJZNlFuYWVKaUtLTDFqMmJYTkVsQ0xUUmJGVFpQU0s2RmxMS1k2QkZWTVNuV3U4cDZaRzhtS1lLcVNiVUFIbDhELVc2eUx1QlVnS1I2amJEbzVNNUZoa0lfNmM0Mkl3?oc=5",
+    "ts": 1794738818,
+    "source": "U.Today"
+   },
    {
     "title": "Shiba Inu price drops below $0.000004 amid high volume sell-off, losing gains against Bitcoin. - Pluang",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQlFzdzJaeVRhZ2tHQW94MEJBNVpKaXRIWjNid3pkWlNoN01rRjFfNjVwbFBWYnlXRTRFNjMzeHh1aGFHRU02ek12cVQ4ak5uX3JZTkJSZEpEOUtCUjRNcGFEdUZramR5NzVycC1UUWc3N3BFRDYzaW8zVU5lSVBKYnpiamZDbnhCVzR5THZyVExCRS04RUE?oc=5",
@@ -1708,6 +1726,12 @@
     "source": "CryptoTicker.io"
    },
    {
+    "title": "Shiba Inu (SHIB) Price Prediction 2026, 2027 \u2013 2030: Will SHIB Price Reach $0.000330? - Coinpedia",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fTE1pUWp4aTVOQ2hQUURTa205ZkJxdjQyeHV0YUdrMlZ3X1I0QnlpWmVFSHhsMVRjOElOZmVWQkF5allCSG9YV3hKa1lwdkNaUF9iZXdtX1hpYllzeWlwYjNJVjFwZlp5OXVwTW8wYW5xd2pM0gF6QVVfeXFMTy1ILThycjBUVEZ6VzBtTnBiQW9LQzZPeVNVVGhzQ0RZbWxOQU5TdC1hZkxyamhPOGNETk82enhBUi1vV3p4RG8zVlBUTk1EajdiVWZFYTdSYzJnQnVpejRhZFlidG1tTnBhMW1icWtlc2tiNlpRaVRIT1E?oc=5",
+    "ts": 1794587580,
+    "source": "Coinpedia"
+   },
+   {
     "title": "Binance Reveals Final Numbers After $6.34 Billion Hack: 100.04% of Shiba Inu (SHIB) Reserves Confirmed - Cryptonews.net",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91bHQzdmtSRl8zOWFIMDc3a1Q0Y0FxSXJfNFBnWWI4RmpwQXNxVlpnMmZ6Tm1UcktWZm5fckhGZV9wYjZ5aVhvSk9BRmJHd2s0UldCLTR1cw?oc=5",
     "ts": 1794579364,
@@ -1718,12 +1742,6 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96UVFnWWJwbU44aExOWFp1LVl3c0tWSURINTEzSWNHZlpDZmFvdWh1Y2VnVzM0b1Qwem1XZDlvVmFDX1F3dV9SZ3Bud0RtVG5tYy1zUFY4bW5UTlBHVXBwS2syaVUzZEFrV2ZtRjJoQjA?oc=5",
     "ts": 1794578700,
     "source": "CoinMarketCap"
-   },
-   {
-    "title": "Shiba Inu (SHIB) Price Prediction 2026, 2027 \u2013 2030: Will SHIB Price Reach $0.000330? - Coinpedia",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fTE1pUWp4aTVOQ2hQUURTa205ZkJxdjQyeHV0YUdrMlZ3X1I0QnlpWmVFSHhsMVRjOElOZmVWQkF5allCSG9YV3hKa1lwdkNaUF9iZXdtX1hpYllzeWlwYjNJVjFwZlp5OXVwTW8wYW5xd2pM0gF6QVVfeXFMTy1ILThycjBUVEZ6VzBtTnBiQW9LQzZPeVNVVGhzQ0RZbWxOQU5TdC1hZkxyamhPOGNETk82enhBUi1vV3p4RG8zVlBUTk1EajdiVWZFYTdSYzJnQnVpejRhZFlidG1tTnBhMW1icWtlc2tiNlpRaVRIT1E?oc=5",
-    "ts": 1794570030,
-    "source": "Coinpedia"
    },
    {
     "title": "Convert 1 SHIB (SHIBA INU) to KES (Kenyan Shilling) - Bybit",
@@ -1774,55 +1792,55 @@
    {
     "chain": "ethereum",
     "dex": "shibaswap",
-    "liq": 2099328.92,
-    "vol24": 116016.94,
+    "liq": 2118730.82,
+    "vol24": 122205.17,
     "url": "https://dexscreener.com/ethereum/0xcf6daab95c476106eca715d48de4b13287ffdeaa",
-    "price": 3.872e-06,
-    "buys24": 92,
-    "sells24": 122
+    "price": 3.913e-06,
+    "buys24": 107,
+    "sells24": 112
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 432930.47,
-    "vol24": 42545.37,
+    "liq": 439001.08,
+    "vol24": 42172.55,
     "url": "https://dexscreener.com/ethereum/0x811beed0119b4afce20d2583eb608c6f7af1954f",
-    "price": 3.861e-06,
-    "buys24": 93,
-    "sells24": 82
+    "price": 3.922e-06,
+    "buys24": 105,
+    "sells24": 69
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 219714.06,
-    "vol24": 36776.68,
+    "liq": 222967.08,
+    "vol24": 37716.69,
     "url": "https://dexscreener.com/ethereum/0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
-    "price": 3.861e-06,
-    "buys24": 58,
-    "sells24": 60
+    "price": 3.92e-06,
+    "buys24": 64,
+    "sells24": 58
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 186136.97,
-    "vol24": 1920.19,
+    "liq": 183320.47,
+    "vol24": 1676.29,
     "url": "https://dexscreener.com/ethereum/0x5764a6f2212d502bc5970f9f129ffcd61e5d7563",
-    "price": 3.888e-06,
-    "buys24": 8,
-    "sells24": 13
+    "price": 3.83e-06,
+    "buys24": 9,
+    "sells24": 10
    },
    {
     "chain": "ethereum",
     "dex": "shibaswap",
-    "liq": 32541.49,
-    "vol24": 2964.13,
+    "liq": 32784.04,
+    "vol24": 3006.2,
     "url": "https://dexscreener.com/ethereum/0x98c2b0681d8bf07767826ea8bd3b11b0ca421631",
-    "price": 3.861e-06,
-    "buys24": 38,
-    "sells24": 49
+    "price": 3.919e-06,
+    "buys24": 36,
+    "sells24": 46
    }
   ],
-  "_ts": 1794711098
+  "_ts": 1794741714
  },
  "tether-gold": {
   "news": [
@@ -1831,6 +1849,12 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdnFENUxLdHRDUHJLN1o0WE1PakU0eHJHQVJlNW1kSGZ5b1JGVzk2THpKZWtINFJyWXg4MFVvdEJhcmpPRy01Yldxa2ZNQTZEdVBJQTRfeHQ1NjZkMmhCNjFNaXBETUhBZGNMVUpEUUhBU29uNThlT29mUTlfYlg0MQ?oc=5",
     "ts": 1794652261,
     "source": "CryptoRank"
+   },
+   {
+    "title": "Tether Gold KPMG Audit Confirms $2.24 Billion In Physical Gold Reserves - TronWeekly",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU3dBaXpoS2pQa1JkckpfU25hYWQwYVhKZURUa3paTDFiczB2UzZQWUlNaGNzZWhVS0RHWEFWUTMzZ3J1eGduNFlyZmtiRS1xZjRaTDZ1M0xtdkNRVTh0Y0Fpeng1ZkFHQnZVTzZ5WGJlOFJlVnlqSEhWTGVjbDhRMA?oc=5",
+    "ts": 1794574800,
+    "source": "TronWeekly"
    },
    {
     "title": "Tether Gold completes second Big Four audit - grafa.com",
@@ -1853,7 +1877,7 @@
    {
     "title": "Tether Gold Passes Second Big Four Audit After USDT - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZnI0UmJQSk5QdmhrMDdIR1dRXzNUZGg4Wmhjb081ZUtYRFoyOFIzeWQzRVZXb2taNXJ0WlhHZEpnM2xvdUxOcGZ5N2ZqbHY1Rjc2eFhVY0ZSMFVLVVNjckE4Mkg0QktWZ05KcXlsSXdzczM1UWtoTURDREVjUjFYUTVUY3I5ZTA?oc=5",
-    "ts": 1794513837,
+    "ts": 1794511612,
     "source": "CoinMarketCap"
    },
    {
@@ -1863,16 +1887,10 @@
     "source": "The Crypto Times"
    },
    {
-    "title": "KPMG Signs Off on Tether Gold Issuer\u2019s 2025 Books, Covering $2.2 Billion in Bullion - unchainedcrypto.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc21YR20yNVlUckxIcHl6WGNoeXI2UjJwM0MxZ3R4aGdlUThTZHRzQkdZeDVGWVZaazBqeDFlZnRoellQcG9LNTdUSUpuOS11MDh0MzhMTnpURWRpYjR4Rzlwa3NJQVV6Z2g1azd1SHg4bjJMUExzX18xVTVlSVN6ZnhZanRyRGJaSUw0OEtIeWJiZTAxM0NDU3d4aWstSHpTcklFa0JZOTUtNEZaeUE?oc=5",
-    "ts": 1794507000,
-    "source": "unchainedcrypto.com"
-   },
-   {
-    "title": "Tether Gold Completes KPMG Big Four Audit With Unqualified Opinion - Crypto Economy",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1raWdXY0J4VjItZUE2akJ6ZFdYVlhXMF9rekFZeHhJZ3ljN09iVjFCUlVxOFUwYnd3TUpXV2dVY2l1dDJ3d3gxYzZ4bXgzUVRLMGlsZEEtRlN2TkxRT1NIWk1uN0hzeTdzcmxmODVBQURjbjB2STRBdQ?oc=5",
-    "ts": 1794502468,
-    "source": "Crypto Economy"
+    "title": "KPMG Signs Off on Tether Gold Issuer\u2019s 2025 Books, Covering $2.2 Billion in Bullion - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWlZLWndDR2FSUU9ISTNxMkNzOV9sazdVN25fbGI4N3RvUHI3dUZteWRkczlBWkxTMTFrM1BVQWJnMDh6amFTN0dteXdzczZCM1Z5RDlkOE50NkppS0U2V1lzT25UNzR2eWRxOXZSQ1M3ZjY2MTlvTzJCa3hjN1R4NUdyMXJpaFR4UERXYWFhLV9VSDdBWWc?oc=5",
+    "ts": 1794507035,
+    "source": "Yahoo Finance"
    },
    {
     "title": "Tron, Tether and Chainalysis Form a New Crypto-Crime Task Force\u2014Replacing One That Just Collapsed - Decrypt",
@@ -1883,26 +1901,14 @@
    {
     "title": "Tether Gold issuer follows USDT to complete Big Four audit - The Block",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQjBjeEVJTFNiS1JCR3oxamI1RXAtbFB0U1p3a2czV1N6b3h2ZFJNRWRfNnpYX2JiQy1RaVlUOUFtQlpSUGZwUU14akRWZnVUN0NRTDRqRkxRUnJOb3ROaGliekxvZkgxSGExNTZmWDdvSVBXSjB3TmlNRm50UWVSSFJCUkJWbWdaRmJ1OHZScmN0NU9zOENSMElUMFpiWlQyNmhQQXNacTJFREVyZnpqNmZvcDA?oc=5",
-    "ts": 1794496980,
+    "ts": 1794498540,
     "source": "The Block"
-   },
-   {
-    "title": "Tether Gold (XAU\u20ae) Becomes Tether\u2019s Second Stablecoin to Complete a Big Four Audit - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBadmkzb2xaTnQ2RlVSSl9WNFZ5bGNoTFFxYk42aEFmTHhvMkk0Q0xzOWpyQ2d4OW01ZF9UVkRRSVFqLWZBZWtMamlUcWQyaWZIa1RMbzZkME0?oc=5",
-    "ts": 1794495609,
-    "source": "Cryptonews.net"
    },
    {
     "title": "Tether Gold gets first Big Four audit after five years of limited disclosures - Crypto News",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQlNJRmxFT2hNakRVbEZNbWVMeFFtaWIzSVZzYWdVUHlLZi0tUTFGelVOb1dSa2xGemRNM1RSTm9UYWE2UGZidDkyak1EeDBfM0NJNk9FZUlZVjUxVTU3OGp4cTBuOG82dW56dXRvY01Fb24wT01Hc0tVemhJcTFwTzNUMm5VQ1JNakQyZ1ZTSXBmeFRhN2ZvYmZwOGV3YXM?oc=5",
     "ts": 1794494233,
     "source": "Crypto News"
-   },
-   {
-    "title": "Tether Gold audit confirms $2.246B in physical gold backing its tokens - The Cryptonomist",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FbC0yejhlVzhRaHhSZmw3QmxCNUJ5WkM0U2lsZk9EQWdFbm1JTUg5VDVsQTE0VWVuSUdKMHUxX1BqZDlQazNxcDVMNW9rcHEydnZjYlpEeGFkY0QtMTFXanZhODZDemc?oc=5",
-    "ts": 1794494080,
-    "source": "The Cryptonomist"
    },
    {
     "title": "Tether Gold (XAUt) Drops 3.58% on Gold Pullback, Not Token Issues - CoinMarketCap",
@@ -1917,18 +1923,6 @@
     "source": "Yahoo Finance"
    },
    {
-    "title": "Tether Gold passes KPMG audit, confirming full gold backing for XAU\u20ae - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RV1doNE5BX0xkbmRUZkpsWm9NLWpRaDViX1hvS2VKQWJfRFBCWHdfTzYtOHBlallFM081N1VScldiZDREeGpLZy1rdWo3dUJSbnZtUkMyMWltck50eXE5RGJSZnpVN0NqdUtwbXc2TmVfLUY1WWIw?oc=5",
-    "ts": 1794489869,
-    "source": "Crypto Briefing"
-   },
-   {
-    "title": "Tether Gold: KPMG Delivers Clean 2025 Audit - Blockchain News",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOER2eC02QWQzcDNfaGxpU1dSekI2QlRVcnJtUkVIckJ0QzJnaGxzZFVFRV93Qk9YUU1FWjdyVGFTMkVOc3dxVldzMkNMU2I4N1RzSnQ2QWg5dHZfR2psVzhwc0NBNFZ2dUppcGp5N29zbjN6OXNIR1A5aW51YS1Yandn?oc=5",
-    "ts": 1794486000,
-    "source": "Blockchain News"
-   },
-   {
     "title": "Tron, Tether and Chainalysis form task force for AI crypto scam prevention - The Cryptonomist",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jTzI1c2JLdV9waUtsT05iZ2JSNHpqMnltS3NaT0R6U19xV2U2V3VKdXJzUHVEOFdSMW4yOC1tdDVSa2FUa0dUYWpkNUVyRFRRR1BEUVFPdTV2ZnN6LVlrNHNBNXVyMVJLR3dzSzZUVkd5WWc?oc=5",
     "ts": 1794485862,
@@ -1941,58 +1935,64 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 5882542.7,
-    "vol24": 5426638.2,
+    "liq": 5892534.98,
+    "vol24": 6918792.38,
     "url": "https://dexscreener.com/ethereum/0xc756bba710d45647715079ce50aa16aab36ded42",
-    "price": 3830.2,
-    "buys24": 210,
-    "sells24": 151
+    "price": 3833.026,
+    "buys24": 197,
+    "sells24": 236
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2869213.36,
-    "vol24": 108756.24,
+    "liq": 2902424.68,
+    "vol24": 200874.9,
     "url": "https://dexscreener.com/ethereum/0xed7ef9a9a05a48858a507c080def0405ad1eaa3e",
-    "price": 3791.77,
+    "price": 3833.77,
     "buys24": 5,
-    "sells24": 4
-   },
-   {
-    "chain": "ethereum",
-    "dex": "uniswap",
-    "liq": 2255893.52,
-    "vol24": 24845,
-    "url": "https://dexscreener.com/ethereum/0xd52eb9285b87e38e3c228b4e339bfe15f24888953966085cd25a2f6403a95326",
-    "price": 3825.93,
-    "buys24": 48,
-    "sells24": 52
-   },
-   {
-    "chain": "ethereum",
-    "dex": "uniswap",
-    "liq": 1887429.37,
-    "vol24": 456906.33,
-    "url": "https://dexscreener.com/ethereum/0x6546055f46e866a4b9a4a13e81273e3152bae5da",
-    "price": 3825.29,
-    "buys24": 195,
-    "sells24": 225
-   },
-   {
-    "chain": "ethereum",
-    "dex": "uniswap",
-    "liq": 1496824.45,
-    "vol24": 14213.98,
-    "url": "https://dexscreener.com/ethereum/0xa91f80380d9cc9c86eb98d2965a0ded9e2000791",
-    "price": 3819.83,
-    "buys24": 18,
     "sells24": 16
+   },
+   {
+    "chain": "ethereum",
+    "dex": "uniswap",
+    "liq": 2257100.27,
+    "vol24": 33287.38,
+    "url": "https://dexscreener.com/ethereum/0xd52eb9285b87e38e3c228b4e339bfe15f24888953966085cd25a2f6403a95326",
+    "price": 3829.27,
+    "buys24": 59,
+    "sells24": 65
+   },
+   {
+    "chain": "ethereum",
+    "dex": "uniswap",
+    "liq": 1880690.07,
+    "vol24": 526586.36,
+    "url": "https://dexscreener.com/ethereum/0x6546055f46e866a4b9a4a13e81273e3152bae5da",
+    "price": 3826.047,
+    "buys24": 210,
+    "sells24": 252
+   },
+   {
+    "chain": "ethereum",
+    "dex": "uniswap",
+    "liq": 1497170.8,
+    "vol24": 14061.13,
+    "url": "https://dexscreener.com/ethereum/0xa91f80380d9cc9c86eb98d2965a0ded9e2000791",
+    "price": 3820.74,
+    "buys24": 21,
+    "sells24": 15
    }
   ],
-  "_ts": 1794711098
+  "_ts": 1794741714
  },
  "mantle": {
   "news": [
+   {
+    "title": "Convert 1 EUR (EUR) to METH (Mantle Staked Ether) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HMnZ0dkJPckdOa0FhMUs0YVgwMURaUEhINzlha1ZYdjN5MUJWbW80NlJTeWt3R2I2OWdRT1JHUVRIVG9VbWZLeEV5a3ZqQllwRDVwcXFTUDA?oc=5",
+    "ts": 1794622809,
+    "source": "Bybit"
+   },
    {
     "title": "Convert 1 MNT (Mongolian Tugrik) to EUR (EUR) - Bybit",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE45UW41d3BkQWZLUFFqdVE3SjhmaTBOWTlZZVNvTG5oWEVXRnpyVnFQQV9jeUtDX0VWQWpiOUNLZl9aMnJQaWhlVGpuZXFIN0JNLWk4cXlvOA?oc=5",
@@ -2018,6 +2018,12 @@
     "source": "Bybit"
    },
    {
+    "title": "Convert 1 MNT (Mongolian Tugrik) to INR (Indian Rupee) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGTUF6ZC0tSFB0RU05WTQ2bFlIUUlVbnlrM0QtT0NxVVpzNXZMNFpTdllHWEdkbkpIdFQ0T1BjYlQ3RzA3a2VrblR4dXlRR1kwRExwNHVRaw?oc=5",
+    "ts": 1794507437,
+    "source": "Bybit"
+   },
+   {
     "title": "Convert 1 EUR (EUR) to MNT (Mongolian Tugrik) - Bybit",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rZXg2clNoTEw1a0ZqanpRYlNJWGplbnVpMHEzWDNpQTB5SVNjRnNGWU9EWUIwQnBfR1hMOUlBLW1GX25wLWRpZ1FHbkpoY0JMeFRMZDR5NA?oc=5",
     "ts": 1794488247,
@@ -2030,21 +2036,21 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2616910.87,
-    "vol24": 417717.44,
+    "liq": 2628547.06,
+    "vol24": 445054.49,
     "url": "https://dexscreener.com/ethereum/0x9aac67deef711d438ad711ae495b8cb43a6ee1a8",
-    "price": 0.3713,
-    "buys24": 68,
-    "sells24": 125
+    "price": 0.3731,
+    "buys24": 85,
+    "sells24": 141
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 12614.32,
-    "vol24": 956.08,
+    "liq": 12671.33,
+    "vol24": 1079.93,
     "url": "https://dexscreener.com/ethereum/0xf4c5e0f4590b6679b3030d29a84857f226087fef",
-    "price": 0.372,
-    "buys24": 15,
+    "price": 0.3732,
+    "buys24": 16,
     "sells24": 17
    },
    {
@@ -2071,17 +2077,23 @@
     "chain": "ethereum",
     "dex": "uniswap",
     "liq": 317.38,
-    "vol24": 6.39,
+    "vol24": 2.76,
     "url": "https://dexscreener.com/ethereum/0x8fa9203374e4974a85bcebf7a830a64d5b9c6149",
     "price": 0.3955,
     "buys24": 0,
-    "sells24": 2
+    "sells24": 1
    }
   ],
-  "_ts": 1794711098
+  "_ts": 1794741714
  },
  "aave": {
   "news": [
+   {
+    "title": "Aave Executive Reports $39 Million in Liquidations - The Defiant",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONFVXT2VtUi1LVWhybGZNMlo4Z1Utb1pkV0dLOXJzWm5hR0dvbnJpUVdIVmlaakk4ZHlyeVhRbG5FUE9oSmM3NXRua0NESkN3YWpIZFlmRHRyeGRHMHV1REloLUZfaUEtX0dQMm9Nd3JHZzBJSkVubXRTc1ZibFJoTDBBUE50TS16?oc=5",
+    "ts": 1794715926,
+    "source": "The Defiant"
+   },
    {
     "title": "Crypto Market News: Bitcoin and XRP Slide as Remittix Earn Brings Aave, Fluid and Maple Finance Pools Into One Platform - TechBullion",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZVN6YUk2d2dGa1htVWxwTXpXV0xCZWtzMEQySUpLWnFidC1WZnB2c2lwNWdwcXZKT1hCMHFhRDl0czd2cmhORnJ5WFQtSjJaRUw5QXlrWVU1OXRtVWlLLVlpLU1seFVjcnl6WWNyRlF1WDlhLTBYc3lHblIxX2VxaklhSHpvZzRpaWI2ZDB1bUx6NmZiOUpqWHdSbFBnbFlrRkE2dENJM01CYlBYWm43MzBlalhPd0tMbmYwMDNmUURmSVQtTld2el9YWXFkM01hMXQ3c1JnTG5aZw?oc=5",
@@ -2101,6 +2113,18 @@
     "source": "CoinMarketCap"
    },
    {
+    "title": "Aave technical analysis: Seller pressure dominates as price holds near $99.49 support - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR0I3Y2w2SThsUVdEQkgzM1ZoN1ZjWWQ1bXF1Qnk0QVB1TlpTX2tJaTdVY1huamVieGo1RXlia1pWU3BVU2tETVlucVdpNVdBRGRqc1JkcGlwUlFtbnBETG1NZ1dWN09xei1xREdES2t5bHpmSXVka1BiWWp0SzJaaFdreEFFck4zLW1qbkdSQmFHdDRMcGpjaVBZQXoxZGJY?oc=5",
+    "ts": 1794666142,
+    "source": "Traders Union"
+   },
+   {
+    "title": "Avalanche News: Deposits on Aave V4 Surge to $225M - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1eFphWjdycUloVHpiaDNOOFJuM3NjaEI2ZGpUZlRwWElzRDF6SVJleEdBR0ZGMk9xUHFGcGduZ0dHdnpBd3pfRzM0Q3ZDYUNKdWdrVw?oc=5",
+    "ts": 1794663792,
+    "source": "Cryptonews.net"
+   },
+   {
     "title": "Chainlink to throttle Aave loans as LINK falls below $10 - CryptoTicker.io",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yVDF2cm1JMjRDSkJ3QUZLLW1kVjROYXhNVkNZX3VaNlRqV29leWlJX0M0dDl5X2hhYk1SWnFfbEtlb25ldml3Y2daQmx6T0ROaXAzMXhmM3A4ZXBBcGxXSk10WTZJR0EyN1JDT1hJbC1vRGNOdmhiVQ?oc=5",
     "ts": 1794655353,
@@ -2110,12 +2134,6 @@
     "title": "Aave V4 Hits $1.75 Billion in Deposits as DeFi Adoption Grows - Coinfomania",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTnJ2NUM5V1A3aVRsUnM3RVFIMHFKektJek9IOFBnWWRnMEsyT0RnUHRqYUFidWIwMkFMb3NXZzBIZDM5UDQ4WGNoT1pXSWV0UmZha3pjREhScWotRFNONFJUZGZTVnBkWEY4SWktTzFBN3ZyejlCVDEzamFoMWVEZjE0S1NaeDd2OGdZYkx3?oc=5",
     "ts": 1794650735,
-    "source": "Coinfomania"
-   },
-   {
-    "title": "Avalanche News: Deposits on Aave V4 Surge to $225M - Coinfomania",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LZy1uR29iUThIdmwtQUFFS0tvVUtDejhQSXQ3elBSX09abkdTVkdIb1pFbEZqYWhXQXhLYmRoeks0cnBFYWk0TnEzYnZzRVVtVXVGbko5VXllNnBYLUd0Qnd2a010X1ZRZktDQTY0cWtkX0V6U0RWN3RGeC1sQQ?oc=5",
-    "ts": 1794650698,
     "source": "Coinfomania"
    },
    {
@@ -2145,7 +2163,7 @@
    {
     "title": "Aave (AAVE) Price Prediction 2026, 2027 \u2013 2030: Will AAVE Price Reach $500? - Coinpedia",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EQzR5R2dyd2hhOUk0M2o1ZjZwOG1zWTB6dW5HclUyN2NLMXNlVEY0bnJHSjhOeEZsYjVKbUxOTUd5bnpvTV9hSmY2T2MxOHdvR2hRTWppMnlOVzFaU2VBYmYyVVk3Y1JDdVJzUEJ30gFzQVVfeXFMUHRBdEJZcHE4NW0yTXc4ektjRUdoek9mXy1Sc1RTeUlqTUZqSjZVQnNjVTE5MW0yS2pvYklKaWUtWW9UZkk1TUVObWE2VU1iQUlCOE14d002eXREMkEyMVN2SGlqM1dfaV9KV3BoQ0RhMWJQNA?oc=5",
-    "ts": 1794587570,
+    "ts": 1794587580,
     "source": "Coinpedia"
    },
    {
@@ -2191,6 +2209,12 @@
     "source": "CryptoDaily"
    },
    {
+    "title": "LlamaRisk Proposes Freezing rsETH, osETH and LBTC on Aave V3 Core - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWktGaWhTUnl5Um13VklWa3lMejdqVWdXUFc1NC11dFJ5QjBEUUktN0d3dXBJRkk2eGE5b1dBTjFkNFRBWnNWbVkyTmwzZU1GYlV5UVZDYzBXX3FESDNvbzQ1NFhSX3dzU09zU01weG9tNEloNGFGUDYyVXB6RnJ0YzVaWWMwbGh0dnc?oc=5",
+    "ts": 1794567837,
+    "source": "CoinMarketCap"
+   },
+   {
     "title": "CASE STUDY | This Ethereum Treasury Company Loss Demonstrates Crypto Market Risks on DeFi Loans - BitKE",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sRkFlTEVOMXc3RDVST2kxYWowMU10SG1IS1pwVmVzVkh4U3N6OWgzWTJWSUZsVmFxSTNOTTA2U3dnTHdURUZSTXUyQm1OUlAyeW1mck9CbWZub1lzeEE?oc=5",
     "ts": 1794567635,
@@ -2209,16 +2233,16 @@
     "source": "CryptoRank"
    },
    {
+    "title": "Aave user loses $305,000 after Across Protocol website hijack - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNanIyWkdCdTlvRGZhMTRyWkJ0T05SZXBsUmFKUzlEUWZ2cldaSG0tTzNpbWVWSHVHRHEtbVgxSFhZdzBHbkZEZkR4QjZYWmgxc01GMU9NX0hpaFd3SndHQjhHVVpNOG1YNDZfN1pxQ1FKejd2aldNRVhFSFZKV080TUUwODFzQXEtWm5hRzZiSGxnNjNaMVByVzRYb0Nla2lKMF9ITlNmSFlFS28?oc=5",
+    "ts": 1794530192,
+    "source": "CryptoSlate"
+   },
+   {
     "title": "Crypto Price Prediction: Can XRP Recover $1.15 as Remittix Earn Opens Live Pools From Aave, Morpho and Fluid? - TechBullion",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQlFQTVA3Ri1YaWpNMmYxMFFleE1OaGM4SEo0aXl1TVpuU29RcFN3NUxDbTR4Xy04SmdzdkxheEpGcVVhWnBTTkM5T3B4T2RYSlA0dFYtWjdiS3E1SF85c2xRN3ZOWjdBN3ljRUpfU0pSQzNLbXd5Y096d0t0ZHZicDhuU2ZVU25UNjNSaWJwMy16aVJSdW1nSlRKSEgwTThkeTJGMmVVcU50THhGcVFqdHU1V0lpMXpURDRFVmhTb3p1VUplQ0dTUnJR?oc=5",
     "ts": 1794515702,
     "source": "TechBullion"
-   },
-   {
-    "title": "LlamaRisk Proposes Freezing rsETH, osETH and LBTC on Aave V3 Core - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWktGaWhTUnl5Um13VklWa3lMejdqVWdXUFc1NC11dFJ5QjBEUUktN0d3dXBJRkk2eGE5b1dBTjFkNFRBWnNWbVkyTmwzZU1GYlV5UVZDYzBXX3FESDNvbzQ1NFhSX3dzU09zU01weG9tNEloNGFGUDYyVXB6RnJ0YzVaWWMwbGh0dnc?oc=5",
-    "ts": 1794513837,
-    "source": "CoinMarketCap"
    },
    {
     "title": "Avalanche (AVAX) Price Prediction 2026, 2027 \u2013 2030: Will AVAX Price Hit $100? - Coinpedia",
@@ -2227,40 +2251,10 @@
     "source": "Coinpedia"
    },
    {
-    "title": "Aave Price Today: AAVE to IDR = Rp2.07M - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SSFpkYmM4Q1ViODAyV203MXI1Yk0wdTZVRC1DVUlDaXVhNGVlYW5OUEYwN2w1S0dGY1djOHV3RjJoZ0tOckpZdmNYVDlLWXZrYkdDU1dNSzY?oc=5",
-    "ts": 1794500109,
-    "source": "Pluang"
-   },
-   {
     "title": "Aave Proposed Limiting Use of Number of Crypto Assets as Collateral Worth $1.33 Billion - Incrypted",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTGhMc09DMXNJdEptSjNZMHU1d0FFUjdqbFFWR0ltYzIwd2pUZjJ6bDRheUF1LWpGd2steUQxeDZfWUpRdS1sS0FCZXM0QXBEcWp2Z1V5Nkt0WDJ3OURMWk55ZEhEc1I0bHZ6TmdnYS0zdG9MV2tXOFdQRWNUc2k1cFlCbHRXbEFURXVueHhxdTNPX3A1anE1RjhLd1R2LVBubmJ1REwzTk16N3J4NzY4Wndn?oc=5",
     "ts": 1794486339,
     "source": "Incrypted"
-   },
-   {
-    "title": "$323.6M in crypto moved from unknown wallets to Aave, Binance, and Kraken in three hours - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSXUydG9UZ1JTMThqSU45elNkUl9NQzhIM0t3R0wtejZXMHhlcXBGa0g1cS1MY3VtZzVpaFFKdDFETk96OVJPcWVwOUxIRktjRHYzMExGTk1WLVl3dms2Z01kOUZ0NTM0bDJMb3lVLUY5a0dwdWVCdzQya3lPSVZxWFBBWk5rc2xOV0hUcGJuRHI1a0wtRzFj?oc=5",
-    "ts": 1794480802,
-    "source": "Pluang"
-   },
-   {
-    "title": "Aave will freeze $279M in osETH, unless StakeWise wins this vote - CryptoSlate",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcTZSbUV4VFFnaHN0YW9jOVgyWDZUWU1oM0Y0bHVtQU5tcU02S2ZSMEdfb1FFZlRoY25mVzZNaXIzVkN4dHhmbGhHbm5rWk4xdlBuRHh1emNkeHBKMmxONWN0TEc4ODhhMGlkcm5JTWh0THp1cTZUMG1OSHBxY1pDVWVZTk9KbHpLV2F1MC1oN1g?oc=5",
-    "ts": 1794475837,
-    "source": "CryptoSlate"
-   },
-   {
-    "title": "Aave highlights tokenized equities as key focus in decentralized finance lending and borrowing. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZWFOV0lGUXFIZ0oxU3Q5UndtcGp5S3R1LWdkMUFBdW5pc21ZU1Vqb2x6R3F1ckt4SHFKMkQyQVhabmw2cTQxaFdQVTdmMUZXOHNjZ3BMLXJtbjFjMHZwZzRCTWZrdjMxbEQwSXZHWnVraDlrRzNiUHgyVGJlN2tqVktramFNQXRmemwyMDFPNHFEM3d5Vi1LT2Fjb3JnMHZfRG1BVlZR?oc=5",
-    "ts": 1794470400,
-    "source": "Pluang"
-   },
-   {
-    "title": "Aave Drops 3.21 Points Amid Technical Breakdown and Weak Sentiment - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1id1RwSGZVSHV4YUVsRDllZmtEYzBySV9uYUs4NllfeWhzUS1LZy1Bdnl2NmUwNFFaQ05PV0VfekkwOGRZQkl2cjVGRHNESkViTk5KbHc1WUtVRUNtbF9jZU92Um5ybzBJMUo5WUhTVjI?oc=5",
-    "ts": 1794467040,
-    "source": "CoinMarketCap"
    }
   ],
   "reddit": [],
@@ -2269,55 +2263,55 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 5327864.31,
-    "vol24": 1719535.76,
+    "liq": 5544664.72,
+    "vol24": 2187130.36,
     "url": "https://dexscreener.com/ethereum/0x5ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb",
-    "price": 101.71,
-    "buys24": 122,
-    "sells24": 258
+    "price": 107.036,
+    "buys24": 213,
+    "sells24": 195
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2089844.97,
-    "vol24": 1015543.36,
+    "liq": 2140110.52,
+    "vol24": 1126318.65,
     "url": "https://dexscreener.com/ethereum/0x2187d779d9b173dd7202b38b54dca6eb04d1b32ca261980869195b5b9fa97ef8",
-    "price": 102.42,
-    "buys24": 188,
-    "sells24": 299
+    "price": 107.057,
+    "buys24": 231,
+    "sells24": 277
    },
    {
     "chain": "ethereum",
     "dex": "balancer",
-    "liq": 1932615.09,
-    "vol24": 43545.2,
+    "liq": 2078924.3,
+    "vol24": 53090.91,
     "url": "https://dexscreener.com/ethereum/0x3de27efa2f1aa663ae5d458857e731c129069f29",
-    "price": 98.07,
-    "buys24": 37,
-    "sells24": 73
+    "price": 106.14,
+    "buys24": 74,
+    "sells24": 52
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 1764695.82,
-    "vol24": 708066.59,
+    "liq": 1829590.75,
+    "vol24": 961692.9,
     "url": "https://dexscreener.com/ethereum/0x1c60dc7ce348dc9f1e8992c027350acfda4ba66e2365aa87cbdd98c490185088",
-    "price": 101.83,
-    "buys24": 82,
-    "sells24": 170
+    "price": 106.94,
+    "buys24": 160,
+    "sells24": 127
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 1229619.9,
-    "vol24": 340655.42,
+    "liq": 1280973.31,
+    "vol24": 406651.9,
     "url": "https://dexscreener.com/ethereum/0xcd019866bb9876e0c3f135bc5fe856a0566d490c1b2fcca97e8205ee25048e6f",
-    "price": 102.53,
-    "buys24": 134,
-    "sells24": 92
+    "price": 106.67,
+    "buys24": 163,
+    "sells24": 83
    }
   ],
-  "_ts": 1794711098
+  "_ts": 1794741714
  },
  "ondo-finance": {
   "news": [
@@ -2352,6 +2346,12 @@
     "source": "Coinfomania"
    },
    {
+    "title": "Chainlink Powers Price Feeds for Ondo Tokenized Stocks - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZEhZR3ZNRUVadG9UbFpuSGRDWmdVcmtqLUd4ZmJYY2hOU1JBaTZrWkdHcko4c2FiMXZLWTlkOUR4STJKc2NTZmxKbng0QVN1eG1xWWJJWWhTQ1R4R2lvaHdDYTF1X3dFVTZsd3ZpTDYzNWN5SmxxTkFGUjFKcjJLNjJXdXBGZ196bnhIQUFSVGJrN2p1QUw1WlhleU4?oc=5",
+    "ts": 1794627613,
+    "source": "CoinMarketCap"
+   },
+   {
     "title": "US 500 Capital Shielded Portfolio (Ondo Tokenized) Exchanges SPYSHIELDon Markets | Buy & Sell & Trade - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQTlMdEVXOEcyRU5oVkFLeVcxQ19hbl9EX0lzODBnX0V0ajZ0b0N1Y0h4Vkx5SldUQTJTRDJjeHNsT2hzRmtDN0pmbzhpbktGWEpRbkxZd0RiZ1B0V2l5a2ZwNjd2YnBEemV2MElXN0JjTVJFT1FpU0NQQ1BHbVpaMmRiSkI5azZ3NXY0NFdXQ09rQWlKOWdwUQ?oc=5",
     "ts": 1794626059,
@@ -2364,21 +2364,9 @@
     "source": "CoinMarketCap"
    },
    {
-    "title": "iShares MSCI EAFE Tokenized ETF (Ondo) price today, EFAon to USD chart, marketcap and volume - CryptoSlate",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hTUg1dzhNYUJtVGhNQ1lrZFBGVVZEODlhczd0SG5SQVNCSVg3VDM0dFJXXzBhc0FBMG9ZcTk2OVhwUnduaXNRX2doTnJHbWFQNzhMTXdhWmtqQ2E4Z2lLZVgyWGxIaUhNYldrNHpaU3ZDcWFSakE?oc=5",
-    "ts": 1794602268,
-    "source": "CryptoSlate"
-   },
-   {
-    "title": "Ondo Stocks Enable Interest-Free USDC Loans - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tNnNBRDhvNmtWOE1HakpaWGpDYTFxLWF5V1kzMGNTOGo4VmVscnNiSThEVndmTEZvY0cyM2VPWDJ0T2s2Nmo3N0FyaE9zUzBRMnA1bA?oc=5",
-    "ts": 1794581241,
-    "source": "Cryptonews.net"
-   },
-   {
-    "title": "IonQ Tokenized Stock (Ondo) Price (IONQon/USD) Today | Live Price, Market Cap & Chart - Binance",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKQVZMYkx0cm55Mk4wXzVsLVZWZkYteXlUYUJKaEY5cGF5RkZYektMZFhtc3BwdVVfT2VON1ZEVm5CckhXQy1kNDB5V1VPZDJJR21fdy1NMHNvWWp6a2V4TnZrSlNhT3hXdGc?oc=5",
-    "ts": 1794567780,
+    "title": "Bloom Energy Tokenized Stock (Ondo) Price (BEon/USD) Today | Live Price, Market Cap & Chart - Binance",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vT0dibTA3d3Yzc0FHTWRNS1dPOG10NHpRQ0NqOU11eko4OS0yTzFHSHNxQllxa2Jha1NTNEIydVU1dWNzSHhjTkdWVm9MVUxTckJGWjdQQmRURTA1cXFZN1JoMS1mSHNzblRPLUxpaWkweVB2?oc=5",
+    "ts": 1794568860,
     "source": "Binance"
    },
    {
@@ -2400,10 +2388,10 @@
     "source": "Binance"
    },
    {
-    "title": "Ondo invests in Spout as lending platform adds tokenized stocks as collateral on Solana - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PV3FpN2FpaW0way1BVF9yUTFxYmE1NXkycWJQbHRMUjZQQjRCN0R4NzRxX1dWWS1ldDFEdFMxVGFadXdsQ3RESGl1c3RpV1E2emJWVGZtMkRyZFc5UVYyTm42Y2Y4OFFoNkRDNkM1eFVvNlpOeW9YbzRmRQ?oc=5",
-    "ts": 1794498013,
-    "source": "CryptoRank"
+    "title": "RoboStrategy Tokenized Stock (Ondo) Price (BOTon/USD) Today | Live Price, Market Cap & Chart - Binance",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VakFReW52NG5pOEdLeEozZ19BSE5RUnhUalMtMjhtM2ZTWjZqRkZDbnpRLWdkSzE4ZmVfeThfZ1FRempOSlFLYm9jMjFzN1RYX2NJdjk5RDJsSXdzN1FUbV9ieVFXYTBzOERjYklGaVFXcDc4?oc=5",
+    "ts": 1794493740,
+    "source": "Binance"
    },
    {
     "title": "Historical Data for Innovator ZDEK ETF (Ondo Tokenized) in USD - CryptoRank",
@@ -2416,12 +2404,6 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJajhhaldmZkozeXRiRnluNWQ4aU14TDRLa0V3VjB5RDNKMkVvWWx1a09VQ1hvSG1lVkVQbGRDdEg3NEJvWEdQV01BcjdscVlYSFZCY1RQSUdILWc?oc=5",
     "ts": 1794485361,
     "source": "Cryptonews.net"
-   },
-   {
-    "title": "SpaceX on-chain, BlackRock on Solana, Ondo builds the tails: Tokenization\u2019s breakout year - AMBCrypto",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdVl2cEswSUFtN2VUNkNCRS1WbUtuck44cUlIUlh0N2tJSGNCZFpMUlZvU3Z2YVMwZHFYbmYzNXRzdWROekdmYlQ3ZERmRjkxX1owYWhkbUhmbUY3eG9xTnNzT2NydzVOcVdNT3RZbFRJOHFlSncyOEVJS3p2N2JKQ0gyUnJmTmFSU2ROLTl4MklfdWlBN21tX2pjX0NRM3hWdFNCWHVjRmNKUTJo?oc=5",
-    "ts": 1794452436,
-    "source": "AMBCrypto"
    }
   ],
   "reddit": [],
@@ -2430,58 +2412,64 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 1308363.09,
-    "vol24": 497461.16,
+    "liq": 1328835.88,
+    "vol24": 508444.64,
     "url": "https://dexscreener.com/ethereum/0x7b1e5d984a43ee732de195628d20d05cfabc3cc7",
-    "price": 0.3042,
-    "buys24": 133,
-    "sells24": 225
+    "price": 0.3089,
+    "buys24": 179,
+    "sells24": 201
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 203347.39,
-    "vol24": 80497.8,
+    "liq": 208506.05,
+    "vol24": 90082.32,
     "url": "https://dexscreener.com/ethereum/0x3dedf9153bf7ea7a8d784a41562e7ee061f8330b695f70ff534f9f9d3be2363a",
-    "price": 0.3009,
-    "buys24": 45,
-    "sells24": 108
+    "price": 0.3095,
+    "buys24": 76,
+    "sells24": 100
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 55170.32,
-    "vol24": 4530.41,
+    "liq": 56109.39,
+    "vol24": 4809.62,
     "url": "https://dexscreener.com/ethereum/0x2e1981d385c1530e125ad7af4abdc9cd474605d1b1da7a732194282e5c101823",
-    "price": 0.3005,
-    "buys24": 29,
-    "sells24": 45
+    "price": 0.3076,
+    "buys24": 35,
+    "sells24": 44
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 40895.94,
-    "vol24": 3000.27,
+    "liq": 41802.5,
+    "vol24": 3363.68,
     "url": "https://dexscreener.com/ethereum/0x51769cfa6e95836b5f819092c404a4bc66f7e959558a4a5f5c4d950ad4bac87a",
-    "price": 0.2999,
-    "buys24": 9,
-    "sells24": 34
+    "price": 0.307,
+    "buys24": 18,
+    "sells24": 33
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 33285.72,
-    "vol24": 88553.53,
+    "liq": 33876.53,
+    "vol24": 88511.38,
     "url": "https://dexscreener.com/ethereum/0x2c2b6afc1db134173ef3c0c565e05eb5663b0c995868bf42f794f3ddf417f0a3",
-    "price": 0.3028,
-    "buys24": 256,
-    "sells24": 244
+    "price": 0.309,
+    "buys24": 265,
+    "sells24": 235
    }
   ],
-  "_ts": 1794711098
+  "_ts": 1794741715
  },
  "world-liberty-financial": {
   "news": [
+   {
+    "title": "The Definitive Guide to Donald Trump\u2019s Crypto Ventures in 2026 - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZEdDZHF4UTRORFBpSEZCYWVObmlNVXBxMDM4NC1WeEpwUEJocDZQUm91S0tIWE5wNXBILW1qbkRfQzFRa3VnQjVucHh2anNCMlhvTkdvbVZ5MWRTU1hOck5aUXR6WGJSTWtLR0dhb0VVLXQ2Z2Z3c0JaR1RfZ2o5RE1mNlY?oc=5",
+    "ts": 1794731692,
+    "source": "CoinMarketCap"
+   },
    {
     "title": "World Liberty Financial USD Price Today | Live USD1 Price, Chart & Market Data - Binance",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SRmdVVG0xZ0NwSTVLYUNaTmtGbXJSa2FyeEZ3MHM4QVcwWHpvdF84MkxYd3JFbDJpMEl4QXFGcnV2NHUybkxleUJvM1AyNUxPbXc?oc=5",
@@ -2495,6 +2483,12 @@
     "source": "www.tmgm.com"
    },
    {
+    "title": "Democratic takeover of Congress could put crypto executives under legislative scrutiny - www.tmgm.com",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOFVDMUl4aWtnN213QjIzd19LRTNZbHBFZEZTSEM2UEV2eVhIUEpqNGpoeXZ2S1pjX3lUNFpYelBTNWswZVY2ZXFrSmtKZHpYMENRMWRPOW1Kc0NDdHFOaDFuSDFmaVFfQWJBRFNDUkhDaUc5a2U0UXpYSGY4ODZ4VzZUMTgtdm9MYnVwc2x2QkpFYWZoZk1abU0zM3RSWWF4V19jZWhhbi04MW9IVkxkU0xFS1hHYlY5SW8teXpXT0RBckxGSGhwMG1qdTIxRjJ1YkpOclBUbEh0dFpIVk0yU083NE8?oc=5",
+    "ts": 1794638829,
+    "source": "www.tmgm.com"
+   },
+   {
     "title": "Trump-Backed World Liberty Financial Announces Remittance Platform - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWU9wa0pxWEdrTFRRNGlfbUFtX2JlQUxVcm1MRVoxQy1ZdjgwUmRLYlVfRmdvRFdOcG5JWlpLbi1qcml0dnJjVmI0MlViNjNvMndleVNVMWxrRU9KWTFCR21ZQXh4c05zVnZ4aHZGZHpvb21HZExGdVZURTJpUG83eDJMdmFldVROUGZxMUlUeW5tSzFlSzQ3YzlZdDhhbGJfZWlOclVJYm42WF9u?oc=5",
     "ts": 1794625234,
@@ -2505,12 +2499,6 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYkdzVDkwTXo3YU4tX1RnQl81aTlrVTdJTUpmdElNUTRELW5jTWtlYWJsUmpyZERVRnpCQWJOT3pkcWZsSV9NRTBpTmxQVjBRZ2NiSEJ0M1pHdzhfUFRCY3hiY2Q5LU1Yb3R5al9YdEFydGhZVDI5NWxxd285czRGLU9UeUU2Tm9UVzNObGJYRTBCRW84VTB1OWVTcWV0T0U5VlVMa3YwU3paRG5aUHM1RUxyQlNPX3ZocDF2czNleFN2VVZmWXUyTHdaMHNjMGNobFMyMlVnWWhMWFREV1BGeQ?oc=5",
     "ts": 1794622406,
     "source": "www.tmgm.com"
-   },
-   {
-    "title": "Paraguay plans to end special crypto power contracts by 2027 - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lbUpjRm42dDBsVHBJS2JaUnhxemg1a0VQeWQzYTJRMEN2MkNiNWw5S1NVLUFmNnhZcUdyaVhxUGpaMlBHcTRMTTlpeXdhYU0xMG9YNXJIM2VqSXhOZnQzVHN2S1poc01haktMT3dyUWxoSzBUVTRZcg?oc=5",
-    "ts": 1794612944,
-    "source": "Crypto Briefing"
    },
    {
     "title": "Democrats are preparing to probe the Trump family's finances - USA Today",
@@ -2577,18 +2565,6 @@
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tZXdLVjZobWE2R1NtMGFNMFZpQ3ZCV19RWUYyQ3h5cTc2NDRaVlVrNk5mYmxSR0MyZ2tyU0tlV21WTG5yY1FoZkYyR3VYSFNSWmRSWEhtRExXdWpQNjRNNw?oc=5",
     "ts": 1794530765,
     "source": "Bybit"
-   },
-   {
-    "title": "The Definitive Guide to Donald Trump\u2019s Crypto Ventures in 2026 - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZEdDZHF4UTRORFBpSEZCYWVObmlNVXBxMDM4NC1WeEpwUEJocDZQUm91S0tIWE5wNXBILW1qbkRfQzFRa3VnQjVucHh2anNCMlhvTkdvbVZ5MWRTU1hOck5aUXR6WGJSTWtLR0dhb0VVLXQ2Z2Z3c0JaR1RfZ2o5RE1mNlY?oc=5",
-    "ts": 1794526983,
-    "source": "CoinMarketCap"
-   },
-   {
-    "title": "Convert 100 WLFI (World Liberty Financial) to SGD (Singapore Dollar) - Bybit",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0V0JDSmkzLWtDWmtiRkxPZmxGalFtUGlxTnNRUDFHcTlObzlEZGtqRTRUNEZLMXJQSkFwT3d0aDdrWnd2eHM2a0htNTNGbXYwVUlYTXVUenZjbDY5OEE?oc=5",
-    "ts": 1794465314,
-    "source": "Bybit"
    }
   ],
   "reddit": [],
@@ -2597,22 +2573,22 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 3127664.28,
-    "vol24": 96332.03,
+    "liq": 3164765.18,
+    "vol24": 101791.9,
     "url": "https://dexscreener.com/ethereum/0x7f2869b24d83f03e0438c045ce24fd18045b2b6cdec47cd7b62e67e2284d1be9",
-    "price": 0.04694,
-    "buys24": 41,
-    "sells24": 26
+    "price": 0.04731,
+    "buys24": 38,
+    "sells24": 34
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 1114947.38,
-    "vol24": 36988.99,
+    "liq": 1124170.93,
+    "vol24": 40092.15,
     "url": "https://dexscreener.com/ethereum/0x238f00fcfd4f0c5930028237c6a1b395f4c0fc74",
-    "price": 0.04653,
-    "buys24": 17,
-    "sells24": 29
+    "price": 0.04692,
+    "buys24": 23,
+    "sells24": 28
    },
    {
     "chain": "ethereum",
@@ -2627,39 +2603,45 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 11451.05,
-    "vol24": 697.48,
+    "liq": 11267.72,
+    "vol24": 648.14,
     "url": "https://dexscreener.com/ethereum/0xcdf9f50519eb0a9995730ddb6e7d3a8b1d8ffa07",
-    "price": 0.0468,
-    "buys24": 20,
-    "sells24": 19
+    "price": 0.04602,
+    "buys24": 17,
+    "sells24": 17
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 3312,
-    "vol24": 150.56,
+    "liq": 3300.62,
+    "vol24": 154.77,
     "url": "https://dexscreener.com/ethereum/0xca2e972f081764c30ae5f012a29d5277eef33838",
-    "price": 0.04711,
-    "buys24": 7,
-    "sells24": 1
+    "price": 0.04677,
+    "buys24": 6,
+    "sells24": 2
    }
   ],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "morpho": {
   "news": [
+   {
+    "title": "Morpho falls around 10.5% as technical selling outweighs protocol optimism - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWVF5aTlwTTRYX01ENV96c2xrRWROelkyOWVmcWUwaHM5Ykk4WWVrblU2aGNyN3ZEcmJPRVlYZmdaYTBCdGZwb3E5TDd3Q1E1QXVuejVwc1o4bzJrMFBmYTlxQ2ZpNHZpRERvMEdPNU9MSXBRZ1pVZ3lRbEpEV3dlTHNKVEpwQ0MzZ3pMcTRNM2pmMVRkeHdCVDFoSEVCS0h5?oc=5",
+    "ts": 1794737961,
+    "source": "Traders Union"
+   },
+   {
+    "title": "MORPHO drops as seller pressure drives downward price move - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYV9MLUR2bXE5SDRhbk5DaFNvb0lyQ3ZPTW9KNHVLaUxGRFVYN0lvVnNDSGlPVHlMS00xV28yamlOcC1RQjhDQnJIOHl4dUN4Q2hzU1h0aEdmT1hBV0kwZXdiZi1zUUJma1MxekV0cFdEN21DVkRBRUFSTXJydGFZNlVpNDZGQUk2bkN0MzZPOE9kdEZkbE1aLUhEaWR6VFdo?oc=5",
+    "ts": 1794736160,
+    "source": "Traders Union"
+   },
    {
     "title": "NEAR Price Today: NEAR Intents Takes Its Cross-Chain Demos to London as Remittix Earn Opens Aave, Morpho and Fluid Pools - TechBullion",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcTdsdVNRQzNuZEFfYUFJYm1BR0tKM0dMZ0gwRzRzTGZMd2ZSTkZsX290OElWN3hCWDZZOWgyS1VnY3lyYUZiWm9MM3EzemIzT19pWkNldHpYWFpsVmI1V3lBVWx0UTdtM1BKUWtrV2NkTkdiRE9wUlhDcmNyRXFyanlNU0JtU1hBMHNtOFVKbi1VTF9ETlp2aXVKaWUyS091NWgtTEZBY3doS2dXbDg2WHhKd3NlaEttRUFhZXkzcjBWelItbHNOSGxUNzZ4VVNtMkh2ZkZFNUFXUDQ?oc=5",
     "ts": 1794698701,
     "source": "TechBullion"
-   },
-   {
-    "title": "Morpho falls around 10.5% as technical selling outweighs protocol optimism - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWVF5aTlwTTRYX01ENV96c2xrRWROelkyOWVmcWUwaHM5Ykk4WWVrblU2aGNyN3ZEcmJPRVlYZmdaYTBCdGZwb3E5TDd3Q1E1QXVuejVwc1o4bzJrMFBmYTlxQ2ZpNHZpRERvMEdPNU9MSXBRZ1pVZ3lRbEpEV3dlTHNKVEpwQ0MzZ3pMcTRNM2pmMVRkeHdCVDFoSEVCS0h5?oc=5",
-    "ts": 1794683959,
-    "source": "Traders Union"
    },
    {
     "title": "Morpho drops further as seller pressure dominates after high intraday volatility - Traders Union",
@@ -2708,12 +2690,6 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQlFQTVA3Ri1YaWpNMmYxMFFleE1OaGM4SEo0aXl1TVpuU29RcFN3NUxDbTR4Xy04SmdzdkxheEpGcVVhWnBTTkM5T3B4T2RYSlA0dFYtWjdiS3E1SF85c2xRN3ZOWjdBN3ljRUpfU0pSQzNLbXd5Y096d0t0ZHZicDhuU2ZVU25UNjNSaWJwMy16aVJSdW1nSlRKSEgwTThkeTJGMmVVcU50THhGcVFqdHU1V0lpMXpURDRFVmhTb3p1VUplQ0dTUnJR?oc=5",
     "ts": 1794515702,
     "source": "TechBullion"
-   },
-   {
-    "title": "Santiment Reveals the 10 Most Active DeFi Altcoins: MORPHO Leads as AAVE Climbs - Kriptofoni",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEeFhnSHJEc0FSR2JDRUtfVTNTT1lGYVlROEhkcnJORXFDb2xubHF5c21PLTJoZkFBakxpdmFoOFFVelhhdlRoVnBIc2E1LWc5dVVGNExwMkl0SEZuYmtiUTJ5M1RvQ0JwVUVzbjkzWTEwUQ?oc=5",
-    "ts": 1794462812,
-    "source": "Kriptofoni"
    }
   ],
   "reddit": [],
@@ -2722,58 +2698,70 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 89582.67,
-    "vol24": 13894.17,
+    "liq": 90073.1,
+    "vol24": 14833.03,
     "url": "https://dexscreener.com/ethereum/0x24039ae81f42fd9540e1d4902617ffa003ddc87ea9a2fa7252d2b14bcd88cd57",
-    "price": 1.75,
-    "buys24": 28,
-    "sells24": 42
-   },
-   {
-    "chain": "ethereum",
-    "dex": "uniswap",
-    "liq": 87771.35,
-    "vol24": 22308.41,
-    "url": "https://dexscreener.com/ethereum/0xc8219b876753a85025156b22176c2edea17aac53",
-    "price": 1.76,
-    "buys24": 62,
-    "sells24": 60
-   },
-   {
-    "chain": "ethereum",
-    "dex": "uniswap",
-    "liq": 53442.95,
-    "vol24": 55448.72,
-    "url": "https://dexscreener.com/ethereum/0xd9f5cbaeb88b7f0d9b0549257ddd4c46f984e2fc4bccf056cc254b9fe3417fff",
     "price": 1.77,
-    "buys24": 80,
-    "sells24": 67
+    "buys24": 32,
+    "sells24": 47
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 50305.39,
-    "vol24": 11646.04,
+    "liq": 87421.64,
+    "vol24": 22053.01,
+    "url": "https://dexscreener.com/ethereum/0xc8219b876753a85025156b22176c2edea17aac53",
+    "price": 1.75,
+    "buys24": 51,
+    "sells24": 61
+   },
+   {
+    "chain": "ethereum",
+    "dex": "uniswap",
+    "liq": 54021.96,
+    "vol24": 52715.85,
+    "url": "https://dexscreener.com/ethereum/0xd9f5cbaeb88b7f0d9b0549257ddd4c46f984e2fc4bccf056cc254b9fe3417fff",
+    "price": 1.78,
+    "buys24": 68,
+    "sells24": 66
+   },
+   {
+    "chain": "ethereum",
+    "dex": "uniswap",
+    "liq": 50184.51,
+    "vol24": 11249.98,
     "url": "https://dexscreener.com/ethereum/0x25b96761e765b9ac20db18fa57fa91e3b617ec6f",
-    "price": 1.67,
-    "buys24": 6,
+    "price": 1.79,
+    "buys24": 5,
     "sells24": 29
    },
    {
     "chain": "ethereum",
     "dex": "metric",
-    "liq": 24853.46,
-    "vol24": 94446.78,
+    "liq": 24618.31,
+    "vol24": 85736.6,
     "url": "https://dexscreener.com/ethereum/0xe28c18965ab110e9db39242566a754b7abbc425e",
-    "price": 1.76,
-    "buys24": 35,
-    "sells24": 20
+    "price": 1.74,
+    "buys24": 45,
+    "sells24": 12
    }
   ],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "ethena": {
   "news": [
+   {
+    "title": "Ethena (ENA) token jumps 5.66% in one hour on B... - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUJPSjhqNjZXRFVxRHdzSFJwTmNNWVFJMm1ET3F6V3VCZUxHYVV0MHdHdHdzQ2hEUVNsZ2hSODZYcXVVUkNvMm9zUHd0TVFMTkJiNHhxVElxQVpURXhmTmVVeWFfS01HbEZYa3I1SC1URjl4TnZCM1V2RnFGMUFTeQ?oc=5",
+    "ts": 1794712138,
+    "source": "Pluang"
+   },
+   {
+    "title": "Ethena (ENA) Volatility Explained: Macro Shocks and Technicals - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpVHRVLXd1SkY4M3hjZnlVaUdlUHQtbmlTV2Q0THBXWUpxUm5EdFN3LTJkQ09uaG9KTVc1NTlONl9NcVZSb25tbkh0NzJsYkRqS3FPdkV6RmxkYUN1dWRLU2w4bDBBVHA2NmJtbElxYUg?oc=5",
+    "ts": 1794711840,
+    "source": "CoinMarketCap"
+   },
    {
     "title": "Crypto markets plunge with Ether, Solana, and R... - Pluang",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMkk3akxQejk3a1JKd2VWNmxmV0RYNkVoWjM0RDk2blBEQkhtTHlPWHY1aENEQ0hCcGIwSXNqeXotbXVmOVFYYUViSk9vUzhNT0lYb0M4VEdEU3htZmRONEpPOW44cFlqRm1XMGI1aFdkc1lCT0Mwc3dMNEZ6WndnTmJKTkxBRlVxRk5MdjR4VXh2NmYxZzFlSEI0cmk?oc=5",
@@ -2799,6 +2787,18 @@
     "source": "CryptoRank"
    },
    {
+    "title": "Ethereum Can Hit $10K in 2026 on French Banking Crisis \u2014 Arthur Hayes - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS2ZnYnJnRmFid0M5MEx2dkp4OFJidE9vWWI1UzFDSEdMVXppcVdZZDN6T2xmOWd1ZTJvMlRMc3JxVC1lQ191VV9DU3N2QVBla3NINEk0UFZnQnk5cTFfRElHdE5ETGtGcjY5LVZMUGdUaWh1UVFQZnhUMzl3amNveEtfcFZDNVZfcEVPUjl1MFh0N21JV3A3V3pR?oc=5",
+    "ts": 1794640316,
+    "source": "CoinMarketCap"
+   },
+   {
+    "title": "Convert 1 USD (United States Dollar) to ENA (Ethena) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tZWNRT0lpZ0FEX2ptOWh6bWQwZWFKNUl2ZUtrdnFXME9ENl9HNXlyZmExTWRjMk95bi14OGhHenJfdDFwVEczOUxKN1V2VzRZVFQybFRuYw?oc=5",
+    "ts": 1794613037,
+    "source": "Bybit"
+   },
+   {
     "title": "Ethena (ENA) drops 4.08% in one hour with $270K long liquidations on Binance and others - Pluang",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU2U3blhaRjdPYUNheFdvMXoyQzY2NVR0cEFPZnQ3VGstZEpodC1oWXRELTl0WnpfUm9qU19ScXNEVS11Um9mTmJRa1FlSnoyQ3FoZzRVSnRUdlJPTHRyakVNYUpBc3pTSE04a3lIUGo5Y3R5LXNuYnpsTHlwUlB6cEZn?oc=5",
     "ts": 1794586146,
@@ -2811,33 +2811,9 @@
     "source": "Crypto Briefing"
    },
    {
-    "title": "Ripple Leads Monthly Stablecoin Growth With $258.2 Million Increase, Outpacing Ethena - Hokanews",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdGhjQngxT1hwSXh1d3ZOc3J3N0pKVkJvUVkzTmw0Tk1rTEYyMW5qdHgyRDJXRWIwUnlGQl90ZW9SMkFiT0dLRHF1T1lYVnBoNnE1YnQxSTRIdHZpSVRKNVE5dEwzRUxtQUs5UTdBcVV2Ml9fd2JuT000NVBVMEJoVVJn?oc=5",
-    "ts": 1794566400,
-    "source": "Hokanews"
-   },
-   {
-    "title": "Eligible BlackRock BUIDL holders can now swap into USDC on weekends - Cryptopolitan",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93QTVDZTZYWnZDb2FIbXdWWXlUMjNQREZvN2d6d21haVpzVlFyQ3RPZGR4ZnBJbTJQbElDM2t3WmZqUGNIWW9Ra2dDMUdBWmNwQlpIOEtKQ09mSlZIMXNfM0xSYnNnT0JTMHU1ZzZOVUVIUXdKUmlmMWl1UzZuUQ?oc=5",
-    "ts": 1794535429,
-    "source": "Cryptopolitan"
-   },
-   {
-    "title": "Securitize and Ethena Activate $100M Liquidity Facility for BlackRock\u2019s BUIDL - Altcoin Buzz",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOajR5NTE3OUh4X0wtdEw0SVJKeVlTdERWM2l2bGJmcHV1QVVsRm1YMHRadWdOOE1sNEk4dms5c3lvdnBKbkNuRmNQTy12U1A5czh0eVZPak9wVm9oSFBZejZTVXFWRGdqaVFPSDJBLXpBUVAzSzBBUVU3Slk3S1FvWEhLdHVmdExCTldEYi1OblFkZVhKTUxvX0ZzVTZacGFTTmFTM3B3?oc=5",
-    "ts": 1794521564,
-    "source": "Altcoin Buzz"
-   },
-   {
-    "title": "BlackRock\u2019s BUIDL Gets $100M Liquidity Boost From Securitize and Ethena - Crypto Economy",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQlBIV3V4eURQbWRPckVDZDVsMEZaWnRrRFRZOW5yQmx3X0plTHBSMWZqT2NybzhrcHdKbXE1T2NKRFhjUFBQQTNnalFSa2VEOGlIMHJEOXhMb3RBUzFVbFJsQThndmhIUTRtVGdfUU5qbEpheTVtSXJPSzlRVU1BWlBPcnVmV0pDWHhYcFBBZXdwcFdUVjYzdU5fNzFudw?oc=5",
-    "ts": 1794519659,
-    "source": "Crypto Economy"
-   },
-   {
     "title": "Securitize and Ethena Open $100M 24/7 Liquidity Facility for BUIDL - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT2JsRl8yZS1ITWtxNTlHSDNSV3ZHQ0tIUUJpMllzTDQ0S3dGZXF4SlhLUTRLVHJDd2FxZWp3VDRpa0VjdVhFTWxuMUNDY2ZIeXF3WUNNQ1dhblJaT2VJSUxObmRDeU16Z2dfV0dtWGIwQUEwcVZjUDZmNm9HSFZTRVhfc3c2OGRZWFkxVQ?oc=5",
-    "ts": 1794510237,
+    "ts": 1794564237,
     "source": "CoinMarketCap"
    },
    {
@@ -2847,28 +2823,10 @@
     "source": "The Cryptonomist"
    },
    {
-    "title": "Securitize opens $100M BUIDL liquidity facility with Ethena - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBiMGpmaDJDSjR4MlFGVXFUN1NhWEtHTWFWVXM4WHJidlVGcmdpVDB3NlZsdEl5cnRZX3N1N2ktRUZtWEdLdjRHakpYTi15b1FpbjVabjA1VnJ1Z1RaZmp4YktKX0wyUkpZSDNpOEtNWnFQZ0R4V0RR?oc=5",
-    "ts": 1794500662,
-    "source": "Crypto News"
-   },
-   {
-    "title": "Securitize and Ethena Open 24/7 BlackRock BUIDL Liquidity Facility With $50 Million Funded - unchainedcrypto.com",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXI2REZnQ2E1RWU0S1Z6XzZGWEs5c2JReDNmN09hX1dnYmJ1OGdFZzFJNjJqWmhjSXBpQ1hLdi1CSGx5aExzcksxa3ExVWhFUTdMNGFtWmxnZDdrWGljWmJ6SzNCZm40SnFSa2FNcE12X0tjRHpUekpGOS00Q19ZNE9Ib1JhZzVITGI2eFFaYzZUX0tGc1d2S3Z4aXY0bzI5ZnBXYzJtU0s5Nl9KVE4zZENIMHFUamRNUnc?oc=5",
-    "ts": 1794496920,
-    "source": "unchainedcrypto.com"
-   },
-   {
-    "title": "Securitize and Ethena launch $100M liquidity facility for BlackRock\u2019s BUIDL - Crypto Briefing",
+    "title": "Securitize and Ethena launch $100 million liquidity facility for BlackRock\u2019s BUIDL - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOa2lFMEFfMGxkcEVoOFFkdlhMUUREVzRyMTR0eWxCVlV3TWI5LWpCNDNhSUY5WTZiOU5NNjdWS2pFVFZzalBMb2ZCR1BVTlk3dndEMno5QXFtMDFJMGRZbTk3UVY0RnVrVDhGc3BTQzFsUUplUVRpUWxRX1NRTEttNw?oc=5",
     "ts": 1794492714,
     "source": "Crypto Briefing"
-   },
-   {
-    "title": "Securitize and Ethena's $100 million BlackRock BUIDL liquidity facility goes live - The Block",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaWtKNmt1bl9uOVBaV3VFcTJ5QVZqZmdIb01pVWQ2WFFzOU5BRzk3YTczVFNkZUtDLUFsNWNMcERvWXZsMy1tZlNnQng2M1hkOTdyeDdrY2YtSjNmT09kOVU1Q19WUmNSSFh3QzRiYTBQODQ3OUotSXdMc0JYZzFpTFkwdVFvdWZRYVJQRFVoM1B3UWFudUw0Q051UUNya1EzaWQ0QnlNeXVCd1V0NmFN?oc=5",
-    "ts": 1794492000,
-    "source": "The Block"
    }
   ],
   "reddit": [],
@@ -2877,63 +2835,75 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2722880.73,
-    "vol24": 1113465.7,
+    "liq": 2792329.38,
+    "vol24": 1176627.74,
     "url": "https://dexscreener.com/ethereum/0xc3db44adc1fcdfd5671f555236eae49f4a8eea18",
-    "price": 0.1179,
-    "buys24": 369,
-    "sells24": 397
+    "price": 0.1207,
+    "buys24": 380,
+    "sells24": 361
    },
    {
     "chain": "ethereum",
     "dex": "metric",
-    "liq": 129409.14,
-    "vol24": 474100.26,
+    "liq": 130192.4,
+    "vol24": 447418.56,
     "url": "https://dexscreener.com/ethereum/0xc445b096f37cd1de304c61d8c368521974695f80",
-    "price": 0.1146,
-    "buys24": 75,
-    "sells24": 35
+    "price": 0.1214,
+    "buys24": 38,
+    "sells24": 42
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 29205.55,
-    "vol24": 6981.6,
+    "liq": 29775.88,
+    "vol24": 7313.92,
     "url": "https://dexscreener.com/ethereum/0x5b29d38ddffd8514f9716cb9fb25f0ad89775c190505b4058953539007a03409",
-    "price": 0.1184,
-    "buys24": 41,
-    "sells24": 64
+    "price": 0.1209,
+    "buys24": 53,
+    "sells24": 54
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 21946.08,
-    "vol24": 1698.78,
+    "liq": 22381.18,
+    "vol24": 1416.36,
     "url": "https://dexscreener.com/ethereum/0xae4045ffeddf61d570e6d1fe2d71ded1a2e85a88",
-    "price": 0.1176,
-    "buys24": 56,
-    "sells24": 58
+    "price": 0.1207,
+    "buys24": 44,
+    "sells24": 39
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 14239.41,
-    "vol24": 2431.14,
+    "liq": 14464.47,
+    "vol24": 2303.98,
     "url": "https://dexscreener.com/ethereum/0x8c52de694f5a4ce27ea85fe4bc47e08d22c5dfb5f9b38b2a63765ed52cd3b147",
-    "price": 0.1186,
-    "buys24": 39,
-    "sells24": 51
+    "price": 0.1206,
+    "buys24": 38,
+    "sells24": 41
    }
   ],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "internet-computer": {
   "news": [
    {
-    "title": "Internet Computer (ICP) falls 9.29% over 20-hour window - Global Banking & Finance Review",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFVQSlVpaVRKblNzUktKRG5yOUVyNHV4bGw3aEkwcHk4bENINHJBQkdGdVBRVFJkRkxJRnhGT3E5ODNXZGNiMF8yWWZfX0F4WFJTX2diNjdWZVNqaVF1SnFuMEEta3BIUk5ydkFMSXpSVUhXU0ZIQ2p4QjhjeFl2UTMtNUhSWnhNU01OM2drckNyd2Z1Qzdn?oc=5",
-    "ts": 1794701538,
-    "source": "Global Banking & Finance Review"
+    "title": "Crypto Sell Setups This Weekend: RENDER, ICP, CRO Break 20-Day Support, No Buy Signals - JournalArta",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbTN4TkN4NWVfaXZKRU1kOUI2SDQ0a0R5bWtzR3pYdEFSa0xGUFBsNFhQUmpBVTZkM0VNMkl1UWlZT1dtNEg2VTJvUXgzTUNfQ2k4X25rT3d6RktfR2ptLV9kRDQ1RUNXR2Rsb0ZZNXBuWk5YS0s5aUhVNHU5NW5vVDJmbHp3VUhBbVphYTJuNEJYbndUM1VpU0NLazk0U0k3OEdqVTJJT2pJcElfQUdzWlZIRmdEVTlvUnBxYVJ3?oc=5",
+    "ts": 1794737449,
+    "source": "JournalArta"
+   },
+   {
+    "title": "Internet Computer technical analysis: Pullback persists with risk of retesting $2.06 support - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcEhHVE02N3I3QTFGTWhSTkk0a2x5MjhKRVlBbDlHbVBIaWprYjlXQzBYbVlLS0ZzUkk2Q3RueFFNUUY0WlBPR2JzaHpfNjF0ZGxMSFNDOVBtclpKRng3VUlZVkZxYlJwR3dLVUhWOHZKcDhIWHFsc2g1d1JJTlEyN3dPUmJ6V29zNTFIcHl4ejNXTEZZYXhmTGFzenhtdTU0cjBZX0lpYjc?oc=5",
+    "ts": 1794726560,
+    "source": "Traders Union"
+   },
+   {
+    "title": "KarraOnGo(@user4kgf)'s insights - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ramg0dXE0R043d0s0Yy1CQkhaZmdWVkVzWk5kYVFKRWRCZURpaF83Z0U0bDVrbzdsUl9MYXV0TGQwYmlNVXF4czV5QzFUcnFpSERKZHZDSUVXN1h3cjk5cUFXQ2g?oc=5",
+    "ts": 1794725027,
+    "source": "Binance"
    },
    {
     "title": "Internet Computer (ICP) Drops 6.7% Amid Broad Altcoin Selloff - CoinMarketCap",
@@ -2942,22 +2912,22 @@
     "source": "CoinMarketCap"
    },
    {
-    "title": "Bitway plunges nearly 20% amid broad crypto mar... - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdUQ1a2stX2JUeXhQWjUtWTZkS1kwVHZaM1NaYzV6M1dkdGp0VXNxRjBjeHV2eW9yR21ZSkR4VC1uUk14WXZPajlSTkhJMkN5WXpacUlLVEs5WERGLWdWaVVOUnBVU2hfd2JYMXV5ZUR0VG1oRjYwMnF3WUxTQWhJVWxmd3JCb0E1SVVPTURNbW5MWGJZemc?oc=5",
-    "ts": 1794673513,
-    "source": "Pluang"
-   },
-   {
-    "title": "Bitway (BTW) plunges 22.43% as most crypto asse... - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcWY2UzRBVHUzVF9JMnA0MV90WDBQZnZLNk16aVhfT0tlbUVyTEFJMUpfMWdsbWpMQ19ERWtRUmcwVnhUN0xuS25VSFItWjZlNUJkbWJUaV96U25NemNSTHJWQUlKVXM3RTUzblJMUzdiclcyLTFEcFNTS3ZXSURtWDFYSk13Nm9saTdCeDBQZnlIVE9IbVAw?oc=5",
-    "ts": 1794660757,
-    "source": "Pluang"
+    "title": "Avalanche (AVAX) Drops 6.3% Amid Broad Crypto Selloff - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uUWJKWk9uYU1ibE4xRkd3bEYtZFJ6U2NQVDlXYjNabkpQRXpYNVBKdXpqSDlJRDRWcko0MEhMY19Gd29rWlJjZVNXaTVPcmt0WFZFRjNhNlgxai15VUctNHl4YUY2dzg3eGdXM3VsVXU?oc=5",
+    "ts": 1794690300,
+    "source": "CoinMarketCap"
    },
    {
     "title": "Internet Computer drops almost 13% after breaking below key moving averages - Traders Union",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYm8tWFlMMlk0dDdFSFI0cWMtZW1wUzF2U0FXWk9vZWRENWhIZC1GMjNXNWpMcy1CY2JXT3hjMzZEVUM2SmkyV2hKU0xwTzMtZEJRQ05FRDh0U1pxTm4tN0hXcGlwczI1Q052ZUl1eU5zenppVzdXSE9ETk5rZEtnMGwxWEQyNkVvRUsybnNxa3ZDUkxqNF94OWdXMTFyYWlVUWtEVFppSG9ZYVU?oc=5",
-    "ts": 1794641609,
+    "ts": 1794688160,
     "source": "Traders Union"
+   },
+   {
+    "title": "Bitway plunges nearly 20% amid broad crypto mar... - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdUQ1a2stX2JUeXhQWjUtWTZkS1kwVHZaM1NaYzV6M1dkdGp0VXNxRjBjeHV2eW9yR21ZSkR4VC1uUk14WXZPajlSTkhJMkN5WXpacUlLVEs5WERGLWdWaVVOUnBVU2hfd2JYMXV5ZUR0VG1oRjYwMnF3WUxTQWhJVWxmd3JCb0E1SVVPTURNbW5MWGJZemc?oc=5",
+    "ts": 1794673513,
+    "source": "Pluang"
    },
    {
     "title": "Internet Computer price forecast: Downward momentum signals risk of further declines toward $2.27 support - Traders Union",
@@ -2994,18 +2964,6 @@
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fSnYtWWN0eWZwa1VYUmJDLTdiLXRZNU4yenJ4N1BDeTM3cFBYSFlBMGd4LVBlOEFtd0syNUFDTGpYb183dlNKaVUxNFFlQ0hKWGhMV0NReXdIdw?oc=5",
     "ts": 1794485425,
     "source": "Cryptonews.net"
-   },
-   {
-    "title": "5 Top Crypto to Watch as Internet Computer Opens Its Cloud Engines to Big Business Developers - openPR.com",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWjN1b0hkamlTQVZOc2hYZ0sxZXFYT005bGxjSXVQQTdMYXBfNHZfTkZQQmFTZF9yZGdnY3VqQWlNSXlrS2RZRFhROXVpNk14eURJVkpWRzZlVHktc1dGbXczUXkxU21CYUt4b1pQVmVKYUlBN0FSSHg2S3RJWW50SmtGSzZJWVA5ZXd6YnpGSlVjRldEWFNwOWoxLUlyaEZQNk52Rg?oc=5",
-    "ts": 1794480010,
-    "source": "openPR.com"
-   },
-   {
-    "title": "Litecoin Falls 3.5% Amid Broad Crypto Risk-Off Environment - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GUERFem1SMVV2eThOWjlhWG13dnFlVUlfbXFwbjNPblhIWFJKQlZ0MDdoMXhWNm9iNHZHU2RZMVpod09WTF9qQzktZkxhLXJYbXNqRXBDZS1oVFJHVjI2am9rZ3dvNFNtbG5MaTlueWg?oc=5",
-    "ts": 1794463440,
-    "source": "CoinMarketCap"
    }
   ],
   "reddit": [],
@@ -3014,58 +2972,64 @@
    {
     "chain": "base",
     "dex": "aero",
-    "liq": 308310.88,
-    "vol24": 456920.18,
+    "liq": 309115.4,
+    "vol24": 425368.03,
     "url": "https://dexscreener.com/base/0x3eca1a7d881e12d2c7d8111269cea0bcbf12192a",
-    "price": 2.19,
-    "buys24": 1530,
-    "sells24": 1661
+    "price": 2.21,
+    "buys24": 1625,
+    "sells24": 1676
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 253665.99,
-    "vol24": 342526.55,
+    "liq": 256698.69,
+    "vol24": 349524.28,
     "url": "https://dexscreener.com/ethereum/0x4068038ab5490063a3ead93b3712ed082e62bd59",
-    "price": 2.2,
-    "buys24": 413,
-    "sells24": 435
+    "price": 2.23,
+    "buys24": 404,
+    "sells24": 396
    },
    {
     "chain": "base",
     "dex": "uniswap",
-    "liq": 23550.86,
-    "vol24": 4907.91,
+    "liq": 24876.96,
+    "vol24": 5111.05,
     "url": "https://dexscreener.com/base/0xa567b694ef655ed10c2a6b89959e86fefde2a3b7",
-    "price": 2.1,
-    "buys24": 20,
-    "sells24": 87
+    "price": 2.21,
+    "buys24": 16,
+    "sells24": 108
    },
    {
     "chain": "base",
     "dex": "aerodrome",
-    "liq": 17002.11,
-    "vol24": 110328.3,
+    "liq": 17173.75,
+    "vol24": 108626.6,
     "url": "https://dexscreener.com/base/0xbe762d548f8ca86a78e9da6e3ddc87f91457e398",
-    "price": 2.19,
+    "price": 2.21,
     "buys24": 1912,
-    "sells24": 1929
+    "sells24": 1887
    },
    {
     "chain": "base",
     "dex": "uniswap",
-    "liq": 11548.98,
-    "vol24": 41191.72,
+    "liq": 11648.83,
+    "vol24": 36891.37,
     "url": "https://dexscreener.com/base/0x2c162dbe1132a099a15f66a04bebad4d477ed865",
-    "price": 2.18,
-    "buys24": 752,
-    "sells24": 875
+    "price": 2.21,
+    "buys24": 735,
+    "sells24": 913
    }
   ],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "worldcoin-wld": {
   "news": [
+   {
+    "title": "Worldcoin technical analysis: Bearish momentum continues, $0.2392 support is critical - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTHg3ZDlBa2pYbVhuQ0R0YmlXcV90N19fMm1aSndUekw0aVNaTWt3R1lsVDQwMjNvakZZOTZLenR3YjV5WEdGVWxzVWxtX2Y3THlDY1ZVTWlJbjZmWUpwUVZqSEs2dHFnNFRLMXdMNDNxcHAyeno2bDdWMDIwb0RrbTZ6eWktcFhZX3g2azMzUUptR3VzLWdIb0w4S1hzUUtLSWlvMGdB?oc=5",
+    "ts": 1794733639,
+    "source": "Traders Union"
+   },
    {
     "title": "Worldcoin Rises 5.17% in an Hour to $0.2585 on Binance - TOKENPOST",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SUGdVZVdSRk5VOWJFSmNvaWNPcEFXeE5UVFpkSDFRMi1pRUNRMDQ3Mmhtd0ZOVzBWME9ZSFJ6MkJKVW9vZzhQSWNEbjVtYnpnZU5oY2ZEQTBUUQ?oc=5",
@@ -3079,10 +3043,28 @@
     "source": "www.tokenpost.com"
    },
    {
+    "title": "World Cuts WLD Token Unlock Rate by 43% Starting July - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWV9YY1ZZM2pTU0M2b3l6M3I2R2dyZExvazhCcUlmYUEyNWQtNjBSZE1jWlFlNjZQMjRJcGdrX3hFc09aUlUxLVo3aTdXUUgtN25CVEFHdzVXUGtfSjZYTkxJa0tHUlE1SHlUbHZGT0trRS1yUHJRYzJlQVhvZHkyY2huTFF3aXl5ZTZmZ05XaDJ2VHE2OU1wNjQwUVVkek03MGRz?oc=5",
+    "ts": 1794658929,
+    "source": "CoinMarketCap"
+   },
+   {
     "title": "Worldcoin falls as persistent volatility and weak sentiment drive intraday losses - Traders Union",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTnV1eHlacVQ0dXZ5VzJCNWVybjllWXY0WHdPWUZBMWJSOU1NaUYtX1BpTlNKbl9aV1pmVnRRZWJrbU80WHpJcTJ3NzJCR0VSWXRQZ3JvUWdEVjVZS1FoZWNZZnJDNlV1bENUNGxoX0tEbzF2am9FdHEtakVNQi1QYk9hOUdOMlpPeFhsSzZabFdEdlp1Z3FzNm4wNlFpendXV0d1U1ZMOXk?oc=5",
     "ts": 1794654379,
     "source": "Traders Union"
+   },
+   {
+    "title": "Convert 1 WLD (Worldcoin) to PHP (Philippine Peso) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mUzF4Q002eGZPZ2lIdkV5Z2lxS0owQjM5UnpDRWJuazlVTTR6N19mMVNJUXpSRnlrRFZwY1ByZ2xHX2lfOWlqb29rNXlSNVhnWFQxWVV1cw?oc=5",
+    "ts": 1794623583,
+    "source": "Bybit"
+   },
+   {
+    "title": "Convert 1 WLD (Worldcoin) to TRY (Turkish Lira) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAyblBaZzBEVGluLW04YXI4cXVKWXQ5TWp1UGYxMkZoVkRaVnZHUnRDelJhR29Rb2d0LXBjc3ZMb2MyeWdQVFR2Z2Y3TzlEMWtzN1hUazZ6Yw?oc=5",
+    "ts": 1794615709,
+    "source": "Bybit"
    },
    {
     "title": "OpenAI\u2019s IPO Ambitions Lift Worldcoin \u2013 Even As Crypto Leaders Warn Of AI Capital Rotation - Stocktwits",
@@ -3091,40 +3073,16 @@
     "source": "Stocktwits"
    },
    {
-    "title": "Minna Bank and Backpack Unite to Launch Japanese Crypto Gateway - Bitcoin News",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQREk4dVFDN0V4S2FBLVhnNF84WWVDbmhkdXJ4aUNmZ2V4c194dzdLUlEtLUoyU3pJaGhwYUtpZFYtdF9na2p5WDdVVTR0d1l0SnViWVB0TFZYa05uZDRyZjR0QzlFeE5Pd1RndkZOeXd6YzI3cEtKLWlBM0ZSbGVvZnlLX040UmRXYXhIVVdOQS15aVNZcURTelA0VVVKUWM3?oc=5",
-    "ts": 1794576641,
-    "source": "Bitcoin News"
-   },
-   {
     "title": "Convert 1 WLD (Worldcoin) to ARS (ARS) - Bybit",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0Y3l5UG4yaXRMS1kxWEVpZTkxakYtMVRQaWJOLWUzWWpqaW9aMjF3T2FMTUdfeFNKX3VmaVVTYlZYWkpJT3NtajdxRVVkSy0zMEJFN2NUa2pPZw?oc=5",
     "ts": 1794572111,
     "source": "Bybit"
    },
    {
-    "title": "Bitcoin Price Crashes Below $68K as Crypto Liquidations Hit $1.6B - Bitcoin News",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNclJlZFlHdU5VUlg4VnB2aUdFbzF2V2NmZVVxVDBVd0puRG1VUXRVZTZTYUF2d0JMaVI4RU1aTXk2dVVJdFRMd25OV2RZZVdNZV9WZmRNUk8yWktRbnhwLVNKY1hfT3c4LWl0Z0VLZTZOLXZlLUgzSk56WW9sT1JIWnJOemItNEMxMTZBVEdHVUlHZ3ppNlVCRWdXMVcwckNteDNaTDZWdw?oc=5",
-    "ts": 1794539700,
-    "source": "Bitcoin News"
-   },
-   {
     "title": "Worldcoin Volatility: 3.19% Drop Amid AI Token Slump - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02QU41bjZvLXA4NUotanlGdWdTc19ic0FuWWF0MFE5LURhM1o0ZGNLTHdjQjNiVFNSd01BdjJGeThkZnhraEJ1NmpOb0NoM2MyNkhnT3lSdlU4cjc1TlZkNFM1dmhHb3EzRHZLX1BTMEg?oc=5",
     "ts": 1794539040,
     "source": "CoinMarketCap"
-   },
-   {
-    "title": "Convert 0.01 WLD (Worldcoin) to MDL (Moldovan Leu) - Bybit",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KZU15cTZlV3psQ0N3b245WllfYXpkTm9aMnNCU1RpcXhOLWphajh4czV5cmtBZ21GLThEek9DZUZTQmwtSFpGd1NLZm0tNkl2WlZJUEllLWFEeWdzSnc?oc=5",
-    "ts": 1794535609,
-    "source": "Bybit"
-   },
-   {
-    "title": "Worldcoin (WLD) Price Prediction 2026, 2027 \u2013 2030: Will WLD Price Reach $10? - Coinpedia",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xZmJ0R3h3VHk5YWlTbUM1XzJpTnhfLXZLUzRVSDZId2xOWVd0MzA1TDZFRGkyUjRmeFlPRDcwaGVxOWVFeWkxMTdPZkpYQjRlYmY0RGtRdUJxVlprb3NuSUdBMXRmenF6d3A0X1JtRDhYRlB6bTI5aHhn0gF_QVVfeXFMTjFaT01GZmxPWGtfOHdzZXNxN0JfZ3UtUzNxcUJnR1B0TkFSRnljNm1RRXV6V01rOHdtOS04cEZnY1BrRlk5Mmx3SzhuanpqS1haWUdyX2FmY3BtcUxzV0NIemRfcDB4Q09YM0pwVUtsajdIaFBqSEJ6RUV6Q2FkYw?oc=5",
-    "ts": 1794465300,
-    "source": "Coinpedia"
    }
   ],
   "reddit": [],
@@ -3133,63 +3091,75 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 136220.69,
-    "vol24": 65585.11,
+    "liq": 145891.47,
+    "vol24": 72116.06,
     "url": "https://dexscreener.com/ethereum/0x841820459769cd629b10a36fd12e603938cc2679",
-    "price": 0.2477,
-    "buys24": 34,
-    "sells24": 80
+    "price": 0.2659,
+    "buys24": 41,
+    "sells24": 75
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 19055.61,
-    "vol24": 22480.23,
+    "liq": 19733.37,
+    "vol24": 27644.04,
     "url": "https://dexscreener.com/ethereum/0xe096be9b4c427682e5b5bcb63c30e2ffa59dbbc5e5fa49cf2a0fc505f9dedff1",
-    "price": 0.2551,
-    "buys24": 84,
-    "sells24": 97
+    "price": 0.2641,
+    "buys24": 96,
+    "sells24": 95
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
     "liq": 5131.62,
-    "vol24": 355.08,
+    "vol24": 324.95,
     "url": "https://dexscreener.com/ethereum/0x660b668e48597080c618f2ca54746939a0e175b3193697ab20c5a36062315101",
     "price": 2.49,
     "buys24": 0,
-    "sells24": 14
+    "sells24": 13
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2967.93,
-    "vol24": 175.69,
+    "liq": 2667.79,
+    "vol24": 227.75,
     "url": "https://dexscreener.com/ethereum/0x0f21474bf3e2973cc62bbf2562f534326a859801",
-    "price": 0.2744,
-    "buys24": 1,
-    "sells24": 8
+    "price": 0.2493,
+    "buys24": 2,
+    "sells24": 7
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 571.22,
-    "vol24": 19.28,
+    "liq": 563.18,
+    "vol24": 31.72,
     "url": "https://dexscreener.com/ethereum/0x8d13f72938bc05f9406173690614b3953a57b80850ffe0dcb5213206ff5ecfbd",
-    "price": 0.2603,
-    "buys24": 0,
-    "sells24": 4
+    "price": 0.2631,
+    "buys24": 1,
+    "sells24": 3
    }
   ],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "sky": {
   "news": [
    {
+    "title": "SKY VC (Prev. JetBlue) Team - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4waWlTWF9haGN0ZFpXN2N5T1RGaHJ1ZzFQNlJlVmNkSnlEcFBqRlhuYm5acXdVdHVyS0dYak9qMFdHRDhRMEdXSEdZTmJNemVkS3dQSGlnZVdqdndRUWc?oc=5",
+    "ts": 1794736384,
+    "source": "CryptoRank"
+   },
+   {
     "title": "How To Watch And Stream Polymarket UFC 334: Gane vs Hokit - UFC.com",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhbXktLWJHVlVmY2JvVVc0UFBqWGE4eUpCc0dEdjlPb3RxNmFDRWh3enI0Y2RncmJ3ZzlBN3RycEpaQWYxWXFlVHROODVCMlFuMExDR3pGUHdSYWxhMHc?oc=5",
-    "ts": 1794706334,
+    "ts": 1794727962,
     "source": "UFC.com"
+   },
+   {
+    "title": "Sky Gains 4.91% in an Hour to $0.05532 on Binance Spot Market - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HQ3Rrc1E0TEhocjNHaENtQkV5dFZiSm5ma3pQN3RrQ2tYeEtpQVZScDc4OE9jaW5tX0RLYU1fWFNWdlJhckhZUEpwbkVKVmp1NG1tdVpsYktaUQ?oc=5",
+    "ts": 1794723986,
+    "source": "www.tokenpost.com"
    },
    {
     "title": "2022 Vibes: $26 Billion Vanishes From Stablecoin Market Since May Peak - Cryptonews.net",
@@ -3216,12 +3186,6 @@
     "source": "Yahoo Finance UK"
    },
    {
-    "title": "Dogecoin Volatility: 37-Hour Swing Explained by Macro, Whales - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFUDNpUFF6ZmJxNjcxandZeGFYSW1BS3Z6NmhKNXpvdkpjMWo2bUtOR2FuUWEyMzhseVZ0RDV2YktxWXpyV2pTM1Q4WXptTV9RakxUM2lzNW1OWW1TRC1hNUJZM1NQVTFrWGh3Nnl5V2U?oc=5",
-    "ts": 1794629100,
-    "source": "CoinMarketCap"
-   },
-   {
     "title": "Sky Community Proposes Core Vaults Parameter Changes - TradingView",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVHpELWRVXzdKeS1TVGh4eWRqcURzU0VHWnBhNVhQM1dlaUNwOEZIdWtmQUI3bklpRTdrVnI2UXgxb0xPYnN0WEtnODhuQ0EzS3ZCNmRQb0RnbHpXNmFpUUhVc1VrMVdHVVQzS09kU3poUjVabDVjcGtLLThQNkhKN0Q2RmduRTRmSVdpRDhhTzFWRU9JdDU3a0tUTWNkOUp0YjlLMlA1N0R4MVk0dnVONXVtdVFJdw?oc=5",
     "ts": 1794625680,
@@ -3238,6 +3202,12 @@
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WXzFsek5wVmRRTFhjNHhvX2hnRzRfLUFhOUgxc1o0Tm9Wek92R1BtSFZuMDBudl9hWjExRlJRME03YnJGYmNJZG1sOXFtQjRJSWdNV0xlN21wbmJWZE5UazRyZVo?oc=5",
     "ts": 1794617998,
     "source": "Yahoo Finance UK"
+   },
+   {
+    "title": "Convert 100 SKY (SKY) to IDR (Indonesian Rupiah) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qSEhtWUhselp5ZFFWOVpMRjdZWS1keGo0SzBOOUI2eEJISWlLb2Q4YWdIU19aN0tzYU5qSzRERDUwVzl2ZVdNeEtZU2VrLUJyS3Ntd2JjUXYtb0dh?oc=5",
+    "ts": 1794614400,
+    "source": "Bybit"
    },
    {
     "title": "This Week in Crypto: Has Retail Thrown In the Towel? - Santiment",
@@ -3282,10 +3252,10 @@
     "source": "Sky News"
    },
    {
-    "title": "FBI says US has seized US$1.2 billion worth of cryptocurrency stolen from Binance - CTV News",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQTBiMTdhak9NWDhNTklBVTdrZXpWU2J2QnJ4bkpPT0lES0pXTlBaaTNjWUxLVWpiMHl1Wmc5bnE0eDlaZ3NNdEhGR2ZGOXBqZW9iSldTSFhxRDN6b1NZb3hjeDQ1dHlhbXhWT0E0cF81MTJZRmJDZmhvOVVuRkNoa2RPdVQxS0hVajdzR3ZLYXBoRTVrYy10QllidnlJdjUxd0g1Z1QyTVYtMi0wbjczLUF2eTFoZ1dwYlZoag?oc=5",
-    "ts": 1794526714,
-    "source": "CTV News"
+    "title": "FBI says US has seized $1.2 billion worth of cryptocurrency stolen from Binance - Audacy",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSEYyQmwtNVNoUlk0bFRRNVh1MVZoT2dveVhiNC1sQ2tMbDFhNm5RejFOZ2Uyakpoa2c4dms3N0pEQ0pnUUM1OUhIemNQUUktRzZBQnhZWmpMNHVKZkFqR0w2eFg4eGRhY1dvNTYtaHh2NHhWc3otVjhpZlZ3akw2VVJqTGFaM3RQTkJ5Ny1mbUEzbVVRTGdPbHFNR2FHbmRSRTZwRmU0dEdRdEt5QnJBd1ZoQzRZMVJId1VPZlhoeldqZw?oc=5",
+    "ts": 1794525960,
+    "source": "Audacy"
    },
    {
     "title": "Sky Advisor Proposes Halting New Core Vault Borrowing - Cryptonews.net",
@@ -3294,33 +3264,15 @@
     "source": "Cryptonews.net"
    },
    {
+    "title": "Sky Adviser BA Labs Proposes Pausing New Core Vault Borrowing - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNckFxYlVqdGpIc2xVQ2pBMGQ0UXpyR19jS0NtSXdsaVVsS1NhSWVZR013YXQtcW1VcU5SSXMyNjZGQWVWekpHRlltcHJFNWdUM29JSUVtckw0U0tQb3NoaVVYLUxzMDFqV3VicGFIamgwQklsV0dqblY2OGcyajJ0bkpTd09MemczYVlFS1ZPcEx1ZVdWbG1qSkZjamVTc3owd2w3eVBmWWE3d3AzYUszU0ZLV0VJYkhEcXV4MzJwWFRhQQ?oc=5",
+    "ts": 1794508840,
+    "source": "TradingView"
+   },
+   {
     "title": "Hampton Sky Realty Limited (HAMPTON.NS) options chain - Yahoo Finance UK",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHY0JMZUhtSmpwZFpMVXRKT290eGFpX0l4MmtxWWVOeVd4Y0I1TTV1OHhWWTF4b0hCS1hqZmpLYW5FV25VY2pSZWx1WTlCMGFZQ05hWVFqNUhaS2UwLXVkWXctUUc?oc=5",
     "ts": 1794488582,
-    "source": "Yahoo Finance UK"
-   },
-   {
-    "title": "Under-fire Poundland owner 'among suitors' for footwear chain Dune - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOW5kaGxpb3J4MVFOUl9WT0ZoSExpbHFMMmhpdnFyRnRKU05Mb1ZfNThIZWl2Z0h1MkhPSk9nLUE0ZHA3WWY3cUhZUW1GOHpULWdHc01qUVByX3NDb2h0LXlhSmNWVzFWLUxpRzBnZnVLNnNZbjZvMXFfOTRmRDNqbVVyOGVXQlNV?oc=5",
-    "ts": 1794478800,
-    "source": "Yahoo Finance UK"
-   },
-   {
-    "title": "Standard Chartered Sets $0.325 Target for SKY Token by 2028 - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOWs3TDF5ZWFRdFVvNjlDMWczUlFMZjNZbTJqS3pSOTBKQTZ3U1Bfdk8zcTdUTzlvQjA3NF94Q1lpcEM2Qkl4UmE5czNWRXJZUWhaS2h1WFZoYXNhVkQ2eGNRaXRHYkp0WFYzbjN3ZldubWJGVjJDX01Ic2ZrUHQ3TUhUUDV6bjltNmRrdWtqbnlmanhQT0x4VEZISXAwVGw3emVBS0N5WEc?oc=5",
-    "ts": 1794478002,
-    "source": "CoinMarketCap"
-   },
-   {
-    "title": "Midnight Leads Crypto Gainers With 13.15% Rise to $0.0469 - TOKENPOST",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TMzZUQnh4dm50YW1LQjIyT2hwZF93WGVsdE01QWhvZ1V1TVhxT3E4RktUTGN1dGFndm9CRnBkaWZ3SXdGUUJzWTRWa3dObDc2RVFzUWpPWl9kUQ?oc=5",
-    "ts": 1794472863,
-    "source": "TOKENPOST"
-   },
-   {
-    "title": "SKY Feb 2027 45.000 put (SKY270219P00045000) stock price, news, quote and history - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Nb3VmWlFvV1czUHpBZUFBanEzTGFKOUszZkNxdVFIY05FLXdFSGdEYmhzNnRQNzRaWWpRSElYcXNUd3JGMG9nbmU0VGtrUGFXNEk2QUVOcW8zeG1TeEdiTUdaM2s?oc=5",
-    "ts": 1794466417,
     "source": "Yahoo Finance UK"
    }
   ],
@@ -3330,58 +3282,76 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 5626308.84,
-    "vol24": 0.17,
+    "liq": 5486985.01,
+    "vol24": 1.31,
     "url": "https://dexscreener.com/ethereum/0x13dffad596ddfe401253f257f7568679149149615b8de0470b0736b8df2d555b",
-    "price": 0.05626,
+    "price": 0.05486,
     "buys24": 1,
-    "sells24": 0
+    "sells24": 1
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 1539503.27,
-    "vol24": 110345.38,
+    "liq": 1592575.55,
+    "vol24": 179019.78,
     "url": "https://dexscreener.com/ethereum/0x949cddfee3b676c528c9c79ccce04f9062ef8527098dd871a27bc423856443a3",
-    "price": 0.0525,
-    "buys24": 91,
-    "sells24": 148
+    "price": 0.05438,
+    "buys24": 108,
+    "sells24": 181
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 1317077.07,
-    "vol24": 326806.23,
+    "liq": 1357818.75,
+    "vol24": 662401.85,
     "url": "https://dexscreener.com/ethereum/0x764510ab1d39cf300e7abe8f5b8977d18f290628",
-    "price": 0.0526,
-    "buys24": 103,
-    "sells24": 140
+    "price": 0.05454,
+    "buys24": 134,
+    "sells24": 250
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 303317.06,
-    "vol24": 134777.03,
+    "liq": 311937.55,
+    "vol24": 196219.62,
     "url": "https://dexscreener.com/ethereum/0xb430025c83e20b33225d0b2ec6db4362756265ff3ea933530b119423df79e85d",
-    "price": 0.05263,
-    "buys24": 110,
-    "sells24": 156
+    "price": 0.05436,
+    "buys24": 139,
+    "sells24": 192
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 302979.39,
-    "vol24": 29419.74,
+    "liq": 291279.27,
+    "vol24": 75766.43,
     "url": "https://dexscreener.com/ethereum/0xd218ab0acf68208883aad66173f721948a7436811a3e3805dad06140d257894e",
-    "price": 0.0527,
-    "buys24": 38,
-    "sells24": 49
+    "price": 0.05447,
+    "buys24": 49,
+    "sells24": 101
    }
   ],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "pepe": {
   "news": [
+   {
+    "title": "PepeCoin Cryptocurrency (pepecoin) Price Prediction 2026 2027 2028 - 2040 - Changelly",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQmt3REpXcXZNTnlqXzFHSDlldXprZDdjWWdNdUxlRkdEUGpLX0pQc21rZXJxM0FtYTk5aUdFSXl1cFNfeEM5R1V4N2trZVVDTms3amU3V2dXRlU4a0ZXc3lVR05yZmZWb2pfdTlaZ2Q3RXBFM2pydmU4anlYUkt3Nmdycw?oc=5",
+    "ts": 1794738668,
+    "source": "Changelly"
+   },
+   {
+    "title": "Missed Dogecoin and Pepe's Millionaire Moments? Apeing's 504M+ - openPR.com",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOVlFTDgxRVBOUmgzUkdtRC1hT3p2aG5wT2F0c1plMkR0X2w4VG9Bc0J5ZG9jZkFBalhVREFTNEtVZmNsenJERmFyX2FKYlNjZVgyQi1jMUlIXzRqckZ4dzU5Rlp2aDRHWWZhTkRXYnNzLVVGcS10S0NCMlVTMzY0dVZXVzhOMEJJMHhxZlNYMFQyb3QySmUzZDZfOHk?oc=5",
+    "ts": 1794738315,
+    "source": "openPR.com"
+   },
+   {
+    "title": "Pepe (PEPE) token drops 7.31% in 24 hours with no clear signs of recovery - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX0UwRGEyRXNsTjZzTHFBeFpPTnk1RVhmTFRzSUNIbmx4WEFkQkNMYVhldl9HdTZBWEdMcEpBRjh4Y2E3dUZJNlZSZHY4Qm5QRUFGNk4wOTZaMHFUeWNIb0JkYlBxamY4Nm9wdFdPWFI2dHhjUm9fZ3Rsa3MwbTVDOFo1a1RLMjhJOGUySnMzVlJqQ3MwcUhMNFIyTVc?oc=5",
+    "ts": 1794732463,
+    "source": "Pluang"
+   },
    {
     "title": "What Happened to the Memecoin Hype, Is It Dead? DOGE, SHIB, PEPE - Coinpedia",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMlM0TE1aaFZ4RE9jSVA1ZFhDNlROOXJwR3BCUHJhYktNeWExQXZCWDhGQmpDRGdMMzQ3OGt4eGNrNEhnU3dwcEEwbjR4aFNoRXhyY1BuSHlsQUVnejZtQUU2SVQ2d1NLekplajY5OWtWNFpBcmc0bWxmSzFFTmppT0tNTnZsdkw1MkV5UGxHRkhnZ9IBlwFBVV95cUxPQktVR05fRTBXb0VJcmNFODJ2TFp4VjY5VmdDaTJBSVdpVkdUSmx4U3dOakdTVWQyMGhUMEZMVDNFV3RYUWVlMDBQeWhlR1N2VWxKbnpyWl9seGtKVEQ0QklhRWhyYzBXYU1NRU9rdS1UcGlIZ1pucGM3LXdxM3RTU200bmlUY2FqcnBRTGFpTFFNTXdtX29F?oc=5",
@@ -3425,22 +3395,10 @@
     "source": "AMBCrypto"
    },
    {
-    "title": "A $0.0009 Entry and 85% APY: Can Apeing Beat PEPE and BONK in the Best Crypto to Invest in This Month Race? - openPR.com",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZGdZcmRrQm80c2tUak8tVkJzeTNUbzRSeE5kNHlmcU04dzZFYWRtYWpMNV90eXN6YXVxYnJNamltWXZUSm9sMmIzYTkzUll3Q2lTanJUQTVJQWRWazFIcDduLWZmVTVPNnhsdkFkakRvTmVmUU9zOGVfbENDSVF0aEMyTlh2OXhsQW83RWNpWmtoeHlIeURSWkZn?oc=5",
-    "ts": 1794606625,
-    "source": "openPR.com"
-   },
-   {
     "title": "Pepe Coin Price Prediction: Can $0.0000045 Hold? PEPE Whales - openPR.com",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeDB6TUZzdGNQZHpNQjUzSVZsR0FGTTA0TVhtTGdET3R2a2NBNUFfWVNnTVBKN0lJU3djdXEwMVJnU0MzQXV0ZEQ0NWp0VTZHZTdHNVZfbjIxTXhUUEhyOFB1ejVsblg5ZmNNaU0yMUJvNkNocGFBYmhZdnRUS0JkU243RkdnV2h4Y25xeFEzSjNlM0dHMHdOQQ?oc=5",
     "ts": 1794588502,
     "source": "openPR.com"
-   },
-   {
-    "title": "PepeCoin Cryptocurrency (pepecoin) Price Prediction 2026 2027 2028 - 2040 - Changelly",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQmt3REpXcXZNTnlqXzFHSDlldXprZDdjWWdNdUxlRkdEUGpLX0pQc21rZXJxM0FtYTk5aUdFSXl1cFNfeEM5R1V4N2trZVVDTms3amU3V2dXRlU4a0ZXc3lVR05yZmZWb2pfdTlaZ2Q3RXBFM2pydmU4anlYUkt3Nmdycw?oc=5",
-    "ts": 1794583404,
-    "source": "Changelly"
    },
    {
     "title": "Didn't Buy Dogecoin Early or Catch Pepe's First Rally? Apeing - openPR.com",
@@ -3561,18 +3519,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNjBFMFRQb0hiTHRfUmZUekNVRUwyeTF5R2R5NVZCLUR5TnNoTzBvRV9iRi1kakpfaGpmWlIxM1M1Qm9PYnN5cWNTbV8wdlRscE45dkoydWRIQnl4RlVlRzJyeFB5c3JoQWhYZHluOHZibS1EcXlPeENKTTYtdlhQbGVQSGFXOHBWT3JqSHJPRVR3MXc?oc=5",
     "ts": 1794486437,
     "source": "Pluang"
-   },
-   {
-    "title": "Little Pepe Listing Soon! Could December Bring a Price Breakout? - Coin Gabbar",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRVV5UlZ4V09kTFo0aTBGXzdZMzVrS05PSnVGNjNVREJieVduek9MN2RTX0ctTHBPQ2lnRE1QTmtMX095QTV6YklCVWxBbWttS0JXMXpvM0dMaDRWcDVqeHJWQ2FUZndUbzA2dFN1TDBTZ1Y0bGlVd1dKeXlscEdLdHNjQm9TVENPSENMc3I2UmpBQQ?oc=5",
-    "ts": 1794478200,
-    "source": "Coin Gabbar"
-   },
-   {
-    "title": "Will $0.0000045 Hold? Pepe Price Prediction After a 14% Selloff - Coin Gabbar",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzdqb3paU3p1clFaRzBJTFg1Z3hqVk8zWUZNZkJfNW53aDhSZDBIeWJxdFIxTlZRNUZXV0hwdmFHd2VTcVU4aWN4dUM5aXpXZGxxYXFncnllQ3JtMU5tdjByMkhlR0ZiTk15NUNFZlZQNUNaWXR2cUstU1pzZnJqUXhXbG50RmxSWWE4eg?oc=5",
-    "ts": 1794465960,
-    "source": "Coin Gabbar"
    }
   ],
   "reddit": [],
@@ -3581,55 +3527,55 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 25286768.74,
-    "vol24": 2955946.68,
+    "liq": 25725042.12,
+    "vol24": 2881909.94,
     "url": "https://dexscreener.com/ethereum/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
-    "price": 3.924e-06,
-    "buys24": 537,
-    "sells24": 651
+    "price": 4.023e-06,
+    "buys24": 517,
+    "sells24": 635
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 2217393.47,
-    "vol24": 30410.38,
+    "liq": 2274875.73,
+    "vol24": 23776.11,
     "url": "https://dexscreener.com/ethereum/0x11950d141ecb863f01007add7d1a342041227b58",
-    "price": 3.916e-06,
-    "buys24": 129,
-    "sells24": 140
+    "price": 4.021e-06,
+    "buys24": 97,
+    "sells24": 106
    },
    {
     "chain": "ethereum",
     "dex": "aero",
-    "liq": 161214.59,
-    "vol24": 41247.14,
+    "liq": 162992.49,
+    "vol24": 41955.49,
     "url": "https://dexscreener.com/ethereum/0xce26223d3a383e41c2315f5e360532bf290c513f",
-    "price": 3.93e-06,
-    "buys24": 86,
+    "price": 4.013e-06,
+    "buys24": 85,
     "sells24": 100
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 42629.43,
-    "vol24": 2082.3,
+    "liq": 43280.23,
+    "vol24": 1923.66,
     "url": "https://dexscreener.com/ethereum/0xe42df52d7938631f6c6cb56aac2fafc1e00ea77b7517a02ee244bd7d86c061cd",
-    "price": 3.952e-06,
+    "price": 4.018e-06,
     "buys24": 12,
-    "sells24": 18
+    "sells24": 13
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 38780.64,
-    "vol24": 892.1,
+    "liq": 39380.42,
+    "vol24": 829.74,
     "url": "https://dexscreener.com/ethereum/0xf239009a101b6b930a527deaab6961b6e7dec8a6",
-    "price": 3.955e-06,
+    "price": 4.024e-06,
     "buys24": 11,
-    "sells24": 19
+    "sells24": 15
    }
   ],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "bitway": {
   "news": [
@@ -3698,27 +3644,33 @@
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbWZ6N0RCQ3U4T1hQSERzcHpQWGxlMjdrOE12bHduZVZET0hVeFNQZVVubWZlNDRyb291R2pPQmZFQmxXV0kwVmxpYXdjUnA2S2xhM04wZHh4QQ?oc=5",
     "ts": 1794542940,
     "source": "www.tokenpost.com"
-   },
-   {
-    "title": "Bitway drops nearly 15% in 24 hours, leading cr... - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRXNoc0lvY0lKTnVhdnY2OVd4SkYtQkNCWVRiUkVFdlpjT1B6SUZEMXZ6WW5yZlhjSWZjWDFfemlWYktWTkY3YVUxbkt5M0JRbjJiajFtOVRxYzN5SC1zb1V0UDRBTjhTb2dEblNMV1NvQXkyVzJZX1c2aWJMMEZwamRvZHNVb1h5RjRxZFpuSmliZw?oc=5",
-    "ts": 1794465709,
-    "source": "Pluang"
-   },
-   {
-    "title": "Bitway Falls 14.98% to $1.02 as Most Large Crypto Assets Rise - TOKENPOST",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwVjVrRXh1ekx3OEd5Y1NFREhjcVVtWUNDWVNkb2RnYndjams4UlVlU3lHUENJcHBVQjg4bjFRVzhOemlrb0s2dVZDSnAxNWFYZ05wa29VYVhxdw?oc=5",
-    "ts": 1794464221,
-    "source": "TOKENPOST"
    }
   ],
   "reddit": [],
   "x": [],
   "pairs": [],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "lighter": {
   "news": [
+   {
+    "title": "BigBang fans and seven\u2011seaters regroup at Kowloon City Ferry Pier due to lighter police presence - Dimsum Daily",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSW55SHQ0Vl9QU18tcDRsNmNDdmFaNU50VUMxRTJ4bktWQ1cydFpkOVM0eE9admYxeV9MalcxUjZVOThYUWhTX0RCTUNTMkNfSGFTX2V6X1RrVEQwWFRPMElqRHRhRnp1X0N6ekRiUUp3UEkzWkhWTzdyeGEya3JuSUdCRmhvSktNN055anFKajBqSHRwalJfMlhRUldRQUlYLTAwZk83aFlGc2hmSTlFdVlja2l3Z01ENlVRdjBNZVFoejhvSXZNVGIzMmw?oc=5",
+    "ts": 1794738009,
+    "source": "Dimsum Daily"
+   },
+   {
+    "title": "Bitcoin Leads Crypto Search List as Pump.fun Falls 18.68% - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xR3ZzNHlYUTkxdTd6b2wtd0twUlFEakhMUjJHaEg2Zm5oTmJ2QnpfVHgtVXQ1V1ptTjJFOEZlQmljb3Qzb1ctZENJSjJwOE9jdkhRWWhBS1BMZw?oc=5",
+    "ts": 1794708420,
+    "source": "www.tokenpost.com"
+   },
+   {
+    "title": "Convert 1 USD (United States Dollar) to LIT (Lighter) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Pekp2bkl2MmFCMWRGckttbU5nUktEcVVoTGo1aG5PREVfeFVVUmNLRkF1R1NCb2pxSURma1Z0S1p0M19xMVlrZTh2Tmo0NzBlVFdsSTNFVGE4Zw?oc=5",
+    "ts": 1794700800,
+    "source": "Bybit"
+   },
    {
     "title": "[Satoshi Index] Top Crypto Traders on Hyperliquid, Lighter, dYdX and Pacifica Cut 24-Hour Long Share to 8% as Bitcoin (BTC) Short Accounts Rise From 165 to 187 - TOKENPOST",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtdjAydTBMSkhoWDBpYkJud2FmN3lRR3ZMcHBlenZBY3RXc3pPT0JqdGRXcUtIYkhQY1RkVmJVanBlNVhuUTBDY3lValZtNk04TUo0d1BudndfZw?oc=5",
@@ -3762,12 +3714,6 @@
     "source": "CoinMarketCap"
    },
    {
-    "title": "Shadow Banking\u2019s Rise: Technology or Lighter Rules? - Securities.io",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORVRCTjZYZ2I5cVBubkU1Wl9jWGVyTGN3Ynh4NXJBRWlTV3c1RzU5YVdWcDA3WkdtaW9vLU1vakhTdmNKYUw2emp5b2FfVkRPSHhfRXhmb19pMWNoOTV0bVdnSjVaRVl2NzE5TEQyWkVKZW5TUk5QNUZ4cFhRSE9xUQ?oc=5",
-    "ts": 1794573394,
-    "source": "Securities.io"
-   },
-   {
     "title": "Akedo surges 131.5% as Lighter and Hyperliquid also rise amid new crypto developments - Pluang",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaDZJcGh0X0tXenBnSFdDMmZtVEZaRFQydXR0a1E4M1NBcHdoMWRiY215MDBMWDJQSW1uSXkxdlJ3QUFoX2lxTlRUdkVMZjJEWWUta1IzS2VOOTV4RFZQSnJwVmRJU0pLWWQxZ21zOUZVcEp6M0E0cXhjVlNKYkVzQ2JwMWFzejRZZGNCd01iVG5ZT1JWTTQyQW5wb3JPQ3k3?oc=5",
     "ts": 1794572842,
@@ -3786,39 +3732,21 @@
     "source": "www.tokenpost.com"
    },
    {
+    "title": "Convert 0.01 LIT (Lighter) to USD (United States Dollar) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5NDRmZFhjWlNjeE9iaWd3aU1NQlRWWEZFbmdseVc5YjQ1VVVweElrTnJaOHVsbnB4S0xOdnRTS2dwNjBiVmNVd3l1UWlCZ1hjU0hKR2pMYWVSWUE3U3c?oc=5",
+    "ts": 1794528000,
+    "source": "Bybit"
+   },
+   {
     "title": "Lighter ETP | LIHT | 21shares | Lighter ETF EMEA - 21Shares",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zdDZlZklGQm4zcHZlR0d4UWE2d0FiVU9FR091LXUwRDZYM3R6d3F0UHhnRjhZall4MWFXcXpmbFFNNHVXcV9WVzBDcjZxMk9OaU1MSF9n?oc=5",
     "ts": 1794526077,
     "source": "21Shares"
    },
    {
-    "title": "Apex Legends Crypto guide: how to play the reworked recon Legend in Season 31 - Pley.gg",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XMm5rSnlBVzJBZXhDc0JpT3RpYXJHSWhvcGdieXg1SDV4YjVpOXZPaklkZzBFZk14Rk9ITzJNQ0UtMHIyckUxR1NRdGF3S0ZzdEQtdXF6M20xNHpUWUs0VFRtQ1JhUQ?oc=5",
-    "ts": 1794490200,
-    "source": "Pley.gg"
-   },
-   {
     "title": "Lighter (LIT) Sees 4% Volatility on Technical Retrace - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51RDFjYklJMkJfeFdZQ243c2JpWHNONTFTYVBnYTZXMWlFZm03bWhtMUNXbUhrSlFJVU5CZXhYMFlMTmxhdHpRMEFBY2l0Vy1ZWExweC1SMmVzNHhaOHpZbXA3N2tMVU5mS2p0c0JJc1g?oc=5",
     "ts": 1794485100,
-    "source": "CoinMarketCap"
-   },
-   {
-    "title": "What Is Lighter? The LIT Perp DEX and Buyback Model Explained - Coin Gabbar",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNUJCU0J5Y1ZkNUtWcmx3d19RNWJ3Z1B4ZnRtNFJNVEFMNkU2T3dDSzJuYzh3VEFXajFORmExVENCZFFQbjdmdG5JUjdvYlo4dzdVaXNsei1ZLWVLRUQ1LXZjVDViRENSM3dBZFoyXzd5aWxRY2YwR0JUQ0NqcWZTeWxXVFQ2aEJYaUxPdWVNTQ?oc=5",
-    "ts": 1794477600,
-    "source": "Coin Gabbar"
-   },
-   {
-    "title": "Lighter vs. Hyperliquid: Where a Top Trader Sees More Upside\uff5cBankless - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oNVRsV2xDZ2FMQy1FQVJNYmJzakpNXzVJVXhST2tCVjVCVG1BVVo3MkswTWpvSXJHTGtoX1R5Rno1cWlsYzlSUHhKMDlBbU9QUWptZko4UENwLVoyWDZr?oc=5",
-    "ts": 1794475123,
-    "source": "finance.biggo.com"
-   },
-   {
-    "title": "NEAR Price Jumps 10% as First US NEAR ETF Draws $35.5M on Debut - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRlpXbW1VVm1LOUdhaUk4TTRpcDBYWi1EejFybTd5YjJoaGxUaVM0WXVaOUpZYXIwazVDT1FoaFc3SnA5Uzd5M19RMzlPV1NZM1pPNWJtc0ZybXFzSkw5MlVUTG1KUERaMjlxUXMtY0JpT2VSakNUekp6WHlZN0pWR09oYm9VeUY2QkxZ?oc=5",
-    "ts": 1794469589,
     "source": "CoinMarketCap"
    }
   ],
@@ -3828,58 +3756,64 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 550896.15,
-    "vol24": 733266.62,
+    "liq": 558756.57,
+    "vol24": 708099.99,
     "url": "https://dexscreener.com/ethereum/0x8366b1dde4de12c8806985fbb599d408d92d01a6faf2e478cc6bb76189cc00f1",
-    "price": 3.0012,
-    "buys24": 320,
-    "sells24": 402
+    "price": 3.021,
+    "buys24": 355,
+    "sells24": 387
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 477104.77,
-    "vol24": 493510.19,
+    "liq": 482011.09,
+    "vol24": 506265.72,
     "url": "https://dexscreener.com/ethereum/0x0112df46117acf06ac4cfff94a0c250f2bbe0cfe4c83a69815eed28536d5f428",
-    "price": 2.99,
-    "buys24": 209,
-    "sells24": 242
-   },
-   {
-    "chain": "ethereum",
-    "dex": "uniswap",
-    "liq": 315406.27,
-    "vol24": 301398.28,
-    "url": "https://dexscreener.com/ethereum/0xcd4abaf39691dcbb877165b7ba6d04ec6436c22a",
-    "price": 2.99,
-    "buys24": 70,
-    "sells24": 138
-   },
-   {
-    "chain": "ethereum",
-    "dex": "uniswap",
-    "liq": 208273.16,
-    "vol24": 124404.11,
-    "url": "https://dexscreener.com/ethereum/0x6195aa3314b9636b2a525114aeaa0d2c210d85a63e409c3f809b10ef153f10f5",
-    "price": 2.99,
-    "buys24": 55,
-    "sells24": 122
+    "price": 3.026,
+    "buys24": 246,
+    "sells24": 237
    },
    {
     "chain": "ethereum",
     "dex": "metric",
-    "liq": 188620.85,
-    "vol24": 422715.84,
+    "liq": 340875.23,
+    "vol24": 392979.71,
     "url": "https://dexscreener.com/ethereum/0xfc7130b1fbd162b749f04c6d8f3b6aad7a2cc321",
-    "price": 2.99,
-    "buys24": 136,
-    "sells24": 65
+    "price": 28.89,
+    "buys24": 81,
+    "sells24": 43
+   },
+   {
+    "chain": "ethereum",
+    "dex": "uniswap",
+    "liq": 320828.61,
+    "vol24": 297742.57,
+    "url": "https://dexscreener.com/ethereum/0xcd4abaf39691dcbb877165b7ba6d04ec6436c22a",
+    "price": 3.034,
+    "buys24": 80,
+    "sells24": 101
+   },
+   {
+    "chain": "ethereum",
+    "dex": "uniswap",
+    "liq": 205183.41,
+    "vol24": 125238.21,
+    "url": "https://dexscreener.com/ethereum/0x6195aa3314b9636b2a525114aeaa0d2c210d85a63e409c3f809b10ef153f10f5",
+    "price": 3.033,
+    "buys24": 67,
+    "sells24": 101
    }
   ],
-  "_ts": 1794711099
+  "_ts": 1794741715
  },
  "arbitrum": {
   "news": [
+   {
+    "title": "Arbitrum (ARB) token rises 7.44% in four hours but remains down 5.54% over 24 hours - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaWVuc094ODJyLVFCZkJ2dlcxcWpKdkduanRVazJUeGVzOWg4ZUlPWTVDYmNRR0J4XzU1RkRaelIwNEltY0ZSTEt0cHRhbDY5a2E1QnRmRGVodjU2UWRXVGRCbWR2M0FmOWFxeW1oR2tZRm02akxlcklNUFlsS0dWckNORW9KbFEwZkk3SkJHallfMExDSUcya0hn?oc=5",
+    "ts": 1794722999,
+    "source": "Pluang"
+   },
    {
     "title": "Arbitrum Leads Stablecoin Growth With $91.8M As ARB Price Eyes Rally - TronWeekly",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xZEpJdm85M20xZkNLUktIUTFYa1M0a3hlUHB2UDZ5R2IwS1VzUlNaZ0dvS2d3anBzb2R2WF9FZlJPaVJpeVpRc0F5QzhRa2RyRW1XZHNqbVM3dDZFRmpsUmtHMHNYaHdqRUxNQ1RNY3dYVmdNcWhGWnAtUmVLd2c?oc=5",
@@ -3915,6 +3849,12 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UanhZc3RjTjU5c1hxN05EYmh6ZXdUWW0xMzZITkRiUEdZOGw3S0RLdjN0MDJCT0FDcVQyYm5taUljQVRYU184cF9STVZzNnMxUUdOS0ZxbXBTLW40bzRyMjRyN0hiQW15T0kwSnl3blE?oc=5",
     "ts": 1794629100,
     "source": "CoinMarketCap"
+   },
+   {
+    "title": "Convert 1 ARS (ARS) to ARB (Arbitrum) - Bybit",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GOHdET0NrVmdRZEVrMmpxdXRCNUptbXhyOGVsN3NiVU1IaFJpWDVXLWY2NHA2R3h1NjBTLU1ZLWk4bDFlazZWRUQ2b1c3Y1dHd3NqRmNWcw?oc=5",
+    "ts": 1794619164,
+    "source": "Bybit"
    },
    {
     "title": "AFX Trade's Bridge Exploited for $24M in USDC on Arbitrum - CoinMarketCap",
@@ -3965,41 +3905,41 @@
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 24998.95,
-    "vol24": 4443.97,
+    "liq": 25842.72,
+    "vol24": 5552.34,
     "url": "https://dexscreener.com/ethereum/0x59354356ec5d56306791873f567d61ebf11dfbd5",
-    "price": 0.1299,
-    "buys24": 37,
-    "sells24": 48
+    "price": 0.1355,
+    "buys24": 47,
+    "sells24": 50
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 19737.45,
-    "vol24": 16564.76,
+    "liq": 20381.11,
+    "vol24": 20421.93,
     "url": "https://dexscreener.com/ethereum/0x263dc0b1c37c07dd0ac8fe22321f85ce0da75214e09147d9053ba51831b87487",
-    "price": 0.1299,
-    "buys24": 58,
-    "sells24": 60
+    "price": 0.1356,
+    "buys24": 83,
+    "sells24": 65
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
     "liq": 2954.36,
-    "vol24": 3.22,
+    "vol24": 0.55,
     "url": "https://dexscreener.com/ethereum/0x755e5a186f0469583bd2e80d1216e02ab88ec6ca",
     "price": 0.1389,
-    "buys24": 1,
-    "sells24": 2
+    "buys24": 0,
+    "sells24": 1
    },
    {
     "chain": "ethereum",
     "dex": "uniswap",
-    "liq": 1132.36,
-    "vol24": 13.03,
+    "liq": 1186.44,
+    "vol24": 16.84,
     "url": "https://dexscreener.com/ethereum/0xcd055481e0c58ff821c4a1f207294a7c51982b25d2b468f91c0b668477c9ccda",
-    "price": 0.125,
-    "buys24": 3,
+    "price": 0.1317,
+    "buys24": 5,
     "sells24": 3
    },
    {
@@ -4013,6 +3953,6 @@
     "sells24": 1
    }
   ],
-  "_ts": 1794711100
+  "_ts": 1794741716
  }
 }

@@ -1,5 +1,39 @@
 {
- "open": [],
+ "open": [
+  {
+   "symbol": "UNI",
+   "id": "uniswap",
+   "name": "Uniswap",
+   "action": "SELL",
+   "category": "alt",
+   "opened": 1794742119,
+   "entry": 5.16,
+   "target": 4.7472,
+   "stop": 5.469600000000001,
+   "score": -0.312,
+   "confidence": 43,
+   "factors": {
+    "whale": -0.025,
+    "smart": -0.341,
+    "news": -0.267,
+    "sentiment": -1,
+    "momentum": -1,
+    "liquidity": 0.5,
+    "cextop": 0.427,
+    "funding": 0.238
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 2 long / 10 short, net $-2.78M",
+    "second opinion: exchange top traders 49% long (+2.1 pts vs their 2-week norm) [0 agree, 1 disagree with the Hyperliquid read]",
+    "crowd vote only 57% bullish",
+    "trend is down (-26.8% 7d, -30.5% 30d)"
+   ],
+   "last": 5.16,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  }
+ ],
  "closed": [
   {
    "symbol": "ENA",
