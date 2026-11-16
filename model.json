@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 14,
+  "closed": 15,
   "wins": 8,
-  "losses": 6,
-  "sum_return": 9.040000000000003,
+  "losses": 7,
+  "sum_return": 3.0400000000000027,
   "best": 8.51,
   "worst": -10.99
  },
@@ -400,6 +400,22 @@
     "major.funding 0.43\u21920.41"
    ],
    "buy_threshold": 0.3
+  },
+  {
+   "ts": 1794868230,
+   "symbol": "LIT",
+   "action": "SELL",
+   "category": "alt",
+   "return": -6.0,
+   "why": "stop",
+   "changes": [
+    "alt.whale 0.34\u21920.32",
+    "alt.smart 0.30\u21920.27",
+    "alt.news 0.16\u21920.21",
+    "alt.sentiment 0.47\u21920.38",
+    "alt.momentum 0.34\u21920.25"
+   ],
+   "buy_threshold": 0.35
   }
  ],
  "by_category": {
@@ -428,11 +444,11 @@
   },
   "alt": {
    "weights": {
-    "whale": 0.339,
-    "smart": 0.297,
-    "news": 0.159,
-    "sentiment": 0.474,
-    "momentum": 0.343,
+    "whale": 0.321,
+    "smart": 0.273,
+    "news": 0.206,
+    "sentiment": 0.377,
+    "momentum": 0.251,
     "liquidity": 0.333,
     "funding": 0.357
    },
@@ -443,10 +459,10 @@
    "stop_pct": 6.0,
    "max_days": 7,
    "stats": {
-    "closed": 8,
+    "closed": 9,
     "wins": 4,
-    "losses": 4,
-    "sum_return": -0.9400000000000013
+    "losses": 5,
+    "sum_return": -6.940000000000001
    }
   },
   "meme": {
