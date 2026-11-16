@@ -28,10 +28,44 @@
     "crowd vote only 57% bullish",
     "trend is down (-26.8% 7d, -30.5% 30d)"
    ],
-   "last": 5.21,
-   "return": -0.97,
-   "peak": 0.19,
-   "trough": -0.97
+   "last": 5.13,
+   "return": 0.58,
+   "peak": 1.55,
+   "trough": -1.74
+  },
+  {
+   "symbol": "LIT",
+   "id": "lighter",
+   "name": "Lighter",
+   "action": "SELL",
+   "category": "alt",
+   "opened": 1794830083,
+   "entry": 2.58,
+   "target": 2.3736,
+   "stop": 2.7348000000000003,
+   "score": -0.327,
+   "confidence": 45,
+   "factors": {
+    "whale": -0.162,
+    "smart": -0.21,
+    "news": 0.417,
+    "sentiment": -0.861,
+    "momentum": -0.815,
+    "liquidity": -0.099,
+    "lighter": 0.214,
+    "cextop": 0.094,
+    "funding": 0.052
+   },
+   "reasons": [
+    "coverage is running hot: 13 stories, 0 Reddit posts in 48h",
+    "crowd vote only 62% bullish",
+    "trend is down (-15.7% 7d, -18.9% 30d)",
+    "second opinion: Lighter top traders 6 long / 15 short; exchange top traders 51% long (+0.5 pts vs their 2-week norm) [0 agree, 1 disagree with the Hyperliquid read]"
+   ],
+   "last": 2.58,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
   }
  ],
  "closed": [
