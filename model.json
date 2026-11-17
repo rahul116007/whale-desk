@@ -416,16 +416,33 @@
     "alt.momentum 0.34\u21920.25"
    ],
    "buy_threshold": 0.35
+  },
+  {
+   "ts": 1794956873,
+   "symbol": "BACKTEST",
+   "action": "TUNE",
+   "category": "*",
+   "return": 0.0,
+   "why": "backtest",
+   "changes": [
+    "major.weights.whale 0.12->0.10 (daily IC -0.05)",
+    "alt.weights.whale 0.32->0.24 (daily IC -0.05)",
+    "meme.weights.whale 0.28->0.21 (daily IC -0.05)",
+    "major.weights.momentum 0.65->0.82 (daily IC +0.10)",
+    "alt.weights.momentum 0.25->0.31 (daily IC +0.10)",
+    "meme.weights.momentum 0.51->0.64 (daily IC +0.10)"
+   ],
+   "buy_threshold": null
   }
  ],
  "by_category": {
   "major": {
    "weights": {
-    "whale": 0.118,
+    "whale": 0.1,
     "smart": 0.539,
     "news": 0.1,
     "sentiment": 0.411,
-    "momentum": 0.654,
+    "momentum": 0.818,
     "liquidity": 0.12,
     "funding": 0.407
    },
@@ -444,11 +461,11 @@
   },
   "alt": {
    "weights": {
-    "whale": 0.321,
+    "whale": 0.241,
     "smart": 0.273,
     "news": 0.206,
     "sentiment": 0.377,
-    "momentum": 0.251,
+    "momentum": 0.314,
     "liquidity": 0.333,
     "funding": 0.357
    },
@@ -467,11 +484,11 @@
   },
   "meme": {
    "weights": {
-    "whale": 0.285,
+    "whale": 0.214,
     "smart": 0.328,
     "news": 0.356,
     "sentiment": 0.128,
-    "momentum": 0.512,
+    "momentum": 0.64,
     "liquidity": 0.72,
     "funding": 0.432
    },
@@ -491,6 +508,6 @@
  },
  "tuned": {
   "review": 1794698734,
-  "backtest": 1794380524
+  "backtest": 1794956873
  }
 }
