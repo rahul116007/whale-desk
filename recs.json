@@ -28,46 +28,10 @@
     "crowd vote only 57% bullish",
     "trend is down (-26.8% 7d, -30.5% 30d)"
    ],
-   "last": 5.13,
-   "return": 0.58,
+   "last": 5.17,
+   "return": -0.19,
    "peak": 2.33,
    "trough": -5.43
-  },
-  {
-   "symbol": "BTC",
-   "id": "bitcoin",
-   "name": "Bitcoin",
-   "action": "SELL",
-   "category": "major",
-   "opened": 1794868230,
-   "entry": 65379,
-   "target": 62110.049999999996,
-   "stop": 67994.16,
-   "score": -0.442,
-   "confidence": 61,
-   "factors": {
-    "whale": 0.0,
-    "smart": -0.502,
-    "news": 0.8,
-    "sentiment": -1,
-    "momentum": -0.711,
-    "liquidity": 0.0,
-    "lighter": -0.129,
-    "vaults": 0.392,
-    "cextop": 0.245,
-    "funding": 0.07
-   },
-   "reasons": [
-    "Hyperliquid top traders lean short: 1 long / 19 short, net $-362.66M",
-    "second opinion: Lighter top traders 3 long / 24 short; Hyperliquid vaults 3 long / 1 short; exchange top traders 48% long (+1.2 pts vs their 2-week norm) [0 agree, 2 disagree with the Hyperliquid read]",
-    "coverage is running hot: 99 stories, 0 Reddit posts in 48h",
-    "crowd vote only 60% bullish",
-    "trend is down (-12.8% 7d, -20.0% 30d)"
-   ],
-   "last": 62345,
-   "return": 4.64,
-   "peak": 4.79,
-   "trough": 0.0
   }
  ],
  "closed": [
@@ -624,6 +588,46 @@
    "closed": 1794868230,
    "why": "stop",
    "outcome": "loss"
+  },
+  {
+   "symbol": "BTC",
+   "id": "bitcoin",
+   "name": "Bitcoin",
+   "action": "SELL",
+   "category": "major",
+   "opened": 1794868230,
+   "entry": 65379,
+   "target": 62110.049999999996,
+   "stop": 67994.16,
+   "score": -0.442,
+   "confidence": 61,
+   "factors": {
+    "whale": 0.0,
+    "smart": -0.502,
+    "news": 0.8,
+    "sentiment": -1,
+    "momentum": -0.711,
+    "liquidity": 0.0,
+    "lighter": -0.129,
+    "vaults": 0.392,
+    "cextop": 0.245,
+    "funding": 0.07
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 1 long / 19 short, net $-362.66M",
+    "second opinion: Lighter top traders 3 long / 24 short; Hyperliquid vaults 3 long / 1 short; exchange top traders 48% long (+1.2 pts vs their 2-week norm) [0 agree, 2 disagree with the Hyperliquid read]",
+    "coverage is running hot: 99 stories, 0 Reddit posts in 48h",
+    "crowd vote only 60% bullish",
+    "trend is down (-12.8% 7d, -20.0% 30d)"
+   ],
+   "last": 62918,
+   "return": 5.0,
+   "peak": 5.06,
+   "trough": 0.0,
+   "seen_return": 3.76,
+   "closed": 1795060021,
+   "why": "target",
+   "outcome": "win"
   }
  ]
 }
