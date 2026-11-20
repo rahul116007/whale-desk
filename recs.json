@@ -1,41 +1,5 @@
 {
- "open": [
-  {
-   "symbol": "ETH",
-   "id": "ethereum",
-   "name": "Ethereum",
-   "action": "SELL",
-   "category": "major",
-   "opened": 1795181124,
-   "entry": 1736.92,
-   "target": 1650.074,
-   "stop": 1806.3968000000002,
-   "score": -0.392,
-   "confidence": 54,
-   "factors": {
-    "whale": 0.0,
-    "smart": -0.498,
-    "news": 0.504,
-    "sentiment": -0.383,
-    "momentum": -0.741,
-    "liquidity": 0.0,
-    "lighter": -0.033,
-    "cextop": -0.176,
-    "funding": 0.116
-   },
-   "reasons": [
-    "Hyperliquid top traders lean short: 1 long / 18 short, net $-189.24M",
-    "second opinion: Lighter top traders 3 long / 20 short; exchange top traders 42% long (-0.9 pts vs their 2-week norm) [1 agree, 0 disagree with the Hyperliquid read]",
-    "coverage is running hot: 79 stories, 0 Reddit posts in 48h",
-    "crowd vote only 71% bullish",
-    "trend is down (-11.2% 7d, -29.5% 30d)"
-   ],
-   "last": 1736.92,
-   "return": 0.0,
-   "peak": 0.0,
-   "trough": 0.0
-  }
- ],
+ "open": [],
  "closed": [
   {
    "symbol": "ENA",
@@ -665,6 +629,45 @@
    "trough": -5.43,
    "seen_return": 8.33,
    "closed": 1795181124,
+   "why": "target",
+   "outcome": "win"
+  },
+  {
+   "symbol": "ETH",
+   "id": "ethereum",
+   "name": "Ethereum",
+   "action": "SELL",
+   "category": "major",
+   "opened": 1795181124,
+   "entry": 1736.92,
+   "target": 1650.074,
+   "stop": 1806.3968000000002,
+   "score": -0.392,
+   "confidence": 54,
+   "factors": {
+    "whale": 0.0,
+    "smart": -0.498,
+    "news": 0.504,
+    "sentiment": -0.383,
+    "momentum": -0.741,
+    "liquidity": 0.0,
+    "lighter": -0.033,
+    "cextop": -0.176,
+    "funding": 0.116
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 1 long / 18 short, net $-189.24M",
+    "second opinion: Lighter top traders 3 long / 20 short; exchange top traders 42% long (-0.9 pts vs their 2-week norm) [1 agree, 0 disagree with the Hyperliquid read]",
+    "coverage is running hot: 79 stories, 0 Reddit posts in 48h",
+    "crowd vote only 71% bullish",
+    "trend is down (-11.2% 7d, -29.5% 30d)"
+   ],
+   "last": 1598.15,
+   "return": 5.0,
+   "peak": 7.99,
+   "trough": 0.0,
+   "seen_return": 7.99,
+   "closed": 1795210204,
    "why": "target",
    "outcome": "win"
   }
