@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 16,
-  "wins": 9,
+  "closed": 17,
+  "wins": 10,
   "losses": 7,
-  "sum_return": 8.040000000000003,
+  "sum_return": 16.040000000000003,
   "best": 8.51,
   "worst": -10.99
  },
@@ -447,6 +447,23 @@
     "major.momentum 0.82\u21920.92"
    ],
    "buy_threshold": 0.28
+  },
+  {
+   "ts": 1795181124,
+   "symbol": "UNI",
+   "action": "SELL",
+   "category": "alt",
+   "return": 8.0,
+   "why": "target",
+   "changes": [
+    "alt.smart 0.27\u21920.32",
+    "alt.news 0.21\u21920.25",
+    "alt.sentiment 0.38\u21920.53",
+    "alt.momentum 0.31\u21920.46",
+    "alt.liquidity 0.33\u21920.26",
+    "alt.funding 0.36\u21920.32"
+   ],
+   "buy_threshold": 0.33
   }
  ],
  "by_category": {
@@ -476,24 +493,24 @@
   "alt": {
    "weights": {
     "whale": 0.241,
-    "smart": 0.273,
-    "news": 0.206,
-    "sentiment": 0.377,
-    "momentum": 0.314,
-    "liquidity": 0.333,
-    "funding": 0.357
+    "smart": 0.324,
+    "news": 0.246,
+    "sentiment": 0.527,
+    "momentum": 0.464,
+    "liquidity": 0.258,
+    "funding": 0.321
    },
-   "buy_threshold": 0.35,
+   "buy_threshold": 0.33,
    "sell_threshold": -0.3,
    "whale_gate": 0.15,
    "target_pct": 8.0,
    "stop_pct": 6.0,
    "max_days": 7,
    "stats": {
-    "closed": 9,
-    "wins": 4,
+    "closed": 10,
+    "wins": 5,
     "losses": 5,
-    "sum_return": -6.940000000000001
+    "sum_return": 1.0599999999999987
    }
   },
   "meme": {
