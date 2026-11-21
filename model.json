@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 18,
+  "closed": 19,
   "wins": 11,
-  "losses": 7,
-  "sum_return": 21.040000000000003,
+  "losses": 8,
+  "sum_return": 17.040000000000003,
   "best": 8.51,
   "worst": -10.99
  },
@@ -478,30 +478,46 @@
     "major.momentum 0.93\u21921.04"
    ],
    "buy_threshold": 0.26
+  },
+  {
+   "ts": 1795289965,
+   "symbol": "BTC",
+   "action": "SELL",
+   "category": "major",
+   "return": -4.0,
+   "why": "stop",
+   "changes": [
+    "major.smart 0.69\u21920.60",
+    "major.news 0.10\u21920.20",
+    "major.sentiment 0.62\u21920.50",
+    "major.momentum 1.04\u21920.93",
+    "major.funding 0.41\u21920.43"
+   ],
+   "buy_threshold": 0.24
   }
  ],
  "by_category": {
   "major": {
    "weights": {
     "whale": 0.1,
-    "smart": 0.689,
-    "news": 0.1,
-    "sentiment": 0.618,
-    "momentum": 1.036,
+    "smart": 0.599,
+    "news": 0.198,
+    "sentiment": 0.498,
+    "momentum": 0.933,
     "liquidity": 0.12,
-    "funding": 0.407
+    "funding": 0.432
    },
-   "buy_threshold": 0.26,
+   "buy_threshold": 0.24,
    "sell_threshold": -0.28,
    "whale_gate": 0.15,
    "target_pct": 5.0,
    "stop_pct": 4.0,
    "max_days": 7,
    "stats": {
-    "closed": 8,
+    "closed": 9,
     "wins": 6,
-    "losses": 2,
-    "sum_return": 19.98
+    "losses": 3,
+    "sum_return": 15.98
    }
   },
   "alt": {
