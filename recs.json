@@ -1,5 +1,76 @@
 {
- "open": [],
+ "open": [
+  {
+   "symbol": "BTC",
+   "id": "bitcoin",
+   "name": "Bitcoin",
+   "action": "SELL",
+   "category": "major",
+   "opened": 1795260944,
+   "entry": 57833,
+   "target": 54941.35,
+   "stop": 60146.32,
+   "score": -0.604,
+   "confidence": 84,
+   "factors": {
+    "whale": 0.0,
+    "smart": -0.749,
+    "news": 0.815,
+    "sentiment": -1,
+    "momentum": -0.856,
+    "liquidity": 0.0,
+    "lighter": -0.118,
+    "vaults": -0.45,
+    "cextop": -0.131,
+    "funding": 0.211
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 1 long / 18 short, net $-330.94M",
+    "second opinion: Lighter top traders 4 long / 22 short; Hyperliquid vaults 2 long / 2 short; exchange top traders 46% long (-0.7 pts vs their 2-week norm) [1 agree, 0 disagree with the Hyperliquid read]",
+    "coverage is running hot: 100 stories, 0 Reddit posts in 48h",
+    "crowd vote only 55% bullish",
+    "trend is down (-14.1% 7d, -29.3% 30d)"
+   ],
+   "last": 57833,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  },
+  {
+   "symbol": "LINK",
+   "id": "chainlink",
+   "name": "Chainlink",
+   "action": "SELL",
+   "category": "alt",
+   "opened": 1795260944,
+   "entry": 8.39,
+   "target": 7.718800000000001,
+   "stop": 8.893400000000002,
+   "score": -0.324,
+   "confidence": 45,
+   "factors": {
+    "whale": -0.0,
+    "smart": -0.277,
+    "news": 0.3,
+    "sentiment": -1,
+    "momentum": -0.83,
+    "liquidity": 0.5,
+    "lighter": 0.165,
+    "cextop": -0.511,
+    "funding": 0.083
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 2 long / 6 short, net $-3.75M",
+    "second opinion: Lighter top traders 5 long / 3 short; exchange top traders 48% long (-2.5 pts vs their 2-week norm) [1 agree, 1 disagree with the Hyperliquid read]",
+    "crowd vote only 41% bullish",
+    "trend is down (-13.1% 7d, -30.4% 30d)"
+   ],
+   "last": 8.39,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  }
+ ],
  "closed": [
   {
    "symbol": "ENA",
