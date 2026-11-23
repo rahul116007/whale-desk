@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 19,
+  "closed": 22,
   "wins": 11,
-  "losses": 8,
-  "sum_return": 17.040000000000003,
+  "losses": 11,
+  "sum_return": -0.9599999999999973,
   "best": 8.51,
   "worst": -10.99
  },
@@ -494,6 +494,53 @@
     "major.funding 0.41\u21920.43"
    ],
    "buy_threshold": 0.24
+  },
+  {
+   "ts": 1795446568,
+   "symbol": "LINK",
+   "action": "SELL",
+   "category": "alt",
+   "return": -6.0,
+   "why": "stop",
+   "changes": [
+    "alt.smart 0.32\u21920.29",
+    "alt.news 0.25\u21920.28",
+    "alt.sentiment 0.53\u21920.41",
+    "alt.momentum 0.46\u21920.37",
+    "alt.liquidity 0.26\u21920.31"
+   ],
+   "buy_threshold": 0.33
+  },
+  {
+   "ts": 1795446568,
+   "symbol": "ENA",
+   "action": "SELL",
+   "category": "alt",
+   "return": -6.0,
+   "why": "stop",
+   "changes": [
+    "alt.smart 0.29\u21920.28",
+    "alt.news 0.28\u21920.24",
+    "alt.sentiment 0.41\u21920.37",
+    "alt.momentum 0.37\u21920.26"
+   ],
+   "buy_threshold": 0.33
+  },
+  {
+   "ts": 1795446568,
+   "symbol": "WLD",
+   "action": "SELL",
+   "category": "alt",
+   "return": -6.0,
+   "why": "stop",
+   "changes": [
+    "alt.smart 0.28\u21920.23",
+    "alt.news 0.24\u21920.21",
+    "alt.sentiment 0.37\u21920.33",
+    "alt.momentum 0.26\u21920.15",
+    "alt.liquidity 0.31\u21920.29"
+   ],
+   "buy_threshold": 0.33
   }
  ],
  "by_category": {
@@ -523,11 +570,11 @@
   "alt": {
    "weights": {
     "whale": 0.241,
-    "smart": 0.324,
-    "news": 0.246,
-    "sentiment": 0.527,
-    "momentum": 0.464,
-    "liquidity": 0.258,
+    "smart": 0.228,
+    "news": 0.206,
+    "sentiment": 0.328,
+    "momentum": 0.147,
+    "liquidity": 0.294,
     "funding": 0.321
    },
    "buy_threshold": 0.33,
@@ -537,10 +584,10 @@
    "stop_pct": 6.0,
    "max_days": 7,
    "stats": {
-    "closed": 10,
+    "closed": 13,
     "wins": 5,
-    "losses": 5,
-    "sum_return": 1.0599999999999987
+    "losses": 8,
+    "sum_return": -16.94
    }
   },
   "meme": {
