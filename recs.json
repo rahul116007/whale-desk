@@ -1,5 +1,42 @@
 {
- "open": [],
+ "open": [
+  {
+   "symbol": "BTC",
+   "id": "bitcoin",
+   "name": "Bitcoin",
+   "action": "SELL",
+   "category": "major",
+   "opened": 1795529424,
+   "entry": 59990,
+   "target": 56990.5,
+   "stop": 62389.6,
+   "score": -0.347,
+   "confidence": 48,
+   "factors": {
+    "whale": 0.0,
+    "smart": -0.502,
+    "news": 0.815,
+    "sentiment": -0.932,
+    "momentum": -0.531,
+    "liquidity": 0.0,
+    "lighter": -0.054,
+    "vaults": -0.209,
+    "cextop": -0.05,
+    "funding": 0.232
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 1 long / 19 short, net $-332.38M",
+    "second opinion: Lighter top traders 3 long / 22 short; Hyperliquid vaults 2 long / 2 short; exchange top traders 47% long (-0.3 pts vs their 2-week norm) [1 agree, 0 disagree with the Hyperliquid read]",
+    "coverage is running hot: 100 stories, 0 Reddit posts in 48h",
+    "crowd vote only 61% bullish",
+    "trend is down (-7.0% 7d, -25.0% 30d)"
+   ],
+   "last": 59990,
+   "return": 0.0,
+   "peak": 0.0,
+   "trough": 0.0
+  }
+ ],
  "closed": [
   {
    "symbol": "ENA",
