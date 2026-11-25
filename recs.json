@@ -31,9 +31,44 @@
     "crowd vote only 61% bullish",
     "trend is down (-7.0% 7d, -25.0% 30d)"
    ],
-   "last": 59957,
-   "return": 0.06,
-   "peak": 0.06,
+   "last": 59287,
+   "return": 1.17,
+   "peak": 1.17,
+   "trough": 0.0
+  },
+  {
+   "symbol": "ETH",
+   "id": "ethereum",
+   "name": "Ethereum",
+   "action": "SELL",
+   "category": "major",
+   "opened": 1795597383,
+   "entry": 1649.41,
+   "target": 1566.9395,
+   "stop": 1715.3864,
+   "score": -0.312,
+   "confidence": 43,
+   "factors": {
+    "whale": 0.0,
+    "smart": -0.639,
+    "news": 0.785,
+    "sentiment": 0.065,
+    "momentum": -0.682,
+    "liquidity": 0.0,
+    "lighter": -0.265,
+    "vaults": -0.605,
+    "cextop": -0.008,
+    "funding": 0.165
+   },
+   "reasons": [
+    "Hyperliquid top traders lean short: 1 long / 18 short, net $-194.27M",
+    "second opinion: Lighter top traders 4 long / 21 short; Hyperliquid vaults 0 long / 2 short; exchange top traders 43% long (-0.0 pts vs their 2-week norm) [2 agree, 0 disagree with the Hyperliquid read]",
+    "coverage is running hot: 98 stories, 0 Reddit posts in 48h",
+    "trend is down (-9.7% 7d, -29.2% 30d)"
+   ],
+   "last": 1649.41,
+   "return": 0.0,
+   "peak": 0.0,
    "trough": 0.0
   }
  ],
