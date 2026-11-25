@@ -31,10 +31,10 @@
     "crowd vote only 61% bullish",
     "trend is down (-7.0% 7d, -25.0% 30d)"
    ],
-   "last": 59287,
-   "return": 1.17,
-   "peak": 1.17,
-   "trough": 0.0
+   "last": 60120,
+   "return": -0.22,
+   "peak": 4.47,
+   "trough": -0.22
   },
   {
    "symbol": "ETH",
@@ -66,10 +66,10 @@
     "coverage is running hot: 98 stories, 0 Reddit posts in 48h",
     "trend is down (-9.7% 7d, -29.2% 30d)"
    ],
-   "last": 1649.41,
-   "return": 0.0,
+   "last": 1691.4,
+   "return": -2.55,
    "peak": 0.0,
-   "trough": 0.0
+   "trough": -2.55
   }
  ],
  "closed": [
