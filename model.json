@@ -16,10 +16,10 @@
  "cooldown_days": 2,
  "learning_rate": 0.15,
  "stats": {
-  "closed": 22,
+  "closed": 23,
   "wins": 11,
-  "losses": 11,
-  "sum_return": -0.9599999999999973,
+  "losses": 12,
+  "sum_return": -4.959999999999997,
   "best": 8.51,
   "worst": -10.99
  },
@@ -558,30 +558,45 @@
     "meme.weights.news 0.36->0.27 (daily IC -0.18)"
    ],
    "buy_threshold": null
+  },
+  {
+   "ts": 1795698262,
+   "symbol": "ETH",
+   "action": "SELL",
+   "category": "major",
+   "return": -4.0,
+   "why": "stop",
+   "changes": [
+    "major.smart 0.60\u21920.52",
+    "major.news 0.15\u21920.24",
+    "major.momentum 1.17\u21921.08",
+    "major.funding 0.43\u21920.45"
+   ],
+   "buy_threshold": 0.22
   }
  ],
  "by_category": {
   "major": {
    "weights": {
     "whale": 0.1,
-    "smart": 0.599,
-    "news": 0.149,
+    "smart": 0.522,
+    "news": 0.243,
     "sentiment": 0.498,
-    "momentum": 1.166,
+    "momentum": 1.084,
     "liquidity": 0.12,
-    "funding": 0.432
+    "funding": 0.452
    },
-   "buy_threshold": 0.24,
+   "buy_threshold": 0.22,
    "sell_threshold": -0.28,
    "whale_gate": 0.15,
    "target_pct": 5.0,
    "stop_pct": 4.0,
    "max_days": 7,
    "stats": {
-    "closed": 9,
+    "closed": 10,
     "wins": 6,
-    "losses": 3,
-    "sum_return": 15.98
+    "losses": 4,
+    "sum_return": 11.98
    }
   },
   "alt": {
