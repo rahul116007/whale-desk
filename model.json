@@ -573,6 +573,21 @@
     "major.funding 0.43\u21920.45"
    ],
    "buy_threshold": 0.22
+  },
+  {
+   "ts": 1795823318,
+   "symbol": "REVIEW",
+   "action": "TUNE",
+   "category": "*",
+   "return": 0.0,
+   "why": "weekly review",
+   "changes": [
+    "alt.stop_pct 6.0->7.5",
+    "major.weights.sentiment 0.50->0.35",
+    "alt.weights.sentiment 0.33->0.23",
+    "meme.weights.sentiment 0.13->0.10"
+   ],
+   "buy_threshold": null
   }
  ],
  "by_category": {
@@ -581,7 +596,7 @@
     "whale": 0.1,
     "smart": 0.522,
     "news": 0.243,
-    "sentiment": 0.498,
+    "sentiment": 0.349,
     "momentum": 1.084,
     "liquidity": 0.12,
     "funding": 0.452
@@ -604,7 +619,7 @@
     "whale": 0.241,
     "smart": 0.228,
     "news": 0.154,
-    "sentiment": 0.328,
+    "sentiment": 0.23,
     "momentum": 0.184,
     "liquidity": 0.294,
     "funding": 0.321
@@ -613,7 +628,7 @@
    "sell_threshold": -0.3,
    "whale_gate": 0.15,
    "target_pct": 8.0,
-   "stop_pct": 6.0,
+   "stop_pct": 7.5,
    "max_days": 7,
    "stats": {
     "closed": 13,
@@ -627,7 +642,7 @@
     "whale": 0.214,
     "smart": 0.328,
     "news": 0.267,
-    "sentiment": 0.128,
+    "sentiment": 0.1,
     "momentum": 0.8,
     "liquidity": 0.72,
     "funding": 0.432
@@ -647,7 +662,7 @@
   }
  },
  "tuned": {
-  "review": 1795260945,
+  "review": 1795823318,
   "backtest": 1795529459
  }
 }
